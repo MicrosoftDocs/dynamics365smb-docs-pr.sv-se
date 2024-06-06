@@ -10,14 +10,14 @@ ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="available-fonts"></a>Tillgängliga teckensnitt
+# Tillgängliga teckensnitt
 
 Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter. I följande avsnitt visas en disposition över vilka teckensnitt som är tillgängliga.
 
 > [!NOTE]
 > Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
 
-## <a name="document-fonts"></a>Dokumentteckensnitt
+## Dokumentteckensnitt
 
 Följande teckensnitt är installerade och tillgängliga att använda i rapportlayouter för såväl Excel, Word som RDLC:
  
@@ -156,7 +156,7 @@ Följande teckensnitt är installerade och tillgängliga att använda i rapportl
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## <a name="fonts-for-checks"></a>Teckensnitt för kontroller
+## Teckensnitt för kontroller
 
 Magnetiskt bläcktecken igenkänningsteckensnitt (MICR) och de kan användas. Både E-13B och CMC-7 standarden stöds.  
 
@@ -164,7 +164,7 @@ Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan anvä
 
 Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md).  
 
-## <a name="fonts-for-barcodes"></a>Teckensnitt för streckkoder
+## Teckensnitt för streckkoder
 Teckensnitt för att generera streckkoder finns installerade och tillgängliga att använda i både Word- och RDLC-rapportlayouter.
 
 Följande endimensionella streckkodssymboler stöds:
@@ -184,7 +184,7 @@ Följande tvådimensionella streckkodssymboler stöds:
 
 Mer information finns i avsnittet [Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Välj en kontrollayout](finance-how-define-check-layouts.md)  

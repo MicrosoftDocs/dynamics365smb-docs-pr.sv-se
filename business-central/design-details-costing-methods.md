@@ -9,7 +9,7 @@ ms.date: 05/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
+# Designdetaljer: Värderingsprinciper
 
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
 
@@ -48,7 +48,7 @@ Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskning
 |**Standard**     |Enkelt att använda men kräver kvalificerat underhåll.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|
 |**Specifikt**     |Kräver artikelspårning på både inkommande och utgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|Alla kopplingar är fasta.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|
 
-## <a name="example"></a>Exempel
+## Exempel
 
 Det här avsnittet ger exempel på hur olika värderingsprinciper påverkar lagervärdet.  
 
@@ -66,7 +66,7 @@ Följande tabell visar lagerökningarna och lagerminskningarna som exemplen base
 > [!NOTE]  
 > De resulterande antalet i lagret är noll. Därför måste lagervärdet också vara noll, oavsett vilken värderingsprincip som används.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effekt av värderingsprinciper på att värdering av lagerökningar
+### Effekt av värderingsprinciper på att värdering av lagerökningar  
 
 För artiklar med värderingsprinciper som använder faktiska kostnader som värderingsbas (**FIFO**, **LIFO**, **Genomsnitt** eller **Specifik**) värderas lagerökningar på artikelns anskaffningskostnad.  
 
@@ -74,11 +74,11 @@ För artiklar med värderingsprinciper som använder faktiska kostnader som vär
 
     För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
 
-#### <a name="standard"></a>Standard
+#### Standard  
 
 För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effekt av värderingsprinciper på att värdering av lagerminskningar
+### Effekt av värderingsprinciper på att värdering av lagerminskningar
 
 - **FIFO**  
 
@@ -146,7 +146,7 @@ För artiklar som använder värderingsprincipen **Standard** värderas lagerök
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
 [Designdetaljer: Varians](design-details-variance.md)  

@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Kolumndefinitioner i ekonomiska rapporter
+# Kolumndefinitioner i ekonomiska rapporter
 
 Använd kolumndefinitioner för att ange vilka kolumner som ska tas med i rapporten. Du kan t.ex. utforma en rapportlayout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner i en kolumndefinition. Flera kolumner är till exempel praktiskt om du t.ex. visar budgetar i tolv månader med en kolumn som visar summan.
 
-## <a name="create-or-edit-a-column-definition"></a>Skapa eller redigera en kolumndefinition
+## Skapa eller redigera en kolumndefinition
 
 Följ dessa steg för att skapa eller redigera en kolumndefinition.
 
@@ -28,7 +28,7 @@ Följ dessa steg för att skapa eller redigera en kolumndefinition.
 1. Välj **OK**.
 1. Öppna sidan **Ekonomisk rapport** med jämna mellanrum för att kontrollera att den nya kolumndefinitionen fungerar korrekt.
 
-## <a name="built-in-column-definitions"></a>Inbyggda kolumndefinitioner
+## Inbyggda kolumndefinitioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel på kolumndefinitioner som hjälper dig att snabbt komma igång med att skapa ekonomirapporter som passar dina behov.
 
@@ -41,7 +41,7 @@ Följ dessa steg för att skapa eller redigera en kolumndefinition.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Exempel: Skapa en kolumndefinition för att beräkna procentsatser
+## Exempel: Skapa en kolumndefinition för att beräkna procentsatser
 
 Du kanske vill lägga till en kolumn i en ekonomisk rapport för att beräkna procentsatser för en summa. Om du t. ex. har rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning i varje rad.
 
@@ -58,7 +58,7 @@ Du kanske vill lägga till en kolumn i en ekonomisk rapport för att beräkna pr
     1. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av procentsymbolen (%). Om kolumn N innehåller nettoförändringen anger du **N%**.  
 1. Upprepa steg 4–7 för varje grupp av rader som du vill dela upp per procentsats.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Jämföra bokföringsperioder med hjälp av periodformler
+## Jämföra bokföringsperioder med hjälp av periodformler
 
 Din ekonomiska rapport kan jämföra resultaten av olika bokföringsperioder, till exempel den senaste månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumndefinition** och anpassa den genom att lägga till fältet **Formeljämförelseperiod** som en kolumn. Lär dig hur du [anpassar arbetsytan](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
 
@@ -94,7 +94,7 @@ Läs mer i [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Importera eller exportera kolumndefinitioner för ekonomiska rapporter
+## Importera eller exportera kolumndefinitioner för ekonomiska rapporter
 
 Från och med utgivningscykel 1 för 2024 (version 24.1) kan du importera och exportera kolumndefinitioner för ekonomiska rapporter som RapidStart konfigurationspaket. Till exempel är konfigurationspaket användbara för att dela information med andra företag. Paketet skapas i en .rapidstart-fil, vilket komprimerar innehållet.
 
@@ -106,7 +106,7 @@ Så här importerar eller exporterar du kolumndefinitioner för ekonomiska rappo
 1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kolumndefinitioner** och väljer sedan relaterad länk.
 1. Välj raddefinition och välj sedan åtgärden **Importera kolumndefinition** eller **Exportera kolumndefinition**, beroende på vad du vill göra.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Raddefinitioner i ekonomiska rapporter](bi-row-definitions.md)  
 [Förbereda ekonomisk rapportering](bi-how-work-account-schedule.md)  

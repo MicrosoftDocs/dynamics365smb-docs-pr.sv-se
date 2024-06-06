@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Arkivera dokument
+# Arkivera dokument
 
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder. Om du använder projekthanteringsfunktioner kan du också arkivera dina projekt. Du kan arkivera ett dokument och projekt flera gånger, vilket sparar en annan arkiverad version varje gång.
 
@@ -21,7 +21,7 @@ För försäljningsdokument där originalet finns och inte har bokförts, kan du
 
 För arkiverade dokument där originalet tagits bort kan du återanvända innehållet genom att kopiera informationen, till exempel med åtgärd **Kopiera från dokument**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Så här ställer du in automatisk dokumentarkivering
+## Så här ställer du in automatisk dokumentarkivering
 
 Du kan automatisera arkivering för att skapa en ny version av det arkiverade dokumentet när någon gör något av följande:
 
@@ -43,7 +43,7 @@ Följande tabell beskriver alternativen för fält **Arkivera offerter**.
 |**Fråga**|Välj för att uppmana användaren att välja huruvida försäljningsofferter ska arkiveras när de tas bort.|
 |**Alltid**|Välj om du vill arkivera försäljningsofferter automatiskt när de tas bort.|
 
-## <a name="to-manually-archive-a-sales-order"></a>För att manuellt arkivera en försäljningsorder
+## För att manuellt arkivera en försäljningsorder
 
 Följande förfarande beskriver hur du manuellt arkiverar en försäljningsorder. Stegen är liknande för alla dokument och projekt som du kan arkivera.
 
@@ -53,7 +53,7 @@ Följande förfarande beskriver hur du manuellt arkiverar en försäljningsorder
 
 Försäljningsordern arkiveras. Du kan visa den på sidan **Arkiverade försäljningsorder**.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Så här återställer du ett icke-bokfört försäljningsdokument eller ett projekt från arkivet
+## Så här återställer du ett icke-bokfört försäljningsdokument eller ett projekt från arkivet
 
 Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljningsorder till den ursprungliga försäljningsordern. Att återställa ett dokument är endast möjligt när originaldokumentet inte har bokförts. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter och även för projekt.
 
@@ -62,7 +62,7 @@ Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljnin
 
 Innehållet i den ursprungliga försäljningsordern eller projekt ersätts med värdet för den valda arkiverade versionen.
 
-## <a name="to-delete-archived-versions"></a>För att ta bort arkiverade versioner
+## För att ta bort arkiverade versioner
 
 Använd en kvarhållningsprincip för att rensa arkiverade versioner som inte längre behövs. Med hjälp av kvarhållningsprinciper kan administratörer definiera hur länge de vill lagra data. De kan t.ex. skapa en princip som tar bort data efter förfallodatum. Mer information finns i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Det finns några saker du bör notera om att skapa kvarhållningsprinciper för 
 * När du anger kvarhållningsprincip kan du ange att du vill att principen ska ta bort alla arkiverade versioner utom det senaste. Du kan till exempel ha 10 versioner och ha kvar en kopia av det senaste. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] beräknar utgångsdatumet för dokument som baseras på datumet för den senaste arkiverade versionen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Spåra dokumentrader](across-how-to-track-document-lines.md)  
 [Försäljning](sales-manage-sales.md)  

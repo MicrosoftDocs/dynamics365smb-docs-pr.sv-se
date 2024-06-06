@@ -9,10 +9,10 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
+# Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  
   
-## <a name="changing-repair-status"></a>Ändra reparationsstatus
+## Ändra reparationsstatus  
 När du ändrar en serviceartikels reparationsstatus på en serviceartikelrad, görs en sökning efter motsvarande fördelningspost för serviceartikeln som har statusen **Aktiv**. Om en sådan fördelningspost hittas uppdateras dess status på något av följande sätt:  
   
 * Om du ändrar reparationsstatus till **Avslutad** ändras fördelningsstatus från **Aktiv** till **Avslutad**.  
@@ -22,14 +22,14 @@ När du ändrar en serviceartikels reparationsstatus på en serviceartikelrad, g
   
 Fördelningsstatusen visar därmed när serviceprocessen är avslutad eller när en annan resurs krävs för att avsluta service av serviceartikeln.  
   
-## <a name="converting-service-quotes-to-service-orders"></a>Omvandla serviceofferter till serviceorder
+## Omvandla serviceofferter till serviceorder  
 När du omvandlar en serviceoffert till en serviceorder uppdateras serviceordern, serviceartiklarna i ordern och deras fördelningsposter så här:  
   
 * Serviceartiklarnas reparationsstatus ändras till **Initial**.  
 * Tjänsteorderstatus ändras till **Förestående**.  
 * En sökning görs efter fördelningstransaktioner för alla serviceartiklar i serviceordern som har statusen **Aktiv**. Om sådana fördelningsposter hittas ändras deras fördelningsstatus från **Aktiv** till **Omfördelning nödvändig**.  
   
-## <a name="canceling-allocations"></a>Rätta fördelningar
+## Rätta fördelningar  
 När du avbryter fördelningen av en serviceartikel uppdaterar [!INCLUDE[prod_short](includes/prod_short.md)] fördelningsstatusen för motsvarande fördelningspost från **Aktiv** till **Omfördelning nödvändig**.
 
 Reparationsstatus uppdateras för serviceartikeln i fördelningsposten så här:  
@@ -37,7 +37,7 @@ Reparationsstatus uppdateras för serviceartikeln i fördelningsposten så här:
 * Om fördelningsstatus är **Initial** ändras reparationsstatus till **Hänvisad** (ingen service har inletts).  
 * Om reparationsstatus är **Pågående** ändras reparationsstatus till **Delvis servad** (viss service har utförts).  
   
-## <a name="reallocating-an-active-allocation-entry"></a>Omfördela en fördelningspost som är aktiv
+## Omfördela en fördelningspost som är aktiv  
 När du omfördelar en serviceartikel i en fördelningspost som är **Aktiv** uppdateras fördelningsposten så här:  
   
 * Om servicen startade när fördelningen var **Aktiv** (det vill säga om serviceartikelns reparationsstatus ändrats till **Pågående**), ändras fördelningsstatus från **Aktiv** till **Avslutad**.  
@@ -50,7 +50,7 @@ Reparationsstatus för serviceartikeln i fördelningsposten uppdateras på samma
   
 En ny fördelningspost skapas som innehåller den nya resursen med statusen **Aktiv**.  
   
-## <a name="reallocating-a-service-item"></a>Omfördela en serviceartikel
+## Omfördela en serviceartikel  
 När du omfördelar en serviceartikel i en fördelningspost med statusen **Omfördelning nödvändig** uppdateras fördelningsposten så här:  
   
 * Om servicen startade när fördelningen var **Aktiv**, dvs. om serviceartikelns reparationsstatus ändrats till **Pågående**, ändras fördelningsstatus från **Omfördelning nödvändig** till **Avslutad**.  
@@ -58,7 +58,7 @@ När du omfördelar en serviceartikel i en fördelningspost med statusen **Omfö
   
 En ny fördelningspost skapas som innehåller den nya resursen med statusen **Aktiv**.  
   
-## <a name="see-also"></a>Se även
+## Se även  
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
 

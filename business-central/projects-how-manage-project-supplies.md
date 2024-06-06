@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-project-supplies"></a>Hantera projektleveranser
+# Hantera projektleveranser
 
 Du bör hantera projektleveranser av artiklar, tjänster och utgifter som en integrerad och kritisk aspekt av alla projekt. Du kan använda lagerantal eller göra projektspecifika inköp med hjälp av inköpsorder eller inköpsfakturor. Ett serviceprojekt på en dator kräver till exempel en ny disk. Du skapar då en inköpsfaktura för att köpa en ny hårddisk registrerar projektet som använder det.
 
 Om inköpsprocessen inte kräver att du registrerar den fysiska transaktionen separat, kan du behandla ett köp på sidan **Projektredovisningsjournal**. Mer information finns i [Så här bokför du en projektrelaterad utgift](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
-## <a name="to-purchase-items-or-services-for-a-project"></a>Köpa artiklar eller tjänster till ett projekt
+## Köpa artiklar eller tjänster till ett projekt
 
 Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa produkter till ett projekt. Samma steg gäller när du använder en inköpsorder.  
 
@@ -28,7 +28,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
     Värdet som du väljer i fältet **Projektradtyp** definierar om en planeringsrad skapas när du bokför artikelförbrukningen. Om fältet innehåller **Fakturerbart** skapas projektplaneringsrader som är klara att faktureras till kunden. Mer information finns i [Fakturaprojekt](projects-how-invoice-jobs.md).
 4. Välj åtgärden **Bokföra**.
 
-## <a name="to-view-the-value-of-purchases-for-a-project"></a>Visa värdet på inköp till ett projekt
+## Visa värdet på inköp till ett projekt
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.
 2. Öppna ett relevant projektkort.
@@ -38,7 +38,7 @@ Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa 
     Fältet **Inlevererat bel. ej faktrd** visar värdet för artiklarna som har levererats på inköpsdokument, men ännu inte har fakturerats.  
 3. Välj något av fälten för att öppna sidan **Inköpsrader** där du kan granska information om relaterade inköpsdokumentrader, bland annat vilka artiklar eller tjänster som har inlevererats.
 
-## <a name="to-post-a-project-related-expense"></a>Så här bokför du en projektrelaterad utgift
+## Så här bokför du en projektrelaterad utgift
 
 Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du använda sidan **Projektredovisningsjournal** för att bokföra dem direkt till det relevanta projektkontot.
 
@@ -46,7 +46,7 @@ Om du ådrar dig extraordinära eller engångsutgifter för projekt kan du anvä
 2. Skapa en ny rad och registrera information om utgiften, bland annat information i fälten **Projektnr.** och **Projektaktivitetsnr**.  
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  

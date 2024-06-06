@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="production-reports-and-analytics-in-business-central"></a>Produktionsrapporter och analys i Business Central
+# Produktionsrapporter och analys i Business Central
 
 Med produktionsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan produktions- och affärspersonal få insikter och statistik om aktuella och tidigare produktionsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## <a name="tasks"></a>Uppgifter
+## Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
 * [Så här visar du beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)  
 * [Visa artikeldisposition](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

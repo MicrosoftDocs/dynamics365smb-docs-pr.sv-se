@@ -10,13 +10,13 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Översikt över skrivarinställning och hantering
+# Översikt över skrivarinställning och hantering
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Att skriva ut dokument och rapporter från [!INCLUDE[prod_short](includes/prod_short.md)] är en viktig uppgift för företagsanvändare. Du vill vanligtvis skicka utskriftsprojekt direkt till en av organisationens skrivare&mdash;oavsett vilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app som du använder. Eftersom [!INCLUDE[prod_short](includes/prod_short.md)] online är en molntjänst kan den inte direkt nå lokala skrivare som är anslutna till användarnas enheter, men du kan ansluta den till molnbaserade skrivare.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Vilka skrivar möjligheter finns i Business Central?
+## Vilka skrivar möjligheter finns i Business Central?
 
 För att stödja dina utskriftsbehov [!INCLUDE[prod_short](includes/prod_short.md)] finns följande funktioner:
 
@@ -31,13 +31,13 @@ Det mesta av arbetet med att installera skrivare kan du göra från sidan**Skriv
 > [!IMPORTANT]
 > För lokalt Business Central kräver universell utskrift och e-postutskrift att autentisering med Microsoft Entra-ID eller NavUserPassword används.
 
-## <a name="custom-printer-extensions"></a>Anpassade skrivartillägg
+## Anpassade skrivartillägg
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder andra anpassade skrivartillägg som lägger till ännu fler utskriftsfunktioner. Om du har installerat anpassade skrivartillägg kan det till exempel vara utskriftsfunktioner som inte beskrivs i den här artikeln.
 
 Om du är en AL-utvecklare och vill veta mer om hur du skapar skrivartillägg kan du gå till [Utveckla skrivartillägg i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Nästa steg
+## Nästa steg
 
 - [Konfigurera skrivare för Universell utskrift](admin-printer-setup-universal-print.md)  
 - [Konfigurera e-postutskrift](admin-printer-setup-email.md)  

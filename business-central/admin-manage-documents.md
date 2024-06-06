@@ -10,14 +10,14 @@ ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
+# Hantera lagring genom att ta bort dokument eller komprimera data
 
 En central roll, till exempel programadministratören, måste regelbundet hantera historiska dokument genom att ta bort eller komprimera dem.  
 
 > [!TIP]
 > Lär dig mer om andra sätt att minska mängden data som lagras i en databas genom att läsa [Minska mängden data som lagras i Business Central-databaser](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i vår dokumentation för utvecklare och IT-proffs.
 
-## <a name="delete-documents"></a>Ta bort dokument
+## Ta bort dokument
 
 I vissa fall kan det hända att du behöver ta bort fakturerade inköpsorder. Du kan emellertid inte ta bort dem om du inte helt har fakturerat och tagit emot artiklarna på inköpsordern. [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att söka efter det.
 
@@ -29,7 +29,7 @@ Företag tar vanligtvis bort fakturerade serviceorder automatiskt efter att de �
 
 Serviceorder tas inte bort automatiskt, om det totala antalet i ordern har bokförts från sidan **Servicefaktura** istället för från själva serviceordern. Du kan behöva ta bort sådana fakturerade order manuellt genom att köra batch-jobbet **Ta bort fakturerade serviceorder**.  
 
-## <a name="compress-data-with-date-compression"></a>Komprimera data med datumkomprimering
+## Komprimera data med datumkomprimering
 
 Du kan komprimera data i [!INCLUDE [prod_short](includes/prod_short.md)] för att spara i databasen&mdash;vilket i [!INCLUDE [prod_short](includes/prod_short.md)] online till och med kan spara pengar. Komprimeringen, baseras på datum och funktioner, kombinerar flera gamla transaktioner till en ny.
 
@@ -58,7 +58,7 @@ När du definierar kriterier för komprimeringen kan du behålla innehållet fö
 
 Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
 
-## <a name="posting-compressed-entries"></a>Bokför komprimerade poster
+## Bokför komprimerade poster
 
 Komprimerade transaktioner bokförs något annorlunda än standardbokföring. Denna skillnad är för ett minska antalet nya redovisningstransaktioner som skapas av datumkomprimering och är särskilt viktigt när du behåller information som dimensioner och dokumentnummer. Datumkomprimering skapar nya poster enligt följande:
 
@@ -75,7 +75,7 @@ Antalet transaktioner som skapas från en datumkomprimering beror på hur många
 > [!WARNING]
 > Datumkomprimeringen raderar poster. Därför ska du alltid ta en säkerhetskopia av databasen innan du kör batch-jobbet.
 
-### <a name="to-run-a-date-compression"></a>För att köra en datakomprimering
+### För att köra en datakomprimering
 
 1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Dataadministration** och välj sedan relaterad länk.
 2. Gör något av följande, beroende på dina behov:
@@ -86,7 +86,7 @@ Antalet transaktioner som skapas från en datumkomprimering beror på hur många
    > Du kan bara komprimera data som är äldre än fem år. Om du vill komprimera data som är mindre än fem år ska du kontakta din Microsoft-partner. De måste använda `OnSetMinimumNumberOfYearsToKeep` händelsen i codeunit "Datumkomprimering" för att ställa in tröskeln.
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Administration](admin-setup-and-administration.md)  
 

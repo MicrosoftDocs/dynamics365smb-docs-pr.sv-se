@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="reserve-items"></a>Reservera artiklar
+# Reservera artiklar
 
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder, överföringsorder eller produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokument eller journalrader. Det gör du på sidan **reservation**.
 
@@ -22,7 +22,7 @@ Varje rad du öppnar för att reservera artiklar på sidan **Reservation** visar
 >
 > Fältet **Reserverat från lager** kan hjälpa dig att förstå om du kan leverera eller plocka för en viss order eller orderrad. För rader finns fältet Reserverat från lager i faktaboxar. Om du vill komma åt informationen för hela ordern finns fältet på sidan **Statistik**.
 
-## <a name="reserve-items-for-sales"></a>Reservera artiklar för försäljning
+## Reservera artiklar för försäljning
 
 Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet är liknande för inköp, service, överföring och monteringsorder.
   
@@ -41,7 +41,7 @@ Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet
 > [!NOTE]  
 > Om artikelspårningsrader finns för försäljningsordern används en särskild procedur. Mer information finns i avsnittet [Att reservera ett specifikt parti- eller serienummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Reservera artiklar för produktionsorderrader
+## Reservera artiklar för produktionsorderrader
 
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
@@ -55,7 +55,7 @@ I det följande procedur används en fast planerad produktionsorder.
 
 Det antal som du angett på raden för den fast planerade produktionsorden har nu reserverats.
 
-## <a name="reserve-items-for-production-order-components"></a>Reservera artiklar för produktionsorderkomponenter
+## Reservera artiklar för produktionsorderkomponenter
 
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
@@ -71,7 +71,7 @@ I det följande procedur används en fast planerad produktionsorder.
 
 Det antal som du angett på raden för den fast planerade produktionskomponentraden har nu reserverats.
 
-## <a name="reserve-items-in-bulk"></a>Reservera artiklar i bulk
+## Reservera artiklar i bulk
 
 Använd sidan **Reservationsförslag** för att reservera och fördela inkommande varor i bulk. Massreservationer kan till exempel hjälpa dig att se till att kvantiteter är tillgängliga för försäljnings- och produktionsorder. Du kan ha flera journaler för olika syften. Du kan till exempel fördela produktionsorder veckovis, men reservera dagligen för försäljning.
 
@@ -89,7 +89,7 @@ Använd sidan **Reservationsförslag** för att reservera och fördela inkommand
 
 6. Om du vill reservera alla rader där **Acceptera** är aktiverat väljer du åtgärden **Reservera**.
     
-## <a name="change-a-reservation"></a>Ändra reservation
+## Ändra reservation
 
 Du kan ändra en artikelreservation.
 
@@ -98,7 +98,7 @@ Du kan ändra en artikelreservation.
 3. Sidan **Reservationstransaktioner** uppdaterar fältet **antal** på den rad som du vill ändra.
 4. Bekräfta meddelandet som visas, genom att välja **OK**-knappen.
 
-## <a name="cancel-a-reservation"></a>Avbeställ en reservation
+## Avbeställ en reservation
 
 Du kan avbryta en artikelreservation.
 
@@ -107,7 +107,7 @@ Du kan avbryta en artikelreservation.
 3. På sidan **Reservation** väljer du åtgärden **Avbeställ reservation**.  
 4. Bekräfta meddelandet som visas, genom att välja **Ja**-knappen.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Reservera ett visst serie- eller partinummer
+## Reservera ett visst serie- eller partinummer
 
 Från utgående dokument för spårade artiklar t. ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Det kan till exempel vara praktiskt att reservera specifika serie- eller partinummer i följande situationer:
 
@@ -129,7 +129,7 @@ Följande procedur är baserad på en försäljningsorder.
 7. Välj knappen **OK** för att öppna sidan **Reservation** där endast lager med det angivna artikelspårningsnumret visas. Om det finns icke-specifika reservationer för något av artikelspårningsnumren som har angetts på den här raden, informeras du om den kvantitet som redan har reserverats.  
 8. Välj antingen **Reservera auto** eller åtgärden **Reservera från aktuell rad** för att skapa reservationen med de specifika artikelspårningsnumren.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  

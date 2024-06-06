@@ -9,12 +9,12 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
+# Designdetaljer: Kända problem med artikelkopplingar
 Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Artikeln börjar med att lista vanliga symptom på problemet, följt av grunderna för artikelkoppling för att ge stöd åt de beskrivna orsakerna till detta problem. I slutet av artikeln finns en problemlösning med syfte att adressera sådana öppna artikeltransaktioner.  
 
-## <a name="symptoms-of-the-issue"></a>Symptom på problemet
+## Symptom på problemet  
  Vanliga symptom på problem med nollager även då öppna artikeltransaktioner finns är följande:  
 
 -   Följande meddelande visas när du försöker stänga en lagerperiod: ”Lagret kan inte stängas eftersom lagersaldot är negativt för en eller flera artiklar.”  
@@ -28,7 +28,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
      |333|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
      |334|2018-01-28|Försäljning|Utleverans|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
-## <a name="basics-of-item-application"></a>Grunderna för artikelkoppling
+## Grunderna för artikelkoppling  
  En artikelkopplingstransaktion skapas för varje lagertransaktion avsedd att koppla kostnadsmottagaren till kostnadskällan så att kostnaden kan vidarebefordras enligt värderingsprincipen. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md).  
 
 -   Artikelkopplingstransaktionen skapas för en inkommande artikeltransaktionen när artikeltransaktionen skapas.  
@@ -41,7 +41,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 
 -   Kost.koppling  
 
-### <a name="quantity-application"></a>Antalskoppling
+### Antalskoppling  
  Antalstillämpningar görs för alla lagertransaktioner och skapas automatiskt eller manuellt i vissa processer. Vid manuell framställning skapas kopplingar till mängdtillämpningar som fast tillämpning.  
 
  I följande diagram visas hur mängdtillämpningar skapas.  
@@ -53,7 +53,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 > [!NOTE]  
 >  Om den utgående artikeltransaktionen värderas via genomsnittskostnaden är tillämpad inkommande artikeltransaktion inte unik kostnadskälla. Den spelar bara en roll för beräkningen av genomsnittskostnaden för perioden.  
 
-### <a name="cost-application"></a>Kost.koppling
+### Kost.koppling  
 Kostnadskopplingar skapas endast för inkommande transaktioner där fältet **Koppla från artikellöpnr** fylls i för att skapa en fast koppling. Detta inträffar vanligen i samband med en försäljningskreditnota eller ett annullerat utleveransscenario. Kostnadskopplingen innebär att artikeln återinträder i lagret till samma kostnad som när den levererades.  
 
 I följande diagram visas hur kostnadstillämpningar skapas.  
@@ -65,7 +65,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  Observera ovan att den inkommande artikeltransaktionen 3 (försäljningsreturorder) är en kostnadsmottagare för den ursprungliga utgående artikeltransaktionen 2 (försäljning).  
 
-## <a name="illustration-of-a-basic-cost-flow"></a>Bild av ett grundläggande kostnadsflöde
+## Bild av ett grundläggande kostnadsflöde  
  Anta ett fullständigt kostnadsflöde där en artikel inlevereras, levereras och faktureras, returneras med exakt\-kostnadsåterföring, och sedan skickas igen.  
 
  I följande diagram illustreras kostnadsflödet.  
@@ -74,7 +74,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  Observera ovan att kostnaden vidarebefordras till artikeltransaktion 2 (försäljning), därefter till artikeltransaktion 3 (försäljningsreturorder), och slutligen till artikeltransaktion 4 (försäljning 2).  
 
-## <a name="reasons-for-the-issue"></a>Orsakerna till problemet
+## Orsakerna till problemet  
  Vanliga symptom på problem med nollager även då öppna artikeltransaktioner finns kan exempelvis vara följande:  
 
 -   Scenario 1: En utleverans och en faktura bokförs även om artikeln inte är tillgänglig. Bokföringen kostnadsåterförs sedan exakt med en försäljningskreditnota.  
@@ -89,7 +89,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  Artikeltransaktion 2 (försäljningsreturorder) kan inte vara både en kostnadsmottagaren av den ursprungliga artikeltransaktionen och samtidigt vara en leverantör av artiklar och deras kostnadskälla. Därför förblir den ursprungliga artikeltransaktionen 1 (försäljning 1) öppen tills en giltig källa visas.  
 
-## <a name="identifying-the-issue"></a>Identifierar problemet
+## Identifierar problemet  
  Om du vill ta reda på om de öppna artikeltransaktionerna skapas gör du så här för respektive scenario:  
 
  För scenario 1, identifiera problemet på följande sätt:  
@@ -129,7 +129,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  Observera ovan att inkommande artikeltransaktion 334 är kostnader som har kopplats till utgående artikeltransaktion 333.  
 
-## <a name="workaround-for-the-issue"></a>Åtgärda problemet
+## Åtgärda problemet  
  På sidan **Artikeljournal** bokför du följande rader för den aktuella artikeln:  
 
 -   En positiv justering för att stänga en öppen, utgående artikeltransaktion.  
@@ -140,7 +140,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  Resultatet blir att lagret är noll och alla artikeltransaktioner har avslutats.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Designdetaljer: artikelkoppling](design-details-item-application.md)   
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
 

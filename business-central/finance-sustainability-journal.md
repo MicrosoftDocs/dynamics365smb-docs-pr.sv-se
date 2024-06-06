@@ -11,17 +11,17 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-sustainability-entries"></a>Registrera hållbarhetstransaktioner
+# Registrera hållbarhetstransaktioner
 
 För närvarande är det enda sättet att registrera utsläpp av växthusgaser (GHG) i hållbarhetsredovisningen att använda hållbarhetsjournalerna.
 
-## <a name="sustainability-journals"></a>Hållbarhetsjournaler
+## Hållbarhetsjournaler
 
 Hållbarhetsjournaler är utformade för att spåra och registrera hållbarhetsrelaterade aktiviteter med samma användarupplevelse som andra journaler i Business Central. Användare som har nödvändig information kan manuellt ange utsläpp i en journal. Om de saknar denna information kan de alternativt använda inbyggda formler för att exakt beräkna utsläpp baserat på specifika kända parametrar som motsvarar olika typer av källor och konton.
 
 Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på hållbarhetstransaktioner eller enskilda hållbarhetskonton, där den inte kan ändras. Du kan emellertid bokföra återföring eller rättning av transaktioner.
 
-### <a name="use-journal-templates-and-batches"></a>Använd journalmallar och journaler
+### Använd journalmallar och journaler
 
 Det finns som standard två mallar för hållbarhetsjournaler: standardmallen och återkommande mallen.
 
@@ -30,13 +30,13 @@ För varje journalmall kan du skapa din egen personliga journal som en journal. 
 > [!TIP]
 > Om du har många rader kan du minska risken för misstag genom att ha en journal för varje utsläppstyp. Alternativt kan du använda den gemensamma journalen för alla utsläppstyper.
 
-### <a name="validate-sustainability-journals"></a>Validera hållbarhetsjournaler
+### Validera hållbarhetsjournaler
 
 På sidan **Hållbarhetskonfiguration** kan du aktivera en bakgrundskontroll som förhindrar fördröjningar vid bokföring. Om några misstag inträffar när du arbetar i hållbarhetsjournalen meddelar valideringen dig och hindrar dig från att bokföra journalen.
 
 När du aktiverar valideringen visas faktaboxen **Journalkontroll** på den aktuella raden och i hela partiet. Valideringen sker när du läser in en journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet problem som [!INCLUDE [prod_short](includes/prod_short.md)] hittat. Du kan välja panelen för att öppna en översikt över problemen.
 
-### <a name="work-with-sustainability-journals"></a>Arbeta med hållbarhetsjournaler
+### Arbeta med hållbarhetsjournaler
 
 För att börja arbeta med hållbarhetsjournalerna följer du stegen:
 
@@ -57,7 +57,7 @@ För att börja arbeta med hållbarhetsjournalerna följer du stegen:
 
 Om formeln baseras på **Beräkna från redovisning** i kategori för hållbarhetskonto måste du använda åtgärden **Samla in belopp från redovisningstransaktioner** innan du bokför journalen för att beräkna utsläppen baserat på den här datakällan. Om du har gjort några ändringar i emissionsfaktorerna efter att du fyllt i journalraderna måste du dessutom välja åtgärden **Omberäkna** för att få rätt belopp i journalen.
 
-### <a name="recurring-journals"></a>Återkommande journaler
+### Återkommande journaler
 
 En återkommande journal är en hållbarhetsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar. Exempel inkluderar hållbarhetstransaktioner som el eller värme eller andra liknande transaktioner. Du kan använda återkommande journaler kan du bokföra fasta och variabla belopp.
 
@@ -69,7 +69,7 @@ Fältet **Återkommande frekvens** är också viktigt och måste ställas in. De
 
 Fältet **Utgångsdatum** bestämmer vilket datum raden ska bokföras för sista gången. Raden kommer inte att bokföras efter detta datum. Fördelen med att använda fältet **Utgångsdatum** är att raden inte kommer att raderas från journalen direkt. Du kan ange ett senare datum så att du kan använda raden i framtiden. Om fältet är tomt kommer raden att bokföras varje gång du bokför tills raden tas bort från journalen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Översikt över hållbarhetsstyrning](finance-manage-sustainability.md)  

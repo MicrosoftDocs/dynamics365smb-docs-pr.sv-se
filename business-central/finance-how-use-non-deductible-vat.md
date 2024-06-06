@@ -11,11 +11,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat"></a>Använd ej avdragsgill moms
+# Använd ej avdragsgill moms
 
 I den här artikeln beskrivs hur du använder och rapporterar icke-avdragsgill moms.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Skapa en inköpsfaktura med icke-avdragsgill moms
+## Skapa en inköpsfaktura med icke-avdragsgill moms
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Välj **Ny** för att skapa en inköpsfaktura och ange lämplig information i fakturahuvudet.
@@ -26,7 +26,7 @@ I den här artikeln beskrivs hur du använder och rapporterar icke-avdragsgill m
 
 5. Bokföra fakturan
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Skapa en inköpsorder med icke-avdragsgill moms
+## Skapa en inköpsorder med icke-avdragsgill moms
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Välj **Ny** för att skapa en inköpsorder och ange lämplig information i dokumenthuvudet.
@@ -37,7 +37,7 @@ I den här artikeln beskrivs hur du använder och rapporterar icke-avdragsgill m
 
 5. Bokför inköpsordern.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Justera avrundade momsbelopp före bokföring av dokument
+## Justera avrundade momsbelopp före bokföring av dokument
 
 Om momsbelopp inte är avrundade på samma sätt i miljön och i det externa redovisningssystemet (det ursprungliga fakturadokumentet), kan du justera momsbeloppet innan du bokför dokumentet. Följ de här stegen innan du bokför dokumentet innan du gör den här ändringen.
 
@@ -60,7 +60,7 @@ Du kan justera värdena i fälten **Momsbelopp** och **Icke-avdragsgillt momsbel
 > [!IMPORTANT]
 > Du kan inte använda icke-avdragsgill moms på förskottsfakturorna.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomihantering](finance.md)
 

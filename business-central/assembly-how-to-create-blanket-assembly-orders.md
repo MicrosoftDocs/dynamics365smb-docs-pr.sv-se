@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-blanket-assembly-orders"></a>Skapa monteringsorder för avrop
+# Skapa monteringsorder för avrop
 
 Du kan använda monteringshantering för att anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +19,7 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 > [!NOTE]  
 >  Som för alla avropsorder är antalet i monteringsavropsorder endast prognoser och kan inte användas förrän de konverterats till faktiska monteringsorder. Därför är orderfunktioner som dispositionsberäkning, reservation och artikelspårning inte aktiva för monteringsorder för avrop.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Så här skapar du en monteringsorder för avrop för montering\-mot\-kundorder
+## Så här skapar du en monteringsorder för avrop för montering\-mot\-kundorder  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny avropsorder med en rad för en monteringsartikel. Mer information finns i [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md).  
@@ -35,7 +35,7 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 
 Den länkade avropsmonteringsofferten och eventuella anpassningar är kopplade till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  
 [Monteringshantering](assembly-assemble-items.md)  

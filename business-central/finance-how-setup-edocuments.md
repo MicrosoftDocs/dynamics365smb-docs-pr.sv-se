@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>Konfigurera e-dokument
+# Konfigurera e-dokument
 
 > [!IMPORTANT]
 > Kärnmodulen E-dokument är ett ramverk. Som standard finns det inget fält för **tjänstintegrering**. Om du hittar alternativ för **Dokumentformat** som standard, var medveten om att de erbjuds som exempel och att lokalisering måste ge ett detaljerat format. Den här informationen ingår i lokaliseringsappar eftersom de är specifika för lokala krav.
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Det första steget i konfigurationen av elektroniska dokument (e-dokument) är att konfigurera tjänsten E-dokument där du konfigurerar systemets fullständiga beteende när det gäller e-dokumentkommunikation.
 
-## <a name="set-up-the-e-document-service"></a>Ställ in e-dokumenttjänsten
+## Ställ in e-dokumenttjänsten
 
 Följ dessa steg för att konfigurera e-dokumenttjänsten.
 
@@ -71,11 +71,11 @@ Om du har konfigurerat formatet **datautbytesdefinition** i din lokalisering kan
 
 Om du inte använder formatet **datautbytesdefinition** kan du skapa och konfigurera format genom att använda [gränssnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Justera informationen på raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabellerna och fälten för att konfigurera omvandlingsregler. I det här fallet måste du lägga till ett nytt alternativ i fältet **Dokumentformat** som är relaterat till ditt format.  
 
-### <a name="supported-document-types"></a>Dokumenttyper som stöds
+### Dokumenttyper som stöds 
 
 Dokumenttyper som stöds baseras på det valda **dokumentformatet**. För att kontrollera vilka dokumenttyper som stöds, på sidan **E-dokumenttjänster**, välj åtgärden **Dokumenttyper som stöds**. **E-dokumenttjänst som stöds källdokumenttyper** öppnas och i kolumnen **Källdokumenttyp** kan du välja olika dokumenttyper så att de stöds för det format du planerar att använda. Se till att du inte använder dokumenttypen om dokumentet inte är markerat på den här sidan.   
 
-## <a name="set-up-a-document-sending-profile"></a>Konfigurera en dokumentutskicksprofil
+## Konfigurera en dokumentutskicksprofil
 
 Du kan konfigurera en önskad metod för att skicka försäljningsdokument för respektive kund. På så sätt behöver du inte välja ett sändningsalternativ varje gång du väljer åtgärden **Bokför och skicka**. På sidan **Dokumentutskicksprofiler** konfigurerar du olika utskicksprofiler som du kan välja bland i fältet **Dokumentutskicksprofil** på ett kundkort. Du kan markera kryssrutan **Standard** om du vill ange att dokumentutskicksprofilen är standardprofilen för alla kunder förutom för kunder som har fältet **Dokumentutskicksprofil** ifyllt med en annan utskicksprofil.
 
@@ -97,7 +97,7 @@ Följ dessa steg för att ställa in en dokumentutskicksprofil.
     > [!NOTE]
     > Om du väljer select **Utökat serviceflöde för e-dokument** i fältet **Elektroniskt dokument** måste du redan ha konfigurerat arbetsflödet för dina e-dokument.
 
-## <a name="set-up-the-workflow"></a>Konfigurera arbetsflödet
+## Konfigurera arbetsflödet
 
 Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokumentfunktioner.
 
@@ -116,7 +116,7 @@ För att använda fler arbetsflöden, konfigurera dem genom dokumentutskicksprof
 
 När du konfigurerar ditt arbetsflöde på sidan **Arbetsflöden**, peka på fältet **På villkor** på snabbfliken **Arbetsflödessteg**. På sidan **Händelsevillkor**, i fältet **Filter**, välj den dokumentutskicksprofil som du vill använda.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Ställa in en lagringspolicy för e-dokument
+## Ställa in en lagringspolicy för e-dokument
 
 E-dokument kan omfattas av olika lokala lagar som är relaterade till den period som e-dokumenten bevaras. Därför har vi lagt till en lagringspolicy för all viktig information som är relaterad till e-dokument. Administratörer kan definiera kvarhållningsprinciper som anger hur ofta Dynamics 365 Business Central tar bort inaktuella poster som är relaterade till e-dokument. Mer information om kvarhållningsprinciper i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Så här konfigurerar du kvarhållningsprinciper för e-dokument.
     - Mappningslogg för e-dokument
     - Datalagring för e-dokument
 
-## <a name="e-documents-demo-data"></a>Demodata för e-dokument
+## Demodata för e-dokument  
 
 > [!NOTE]
 > Från Business Central version 24.0 är det möjligt att ställa in demodata för e-dokument.
@@ -145,7 +145,7 @@ För att ge enklare sätt att testa och demonstrera funktioner i **E-dokument** 
 
 När du har en aktiverad modul skulle du ha skapat nya demoobjekt, importerat sex elektroniska dokument (baserat på Peppol BIS 3) och redan konfigurerat **E-dokumenttjänster** med skapade arbetsflöden.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hur du använder e-dokument inom försäljning](finance-how-use-edocuments.md)    
 [Hur du använder e-dokument i inköp](finance-how-use-edocuments-purchase.md)  

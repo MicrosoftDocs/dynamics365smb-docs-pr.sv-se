@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="planning"></a>Planering
+# Planering
 
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
 
@@ -39,7 +39,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
 <!--|Utför utvalda planeringsaktiviteter, exempelvis ändra eller lägga till planeringsförslagsrader, i en grafisk översikt över leveransplaneringen.|[Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
