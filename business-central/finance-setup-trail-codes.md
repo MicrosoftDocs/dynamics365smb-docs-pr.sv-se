@@ -10,13 +10,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ställa in ursprungskoder och orsakskoder för granskningshistorik
+# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Ställa in ursprungskoder och orsakskoder för granskningshistorik
 
 Alla bokförda transaktioner tilldelas automatiskt en ursprungskod så att transaktionerna kan spåras till dess ursprung. Om du vill ge transaktionerna en extra ursprungskod kan du använda uppföljningskoder. Uppföljningskoder används för att ange varför en transaktion har upprättats. När du skapar uppföljningskoder kan du tilldela dem till hela journalmallar och journaler, och du kan tilldela dem till enskilda journalrader och dokument.  
 
 För både ursprungskoder och orsakskoder bör du använda koder som är lätta att komma ihåg och som är beskrivande. Koden måste vara unik och du kan registrera så många koder du vill.
 
-## Definiera ursprungskoder
+## <a name="define-source-codes"></a>Definiera ursprungskoder
 
 Ibland behöver du se hur en viss transaktion uppstod, t. ex. om den har sitt ursprung i en redovisningsjournal eller en inköpsfaktura. En ursprungskod anger var en transaktion har skapats. Transaktioner skapas när journaler och fakturor bokförs och när vissa batch-jobb körs. Varje bokföringstyp har en specifik ursprungskod som tilldelas när enskilda transaktioner skapas.  
 
@@ -24,7 +24,7 @@ Bokföring av journaler, order, fakturor eller kreditnotor, och körningar av ol
 
 När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t. ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner**för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t. ex.
 
-### Så här definierar du ursprungskoder
+### <a name="to-define-source-codes"></a>Så här definierar du ursprungskoder
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Ursprungskodinställningar** och väljer sedan relaterad länk.  
 
@@ -32,11 +32,11 @@ När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt 
 
 Du kan ändra innehållet i ett fält senare, så att ändringen påverkar framtida bokföringar.
 
-## Ändra ursprungskoder
+## <a name="change-source-codes"></a>Ändra ursprungskoder
 
 Det kan hända att du vill ändra en ursprungskod. Du kanske t. ex. vill ändra ursprungskoden *GENJNL* till *GNJ*.
 
-### Så här ändrar du ursprungskoder
+### <a name="to-change-source-codes"></a>Så här ändrar du ursprungskoder
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **ursprungskoder** och väljer sedan relaterad länk.
 
@@ -46,11 +46,11 @@ Det kan hända att du vill ändra en ursprungskod. Du kanske t. ex. vill ändra 
 
 Alla nya transaktioner som har bokförts från redovisningsjournalen får den nya ursprungskoden.
 
-## Definiera uppföljningskoder
+## <a name="define-reason-codes"></a>Definiera uppföljningskoder
 
 Uppföljningskoderna kompletterar ursprungskoderna och används för att ange varför en transaktion har upprättats. Du kan tilldela uppföljningskoder på enskilda transaktioner och du kan tilldela permanenta koder för särskilda journalmallar och journaler. När en uppföljningskod kopplas till en journalrad eller ett försäljnings- eller inköpshuvud, kommer programmet att märka alla transaktionerna med den angivna uppföljningskoden när de bokförs.  
 
-### Så här lägger du upp uppföljningskoder
+### <a name="to-set-up-reason-codes"></a>Så här lägger du upp uppföljningskoder
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **orsakskoder** och väljer sedan relaterad länk.
 
@@ -60,7 +60,7 @@ Upprepa den här proceduren för alla koder som du vill använda. Du kan skapa s
 
 I följande procedur beskrivs hur du lägger till en uppföljningskod i en journalmall, men liknande åtgärder gäller för att lägga till en uppföljningskod till en journalrad eller journal.  
 
-### Så här tilldelar du uppföljningskoder till journalmallar
+### <a name="to-assign-reason-codes-to-journal-templates"></a>Så här tilldelar du uppföljningskoder till journalmallar
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **Redovisningsjournalmallar** och väljer sedan relaterad länk.
 
@@ -70,7 +70,7 @@ I följande procedur beskrivs hur du lägger till en uppföljningskod i en journ
 
 Den valda uppföljningskoden kopieras till nya journaler som skapas med den här journalmallen. Du kan tilldela uppföljningskoder till journalmallar i andra moduler på samma sätt.
 
-### Så här använder du uppföljningskoder i försäljnings- och inköpsdokument
+### <a name="to-use-reason-codes-on-sales-and-purchase-documents"></a>Så här använder du uppföljningskoder i försäljnings- och inköpsdokument
 
 1. Öppna relevant försäljnings- eller inköpsdokument.
 
@@ -78,7 +78,7 @@ Den valda uppföljningskoden kopieras till nya journaler som skapas med den här
 
 När fakturan bokförs kopieras uppföljningskoden till alla redovisnings-, kund- och leverantörstransaktioner. Du kan inte tilldela olika uppföljningskoder till de enskilda inköps- och försäljningsraderna eftersom alla rader bokförs som en transaktion.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  

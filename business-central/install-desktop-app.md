@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Hämta skrivbordsappen för Business Central
+# <a name="get-the-business-central-desktop-app"></a>Hämta skrivbordsappen för Business Central
 
 Om du har en Windows- eller macOS-dator kan du installera en [!INCLUDE [prod_short](includes/prod_short.md)]-app på datorn. Appen fungerar med [!INCLUDE [prod_short](includes/prod_short.md)] Online och lokalt.
 
-## Varför ska du använda appen?
+## <a name="why-use-the-app"></a>Varför ska du använda appen?
 
 [!INCLUDE [prod_short](includes/prod_short.md)] app liknar webbklienten, men har följande fördelar:
 
@@ -25,11 +25,11 @@ Om du har en Windows- eller macOS-dator kan du installera en [!INCLUDE [prod_sho
 
      När du öppnar appen för en specifik miljö ingår miljönamnet i fönster rubriken. När du arbetar i flera [!INCLUDE[prod_short](includes/prod_short.md)] miljöer visas varje appfönster separat. Namnet gör det enklare att se vilket fönster som är kopplat till varje miljö.
 
-## Installera appen för [!INCLUDE [prod_short](includes/prod_short.md)] online
+## <a name="install-the-app-for--online"></a>Installera appen för [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 Det finns två sätt att installera appen för [!INCLUDE [prod_short](includes/prod_short.md)] online. Du kan installera den direkt från webbläsaren eller från Microsoft Store. Oavsett vilken metod du använder är det samma app. Skillnaden är att när du installerar från webbläsaren kan du installera appen för varje miljö när det finns fler än en.
 
-### Från Microsoft Store
+### <a name="from-microsoft-store"></a>Från Microsoft Store
 
 1. Gå till [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Välj **Hämta** > **Installera**. 
@@ -37,7 +37,7 @@ Det finns två sätt att installera appen för [!INCLUDE [prod_short](includes/p
 
 Nästa gång du vill öppna appen söker du efter den i **Start**-menyn.
 
-### Från webbläsaren
+### <a name="from-the-browser"></a>Från webbläsaren
 
 1. Öppna [!INCLUDE[prod_short](includes/prod_short.md)] webbklienten i antingen Microsoft Edge eller Google Chrome.
 
@@ -57,13 +57,13 @@ Nästa gång du vill öppna appen söker du efter den i **Start**-menyn.
 
 När programmet installerats visas det på **Start**-menyn. Om du har valt en specifik miljö för appen läggs miljönamnet till i programnamnet på **Start**-menyn.
 
-## Installera appen för [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
+## <a name="install-the-app-for--on-premises"></a>Installera appen för [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
 
 Installationen av skrivbordsappen när du använder [!INCLUDE [prod_short](includes/prod_short.md)] lokalt görs direkt från webbläsaren enligt [anvisningarna ovan](#from-the-browser). Om du bara har en innehavare öppnar du först [!INCLUDE [prod_short](includes/prod_short.md)] i webbläsaren och väljer sedan någon av ![ikonerna för att installera en app i Edge.](media/ui-edge-install-app-icon.png) **App tillgänglig. Installera Business Central** eller ![ ikon för att installera en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installera Business Central** enligt anvisningarna ovan.
 
 Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online, där du kan installera appen för olika miljöer, kan du bara installera appen för en klientorganisation. Innan du installerar appen när du har flera klientorganisationer måste du därför växla till rätt klientorganisation. När du öppnar appen när du har installerat den öppnas innehavaren direkt.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Vanliga frågor och svar om mobilappar](ui-mobile-faq.yml)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

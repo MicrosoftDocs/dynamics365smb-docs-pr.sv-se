@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Medan du arbetar i [!INCLUDE [prod_short](includes/prod_short.md)] interagerar du med data på olika sätt. Du kan till exempel skapa poster, ange data, sortera och filtrera data, skriva anteckningar och exportera data till andra program.
 
@@ -24,14 +24,14 @@ Och om du vill använda den vågräta rullningslisten för att visa alla kolumne
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tips och råd
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips och råd
 
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
 >
 > [ ![Ikon för PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som öppnar en PDF-fil")
 
-## Länkar till mer information
+## <a name="links-to-learn-more"></a>Länkar till mer information
 
 I tabellen nedan anges några av de grundläggande funktioner tillsammans med länkar till avsnitten där dessa beskrivs.
 
@@ -57,13 +57,13 @@ I tabellen nedan anges några av de grundläggande funktioner tillsammans med l�
 |Hantera innehåll och format för rapporter och dokument. Ange vilka fältdata som ska inkluderas och hur de visas. Välj till exempel en textstil, lägg till bilder med mera.|[Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md) |
 |Lär dig mer om funktioner som gör [!INCLUDE[prod_short](includes/prod_short.md)] tillgängligt för användare med funktionshinder.|[Hjälpmedel och kortkommandon](ui-accessibility.md)|
 
-## Hitta rätt i Business Central
+## <a name="getting-around-in-business-central"></a>Hitta rätt i Business Central
 
 Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Välja en webbläsare för skrivbordet
+## <a name="choosing-a-desktop-browser"></a>Välja en webbläsare för skrivbordet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare, och varje webbläsare erbjuder olika funktioner. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](./product-requirements.md) och webbläsare för [Business Central lokalt](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -73,7 +73,7 @@ Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/
     > Internet Explorer stöds inte längre. För mer informatio, gå till [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Se till att din webbläsare alltid har uppdaterats till den senaste versionen.
 
-## Åtgärdsfält
+## <a name="action-bars"></a>Åtgärdsfält
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] kan du utföra ditt arbete i en lista, ett dokument eller ett kort. Alla sidor har en stapel med åtgärder som är relevanta för dem. Åtgärderna är nästan desamma för det enskilda kortet eller dokumentet och listan över entiteter. På så sätt kan du hantera en enskild försäljningsorder på sidan **försäljningsorder** och i listan över **försäljningsorder** , inklusive bokföring och fakturering.  
 
@@ -90,7 +90,7 @@ När du söker efter och öppnar en listsida, till exempel listan **Försäljnin
 
 När du öppnar samma listsida från startsidan finns inte åtgärden **Hantera** tillgänglig. Om du vill öppna en enskild försäljningsorder väljer du istället fältet **Nummer**. I den här vyn kan du inte fästa åtgärdsfältet.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Ställa in Business Central](setup.md)  

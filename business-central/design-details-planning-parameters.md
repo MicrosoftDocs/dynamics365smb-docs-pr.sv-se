@@ -9,7 +9,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Planeringsparametrar
+# <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 
 I denna artikel beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,11 +24,11 @@ Hur planeringssystemet styr artikeltillförseln bestäms av olika inställningar
 |Ändra leveransorder|Min. partistorlek<br /><br /> Max. partistorlek<br /><br /> Partistorleksmultipel|
 |Begränsa den planerade artikeln|Produktionsprincip:<br /><br /> -  Tillverka-Mot-Lager<br />- Tillverka-Mot-Order|
 
-## Ange om artikeln ska planeras  
+## <a name="define-whether-the-item-is-planned"></a>Ange om artikeln ska planeras
 
 Om du vill inkludera en artikel eller lagerställeenhet i planeringsförfarandet måste du tilldela den en partiformningsmetod. I annat fall måste den planeras manuellt, till exempel med hjälp av funktionen orderplanering.  
 
-## Definiera när du ska beställa  
+## <a name="define-when-to-reorder"></a>Definiera när du ska beställa
 
 Beställningsförslag släpps allmänt endast när den planerade tillgängliga kvantiteten har fallit till eller under ett visst antal. Återbeställningspunkten definierar kvantiteten. Annars kommer det att vara noll. Noll kan justeras genom att ange ett säkerhetslager. Om du definierar en säkerhetsledtid kommer förslaget att levereras under perioden för det förfallodatum som krävs.  
 
@@ -41,7 +41,7 @@ På sidan **Produktionsinställning** bör du ställa in standard säkerhetsledt
 
 Fälten **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod** har också betydelse för att definiera när du ska beställa om. Mer information finns i [Optimera när och hur mycket som ska beställas](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## Definiera hur mycket som ska beställas
+## <a name="define-how-much-to-reorder"></a>Definiera hur mycket som ska beställas
 
 Om planeringssystemet identifierar behovet att beställa om bestämma partiformningsmetoden när och hur mycket som ska beställas.  
 
@@ -53,7 +53,7 @@ Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den hä
 4. Om det finns mer bruttobehov som förfaller före slutdatumet för det framåtplanerade orderkalkylarket, och det här behovet gör att det aktuella beräknade planerade tillgängliga lagret hamnar lägre än säkerhetslagret, ökas partistorleken för att fylla upp underskottet. Leveransorderkalkylarket schemaläggs sedan bakåt från förfallodatumet för den icke-härledda efterfrågan som skulle ha överskridit säkerhetslagret.  
 5. Om fältet **Tidsenhet** inte är ifyllt kommer bara bruttoefterfrågan på samma förfallodatum att läggas till.  
 
-### Partiformningsmetoder  
+### <a name="reordering-policies"></a>Partiformningsmetoder
 
 Följande partiformningsmetoder påverkar den kvantitet som ska beställas. Om du vill lära dig mer om partiformningsmetoder går du till [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md).  
 
@@ -64,7 +64,7 @@ Följande partiformningsmetoder påverkar den kvantitet som ska beställas. Om d
 |**Order**|Partistorlek beräknas för att uppfylla varje enskild efterfråganshändelse och uppsättningen med efterfrågan-tillgång fortsätter att vara kopplad till körningen. Inga planeringsparametrar beaktas.|  
 |**Parti-för-parti**|Antalet beräknas så att det uppfyller summan av efterfrågan som förfaller inom tidsenheten.|  
 
-## Optimera när och hur mycket som ska beställas  
+## <a name="optimize-when-and-how-much-to-reorder"></a>Optimera när och hur mycket som ska beställas
 
 En planerare kan finjustera planeringsparametrar för att begränsa omplaneringsförslag, ackumulera efterfrågan (dynamiskt beställningsantal) eller för att undvika oviktiga planeringsåtgärder. Följande fält för hjälper till att optimera när och hur mycket som ska beställas.  
 
@@ -101,13 +101,13 @@ I följande exempel representerar de svarta pilarna befintlig tillgång (upp) oc
 
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** på sidan **Produktionsinställningar**.  
 
-## Ändra leveransorder  
+## <a name="modify-the-supply-orders"></a>Ändra leveransorder
 
 När orderkalkylarkets antal har beräknats kan en eller flera av ordermodifierarna kan justera det. Till exempel är den maximal partistorlek större än eller lika med det lägsta partistorlek, som är större än eller lika med ordermultipeln.  
 
 Antalet minskas om det överskrider den maximal partistorleken. Sedan ökas den om den är nedanför den lägsta partistorleken. Slutligen avrundas den så att den motsvarar en viss partistorleksmultipel. Alla återstående antal använder samma justeringar tills den totala efterfrågan konverterats till orderförslag.  
 
-## Begränsa artikeln  
+## <a name="delimit-the-item"></a>Begränsa artikeln
 
 Fältet **Produktionsprincip** på sidan **Artikelkort** definierar vilka andra order som MRP-beräkningen avser.  
 
@@ -115,7 +115,7 @@ Om alternativet **Tillverka-Mot-Lager** används rör beställningarna endast ar
 
 Om alternativet **Tillverka-mot-Order** används analyserar planeringssystemet produktionsstrukturen för artikeln och skapar länkade orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.
 
-## Använd lågnivåkoder för att hantera härledd efterfrågan
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Använd lågnivåkoder för att hantera härledd efterfrågan
 
 Använd lågnivåkoder för att skapa härledd efterfrågan för komponenter till de lägre nivåerna i strukturen. Om du vill lära dig mer om lågnivåkoder går du till [Artikelprioritet/lågnivå kod](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,7 +131,7 @@ Istället för den automatiska beräkning som sker dynamiskt om fältet väljs k
 > [!NOTE]
 > Du aktiverar fältet **Dynamisk lågnivåkod** markeras ändras inte lägstanivåkoderna för komponentartiklar dynamiskt om en överordnad struktur tas bort eller anges som ocertifierad. Det kan då bli svårt att lägga till nya artiklar i slutet av produktionsstrukturen eftersom detta kan överskrida det maximala antalet lägstanivåkoder. För större produktionsstrukturer som uppnår gränsen för lägstanivåkod kan du köra batch-jobbet **Beräkna lägstanivåkod** ofta i syfte att bibehålla strukturen.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  

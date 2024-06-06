@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Förstå kontoplanen
+# <a name="understanding-the-chart-of-accounts"></a>Förstå kontoplanen
 
 En kontoplan (COA) fungerar som en omfattande katalog över finansiella konton och deras motsvarande referensnummer. En kontoplan består vanligtvis av två huvudkategorier av konton:
 
@@ -39,7 +39,7 @@ Sammansättningen av ditt företags kontoplan är ett strategiskt beslut som fat
 * Ett teknikföretag kan fokusera på immateriella tillgångar som patent och programvara.
 * En tillverkningsanläggning skulle spåra anläggningstillgångar och leveranser.
 
-## Sidan Kontoplan
+## <a name="the-chart-of-accounts-page"></a>Sidan Kontoplan
 
 Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra sådant som:  
 
@@ -51,11 +51,11 @@ Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra såda
 
 Du kan lägga till, ändra eller ta bort konton i redovisningen. I syfte att undvika avvikelser kan du emelelrtid inte ta bort ett redovisningskonto om dess data används i kontoplanen. Du kan också blockera oavsiktlig borttagning av konton under känsliga perioder. Mer information om hur du skyddar konton från borttagning finns i [Ta bort konton](finance-setup-chart-accounts.md#delete-accounts).  
 
-## Kodhierarkin i redovisningskonton
+## <a name="the-code-hierarchy-in-gl-accounts"></a>Kodhierarkin i redovisningskonton
 
 Företag skapar vanligtvis en hierarkisk struktur i redovisningskontokoder för att återspegla var de hör hemma i kontoplanen. I vissa implementeringar betecknar redovisningskontokoder som börjar med **1** tillgångskonton, medan redovisningskontokoder som börjar med 3 betecknar kapitalkonton. I vissa regioner finns det lokala bestämmelser för användning av en standardkontoplan. Om du vill hjälpa användarna att förstå hierarkin utan att behöva känna till den interna kodstrukturen kan du definiera rubriker och delsummor i kontoplanen som kapslar in dessa interna strukturer.
 
-## Designar din kontoplan
+## <a name="designing-your-chart-of-accounts"></a>Designar din kontoplan
 
 Varje rad i kontoplanen är ett huvudkonto av en av typerna:
 
@@ -70,17 +70,17 @@ En minimalistisk kontoplan kan bara bestå av rader med bokföringskonton. Du an
 > [!TIP]
 > Om du använder andra kontotyper än **Bokföring** i kontoplanen kan du definiera olika vyer för att visa de "råa" bokföringskontona utan kontotyperna av rapporteringstyp för summering och rubriker. Till exempel Visa endast bokföringskonton och Dölj blockerade konton.
 
-## Använd dimensioner för att förenkla kontoplanen
+## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Använd dimensioner för att förenkla kontoplanen
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån. Så i stället för att skapa separata redovisningskonton för varje avdelning och projekt kan du använda dimensioner som grund för analys och slippa behöva skapa en komplicerad kontoplan.
 
 Om du vill lära dig mer om dimensioner går du till [Arbeta med dimensioner](finance-dimensions.md).
 
-## Få en snabb överblick över din ekonomi
+## <a name="get-a-quick-overview-of-your-finances"></a>Få en snabb överblick över din ekonomi
 
 På sidan **Kontoplan** visas i en hierarkisk lista de konton som ger snabb åtkomst till nyckelinformation för respektive konto. Listan är dock statisk, och om du har många konton måste du kanske bläddra för att kunna visa olika konton. Om du bara vill ha en snabb överblick över grunderna, till exempel nettoförändringar och saldon, är sidan **Kontoplansöversikt** ett användbart alternativ. Kolumnlayouten på sidan är samma som du hittar på sidan **Kontoplan** (men med färre kolumner), så det är lätt att förstå. Du kan expandera eller komprimera de hierarkiska nivåerna. För att det ska bli lättare att växla mellan sidorna är sidan **Kontoplansöversikt** tillgänglig på sidan **Kontoplanen**.
 
-## Åtkomst för att skapa och redigera kontoplaner
+## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Åtkomst för att skapa och redigera kontoplaner
 
 I en liten organisation, t.ex. demonstrationsföretaget CRONUS, kan de flesta användare redigera kontoplanen, utom användare med en licens som gruppmedlem. Större organisationer använder dock vanligtvis roller och behörigheter för att begränsa åtkomsten till att redigera kontoplanen. Om du är administratör eller har rollen Företagschef eller Revisor kan du kontrollera användarbehörigheter för att ge rätt personer tillgång till de relevanta tabellerna. Gå till [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) för mer information.  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## Bästa praxis för kontoplaner
+## <a name="chart-of-accounts-best-practices"></a>Bästa praxis för kontoplaner
 
 Här är några metodtips som du kan tänka på när du utvecklar och underhåller kontoplaner:
 
@@ -105,7 +105,7 @@ Här är några metodtips som du kan tänka på när du utvecklar och underhåll
 * Använd dimensioner för att förenkla kontoplanen. Ha inga specifika redovisningskonton för varje produkt eller avdelning.
 * Lägg till nya redovisningskonton när de kommer in, men ta bara bort konton från kontoplanen under räkenskapsperiodens slut.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Förstå redovisningen](finance-general-ledger.md)

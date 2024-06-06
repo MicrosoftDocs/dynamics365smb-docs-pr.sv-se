@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Lageranalys
+# <a name="inventory-analytics"></a>Lageranalys
 
 Företag samlar in massor av data under dagliga aktiviteter som stödjer business intelligence (BI) för lagerchefer:
 
@@ -31,7 +31,7 @@ Var och en av dessa funktioner har sina fördelar och nackdelar, beroende på ty
 
 Den här artikeln beskriver hur du kan använda dessa analysfunktioner för ditt lager.
 
-## Analysbehov inom lager
+## <a name="analytics-needs-in-inventory"></a>Analysbehov inom lager
 
 När du tänker på analysbehoven vid i lagerhantering att använda en personbaserad modell som beskriver olika analysbehov på hög nivå.
 
@@ -48,14 +48,14 @@ Människor i olika roller har olika behov när det gäller data och de använder
 |Lagerarbetare   | Detaljerad data     | Inbyggda driftrapporter, uppgiftsdata på skärmen |
 
 <!-- 
-## Inventory KPIs
+## <a name="inventory-kpis"></a>Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er relaterade till lager
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er relaterade till lager
 
 Funktionen **Ekonomiska rapporter** ger dig insikter i ekonomiska data som visas på din kontoplan. Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. När det gäller lagerhantering kan du skapa ekonomiska rapporter på de redovisningskonton som du använder för att spåra bokföring av lager.
 
@@ -63,13 +63,13 @@ Dimensioner spelar en viktig roll i Business Intelligence. En dimension är data
 
 Läs mer om ekonomiska rapporter i [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md).
 
-## Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till lager)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till lager)
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som rapporterar till överordnade organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] ger revisorer verktyg som hjälper dem att överföra redovisningstransaktioner från två eller flera företag (dotterbolag) till ett konsoliderat företag. Särskilt för lagerhantering kanske du vill konsolidera redovisningstransaktioner för dina lagerkonton för att kunna spåra försäljnings-KPI:er över affärsenheter eller juridiska personer.
 
 Mer information finns i [Företagskonsolidering](finance-consolidated-company-reporting.md).
 
-## Ad hoc-analys av lagerdata
+## <a name="ad-hoc-analysis-of-inventory-data"></a>Ad hoc-analys av lagerdata
 
 Ibland behöver du bara kontrollera om siffrorna lägger till korrekt eller snabbt bekräfta en siffra. Följande funktioner är bra för ad hoc-analyser:
 
@@ -89,7 +89,7 @@ På samma sätt kan du använda åtgärden **Öppna i Excel** för att öppna en
 
 Mer information om hur du gör ad hoc-analyser av lagerdata finns i [Ad hoc-analys av lagerdata](ad-hoc-analysis-inventory.md).
 
-## Inbyggda rapporter för lager
+## <a name="built-in-reports-for-inventory"></a>Inbyggda rapporter för lager
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper lagerorganisationer att rapportera om sina data.
 
@@ -104,7 +104,7 @@ Om du vill ha en översikt över tillgängliga rapporter väljer du **Alla rappo
 
 Mer information om rapporter som är relevanta för lager finns i [Inbyggda lager- och lagerställerapporter](inventory-WMS-reports.md).
 
-## Lageranalys på skärmen
+## <a name="on-screen-inventory-analytics"></a>Lageranalys på skärmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flera sidor som ger dig lageröversikter och uppgifter att göra. Här är några exempel på hur du kan komma igång:
 
@@ -120,7 +120,7 @@ Försäljningsmodulen innehåller även analyssidor relaterade till lager:
 - [Beräkning av leveransdatum för försäljningsorder](sales-date-calculation-for-sales.md)
 - [Spåra paket](sales-how-track-packages.md)
 
-### Visa lagersrelaterade redovisningstransaktioner och saldon från sidan Kontoplan
+### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Visa lagersrelaterade redovisningstransaktioner och saldon från sidan Kontoplan
 
 På sidan **Kontoplan** visas alla redovisningskonton med aggregerade siffror på det som bokförs i redovisningen. Från den här sidan kan du göra saker som:  
 
@@ -134,7 +134,7 @@ För lagerhantering kan du skapa en vy på sidan Kontoplan som bara visar de kon
 
 För mer information, gå till [Förstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analysera lagerdata efter dimensioner
+### <a name="analyze-inventory-data-by-dimensions"></a>Analysera lagerdata efter dimensioner
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
 
@@ -142,7 +142,7 @@ I stället för att skapa separata redovisningskonton för varje avdelning eller
 
 Läs mer i [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Företagskonsolidering](finance-consolidated-company-reporting.md)   
 [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)  

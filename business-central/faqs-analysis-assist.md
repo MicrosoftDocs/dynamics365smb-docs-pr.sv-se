@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanliga frågor och svar om analyshjälp (förhandsversion)
+# <a name="faq-for-analysis-assist-preview"></a>Vanliga frågor och svar om analyshjälp (förhandsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -21,25 +21,25 @@ Dessa vanliga frågor beskriver AI-effekten av analyshjälpfunktionen i [!INCLUD
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Vad är analyshjälp?
+## <a name="what-is-analysis-assist"></a>Vad är analyshjälp?
 
 Analyshjälp är en Copilot som ger hjälp med att arbeta med [dataanalysläget](analysis-mode.md) i Business Central. Med dataanalysläget kan du ordna, aggregera och sammanfatta data på sidor och frågor för att göra dem mer lämpade för att analysera och extrahera meningsfulla insikter. Med analyshjälp kan du automatiskt skapa vyn över de data du vill analysera genom att uttrycka dina behov på ett enkelt och naturligt språk, till exempel "visa leverantörer efter plats sorterade efter antal inköp". Analyshjälp gör det enklare att arbeta med data utan att behöva komplicerade tekniska kunskaper.
 
-## Vilka är funktionerna för analyshjälp?
+## <a name="what-are-capabilities-of-analysis-assist"></a>Vilka är funktionerna för analyshjälp?
 
 Analyshjälp bygger på utvecklarverktygen för Copilot i Business Central. Den använder Azure Open AI Azure OpenAI för att konvertera ostrukturerade instruktioner till en strukturerad design för att visa data i analysläge, utan att skapa, ändra eller uppdatera själva kundens affärsdata.
 
-## Vad är den avsedda användningen av analyshjälp?
+## <a name="what-is-the-intended-use-of-analysis-assist"></a>Vad är den avsedda användningen av analyshjälp?
 
 Den avsedda användningen av analyshjälp är att hjälpa till att skapa analysflikar i dataanalysläget för att presentera data på ett sätt som gör det lättare att dra slutsatser. Det är dock viktigt att notera att analyshjälp inte ger direkta insikter eller slutsatser om data. Det är ett verktyg som hjälper användare att organisera och visa sina data. Det är emellertid upp till användaren att extrahera användbar information, upptäcka trender och fatta välgrundade beslut för att driva affärsvärde.
 
-## Hur utvärderades analyshjälp? Vilka mått används för att mäta prestanda?
+## <a name="how-was-analysis-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hur utvärderades analyshjälp? Vilka mått används för att mäta prestanda?
 
 - Funktionen genomgick omfattande tester baserat på [!INCLUDE[prod_short](includes/prod_short.md)] demonstrationsdata och andra fiktiva produktkataloger. Copilot fick många uppmaningar på de engelska språk som stöds. Prompterna omfattade ett brett spektrum av dataanalysinstruktioner och stilar för att uttrycka avsikt. Resultaten utvärderades mot noggrannhet, relevans och säkerhet.
 
 - Funktionen är byggd i enlighet med Microsofts standard för ansvarsfull AI. [Läs mer om ansvarsfull AI från Microsoft](https://aka.ms/RAI).
 
-## Hur övervakar Microsoft kvaliteten på genererat innehåll?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Hur övervakar Microsoft kvaliteten på genererat innehåll?
 
 Microsoft har olika system inrättade för att säkerställa att innehåll som genereras av Copilot är av högsta kvalitet, upptäcka missbruk och säkerställa säkerheten för våra kunder och deras data.
 
@@ -53,7 +53,7 @@ Användare har möjlighet att ge feedback på varje Copilot-svar och rapportera 
 
 - Microsoft kan inaktivera Copilot-drivna funktioner för utvalda kunder om missbruk av funktionen upptäcks.
 
-## Vilka är begränsningarna för analyshjälp? Hur kan användare minimera effekten av analyshjälp begränsningar när de använder systemet?
+## <a name="what-are-the-limitations-of-analysis-assist-how-can-users-minimize-the-impact-of-the-analysis-assist-limitations-when-using-the-system"></a>Vilka är begränsningarna för analyshjälp? Hur kan användare minimera effekten av analyshjälp begränsningar när de använder systemet?
 
 - Allmänna AI-begränsningar
 
@@ -77,12 +77,12 @@ Användare har möjlighet att ge feedback på varje Copilot-svar och rapportera 
 
   Organisationer som är verksamma inom vissa affärsområden, till exempel medicinska, läkemedel, juridiska och vapen, kan uppleva lägre servicekvalitet.
 
-## Vilka data samlar analysen in och hur används den
+## <a name="what-data-does-analysis-collect-and-how-is-it-used"></a>Vilka data samlar analysen in och hur används den
 
 Funktionen för analyshjälpförmåga samlar in de minsta data som krävs av Business Central för att erbjuda tjänsten. Microsoft använder inte dina företagsdata, inklusive den text du skickar till Copilot, för att träna de grundläggande modellerna till förmån för andra. Mer information finns i [Dynamics 365-termer för Azure OpenAI-drivna funktioner](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 Samlar också in data från den feedback som användarna kan ge med hjälp av ikonerna för liknande (tummen upp) eller ogillar (tummen ned) analyshjälp på sidan **Copilot**. Data är anonym och inkluderar valet av gilla eller ogilla, anledningen till ogillandet om den anges och den Copilot-funktion som feedbacken gäller.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera data med Copilot (förhandsversion)](analysis-assist.md)

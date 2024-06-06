@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tillägget Företagsnav för Business Central
+# <a name="the-company-hub-for-business-central-extension"></a>Tillägget Företagsnav för Business Central
 
 Det här programmet förser en instrumentpanel med sammanfattningsdata för varje företag som användaren har tillgång till via alla [!INCLUDE [prod_short](includes/prod_short.md)] online, t. ex. många klienter för en revisor. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen så att användarna kan.
 
@@ -18,11 +18,11 @@ Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättr
 
 När du installerar tillägget kan du få information i ett exempel företag. Du kan ta bort exempelföretaget när som helst.
 
-## Installerar tillägget
+## <a name="installing-the-extension"></a>Installerar tillägget
 
 När du installerar tillägget i din [!INCLUDE [prod_short](includes/prod_short.md)] kommer du att tillfrågas om du vill använda den nu. Om du gör det måste du logga ut och logga in igen eftersom tillägget ersätter ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Revisorlösningar i Business Central ](finance-accounting.md)  

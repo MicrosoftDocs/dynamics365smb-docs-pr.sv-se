@@ -10,10 +10,10 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Lägga till kontakter i segment
+# <a name="adding-contacts-to-segments"></a>Lägga till kontakter i segment
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna på sidan **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
-## Så här lägger du till kontakter i ett segment
+## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Sidan för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
@@ -22,7 +22,7 @@ Om du vill ange ytterligare filter upprepar du den här proceduren på alla de �
 
 Om du har lagt till kontakter av misstag och vill gå tillbaka ett steg väljer du åtgärden **Gå tillbaka**.
 
-## Om du vill förfina antalet kontakter
+## <a name="to-refine-the-number-of-contacts"></a>Om du vill förfina antalet kontakter
 När du har valt kontakter i ett segment kanske du bestämmer dig för att ta bort några av dem, men behålla andra. Du kan ta bort kontakter manuellt från raderna på sidan **Segment**, men det är enklare och går snabbare att använda åtgärden **Förfina kontakter**.
 
 1. Öppna segmentet.
@@ -34,7 +34,7 @@ Du kan förfina ett segment så många gånger som du vill. Klicka på **Gå til
 
 Du kan visa en lista över de segmentvillkor som har använts genom att klicka på avsnittet **Allmänt** och välja fältet **Antal kriteriumåtgärder**.
 
-## Om du vill minska antalet kontakter
+## <a name="to-reduce-the-number-of-contacts"></a>Om du vill minska antalet kontakter
 När du har valt kontakter i ett segment kanske du vill ta bort några av dem. Du kan göra detta genom att manuellt ta bort dem från raderna på sidan Segment, men det går enklare och snabbare att ange vilka kontakter som ska tas bort med funktionen Reducera kontakter och vilka som ska behållas med funktionen Förfina urval.
 
 1. Öppna segmentet.
@@ -44,7 +44,7 @@ När du har valt kontakter i ett segment kanske du vill ta bort några av dem. D
 
 Du kan reducera ett segment så många gånger som du vill. Klicka på åtgärden **Gå tillbaka** om du har förfinat ett segment av misstag och vill gå tillbaka till föregående steg.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Skapa ett segment](marketing-how-create-segment.md)   
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  

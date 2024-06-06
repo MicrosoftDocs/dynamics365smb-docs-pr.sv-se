@@ -11,7 +11,7 @@ ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Konfigurera en sekvens av arbetsflödesanvändare
+# <a name="set-up-a-sequence-of-workflow-users"></a>Konfigurera en sekvens av arbetsflödesanvändare
 
 Innan du kan skapa arbetsflöde för godkännande måste du ställa in de användare som kommer att skicka förfrågningar och deras godkännare. Du kan till exempel ange vem som ska ta emot en notering för att agera på ett arbetsflödessteg. Du ställer in godkännande arbetsflödesdeltagare på sidan **Användarinställningar för godkännande**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ På sidan **Arbetsflödesanvändargrupper** kan du ange var en deltagare deltar 
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Så här konfigurerar du en användargrupp
+## <a name="to-set-up-a-workflow-user-group"></a>Så här konfigurerar du en användargrupp
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesanvändargrupper** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
@@ -36,7 +36,7 @@ På sidan **Arbetsflödesanvändargrupper** kan du ange var en deltagare deltar 
    > Vanligtvis är sekvensnummer sekventiella för användare i en arbetsflödesanvändargrupp. Flera användare kan dock ha samma sekvensnummer. När så är fallet måste bara en av användarna godkänna en begäran innan arbetsflödet går vidare till nästa steg. Om användare A och användare B till exempel båda är nummer två i sekvensen går arbetsflödet vidare till steg tre när antingen användare A eller användare B godkänner begäran.
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i arbetsflödesanvändargrupp.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  

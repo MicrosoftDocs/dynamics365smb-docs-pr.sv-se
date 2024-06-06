@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Förbereda årsbokslutsrapporter
+# <a name="preparing-closing-statements"></a>Förbereda årsbokslutsrapporter
 Det finns ett antal standardrapporter du kan använda för att samla den information du behöver för att förbereda ditt företags bokslutsrapporter.
 
 I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den här processen.  
@@ -26,7 +26,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 
 För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Affärsstöd](bi.md)
