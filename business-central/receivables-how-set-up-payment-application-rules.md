@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
+# Definiera regler för automatisk koppling av betalningar
 
 På sidan **Regler för betalningskoppling** anger du regler som styr hur betalningstext (på en banktransaktion) automatiskt kopplas till text på relaterade öppna (obetalda) fakturor, kreditnotor eller andra poster när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
@@ -28,7 +28,7 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 - För negativa belopp görs först en matchning mot öppna transaktioner som representerar kundfakturor, och sedan mot kreditnotor för leverantören.
 - För positiva belopp görs först en matchning mot öppna transaktioner som representerar leverantörsfakturor, och sedan mot kreditnotor för kunden.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Så här definierar du en regel för betalningskoppling
+## Så här definierar du en regel för betalningskoppling
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningskopplingsregler** och väljer sedan relaterad länk.
 2. Definiera en ny eller redigerad betalningskopplingsregel genom att fylla i fälten på en rad enligt beskrivningen i följande register.
 
@@ -73,7 +73,7 @@ I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE
 | Låg              | 4        | Nr                    | Nr                             | En matchning                      |
 | Låg              | 5        | Nr                    | Nr                             | Flera matchningar               |
 
-## <a name="see-also"></a>Se även
+## Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  

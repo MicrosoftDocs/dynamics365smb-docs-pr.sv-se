@@ -11,7 +11,7 @@ ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkroniserar data i Business Central med Microsoft Dataverse
+# Synkroniserar data i Business Central med Microsoft Dataverse
 
 När du integrerar [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)] kan du bestämma om du vill synkronisera data i valda fält i [!INCLUDE[prod_short](includes/prod_short.md)] (till exempel kunder, kontakter och säljare) med motsvarande rader i [!INCLUDE[prod_short](includes/cds_long_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på radtyp kan du synkronisera data från [!INCLUDE[prod_short](includes/cds_long_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ När synkroniseringen har konfigurerats kan du koppla [!INCLUDE[prod_short](incl
 > [!NOTE]
 > Synkroniseringen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] baseras på den tidsplanerade körningen av projektkötransaktioner och garanterar inte konsekventa realtidsdata mellan två tjänster. För konsekventa realtidsdata bör du utforska de [virtuella Business Central-tabellerna](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller API:erna för Business Central.   
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standardtabellmappning för synkronisering
+## Standardtabellmappning för synkronisering
 
 Register i [!INCLUDE[prod_short](includes/cds_long_md.md)], till exempel konton, är integrerade med motsvarande registertyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel kunder. För att arbeta med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data anger du länkar kallade "kopplingar" mellan tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -55,11 +55,11 @@ I följande tabell visas standardmappningen mellan register i [!INCLUDE[prod_sho
 > [!NOTE]
 > **Dataverse**-åtgärderna kommer inte att vara tillgängliga på sidor, till exempel kundkortsidan, för poster som inte respekterar tabellfiltret för mappningen av integrationstabellen.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tips för administratörer: Visa tabellmappningar
+### Tips för administratörer: Visa tabellmappningar
 
 Du kan visa mappningen mellan register i [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Tabellmappningar för integrering**, där du även kan tillämpa filter. Du definierar mappningen mellan fälten i [!INCLUDE[prod_short](includes/prod_short.md)]-register och kolumnerna i [!INCLUDE[prod_short](includes/cds_long_md.md)]-register på sidan **Mappning av integreringsfält**, där du kan lägga till ytterligare mappningslogik. Det kan exempelvis vara praktiskt om du behöver felsöka synkronisering.
 
-## <a name="use-virtual-tables-to-get-more-data"></a>Använda virtuella tabeller för att hämta mer data
+## Använda virtuella tabeller för att hämta mer data
 
 När du konfigurerar integreringen kan du använda virtuella tabeller för att göra mer data tillgängliga i [!INCLUDE[prod_short](includes/cds_long_md.md)], utan hjälp från en utvecklare.
 
@@ -81,11 +81,11 @@ När du har installerat programmet kan du aktivera virtuella tabeller från någ
 * Från sidorna **Konfiguration för Dataverse-anslutning**, **Virtuella tabeller** och **Tillgängliga virtuella tabeller**.  
 * Från Power App Maker Portal.
 
-## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Synkronisera data från flera företag eller miljöer
+## Synkronisera data från flera företag eller miljöer
 
 Du kan synkronisera data från flera [!INCLUDE [prod_short](includes/prod_short.md)]-företag eller miljöer med en [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljö. I synkroniseringsscenarier för flera företag finns det flera saker att tänka på.
 
-### <a name="set-company-ids"></a>Ange företags-ID:n
+### Ange företags-ID:n
 
 När du synkroniserar poster anger vi ett företags-ID för entiteten [!INCLUDE[prod_short](includes/cds_long_md.md)] för att klargöra vilket [!INCLUDE [prod_short](includes/prod_short.md)]-företag som posterna kommer från. Integreringstabellmappningar har filterfält för integreringstabeller som tar hänsyn till företags-ID:t. Om du vill inkludera en tabellmappning i en konfiguration med flera företag markerar du kryssrutan **Synkronisering aktiverad för flera företag** på sidan **Mappning för integreringstabell**. Inställningen optimerar hur integreringstabellfilterfält filtrerar företags-ID:n i en konfiguration med flera företag.
 
@@ -93,15 +93,15 @@ Om du väljer kryssrutan **Synkronisering aktiverad för flera företag** för i
 
 Om du markerar kryssrutan **Synkronisering aktiverad för flera företag** avlägsnas filtret på företags-ID:t för alla andra integreringstabellmappningar. Synkroniseringen tar hänsyn till relaterade entiteter, oavsett deras företags-ID.
 
-### <a name="specify-the-synchronization-direction"></a>Ange synkroniseringsriktningen
+### Ange synkroniseringsriktningen
 
 Om du aktiverar stöd för flera företag för en integreringstabellmappning rekommenderar vi att du anger mappningens riktning till **FromIntegration**. Om du anger riktningen till **Till integration** eller **Dubbelriktad** är det en bra idé att använda **Tabellfilter** och **Integrationstabellfilter** för att styra vilka entiteter som ska synkroniseras med vilket företag. Det är också en bra idé att använda matchningsbaserad koppling för att undvika att skapa dubblettposter. Om du vill ha mer information om matchningsbaserad koppling [Anpassa matchningsbaserad koppling](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### <a name="use-unique-numbers"></a>Använd unika nummer
+### Använd unika nummer
 
 Om din nummerserie inte garanterar att primärnyckelvärdena är unika för varje företag rekommenderar vi att du använder prefix. Om du vill börja använda prefix skapar du en transformeringsregel för integreringsfältmappningen. Mer information om omvandlingsregler finns i [Hantera skillnader i fältvärden](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schemalägga en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

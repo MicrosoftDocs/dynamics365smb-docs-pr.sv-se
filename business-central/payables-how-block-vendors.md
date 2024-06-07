@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="block-vendors"></a>Spärrade leverantörer
+# Spärrade leverantörer
 Du kan spärra en everantör, till exempel på grund av ett insolvensförfarande, så att leverantören inte kan läggas till i inköpsdokument eller så att inga betalningar kan bokföras för leverantören.
 
 De olika spärrningsalternativen för leverantörer beskrivs i registeren nedan.  
@@ -21,12 +21,12 @@ De olika spärrningsalternativen för leverantörer beskrivs i registeren nedan.
 |**Betalning**|Det går inte att skapa nya betalningar för den här leverantören.|  
 |**Alla**|Inga transaktioner tillåts för den här leverantören.|  
 
-## <a name="to-block-a-vendor"></a>Om du vill spärra en leverantör
+## Om du vill spärra en leverantör  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Välj den leverantör som du vill spärra.
 3. I fältet **Spärrade** väljer du ett av spärrningsalternativen.
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Göra betalningar](payables-make-payments.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)

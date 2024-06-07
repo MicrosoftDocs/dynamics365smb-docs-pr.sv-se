@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Lager- och distributionslagerrapporter och -analyser
+# Lager- och distributionslagerrapporter och -analyser
 
 Lager- och distributionslagerrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gör att lager- och affärspersonal få insikter och statistik om aktuella och tidigare lager- och distributionslageraktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Uppgifter
+## Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
 * [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)  
 * [Visa artikeldisposition](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Skriva ut och skanna streckkoder
+## Skriva ut och skanna streckkoder
 
 Med hjälp av streckkoder kan du effektivisera dina inkommande, utgående och interna lagerprocesser. 
 
@@ -45,7 +45,7 @@ När du har installerat appen kan du använda åtgärden **Skriv ut etikett** f�
 > Vissa skrivare och streckkods-/QR-kodformat kräver en specifik implementering. Du kan behöva ladda upp en annan Word-mall eller klona rapporten för att skapa en egen anpassad version.
 
 
-## <a name="explore-inventory-reports-with-report-explorer"></a>Utforska lagerrapporter med Rapportutforskaren
+## Utforska lagerrapporter med Rapportutforskaren
 
 Om du vill ha en översikt över de rapporter som är tillgängliga för lager väljer du **Alla rapporter** på startsidan. Denna åtgärd öppnar rollutforskaren, som är filtrerad efter funktionerna i alternativet **Rapport och analys**. Under rubriken **Försäljning och marknadsföring** välj **Utforska**.
 
@@ -54,7 +54,7 @@ Om du vill ha en översikt över de rapporter som är tillgängliga för lager v
 Läs mer i [Söka efter rapporter med Rollutforskaren](ui-role-explorer.md).
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ad hoc-analys av lagerdata](ad-hoc-analysis-inventory.md)  
 [Översikt lageranalys](inventory-analytics-overview.md)   

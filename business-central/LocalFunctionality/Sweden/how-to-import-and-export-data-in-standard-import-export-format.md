@@ -11,14 +11,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="import-and-export-data-in-standard-import-export-format-in-the-swedish-version"></a>Importera och exportera data i SIE-format (Standard Import Export) i svenska versionen
+# Importera och exportera data i SIE-format (Standard Import Export) i svenska versionen
 
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 > [!NOTE]
 > Från och med version 22.1 har den svenska lokaliseringen flyttats till tilläggen och den här funktionen är avlokaliserad. Eftersom lokaliseringen nu skapas som ett tillägg måste du aktivera funktionen för att kunna använda den. Mer information om den här metoden finns i [Importera och exportera data i SIE-format, standard import-export](how-to-use-sie-audit-files-export.md).
 
-## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format
+## Så här importerar du data i SIE-format  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-import** och väljer sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell.  
@@ -34,7 +34,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 3. Välj knappen **OK**.
 4. Välj en fil att importera.  
 
-## <a name="to-export-data-in-sie-format"></a>Så här exporterar du data i SIE-format
+## Så här exporterar du data i SIE-format  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-export** och väljer sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
@@ -51,7 +51,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 4. Välj knappen **OK**.
 5. Välj knappen **Öppna** eller **Spara** för att bestämma var den exporterade filen ska placeras.
 
-## <a name="see-also"></a>Se även
+## Se även  
  [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
 

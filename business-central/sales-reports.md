@@ -9,15 +9,15 @@ ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
+# Försäljningsrapporter och analys i Business Central
 
 Med försäljningsrapportering kan försäljnings- och affärspersonal få insikter och statistik om aktuella och tidigare försäljningsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Uppgifter
+## Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera försäljningens tillstånd:
 
@@ -27,7 +27,7 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 * [Paketspårning](sales-how-track-packages.md)
 * [Visa ej bokförda och bokförda avropsorderrader försäljning](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## <a name="explore-sales-reports-with-report-explorer"></a>Utforska försäljningsrapporter med Rapportutforskaren
+## Utforska försäljningsrapporter med Rapportutforskaren
 
 Om du vill ha en översikt över de rapporter som är tillgängliga för försäljning väljer du **Alla rapporter** på startsidan. Denna åtgärd öppnar rollutforskaren, som är filtrerad efter funktionerna i alternativet **Rapport och analys**. Under rubriken **Försäljning och marknadsföring** välj **Utforska**.
 
@@ -35,7 +35,7 @@ Om du vill ha en översikt över de rapporter som är tillgängliga för försä
 
 Läs mer i [Söka efter rapporter med Rollutforskaren](ui-role-explorer.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ad hoc-analys av försäljningsdata](ad-hoc-analysis-sales.md)    
 [Översikt försäljningsanalys](sales-analytics-overview.md)   

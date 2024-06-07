@@ -10,11 +10,11 @@ ms.search.form: '100,'
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
+# Avsluta bokföringsperioder
 
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
-## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
+## Så här avslutar du bokföringsperioder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
@@ -31,7 +31,7 @@ Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras f
 
 När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets resultat flyttas över till ett konto i balansräkningen. Du kan göra samma sak varje gång du bokför på det avslutade räkenskapsåret.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta böcker](year-close-books.md)  
 [Bokföra årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
