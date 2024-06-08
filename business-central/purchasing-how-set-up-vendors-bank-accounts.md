@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: bholtorf
 ---
-# Skapa bankkonton för leverantörer
+# <a name="set-up-vendor-bank-accounts"></a>Skapa bankkonton för leverantörer
 
 Precis som du kan använda bankkontoinformation på [!INCLUDE [prod_short](includes/prod_short.md)] för att hålla reda på ditt företags banktransaktioner kan du också ställa in bankuppgifter för leverantörer. Leverantörens bankkontodata kan förenkla betalningar till leverantörer i kombination med [AMC Banking 365 Fundamentals tillägget](ui-extensions-amc-banking.md) eller funktionen [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
-## Lägga till eller redigera ett leverantörs bankkonto
+## <a name="add-or-edit-a-vendor-bank-account"></a>Lägga till eller redigera ett leverantörs bankkonto
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Du kan definiera ytterligare leverantörs bankkonton på list sidan för **Leverantör bankkontolista**.
 
-## Skapa önskat bankkonton för leverantörer
+## <a name="set-up-a-preferred-vendor-bank-account"></a>Skapa önskat bankkonton för leverantörer
 
 Om en leverantör har ett eller flera bankkonton och du vill ställa in ett önskat alternativ för betalningsjournalraderna gör du så här:
 
@@ -26,7 +26,7 @@ Om en leverantör har ett eller flera bankkonton och du vill ställa in ett öns
 2. Öppna kortet för leverantören.
 3. På snabbfliken **betalningar** väljer du standard leverantörs bank kontot i fältet **Föredragen bankkontokod**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  

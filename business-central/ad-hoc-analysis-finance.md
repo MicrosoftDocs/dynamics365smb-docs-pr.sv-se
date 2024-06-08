@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analys av ekonomiska data
+# <a name="ad-hoc-analysis-of-finance-data"></a>Ad hoc-analys av ekonomiska data
 
 Den här artikeln förklarar hur du använder funktionen **Dataanalys** för att analysera ekonomiska data direkt från listsidor och frågor. Du behöver inte köra en rapport eller växla till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "Totala tillgångar över tid", "Kundreskontra", "Leverantörsreskontra" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Använd följande listsidor för att börja göra ad hoc-analys av ekonomiska pr
 - [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25)
 - [Leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29)
 
-## Ad hoc-analysscenarier inom finans
+## <a name="ad-hoc-analysis-scenarios-in-finance"></a>Ad hoc-analysscenarier inom finans
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -40,7 +40,7 @@ Följande avsnitt innehåller exempel på ekonomiscenarier i [!INCLUDE [prod_sho
 | [Finans (resultaträkning)](#example-finance-income-statement) | Se din inkomst över inkomstkontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
 | [Finans (totala tillgångar)](#example-finance-total-assets) | Se dina tillgångar över tillgångskontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
 
-### Exempel: Ekonomi (kundreskontra)
+### <a name="example-finance-accounts-receivable"></a>Exempel: Ekonomi (kundreskontra)
 
 För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -52,7 +52,7 @@ För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsinterv
 1. Om du vill göra analysen för ett visst år eller kvartal använder du ett filter på menyn **Analysfilter** (nedanför menyn **Kolumner** till höger).
 1. Byt namn på analysfliken till **Ålderskonton per månad** eller något som beskriver den här analysen.
 
-### Exempel: Finans (Leverantörsskulder)
+### <a name="example-finance-accounts-payable"></a>Exempel: Finans (Leverantörsskulder)
 
 För att se vad du är skyldig dina leverantörer, kanske uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -68,7 +68,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### Exempel: Ekonomi (Försäljningsfakturor per redovisningskonto)
+### <a name="example-finance-sales-invoices-by-gl-account"></a>Exempel: Ekonomi (Försäljningsfakturor per redovisningskonto)
 
 Så här visar du hur försäljningsfakturorna fördelas över redovisningskonton från kontoplanen, till exempel uppdelade i tidsintervall för när beloppen bokfördes:
 
@@ -88,7 +88,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner (för att förstå försäljningsbokföringar)." lightbox="media/data-analysis-gl-entries-invoices.png":::
 
-### Exempel: Finans (resultaträkning)
+### <a name="example-finance-income-statement"></a>Exempel: Finans (resultaträkning)
 
 För att se din inkomst över inkomstkontona från kontoplanen uppdelad i tidsintervall för när beloppen bokfördes gör du följande:
 
@@ -104,7 +104,7 @@ För att se din inkomst över inkomstkontona från kontoplanen uppdelad i tidsin
 
 1. Byt namn på analysfliken till **Inkomst per månad** eller något som beskriver den här analysen.
 
-### Exempel: Finans (totala tillgångar)
+### <a name="example-finance-total-assets"></a>Exempel: Finans (totala tillgångar)
 
 För att se dina tillgångar över tillgångskontona från kontoplanen uppdelad i tidsintervall för när beloppen bokfördes gör du följande:
 
@@ -120,7 +120,7 @@ För att se dina tillgångar över tillgångskontona från kontoplanen uppdelad 
 
 1. Byt namn på analysfliken till **Inkomst per månad** eller något som beskriver den här analysen.
 
-## Underlag för ad hoc-analys av ekonomi
+## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Underlag för ad hoc-analys av ekonomi
 
 När du bokför journaler [!INCLUDE [prod_short](includes/prod_short.md)] skapas transaktioner i tabellen **Redovisningstransaktion**. Därför görs ad hoc-analyser av den allmänna ekonomin vanligtvis på sidan [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20). För kundreskontra och leverantörsreskontra kan du analysera [kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) respektive [leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29).
 
@@ -129,7 +129,7 @@ Mer information finns i följande artiklar:
 - [Underlag för ad hoc-analys av försäljning](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Underlag för ad hoc-analys av inköp](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  
 [Översikt över ekonomisk analys](bi.md)  

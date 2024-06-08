@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Omplanera eller uppdatera produktionsorder direkt
+# <a name="replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
 
 Funktionen **Omplanera** på produktionsorder används vanligtvis när du har lagt till eller ändrat komponenter som utgör underliggande produktionsorder. Funktionen beräknar de ändringar som gjorts på komponent- och verksamhetsföljdsrader, och artiklar på lägre produktionsstrukturnivåer beaktas. Detta innebär att nya produktionsorder kan skapas för dessa artiklar.  
 
@@ -27,7 +27,7 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 > [!NOTE]
 > Om du använder funktionen Uppdatera för att omberäkna produktionsorderraderna kommer de gamla produktionsorderraderna tas bort och nya beräknas.  
 
-## Så här planerar du om en produktionsorder
+## <a name="to-replan-a-production-order"></a>Så här planerar du om en produktionsorder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2. Öppna den produktionsorder som du vill omplanera.  
@@ -56,7 +56,7 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 > [!NOTE]  
 > De ändringar som genomförs via funktionen **Omplanering** ändrar förmodligen kapacitetsbehovet i produktionsordern, och du kan därför behöva planera om operationer när du har uppdaterat.  
 
-## Så här uppdaterar du en produktionsorder
+## <a name="to-refresh-a-production-order"></a>Så här uppdaterar du en produktionsorder
 
 Om du har ändrat produktionsorderrader, komponenter eller verksamhetsföljdrader måste du också uppdatera informationen i produktionsordern. I följande procedur beräknas komponenterna för en fast planerad produktionsorder. Momenten är liknande för verksamhetsföljdsrader.
 
@@ -79,7 +79,7 @@ Om du har ändrat produktionsorderrader, komponenter eller verksamhetsföljdrade
 > [!NOTE]  
 > När du beräknar produktionsorderkomponenter tas tidigare gjorda ändringar i komponenterna bort.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Planerad](production-planning.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

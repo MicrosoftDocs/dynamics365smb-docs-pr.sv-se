@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# Registrera förbrukning eller användning för projekt
+# <a name="record-consumption-or-usage-for-projects"></a>Registrera förbrukning eller användning för projekt
 
 På sidan **Projektkort** kan du öppna sidan **Projektplaneringsrader** om du vill granska och registrera användning på olika delar av projektet. Den här informationen uppdateras automatiskt när du ändrar och överför information mellan projekt och projektjournaler eller projektfakturor. Detta innebär att du har aktiverat växlingsknappen **Använd förbrukningslänk som standard** på sidan **Inställningar i projekt**. Läs mer i [Ställa in projekt](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Till exempel för planeringsrader av typen **Budget** kan du ange antal av en re
 
 Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvantitet och kostnader med projektjournal. Du kan också använda inköpsdokument för att registrera inköp för ett projekt. Läs mer i [Hantera projektleveranser](projects-how-manage-project-supplies.md).
 
-## Registrera förbrukning på en projektplaneringsrad av typen Budget
+## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Registrera förbrukning på en projektplaneringsrad av typen Budget
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.  
 2. Välj projektet och välj sedan åtgärden **Projektplaneringsrader**. 
@@ -42,7 +42,7 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 9. På sidan **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  
 10. Upprepa steg 3 till 8 om du vill registrera extra förbrukning.  
 
-## Så här skapar du projektjournalrader manuellt
+## <a name="to-create-project-journal-lines-manually"></a>Så här skapar du projektjournalrader manuellt
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektjournaler** och väljer sedan relaterad länk.  
 2. Välj relevant projektjournalnamn i fältet **Journalnamn**.  
@@ -51,7 +51,7 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
+## <a name="to-view-project-usage-estimates-and-post-updates"></a>Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
 
 Du kan visa projektförbrukningen fram till projektet avslutas i ett steg. Det gör du genom att använda batch-jobbet **Projekt – Beräkna återstående förbrukning** för alla aktiviteter fram till och med projektets slut.  
 
@@ -66,7 +66,7 @@ Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt re
 4. Uppdatera journalen med eventuella ändringar som kan behövas.  
 5. Välj **Bokföra**.
 
-## Skapa dokument för lager och distributionslagerplockning för ett projekt
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Skapa dokument för lager och distributionslagerplockning för ett projekt
 
 Använd åtgärderna **Skapa lagerplockning** och **Skapa distributionslagerplockning** på sidan **Projektkort**. Om du vill skapa eller registrera ett plocknings dokument använder du **Artikelinförsel/plockningsrader/transportrader** eller **registrerade plockningsrader**. Läs mer på [Flöden för produktion, montering och projekt](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ Du kan använda åtgärder på följande villkor:
 > 
 > Om din plats är inställd för att kräva både plockning och leveransbearbetning, vilket innebär att du har valt både **Begär plockning** och **Begär utleverans**på sidan **Platskort** använd **Dist.lager plockning** för att hantera plockningen. Distributionslagerplockningar liknar lagerplockningar. Skillnaden är att istället för att bokföra plockningsinformationen registrerar du plockningen. Registreringen bokförs inte i förbrukningen, utan bara artiklarna kan bokföras. Du lagerchef kan du använda ett plockningskalkylark för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager
 
-## Granska planeringsrader för en projekttransaktion
+## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>Granska planeringsrader för en projekttransaktion
 
 När du har bokfört projektjournalrader kan du se de planeringsrader som är kopplade till de projektjournaltransaktioner som har bokförts.
 
@@ -94,7 +94,7 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 2. Välj en relevant projektjournal och välj sedan åtgärden **Transaktioner**.  
 3. På sidan **Projekttransaktioner** väljer du åtgärden **Visa kopplade projektplaneringsrader**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  

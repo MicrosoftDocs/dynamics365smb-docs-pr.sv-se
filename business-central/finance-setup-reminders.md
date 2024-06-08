@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera villkor och nivåer för betalningspåminnelser
+# <a name="set-up-reminder-terms-and-levels"></a>Konfigurera villkor och nivåer för betalningspåminnelser
 
 Du kan använda betalningspåminnelser för att informera kunder och begära betalning. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > När du har ställt in villkor och nivåer för betalningspåminnelser kan du inkludera dem i automatiserade processer för att skapa, utfärda och skicka påminnelser. För att lära dig mer om den automatiserade processen, gå till [Automatisera påminnelser i samlingar](finance-automate-reminders.md).
 
-## Betalningspåminnelsevillkor
+## <a name="reminder-terms"></a>Betalningspåminnelsevillkor
 
 Om en betalning förfaller måste du bestämma när och hur betalningspåminnelsen ska skickas till kunden i fråga. Dessutom kanske du vill debitera kundens konto för ränta eller avgifter. Du kan ange valfritt antal villkor för betalningspåminnelser.  
 
 > [!NOTE]
 > Om du vill beräkna dröjsmålsränta på förfallna betalningar kan du göra detta när du skapar betalningspåminnelser. Om du däremot endast vill beräkna dröjsmålsränta och informera dina kunder om det utan att skicka betalningspåminnelser bör du använda [räntefakturor](finance-setup-finance-charges.md). Mer information finns i [Betalningspåminnelser](receivables-collect-outstanding-balances.md#reminders) samt [Ränta](receivables-collect-outstanding-balances.md#finance-charges).
 
-### Konfigurera bilagor och brödtexter i e-post för kommunikation
+### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Konfigurera bilagor och brödtexter i e-post för kommunikation
 
 På sidan **Konfiguration av betalningspåminnelsevillkor** kan ställa in bifogade texter och vanliga e-postmeddelanden att använda antingen för alla påminnelsenivåer, eller skapa specifika meddelanden för varje nivå. Meddelandet du skickar för den första påminnelsenivån kan till exempel ha en annan ton eller annat innehåll än den andra eller tredje. Om du vill skapa bilagor och e-postmeddelandetexter för alla nivåer väljer du **Kundkommunikation** högst upp på sidan. För att skapa meddelanden för specifika rader, på snabbfliken **Betalningspåminnelsenivå**, välj en rad och välj sedan **Kundkommunikation** på snabbfliken.
 
@@ -35,19 +35,19 @@ När du skickar ett e-postmeddelande är påminnelsen en rapport som du bifogar 
 > [!NOTE]
 > Att kommunicera via e-post direkt från [!INCLUDE [prod_short](includes/prod_short.md)] kräver att du är inställd på att göra det. Mer information om hur du ansluter e-postkonton med [!INCLUDE [prod_short](includes/prod_short.md)] till finns i [Konfigurera e-post](admin-how-setup-email.md).
 
-### Så här ställer du in betalningspåminnelsevillkor
+### <a name="set-up-reminder-terms"></a>Så här ställer du in betalningspåminnelsevillkor
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill använda fler än en uppsättning villkor, anger du en kod för varje kombination.
 
-## Betalningspåminnelsenivåer
+## <a name="reminder-levels"></a>Betalningspåminnelsenivåer
 
 För varje betalningspåminnelseperiod kan du definiera ett obegränsat antal betalningspåminnelsenivåer, men de flesta företag använder bara två eller tre nivåer. Första gången en betalningspåminnelse skapas för en kund används inställningen från nivå 1. När betalningspåminnelsen skickas ut registreras nivånumret på betalningspåminnelsetransaktionerna som skapas och kopplas till de enskilda kundreskontratransaktionerna. Om kunden måste påminnas igen kontrolleras alla betalningspåminnelsetransaktioner som är kopplade till öppna kundreskontratransaktioner så att det högsta nivånumret hittas. Villkoren från nästa nivånummer används sedan för den nya betalningspåminnelsen.
 
 Om du skapar fler betalningspåminnelser än du har definierat nivåer för, används villkoren för den högsta nivån. Du kan skapa så många betalningspåminnelser som fältet **Max. antal påminnelser** i betalningspåminnelsevillkoren tillåter.
 
-### Så här ställer du in nivåer för betalningspåminnelser
+### <a name="to-set-up-reminder-levels"></a>Så här ställer du in nivåer för betalningspåminnelser
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. På sidan **betalningspåminnelsevillkor** och välj raden med de villkor som du vill ange nivåer för och klicka sedan på åtgärden **Nivåer**.  
@@ -107,7 +107,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 
 När du har angett betalningspåminnelsevillkoren kan du tilldela dem till kunder på kundkortssidorna. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Skicka påminnelser om utestående saldon](receivables-send-reminders.md)  

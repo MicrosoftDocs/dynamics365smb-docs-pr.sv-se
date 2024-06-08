@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Hantera anläggningstillgångar
+# <a name="manage-fixed-assets"></a>Hantera anläggningstillgångar
 
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och hjälper till att säkerställa att deras avskrivning är korrekt. Det hjälper dig också att spåra underhållskostnader, hantera försäkringar, bokföra transaktioner med anläggningstillgångar och generera olika rapporter och statistik.
 
-## Vad är en anläggningstillgång?
+## <a name="what-is-a-fixed-asset"></a>Vad är en anläggningstillgång?
 
 Anläggningstillgångar skiljer sig från andra artiklar i distributionslagret. En anläggningstillgång, även känd som en kapitaltillgång, är en materiell fastighet, anläggning eller utrustning (PP&E) som du äger eller förvaltar med förväntan att den kommer att fortsätta att bidra till att generera inkomster. En tillgång är fast när det är en artikel som ditt företag inte kommer att konsumera, sälja eller konvertera till kontanter under nästa kalenderår. Anläggningstillgångar skiljer sig från omsättningstillgångar, som är kontanta eller planerade att omvandlas till kontanter inom de närmaste 12 månaderna. Anläggningstillgångar skiljer sig också från ditt lager, eftersom lager vanligtvis förbrukas inom kort tid.
 
-## Typer av anläggningstillgångar
+## <a name="types-of-fixed-assets"></a>Typer av anläggningstillgångar
 
 Företag investerar vanligtvis i några typer av anläggningstillgångar. Några exempel är:
 
@@ -30,7 +30,7 @@ Företag investerar vanligtvis i några typer av anläggningstillgångar. Några
 - Maskinell
 - Fordon
 
-## Förstå redovisning av anläggningstillgångar
+## <a name="understanding-fixed-asset-accounting"></a>Förstå redovisning av anläggningstillgångar
 
 Redovisning av anläggningstillgångar innebär att du håller exakta finansiella register om dina kapitaltillgångar. Dessa poster innehåller information om de fem stadierna i en tillgångs livscykel. Efter det första inköpet omfattar livscykeln för varje anläggningstillgång minst tre av följande steg:
 
@@ -42,13 +42,13 @@ Redovisning av anläggningstillgångar innebär att du håller exakta finansiell
 
 Revisioner ingår också i de detaljerade kontrollerna av ditt företags bokföring efter att räkenskaperna för räkenskapsåret har avslutats. Oavsett om det är internt eller externt, revisioner är där du kan märka inkonsekvenser eller skillnader mellan dina anteckningar och det faktiska tillståndet för dina tillgångar. Revisioner främjar transparens i dina tillgångar och redovisning om du förlorar mer pengar än väntat.
 
-## Videoöversikt
+## <a name="video-overview"></a>Videoöversikt
 
 I följande video beskrivs grunderna för anläggningstillgångar:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Inledande inställning av anläggningstillgångar
+## <a name="initial-setup-of-fixed-assets"></a>Inledande inställning av anläggningstillgångar
 
 Innan du kan hantera anläggningstillgångar måste du göra följande inställningar:
 
@@ -60,7 +60,7 @@ Innan du kan hantera anläggningstillgångar måste du göra följande inställn
 
 Läs mer på [Ställa in anläggningstillgångar](fa-setup.md).
 
-## Analys av anläggningstillgångar
+## <a name="fixed-assets-analytics"></a>Analys av anläggningstillgångar
 
 I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om data om dina anläggningstillgångar.
 
@@ -74,7 +74,7 @@ I det här avsnittet beskrivs analysverktyg som du kan använda för att få ins
 | Visa avyttringstransaktioner | [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visa planerade avyttringsvärden. | [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Registrera anläggningstillgångar
+## <a name="register-fixed-assets"></a>Registrera anläggningstillgångar
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om dem. Du kan till exempel ange byggnads- eller fabriksinventarier som en huvudtillgång med en komponentlista. Du kan gruppera tillgångar på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. Med budgetering kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.
 
@@ -83,7 +83,7 @@ För varje anläggningstillgång måste du skapa ett kort som innehåller inform
 | Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md) |
 | skapa anläggningstillgångar, tilldela avskrivningsmetoder, bokföra anskaffningar, återanskaffningsvärden och skriva ut listor över anläggningstillgångar. |[Anskaffa anläggningstillgångar](fa-how-acquire.md) |
 
-## Ställ in avskrivningar för dina anläggningstillgångar
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Ställ in avskrivningar för dina anläggningstillgångar
 
 För att hålla reda på avskrivningar av anläggningstillgångar och andra ekonomiska transaktioner för anläggningstillgångar skapar du en eller flera avskrivningsregler för varje. Det finns några steg för att avskriva tillgångar:
 
@@ -100,7 +100,7 @@ För att hålla reda på avskrivningar av anläggningstillgångar och andra ekon
 | Visa ändrade värden för avskrivningsregler. | [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Du kan manuellt registrera anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. | [Konfigurera avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md) |
 
-## Underhåll och försäkring av anläggningstillgångar
+## <a name="fixed-assets-maintenance-and-insurance"></a>Underhåll och försäkring av anläggningstillgångar
 
 För varje tillgång kan du registrera underhållskostnader och nästa servicedatum. Det kan vara viktigt att hålla reda på underhållsutgifter för budgetändamål och för att kunna ta beslut om en anläggningstillgång ska ersättas. Du kan koppla varje anläggningstillgång till ett eller flera försäkringsbrev och kontrollera att försäkringspremierna stämmer överens med tillgångarnas värde.
 
@@ -111,7 +111,7 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 | Uppdatera försäkringsinformation, bokföra anskaffningskostnader i försäkringsbrev, ändra försäkringsskydd, visa försäkringsstatistik och visa listor över försäkringsbrev. |[Försäkra anläggningstillgångar](fa-how-insure.md) |
 | Bevaka försäkringsskydd. | [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Gruppera, överföra, dela upp/slå ihop, justera värde, skriva ned och avyttra anläggningstillgångar
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Gruppera, överföra, dela upp/slå ihop, justera värde, skriva ned och avyttra anläggningstillgångar
 
 | Till  | Gå till |
 | --- | --- |
@@ -121,7 +121,7 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 | Visa avyttringstransaktioner | [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visa planerade avyttringsvärden. | [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Tips för att förbättra redovisningen av anläggningstillgångar
+## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Tips för att förbättra redovisningen av anläggningstillgångar
 
 Det finns några saker du kan implementera i din redovisningsstrategi för anläggningstillgångar som kan hjälpa dig att maximera dina intäkter.
 
@@ -130,7 +130,7 @@ Det finns några saker du kan implementera i din redovisningsstrategi för anlä
 - Tagga dina tillgångar. Det är viktigt att spåra och tagga dina tillgångar under hela livscykeln eftersom många faktorer kan påverka deras värde. Taggning hjälper till att spåra dina varor genom stadierna av deras livscykel och hjälper till att förhindra stöld, eliminera felplacering och stödja ekonomisk statistik.
 - Automatisera insikter med bokföringsprogram för anläggningstillgångar. Automatisering av manuella aktiviteter för att spåra dina data med bokföringsprogram för anläggningstillgångar gör processer enklare att slutföra. Lösenordsskydd kan hjälpa till att ge åtkomst endast till de personer som behöver det och är utbildade för det.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)  

@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Intelligenta insikter och migrering av moln (endast lokalt)
+# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Intelligenta insikter och migrering av moln (endast lokalt)
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] online har du fullständig åtkomst till scenarier som baseras på det intelligenta molnet. Till exempel KPI:er som baseras på maskininlärning eller när du visar dina data i Power BI.  
 
 Men om du använder [!INCLUDE [prod_short](includes/prod_short.md)] lokal kan du inte använda samma insikter. Om du vill dra nytta av scenarier med onlinekurser måste du migrera till [!INCLUDE [prod_short](includes/prod_short.md)] online. Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Visa insikter i [!INCLUDE[prod_short](includes/prod_short.md)] online
+## <a name="viewing-insights-in--online"></a>Visa insikter i [!INCLUDE[prod_short](includes/prod_short.md)] online
 
 För en lokal miljö som data har migrerats till [!INCLUDE[prod_short](includes/prod_short.md)] online, sidan **Insikter för intelligent moln** i onlinemiljön fyra viktiga intressanta platser för de flesta företag:
 
@@ -34,7 +34,7 @@ Bredvid ett KPI-diagram kan du få insyn i potentiella viktiga områden, inklusi
 
 Sidan ansluter också till Power BI för ytterligare insikter. Du kan också ansluta till Azure AI för ännu mer intelligenta insikter. Mer information finns i [Tillägget Försäljning och lagerprognos](ui-extensions-sales-forecast.md).  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Välkommen till Business Central](welcome.md)  
 [Tillägget Molnmigrering](ui-extensions-data-replication.md)  

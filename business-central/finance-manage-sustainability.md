@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Översikt över hållbarhetsstyrning
+# <a name="sustainability-management-overview"></a>Översikt över hållbarhetsstyrning
 
 > [!IMPORTANT]
 > Den här funktionen blir tillgänglig i Business Central från **utgivningscykel 1 för 2024**. Alla referenslänkar aktiveras när de är tillgängliga.
@@ -42,7 +42,7 @@ När du vill börja med hållbarhetshantering, se följande artiklar.
 | [Kontoplan för hållbarhetskonton och huvudbok](finance-sustainability-accounts-ledger.md) | Den här artikeln ger information om hur du korrekt ställer in diagram över hållbarhetskonton (CoSA), kontokategorier och underkategorier och hur du analyserar information i hållbarhetstransaktioner. |
 | [Registrera hållbarhetstransaktioner](finance-sustainability-journal.md) | Använd den här artikeln för att lära dig hur du arbetar med alla typer av hållbarhetsjournaler. |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hållbarhetskonfiguration](finance-sustainability-setup.md)  
 [Diagram över hållbarhetskonton och redovisning](finance-sustainability-accounts-ledger.md)  

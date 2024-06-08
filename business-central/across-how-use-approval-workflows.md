@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Så här använder du arbetsflöden för godkännande
+# <a name="how-to-use-approval-workflows"></a>Så här använder du arbetsflöden för godkännande
 
 När en post som till exempel ett inköpsdokument eller ett kundkort måste godkännas av någon i organisationen, skickar du en godkännandebegäran som en del av ett arbetsflöde. Beroende på hur arbetsflödet konfigureras meddelas sedan den lämpliga godkännaren om att posten kräver godkännande.
 
@@ -21,7 +21,7 @@ Förutom arbetsflöden för godkännande som beskrivs i den här artikeln kan du
 
 Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som guider. Lär dig mer på [Gör dig redo att göra affärer](ui-get-ready-business.md).
 
-## Begära du godkännande av en post
+## <a name="request-a-record-approval"></a>Begära du godkännande av en post
 
 Efterföljande aktivitet utförs av en godkännaranvändare.
 
@@ -32,7 +32,7 @@ Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen
 
 När alla godkännare som krävs har godkänt transaktionen, ändras statusen till **Släppt**. Därefter kan du fortsätta arbeta med posten.
 
-## Annullera godkännandebegäran
+## <a name="cancel-approval-requests"></a>Annullera godkännandebegäran
 
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
@@ -42,7 +42,7 @@ Det kan hända att en kund vill göra ändringar i en order efter att den har sk
 
 När godkännandebegäran har annullerats, ändras statusen på den relaterade godkännandeposten till **Annullerad**. Statusen på posten uppdateras från **Väntar på godkännande** till **Öppen**. Godkännandeprocessen kan sedan starta från början igen.
 
-## Godkänna eller avvisa begäranden om godkännande
+## <a name="approve-or-reject-approval-requests"></a>Godkänna eller avvisa begäranden om godkännande
 
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
@@ -58,7 +58,7 @@ Om en godkännarehierarki har ställts in är poststatusen **Väntar på godkän
 
 Samtidigt ändras godkännandestatus från **Skapad** till **Öppen** så snart som en godkännandebegäran skapas för posten. Om begäran avvisas, ändras godkännandestatus till **Avvisad**. Status står kvar som **Öppen** eller **Avvisad** tills alla godkännare har godkänt begäran.
 
-## Delegera godkännandebegäranden
+## <a name="delegate-approval-requests"></a>Delegera godkännandebegäranden
 
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
@@ -69,7 +69,7 @@ För att förhindra att poster staplas på hög eller blockerar arbetsflödet p�
 
 Ett meddelande om att godkänna begäran skickas till den ersättande godkännaren.
 
-## Hantera förfallna begäranden om godkännande
+## <a name="manage-overdue-approval-requests"></a>Hantera förfallna begäranden om godkännande
 
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
@@ -80,7 +80,7 @@ Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontr
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Arbetsflöde](across-workflow.md)  

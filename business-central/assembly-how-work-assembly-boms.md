@@ -10,7 +10,7 @@ ms.date: 09/26/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Arbeta med monteringsstrukturer
+# <a name="work-with-assembly-boms"></a>Arbeta med monteringsstrukturer
 
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras från komponenter med liten eller ingen resursanvändning. En monteringsstruktur kan användas till exempel för att sälja en överordnad artikel som ett paket bestående av komponentartiklar.
 
@@ -20,7 +20,7 @@ En monteringsstruktur är mycket viktigt som definierar vilka komponentartiklarn
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stödjer även produktionsstrukturer. Produktionsstrukturer skiljer sig från monteringsstrukturer genom att använda mer komplexa procedurer, bland annat resursanvändning, produktions-operationsföljd och produktions- eller maskingrupper. Läs mer om skillnaderna i [Arbeta med strukturer](inventory-how-work-BOMs.md) och [Skapa produktionsstrukturer](production-how-to-create-production-boms.md).
 
-## Skapa en monteringsstruktur
+## <a name="to-create-an-assembly-bom"></a>Skapa en monteringsstruktur
 
 Om du vill definiera en överordnad artikel som består av andra artiklar eller resurser som krävs för att montera den överordnade, måste du skapa en monteringsstruktur.  
 
@@ -44,7 +44,7 @@ Det finns två delar för att skapa en monteringsstruktur:
 > [!TIP]
 > Monteringsartiklar kan ha olika varianter i [!INCLUDE[prod_short](includes/prod_short.md)], precis som andra artiklar, vilket hjälper dig att hålla listan över tillgängliga produkter kortare. Läs mer om funktioner på [Hantera produktvarianter](inventory-item-variants.md).
 
-## Så här redigerar du monteringsstrukturer
+## <a name="to-edit-assembly-boms"></a>Så här redigerar du monteringsstrukturer
 
 Du kan när som helst redigera raderna i en monteringsstruktur. Men tänk på att strukturen kanske används på pågående försäljningar eller sammansättningar av den överordnade, som kan påverkas av ändringen. Välj åtgärden **Används i** för att se i vilka artiklar den används och sedan om försäljnings- eller monteringsorder kan påverkas.
 
@@ -52,7 +52,7 @@ Du kan när som helst redigera raderna i en monteringsstruktur. Men tänk på at
 2. Välj värdet **Ja** i kolumnen **Monteringsstruktur**.
 3. På sidan **Monteringsstruktur**, välj åtgärden **Redigera lista** och ändra sedan fältet efter behov.
 
-## Visa komponenter och resurser indragna enligt strukturen
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Visa komponenter och resurser indragna enligt strukturen
 
 Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
 
@@ -61,7 +61,7 @@ Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar kompo
 3. På sidan **Artikelkort** väljer du åtgärden **Montering** och väljer sedan åtgärden **Monteringsstruktur**.
 4. På sidan **Monteringsstruktur** väljer du åtgärden **visa struktur**.
 
-## Ersätta monteringsartikeln med de komponenter som ingår i rader
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Ersätta monteringsartikeln med de komponenter som ingår i rader
 
 Du kan använda en särskild funktion för att ersätta raden för monteringsartikeln med nya rader för dess komponenter från alla försäljnings- och inköpsdokument som innehåller en monteringsartikel. Den här funktionen används, till exempel för att sälja komponenter som en sats som motsvarar monteringsartikeln.
 
@@ -81,7 +81,7 @@ Alla fält på försäljningsfakturaraden för den monterade artikeln avmarkeras
 > [!NOTE]
 > Rapporten **Plockningslista efter order** ändras också till att endast visa komponenter. Det innebär att lagerarbetaren kan plocka den överordnade artikeln, monteringsartikeln, inte kommer att se den i plockningslistan. Mer information finns i [Skriv ut plocklistan](sales-how-print-picking-list.md).
 
-## Beräkna standardkostnaden för monteringsartikel
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Beräkna standardkostnaden för monteringsartikel
 
 Du beräknar styckkostnaden för en monteringsartikel genom att summera styckkostnaden för respektive komponent och resurs i artikelns monteringsstruktur.
 
@@ -105,7 +105,7 @@ Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda sty
 
 Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komponentens artikelkort. Kostnaden för varje artikel multipliceras med det aktuella antalet, och totalkostnaden visas i fältet **Styckkostnad** på artikelkortet för monteringsartikeln.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Hantera produktvarianter](inventory-item-variants.md)  

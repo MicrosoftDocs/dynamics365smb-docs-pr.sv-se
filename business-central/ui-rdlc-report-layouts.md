@@ -10,13 +10,13 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Arbeta med RDLC-layouter
+# <a name="working-with-rdlc-layouts"></a>Arbeta med RDLC-layouter
 
 RDLC-layouter baseras på layoutfiler för rapportdefinition (.rdl- eller .rdlc-filtyper). Design begreppen för RDLC layouter liknar andra typer av layouter. Layouten avgör vilka fält som ska visas och hur de är ordnade. Att utforma RDLC-layouter är mer avancerat än Word- och Excel-layouter.
 
 [![Visar de olika elementen i en RDLC-layout.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## Verktyg som krävs
+## <a name="required-tools"></a>Verktyg som krävs
 
 Om du vill ändra RDL-layouter kan du använda antingen Microsoft SQL Server Report Builder eller Microsoft Visual Studio med tillägget RDLC Report Designer.
 
@@ -24,7 +24,7 @@ Om du vill ändra RDL-layouter kan du använda antingen Microsoft SQL Server Rep
 
 - RDLC Report Designer är ett tillägg för Visual Studio 2019 och senare. Du kan hämta och installera RDLC Report Designer från [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## Skapa och ändra RDLC-layouter
+## <a name="create-and-modify-rdlc-layouts"></a>Skapa och ändra RDLC-layouter
 
 Att skapa och ändra RDLC-layouter är en avancerad uppgift som normalt görs av privilegierade användare eller utvecklare. De grundläggande begreppen är inte specifika för layouterna i Business Central-rapporter. Därför bör du läsa följande dokumentation:
 
@@ -39,7 +39,7 @@ Att skapa och ändra RDLC-layouter är en avancerad uppgift som normalt görs av
 > [!NOTE]
 > Report Builder kan tolka filtypen RDL, inte. rdlc. Layoutfiler som exporteras från Business Central är .rdlc-filtyper. Om du vill ändra de här layouterna i Report Builder byter du namn på filtypen till. RDL.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Ange layout för en rapport](ui-set-report-layout.md)  

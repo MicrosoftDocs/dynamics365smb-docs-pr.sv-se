@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# Ställ in projekt, priser och projektbokföringsmallar
+# <a name="set-up-projects-prices-and-project-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
 
 Som projektledare kan du skapa projekt som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)]. Använd sidan **Projektinställning** för att definiera hur du ska använda projektfunktioner.
 
@@ -22,7 +22,7 @@ Ange olika uppgifter för varje projekt:
 * Redovisningskonton för projekt
 * Projektbokföringsmallar (krävs)
 
-## Så här anger du allmän information för projekt
+## <a name="to-set-general-information-for-projects"></a>Så här anger du allmän information för projekt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektinställningar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Ange olika uppgifter för varje projekt:
 > [!NOTE]
 > Växlingsknappen **Tillämpa användningslänk som standard** på sidan **Projektinställningar** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Aktivera växlingsknappen så att den här inställningen tillämpas på alla nya projekt. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att aktivera eller inaktivera växlingsknappen **Använd förbrukningslänk** på sidan **Projektkort**.
 
-### Ange en standardplats för projektartiklar
+### <a name="specify-a-default-location-for-project-items"></a>Ange en standardplats för projektartiklar
 
 Du kan spara tid vid datainmatning genom att ange en standardplats och standardlagerplats för projekt på sidan **Projektkort**. När du skapar projektaktiviteter, projektplaneringsrader och projektjournalrader för projektet tilldelas standardplats och lagerplats automatiskt. Du kan emellertid ändra lagerställekod och lagerplats för aktiviteter och rader om det behövs.
 
@@ -44,11 +44,11 @@ Det finns några saker du bör känna till om hur du använder standardlagerstä
 * För projektplaneringsrader baseras **lagerställekoden** på det värde som väljs på projektplaneringsraden när du väljer en artikel. Om ingen lagerplatskod har definierats för projektaktiviteten markeras lagerplatsen från standardinnehållet för lagerplatsen. Du kan ändra båda värdena manuellt.
 * För projektjournalrader baseras **lagerställekoden** på det värde som väljs på projektjournalraden när du väljer en artikel. Om ingen lagerplatskod har definierats för projektaktiviteten markeras lagerplatsen från standardinnehållet för lagerplatsen. Du kan ändra båda värdena manuellt.
 
-### Fakturera flera kunder för projektaktiviteter 
+### <a name="invoice-multiple-customers-for-project-tasks"></a>Fakturera flera kunder för projektaktiviteter
 
 När projekt involverar flera kunder kan det vara svårt att fakturera rätt kunder för rätt uppgifter. [!INCLUDE [prod_short](includes/prod_short.md)] gör faktureringen mindre komplicerad genom att du kan ange faktureringskunder och försäljningskunder på varje projektaktivitetsrad, så att du automatiskt kan generera fakturor för rätt kunder. Mer information om hur du fakturerar flera kunder finns i [Fakturera en eller flera kunder för projektaktiviteter](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### Så här anger du projektförbrukningsspårning
+### <a name="to-set-up-project-usage-tracking"></a>Så här anger du projektförbrukningsspårning
 
 När du arbetar på ett projekt kan det hända att du vill veta hur förbrukningen spåras mot din plan. För att utforska användning kan du skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Med länken kan du hålla reda på kostnaderna och förstå hur mycket arbete som återstår. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
 
@@ -62,7 +62,7 @@ När du har ställt in användningsspårning genom att aktivera växlingsknappen
 > [!IMPORTANT]
 > Om du inte anger ett värde i fältet **Radtyp** på projektjournalraden eller inköpsraden skapas inga projektplaneringsrader när du bokför projekt journalen eller inköpsdokumentet.
 
-## För att skapa priser för resurser, artiklar och redovisningskonton för projekt
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>För att skapa priser för resurser, artiklar och redovisningskonton för projekt
 
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi nya processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ När du väljer en resurs, en artikel eller ett redovisningskonto för ett proje
 
 ---
 
-## Så här skapar du projektbokföringsmallar
+## <a name="to-set-up-project-posting-groups"></a>Så här skapar du projektbokföringsmallar
 
 En aspekt av att planera projektet är att bestämma vilka bokföringskonton som ska användas för projektvärdering. Om du vill kunna bokföra projekt måste du lägga upp bokföringskonton för varje projektbokföringsmall. En bokföringsmall representerar en länk mellan projektet och hur det ska hanteras i redovisningen. När du skapar ett projekt anger du en bokföringsmall och, som standard, kopplar du varje aktivitet som du skapar för projektet till den här bokföringsmallen. Men medan du skapar aktiviteter kan du välja att åsidosätta standarden och välja en annan, mer lämplig, bokföringsmall.  
 
@@ -118,7 +118,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. | Bokförda kostnader|
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. | Bokförd försäljning|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera projekthantering](projects-setup-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

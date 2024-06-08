@@ -9,14 +9,14 @@ ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beräkning av leveransdatum för försäljning
+# <a name="delivery-date-calculation-for-sales"></a>Beräkning av leveransdatum för försäljning
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] beräknas automatiskt tidigast möjliga leveransdatum för en artikel på en försäljningsorderrad.
 
 * Om kunden har begärt ett särskilt leveransdatum beräknas det datum då artiklarna måste vara tillgängliga för plockning så att varorna faktiskt ska kunna levereras på angiven dag.
 * Om kunden inte begär ett särskilt leveransdatum beräknas det datum då artiklarna kan levereras. Beräkningen börjar från det datum då artiklarna är tillgängliga för plockning.
 
-## Beräkna ett begärt leveransdatum
+## <a name="calculating-a-requested-delivery-date"></a>Beräkna ett begärt leveransdatum
 
 Om du anger ett begärt leveransdatum på försäljningsorderraden blir detta datum utgångspunkt för följande beräkningar.
 
@@ -28,14 +28,14 @@ Om artiklarna kan plockas på utleveransdatumet kan försäljningsprocessen fort
 > [!NOTE]
 > Om din process grundar sig på beräkning bakåt, till exempel om du använder det begärda leveransdatumet för att hämta planerat leveransdatum, rekommenderar vi att du använder datumformler med fast varaktighet, till exempel "5D" för fem dagar eller "1V" för en vecka. Datumformler utan fast varaktighet, till exempel "FV" för aktuell vecka eller CM för aktuell månad, kan resultera i felaktiga datumberäkningar. Mer information om datumformler finns i [Arbeta med datum och tider för kalender](ui-enter-date-ranges.md).
 
-## Beräkna tidigaste möjliga leveransdatum
+## <a name="calculating-the-earliest-possible-delivery-date"></a>Beräkna tidigaste möjliga leveransdatum
 
 Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, eller om det begärda leveransdatumet inte kan godtas, beräknas det tidigaste datum då artiklarna är tillgängliga. Detta datum anges automatiskt i fältet **Leveransdatum** på raden. Det datum då du planerar att utleverera artiklarna liksom det datum då varorna kan levereras till kunden beräknas med hjälp av följande formler.
 
 - *utleveransdatum + utgående lagerhanteringstid = planerat utleveransdatum*
 - *planerat utleveransdatum + leveranstid = planerat leveransdatum*
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
 [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  

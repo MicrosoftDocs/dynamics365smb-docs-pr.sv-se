@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lägga upp bästa praxis: Värderingsprincip
+# <a name="setup-best-practices-costing-method"></a>Lägga upp bästa praxis: Värderingsprincip
 
 **Värderingsprincipen** på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen.  
 
@@ -25,7 +25,7 @@ I tabellen nedan finns bästa metod för hur du lägger upp fältet **Värdering
 |Specifik|Använd i produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> Använda för artiklar, som lyder under regler.<br /><br /> Använd för artiklar med serienummer.|En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten.|
 |Standard|Använd där kostnadskontroll är kritisk.<br /><br /> Använd i upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> Använd när det finns funktion och personal som underhåller standarder.|En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden.|  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
