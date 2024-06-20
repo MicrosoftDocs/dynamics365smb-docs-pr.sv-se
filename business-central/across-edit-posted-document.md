@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="edit-posted-documents"></a>Redigera bokförda dokument
+# Redigera bokförda dokument
 
 Ibland måste du uppdatera ett bokfört dokument eftersom information som är relevant för dokumentet har ändrats. I ett bokfört försäljningsdokument kan exempel speditörens godsupplysningsnummer finnas. I ett bokfört inköpsdokument kan det finnas en text för betalningsreferens.
 
@@ -31,7 +31,7 @@ Följande ytterligare dokument kan redigeras i de angivna länderna eller region
 - RU: Bokförd försäljningskreditnota
 - IT: Bokförd överföringsutleverans, Bokförd tjänsteleverans
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Så här redigerar du en bokförd försäljningsutleverans
+## Så här redigerar du en bokförd försäljningsutleverans
 
 Här följer en beskrivning av hur du redigerar en bokförd försäljningsutleverans. Stegen är liknande för de övriga dokument som stöds.
 
@@ -42,7 +42,7 @@ Här följer en beskrivning av hur du redigerar en bokförd försäljningsutleve
 
 Den bokförda försäljningsutleveransen uppdateras.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Hitta relaterade transaktioner för dokument](ui-find-entries.md)  

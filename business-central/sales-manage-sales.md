@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>FÖRS
+# FÖRS
 
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
 
@@ -34,7 +34,7 @@ För alla försäljningsprocesser kan du integrera ett arbetsflöde för godkän
 
 Följande avsnitt beskriver en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
-## <a name="get-started-with-sales-capabilities"></a>Kom igång med försäljningsfunktioner
+## Kom igång med försäljningsfunktioner
 
 Innan du säljer måste du ange hur du vill hantera företagets försäljningsprocesser.
 
@@ -43,7 +43,7 @@ Innan du säljer måste du ange hur du vill hantera företagets försäljningspr
 | Skapa ett kundkort för varje kund som du säljer till.|[Registrera nya kunder](sales-how-register-new-customers.md) |
 | Ange hur du bedriver försäljning, till exempel priser och rabatter, kundpris- och rabattgrupper, säljare, leveransmetoder och handläggare. | [Konfigurera försäljning](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Försäljningsanalys
+## Försäljningsanalys
 
 I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om dina försäljningsdata.
 
@@ -53,7 +53,7 @@ I det här avsnittet beskrivs analysverktyg som du kan använda för att få ins
 | Utför ad hoc-analys av försäljningsdata direkt på listsidor och frågor. | [Skapa försäljningsanalysrapporter](bi-how-create-analysis-views-reports.md) |
 | Utforska inbyggda rapporter för försäljning | [Inbyggda försäljningsrapporter](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Offert för order till försäljningsfaktura
+## Offert för order till försäljningsfaktura
 
 I följande tabell beskrivs hur du använder enkla försäljningsprocesser.
 
@@ -74,7 +74,7 @@ Om du behöver mer komplicerade försäljningsprocesser visas i följande tabell
 |Fakturera kunder en gång för flera utleveranser genom att kombinera leveranser på en faktura.|[Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Du kan sälja monteringsartiklar som inte är tillgängliga genom att skapa en länkad monteringsorder. Monteringsordern kan leverera hela eller delar av kvantiteten på försäljningsordern.|[Sälja artiklar som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Plocka och utleverera du artiklar
+## Plocka och utleverera du artiklar
 
 I följande tabell beskrivs hur du plockar artiklar till en försäljningsorder och levererar dem till kunden.
 
@@ -86,7 +86,7 @@ I följande tabell beskrivs hur du plockar artiklar till en försäljningsorder 
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 | Läs om hur du spårar ett paket från en bokförd utleverans. | [Spåra paket](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Annullerade beställningar, återbetalningar och returer
+## Annullerade beställningar, återbetalningar och returer
 
 I följande tabell beskrivs hur du hanterar annullerade order, återbetalningar och returer av varor.
 
@@ -95,7 +95,7 @@ I följande tabell beskrivs hur du hanterar annullerade order, återbetalningar 
 | Utför en åtgärd på en obetald bokförd försäljningsfaktura som automatiskt skapar en kreditnota och antingen annullerar försäljningsfakturan eller skapar den på nytt, så att du kan göra korrigeringar. |[Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md) |
 | Skapa en försäljningskreditnota för att återföra en särskild bokförd försäljningsfaktura för att visa produkter som kunden returnerar och återbetalningsbelopp. |[Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Andra processer inom försäljning
+## Andra processer inom försäljning
 
 I följande tabell beskrivs hur du hanterar andra inköpsprocesser.
 
@@ -103,7 +103,7 @@ I följande tabell beskrivs hur du hanterar andra inköpsprocesser.
 | --- | --- |
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  

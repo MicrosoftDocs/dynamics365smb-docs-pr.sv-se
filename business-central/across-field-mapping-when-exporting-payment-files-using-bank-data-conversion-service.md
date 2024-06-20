@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
+# Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
 När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -62,7 +63,7 @@ I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md
 |Redovisningsjournalnamn|Journalnamn|Redovisningsjournalrad|Redovisningsjournalens batchnamn som används för betalningsraden|  
 |Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Namnet på sändarens bankkonto som begärs av AMC Banking 365 Fundamentals-tillägget och anges på bankens kontokort|  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Konfigurera databyte](across-set-up-data-exchange.md)  
 [Byta data elektroniskt](across-data-exchange.md)
 [Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   

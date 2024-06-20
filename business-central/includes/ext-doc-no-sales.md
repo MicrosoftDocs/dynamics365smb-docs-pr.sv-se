@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 I försäljningsdokument och journaler kan du ange ett dokumentnummer som refererar till kundens nummersystem. <!--You can enter a maximum of ten characters, both numbers and letters.--> Använd det här fältet för att registrera numret som kunden har tilldelat ordern, fakturan eller kreditnotan. Sedan kan du använda numret om du av någon anledning behöver söka efter den bokförda posten med hjälp av detta nummer.  

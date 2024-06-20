@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
+# Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
 
 Du kan skapa arbetsflöden som kopplar uppgifter i affärsprocesser som ska utföras av olika användare. Du kan inkludera systemuppgifter, till exempel automatisk bokföring, som ett steg i arbetsflöden som är före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
@@ -43,7 +43,7 @@ Ett arbetsflöde är uppdelat i tre delar:
 
 Alternativen för båda händelser och svar är systemdefinierade. Om du vill lägga till nya alternativ måste du utveckla ett tillägg.
 
-## <a name="to-create-a-workflow"></a>Skapa ett arbetsflöde
+## Skapa ett arbetsflöde
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflöde** visas.  
@@ -114,7 +114,7 @@ Alternativen för båda händelser och svar är systemdefinierade. Om du vill l�
 > [!TIP]  
 > Om du vill utforska relationer mellan tabeller som används i arbetsflöden väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **arbetsflöde – tabellrelationer**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Exempel på hur du skapar ett nytt arbetsflöde med hjälp av befintliga händelser
+## Exempel på hur du skapar ett nytt arbetsflöde med hjälp av befintliga händelser
 
 Följande exempel skapar ett arbetsflöde för att godkänna en ändring av namnet på en leverantör:
 
@@ -173,7 +173,7 @@ Följande illustrationer ger en översikt över resultatet av proceduren.
 
 Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantör och ändra namnet. Kontrollera att en begäran om godkännande har gjorts när du ändrar leverantörens namn.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  

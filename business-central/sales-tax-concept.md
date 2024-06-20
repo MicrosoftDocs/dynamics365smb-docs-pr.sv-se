@@ -9,9 +9,10 @@ ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Moms i standardversionen av Business Central
+# Moms i standardversionen av Business Central
 
 **Moms** är en skatt som gäller inköp av varor och tjänster för konsumenter och försäljning av varor och tjänster för företag. Moms bör helst gälla all slutlig konsumtion med få undantag. Undantag för slutkonsumtion beror på lokala myndigheter, men generellt sett bör transaktioner mellan företag undantas från moms.  
 
@@ -22,7 +23,7 @@ Vanligtvis gäller moms för försäljning av varor och tjänster och är en pro
 > [!IMPORTANT]
 > Även om moms är tillgänglig i standardversionen stöder Microsoft endast moms i USA och Kanada.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Rapportering av moms i USA](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Rapportera moms i Kanada](localfunctionality/canada/ca-sales-tax.md)  

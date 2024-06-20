@@ -6,9 +6,10 @@ ms.author: bholtorf
 ms.topic: conceptual
 ms.date: 12/12/2023
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="handling-missing-option-values"></a>Hantera alternativvärden som saknas
+# Hantera alternativvärden som saknas
 > [!NOTE]
 > I 2022 utgivningscykel 1 kan du skapa egna alternativmappningar. Mer information finns i [Anpassa alternativmappningar med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). De nya funktionerna kräver att administratören aktiverar **funktionsuppdatering: Mappa till alternativuppsättningar i Dataverse utan kod** på sidan **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -81,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alla [!INCLUDE[prod_short](includes/prod_short.md)]-uppräkningar ovan mappas till alternativuppsättningar i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="extending-option-sets-in-"></a>Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Skapa ett nytt AL-tillägg.
 
 2. Lägg till ett Enum-tillägg för de alternativ som du vill utöka. Kontrollera att du använder samma värde. 
@@ -103,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De första tio tecknen i de nya alternativvärdenas namn och rubriker måste vara unika. Exempel: två alternativ med namnet "Överför 20 arbetsdagar" och "Överför 20 kalenderdagar" orsakar ett fel eftersom båda har samma första tio tecken, "Överföring 2". Namnge dem, till exempel "TRF20 WD" och "TRF20 CD".
 
-## <a name="update--option-mapping"></a>Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Du kan nu återskapa mappningen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ och [!INCLUDE[prod_short](includes/prod_short.md)]-transaktioner.
 
 På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsvillkor** och väljer sedan åtgärden **Synkronisera ändrade transaktioner**. Sidan **Alternativmappning för Dataverse** uppdateras med ytterligare nedanstående transaktioner.
@@ -139,7 +140,7 @@ Tabellen **Betalningsvillkor** i [!INCLUDE[prod_short](includes/prod_short.md)] 
 | *NET60*      |                      |                           | 0.         | FALSKT                         |                   |
 | ***ÖVERFÖRING*** |                      |                           | 0.         | FALSKT                         |                   |
 
-## <a name="see-also"></a>Se även
+## Se även
 [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

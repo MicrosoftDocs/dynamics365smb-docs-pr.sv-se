@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 [!INCLUDE[prod_short](prod_short.md)]-användarna kan ibland stödja mer än en avdelning eller underorganisation inom en affärsenhet. Ett företag kan till exempel ha försäljningskontor i olika städer och länder/regioner och har därför skapat en separat affärsenhet för respektive kontor. De kontor som tillhör samma land/region upprättas som separata *företag* i en delad *miljö*. Andra kontor skapas som företag i olika miljöer eftersom de är geografiskt baserade i andra länder/regioner.
 

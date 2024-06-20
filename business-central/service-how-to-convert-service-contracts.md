@@ -8,9 +8,10 @@ ms.search.keywords: null
 ms.date: 12/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Omvandla servicekontrakt som innehåller momsbelopp
+# Omvandla servicekontrakt som innehåller momsbelopp
 
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I den här artikeln beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
 
@@ -22,7 +23,7 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 > [!NOTE]  
 > För det här exemplet måste du ändra arbetsdatum till 01.01.2017.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt
+## Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontraktshantering** och väljer sedan relaterad länk.  
 2. Välj **Servicekontrakt** under **Listor**.  
@@ -35,14 +36,14 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 > [!NOTE]  
 > Ändra inte den ej bokförda servicefakturan. Eftersom servicetransaktioner skapas när fakturan skapas, ändrar en ändring av den ej bokförda fakturan inte de redan skapade servicetransaktionerna. Dock skapas momstransaktionerna när fakturan bokförs. Detta gör att du kan ändra den allmänna produktbokföringsmallen och GSP-produktbokföringsmallen på den ej bokförda servicefakturan.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Så här skapar du en kreditnota för momsdifferens
+### Så här skapar du en kreditnota för momsdifferens 
  
 Nedan beskrivs hur du skapar en kreditnota som bara innehåller momsavvikelsen för den redan fakturerade perioden som börjar **01.07.2017**. I det här exemplet bokförs momsbeloppet endast i modulen för ekonomihantering, inte i modulen för tjänstehantering. Momstransaktionerna som är kopplade till servicetransaktionen kommer inte rättas.  
 
 1. Skapa ett nytt redovisningskonto för momsdifferensen. Det här kontot ska användas för direkt bokföring av momsrättningstransaktion.  
 2. Lägg till en ny rad i momsbokföringsinställningen.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Så här skapar du utgångsdatum på kontraktsrader
+## Så här skapar du utgångsdatum på kontraktsrader  
 
 Nedan beskrivs hur du skapar nya kontrakt genom att arbeta med kontaktsutgångsdatum på servicekontraktsrader.  
 
@@ -50,7 +51,7 @@ Nedan beskrivs hur du skapar nya kontrakt genom att arbeta med kontaktsutgångsd
 2. Välj åtgärden **Skapa kreditnota** för att automatiskt skapa en kreditnota för juli 2017 till december 2017.  
 3. Eftersom kontraktet har löpt ut, måste du skapa ett nytt kontrakt för perioden med den nya momssatsen för 1 juli 2017 till 31 december 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Så är skapar du en ny kreditnota
+### Så är skapar du en ny kreditnota  
 
 Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta förutbetalda kont.trans.**. Transaktioner som du inte vill korrigera från januari 2017 till juni 2017 kommer att tas bort.  
 
@@ -61,7 +62,7 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 5. Välj åtgärden **Hämta förutbetalda kont.trans**.  
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Arbeta med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ekonomi](finance.md)  

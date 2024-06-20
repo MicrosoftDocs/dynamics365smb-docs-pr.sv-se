@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Det kan hända att du ser andra användare i listan **Användare** än bara de från ditt eget företag. När en utsedd administratör från en återförsäljarpartner loggar in på en [!INCLUDE [prod_short](prod_short.md)]-miljö på uppdrag av sin kund, skapas han/hon automatiskt som en användare i [!INCLUDE [prod_short](prod_short.md)]. På så sätt loggas de åtgärder som utförs av en utsedd administratör i [!INCLUDE [prod_short](prod_short.md)], t.ex. publicering av dokument, och kopplas till dennes användar-ID.  
 

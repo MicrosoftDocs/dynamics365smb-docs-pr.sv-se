@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 02/21/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 > [!NOTE]
 > Om en [!INCLUDE [prod_short](prod_short.md)]-utvärderingsversion lämnas oanvänd i 45 dagar bedömer Microsoft utvärderingsversionen som förfallen och [!INCLUDE [prod_short](prod_short.md)]-klientorganisationen tas bort.

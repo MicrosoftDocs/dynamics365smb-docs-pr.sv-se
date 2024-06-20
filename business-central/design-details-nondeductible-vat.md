@@ -8,20 +8,21 @@ ms.search.keywords: null
 ms.date: 07/04/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-non-deductible-vat"></a>Designdetaljer: Icke-avdragsgill moms
+# Designdetaljer: Icke-avdragsgill moms
 
 Ej avdragsgill moms (VAT) är den moms som betalas av en inköpare, men det är inte avdragsgill från köparens egen momsskuld. Eftersom det kan vara svårt att veta var och hur en artikel används, måste du kontakta lokala skattemyndigheter i ditt land eller region för att avgöra om en viss procent andel av momsen är avdragsgill. Även när du vet att en viss procentandel av momsen inte är avdragsgill finns det olika modeller för att hantera icke avdragsgilla belopp då de är relaterade till **artiklar** och **anläggningstillgångar**.
 
-## <a name="prerequisites-for-using-non-deductible-vat"></a>Förutsättningar för att använda icke avdragsgill moms
+## Förutsättningar för att använda icke avdragsgill moms
 
 Följ de här stegen om du vill använda och bokföra icke avdragsgill moms.
 
 1. På sidan **momsinställning**, välj **Aktivera ej avdragsgill moms** för att aktivera funktionen.
 2. På sidan **Bokföringsinställningar för moms** väljer du vilka momsbokföringsmallar som kan använda icke avdragsgill moms.
 
-## <a name="examples"></a>Exempel
+## Exempel
 
 För följande exempel är icke avdragsgill moms aktiverad och följande inställningar slutförs:
 
@@ -38,7 +39,7 @@ För följande exempel är icke avdragsgill moms aktiverad och följande instäl
 
 Alla exempel använder artiklar och anläggningstillgångar där produktbokföringsmallar för moms är **NDVAT**.
 
-### <a name="items"></a>Artiklar
+### Artiklar
 
 En ny artikel har **NDVAT** angetts som produktbokföringsmallar för moms. I inköpsdokumentet **Antal** = **1** och **Inköpspris exkl. moms** = **1 000,00**.
 
@@ -53,19 +54,19 @@ Informationen visas i **värdetransaktionerna**.
 > [!NOTE]
 > Du kan aktivera fältet **Använd för artikelkostnad** på sidan **momsinställningar** .
 
-#### <a name="use-for-item-cost-isnt-enabled"></a>Använd för artikelkostnad har inte aktiverats
+#### Använd för artikelkostnad har inte aktiverats
 
 | Artikeltransaktionstyp | Transaktionstyp | Kost.belopp (faktiskt) | Antal i artikeltrans. |
 |---|---|---|---|
 | Inköp | Direkt kostnad | 1,000.00 | 1 |
 
-#### <a name="use-for-item-cost-is-enabled"></a>Använd för artikelkostnad har aktiverats
+#### Använd för artikelkostnad har aktiverats
 
 | Artikeltransaktionstyp | Transaktionstyp | Kost.belopp (faktiskt) | Antal i artikeltrans. |
 |---|---|---|---|
 | Inköp | Direkt kostnad | 1,250.00 | 1 |
 
-### <a name="fixed-assets"></a>Anläggningstillgångar
+### Anläggningstillgångar
 
 En ny anläggningstillgång har förvärvskostnadskontot inställt på att använda **NDVAT** produktbokföringsmallen med moms. I inköpsdokumentet **Antal** = **1** och **Inköpspris exkl. moms** = **1 000,00**.
 
@@ -80,20 +81,20 @@ Informationen visas i **anläggningstillgångstransaktionerna**.
 > [!NOTE]
 > Du kan aktivera fältet **Använd för kostnad för anläggningstillgång** på sidan **momsinställningar** .
 
-#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Använd för anläggningstillgångens kostnad är inte aktiverad
+#### Använd för anläggningstillgångens kostnad är inte aktiverad
 
 | Dokumenttyp | Anl. bokföringstyp | Momsbelopp | Momsbelopp |
 |---|---|---|---|
 | Fakturera | Anskaffningskostnad | 1,000.00 | 250.00 |
 
-#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Använd för anläggningstillgångens kostnad är aktiverad
+#### Använd för anläggningstillgångens kostnad är aktiverad
 
 | Dokumenttyp | Anl. bokföringstyp | Momsbelopp | Momsbelopp |
 |---|---|---|---|
 | Fakturera | Anskaffningskostnad | 1,000.00 | 250.00 |
 | Fakturera | Anskaffningskostnad | 250.00 | 0.00 |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera ej avdragsgill moms](finance-setup-nondeductible-vat.md)  
 [Ekonomi](finance.md)  

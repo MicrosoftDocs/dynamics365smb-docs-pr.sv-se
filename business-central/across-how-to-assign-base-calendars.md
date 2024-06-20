@@ -8,12 +8,13 @@ ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-base-calendars"></a>Skapa baskalendrar
+# Skapa baskalendrar
 
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
 
-## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender
+## Så här lägger du upp en baskalender
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Baskalender** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
@@ -35,7 +36,7 @@ När du gör en transaktion är fältet **Ej arbetsdag** markerat. Du kan välja
 >  En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar.
 Anger en datumformel för den tid det tar att fylla på artikeln. Den används för att beräkna fältet **Planerat inleveransdatum** om beräkningen är framåt och fältet **Orderdatum** om beräkningen är bakåt. Se [Ledtidsberäkning](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Ledtidsberäkning
+## Ledtidsberäkning
 
 En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar. De viktigaste två datumfält på inköpsorderrader beräknas därför på följande sätt under olika omständigheter.
 
@@ -52,7 +53,7 @@ En baskalender som definierats för leverantörer eller lagerställe inverkar p�
 
 Innehållet i fältet **Ledtidsberäkning** kopieras från antingen artikelkortet eller lagerställeenhetskortet om ledtiden har angetts för artikeln, eller sidan **Artikelns leverantörskatalog** om ledtiden definieras för leverantören.
 
-## <a name="to-customize-a-calendar"></a>Så här anpassar du en kalender
+## Så här anpassar du en kalender
 Huvuduppgiften när du anpassar en baskalender för företaget, eller någon av dess affärspartner, är att ange eventuella ändringar av status som arbetsdag eller ledig dag.
 
 I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan i en anpassad kalender för ett visst lagerställe kan alla lördagar i november och december fram till julhelgen visas som arbetsdagar.
@@ -85,7 +86,7 @@ Om du inte fyller i fältet **Speditörkod** på en orderrad används företaget
 > [!NOTE]  
 > Om du ändrar en baskalender som det finns anpassningsändringar av, uppdateras även alla befintliga, anpassade kalendrar automatiskt.
 
-## <a name="to-assign-a-base-calendar"></a>Så här tilldelar du en baskalender
+## Så här tilldelar du en baskalender  
 Följande procedur schemalägger exempelvis leveransdatum på försäljningsorderrader för en kund.
 
 Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerställen och speditörer på följande sätt:  
@@ -107,7 +108,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 > [!NOTE]  
 >  Innan du kan skapa några anpassade kalendertransaktioner måste du först tilldela företaget en baskalender.  
 
-## <a name="see-also"></a>Se även
+## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  

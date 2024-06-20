@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
+# Försäkra anläggningstillgångar
 
  **Använd sidan Försäkringskort** när du vill skapa ett försäkringsbrev som täcker en eller flera anläggningstillgångar. Du kan koppla en anläggningstillgång till ett försäkringsbrev eller flera anläggningstillgångar till ett försäkringsbrev.
 
@@ -26,7 +26,7 @@ Om växlingsknappen Automatisk försäkringsbokf **. på** sidan Anl.inställnin
 
 När du har kopplat en anläggningstillgång till ett försäkringsbrev **innehåller** fältet Försäkrad **på anläggningstillgångskortet Ja**. När du säljer anläggningstillgången stängs växlingsknappen av automatiskt.
 
-## <a name="to-create-or-modify-an-insurance-card"></a>Så här skapar eller ändrar du ett försäkringskort
+## Så här skapar eller ändrar du ett försäkringskort
 
 När du får information om ändringar av försäkringsbeloppet måste du ange den nya informationen på sidan **försäkringskort** så att försäkringsbrevet analyseras korrekt.  
 
@@ -34,7 +34,7 @@ När du får information om ändringar av försäkringsbeloppet måste du ange d
 2. Välj åtgärden **Ny** för att skapa ett nytt kort för en försäkringspolicy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternativt markerar du försäkringspolicym som du vill ändra och väljer sedan åtgärden **Redigera**.
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>För att koppla en anläggningstillgång till ett försäkringsbrev genom att bokföra från försäkringsjournalen
+## För att koppla en anläggningstillgång till ett försäkringsbrev genom att bokföra från försäkringsjournalen
 
 Du tilldelar en anläggningstillgång till ett försäkringsbrev genom att bokföra från försäkringstransaktionerna.  
 
@@ -48,7 +48,7 @@ Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manue
     > [!NOTE]  
     > Transaktionerna från en försäkringsjournal bokförs endast i försäkringstransaktionerna.  
 
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Om du vill uppdatera försäkringvärdet för en anläggningstillgång
+## Om du vill uppdatera försäkringvärdet för en anläggningstillgång
 
 Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera värdet för den anläggningstillgång som är försäkrad.  
 
@@ -63,19 +63,19 @@ Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera v�
 4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
 5. Öppna relevant försäkringsjournal, granska de skapade värdena och bokför dem i försäkringstransaktionerna.  
 
-## <a name="to-monitor-insurance-coverage"></a>Att bevaka försäkringsskydd
+## Att bevaka försäkringsskydd
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ger dedikerade rapporter och statistiksidor för användning vid analys av försäkringsbrev och om anläggningstillgångarna är över- eller underförsäkrade.  
 
-### <a name="overview-of-insurance-policies"></a>Översikt över försäkringar
+### Översikt över försäkringar
 
 Få en översikt över försäkringsbreven genom att skriva ut rapporten **Försäkringslista** rapport. Rapporten visar alla försäkringsbrev och de viktigaste fälten på försäkringskortet visas.  
 
-### <a name="insurance-coverage"></a>Försäkringsskydd
+### Försäkringsskydd
 
 Om du vill se vilka försäkringsbrev som täcker varje tillgång och till vilket belopp kan du förhandsgranska eller skriva ut rapporten **Försäkring med totalvärde**.  
 
-#### <a name="overunder-coverage"></a>Över-/undertäckning
+#### Över-/undertäckning
 
 Du kan kontrollera om anläggningstillgångar är över- eller underförsäkrade på följande sätt:  
 
@@ -84,18 +84,18 @@ Du kan kontrollera om anläggningstillgångar är över- eller underförsäkrade
 * Rapporten **Över/underförsäkringsskydd**.  
 * Rapporten **Försäkringsanalys**.  
 
-### <a name="uninsured-fixed-assets"></a>Oförsäkrade anläggningstillgångar
+### Oförsäkrade anläggningstillgångar
 
 Om du vill kontrollera om du har glömt att koppla en anläggningstillgång till ett försäkringsbrev kan du skriva ut eller förhandsgranska **rapporten Försäkring - oförsäkrade** anl. Den här rapporten visar anläggningstillgångar för vilka belopp inte har bokförts i försäkringstransaktionerna.  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>Så här visar du försäkringstransaktioner
+## Så här visar du försäkringstransaktioner
 
 Du kan visa de transaktioner som du har gjort i försäkringstransaktionerna.  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.  
 2. Välj aktuellt försäkringsbrev och klicka på åtgärden **Försäkringstransaktioner.**.  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Så här visar du det försäkrade totalvärdet för en anläggningstillgång:
+## Så här visar du det försäkrade totalvärdet för en anläggningstillgång:
 
 En matrissida visar de försäkringsvärden som registreras för varje försäkringsbrev för varje anläggningstillgång som härrör från bokförda försäkringsrelaterade belopp.  
 
@@ -105,7 +105,7 @@ En matrissida visar de försäkringsvärden som registreras för varje försäkr
 4. Välj åtgärden **Visa matris**.  
 5. Välj ett värde i matrisen för att visa de underliggande försäkringstransaktionerna.  
 
-## <a name="to-correct-insurance-coverage-entries"></a>Så här rättar du försäkringstransaktioner
+## Så här rättar du försäkringstransaktioner
 
 Om en anläggningstillgång har tilldelats fel försäkringsbrev kan du korrigera den genom att skapa två grupperingstransaktioner från försäkringsjournalen.  
 
@@ -116,7 +116,7 @@ Om en anläggningstillgång har tilldelats fel försäkringsbrev kan du korriger
 
 Anläggningstillgången tas bort från det felaktiga försäkringsbrevet på den andra raden. Tillgången kopplas till rätt försäkringsbrev på den första raden i journalen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

@@ -9,8 +9,9 @@ ms.search.forms: '5714, 5715'
 ms.date: 03/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="work-with-responsibility-centers"></a>Arbeta med ansvarsenheter
+# Arbeta med ansvarsenheter
 
 Med ansvarsenheterna kan användarna hantera administrativa enheter. En ansvarsenhet kan vara ett kostnadsställe, en vinstenhet, en investeringsenhet eller en annan typ av administrativ enhet som har definierats av företaget. Exempel på ansvarsenheter är ett försäljningskontor, en inköpsavdelning för flera lagerställen och en fabriks planeringskontor. Företagen kan till exempel ställa in användarspecifika vyer för försäljnings- och inköpsdokument som kan kopplas till en viss ansvarsenhet.  
 
@@ -18,7 +19,7 @@ Genom att använda funktionen för flera lagerställen och ansvarsenheter i kan 
 
 Om funktionen för flera lagerställen används kan företagen sköta lagerhanteringen för flera lagerställen i en enda databas. De två koncepten – lagerställena och lagerställeenheterna – är hörnstenar i den här underavdelningen. Den fysiska placeringen och artikelantalen hanteras på ett lagerställe. Konceptet är omfattande och kan därför inkludera lagerställen i form av anläggningar eller produktionsinrättningar, men också i form av distributionscenter, distributionslager, utställningslokaler och servicefordon. En lagerställeenhet definieras som en artikel på ett specifikt lagerställe och/eller som en variant. Företagen med flera lagerställen kan, om de använder lagerställeenheter, lägga till återanskaffningsinformation, adresser samt information om ekonomisk bokföring på lagerställenivå. Detta medför att de kan återanskaffa varianter av samma artikel för varje lagerställe och att de kan beställa artiklar för varje lagerställe utifrån återanskaffningsinformation som är specifik för lagerstället.  
 
-## <a name="to-set-up-a-responsibility-center"></a>Så här skapar du en ansvarsenhet
+## Så här skapar du en ansvarsenhet
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **ansvarsenheter** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -33,7 +34,7 @@ Den här koden används på alla inköps- försäljnings- och servicedokument om
 > [!NOTE]  
 > När du anger en ansvarsenhetskod i ett dokument, påverkas adressen, dimensionerna och priserna i dokumentet.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Så här tilldelar du ansvarsenheter till användare
+## Så här tilldelar du ansvarsenheter till användare
 
 Du kan definiera användare så att [!INCLUDE [prod_short](includes/prod_short.md)] endast får de dokument som är relevanta inom deras arbetsområden. Användare associeras vanligtvis med en ansvarsenhet och arbetar normalt sett endast med dokument som är knutna till särskilda moduler inom just den ansvarsenheten.  
 
@@ -48,7 +49,7 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 > [!NOTE]  
 > Användarna kan bara visa de bokförda dokument som har samband med användarens egen ansvarsenhet. De kan emellertid visa alla reskontratransaktioner och navigera till andra bokförda dokument från reskontratransaktionerna.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in lager](inventory-setup-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

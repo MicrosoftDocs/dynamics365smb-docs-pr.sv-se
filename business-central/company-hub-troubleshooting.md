@@ -9,16 +9,17 @@ ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="troubleshooting-your-company-hub"></a>Felsöka företagsnavet
+# Felsöka företagsnavet
 
 Lägga till företag på instrumentpanelen för företagsnavet är också lätt, men den här artikeln innehåller lösningar på problem som kan uppstå på vägen.  
 
-## <a name="check-errors"></a>Kontrollera fel
+## Kontrollera fel
 
 Använd åtgärden **Kontrollera fel** om du vill visa en lista över de senaste felen. Du kan visa ytterligare information om varje fel och rensa loggen genom att ta bort äldre poster.  
 
-## <a name="connection-failed"></a>Anslutning misslyckades
+## Anslutning misslyckades
 
 Det kan finnas en par olika orsaker till att du inte kan ansluta till ett företag, däribland följande:
 
@@ -32,13 +33,13 @@ Det kan finnas en par olika orsaker till att du inte kan ansluta till ett föret
 
   I [!INCLUDE [prod_short](includes/prod_short.md)] kan en organisation ha flera affärsenheter som kallas företag, och du kanske inte har tillgång till alla företag. Arbeta med administratören eller klienten för att se till att du har tillgång till företagen som du arbetar i.  
 
-## <a name="data-does-not-refresh"></a>Data uppdateras inte
+## Data uppdateras inte
 
 När du lägger till ett företag eller begär en uppdatering av data hämtar [!INCLUDE [prod_short](includes/prod_short.md)] data. Men du måste uppdatera sidan, till exempel om du väljer åtgärden **Läs in alla företag igen**, uppdatera webbläsarsidan, navigera från instrumentpanelen och sedan tillbaka igen, eller liknande.  
 
 Om du har lagt till ett företag men det inte visas i listan kan du också använda åtgärden **Läs in alla företag igen** för att uppdatera listan.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Lägg till företag till företagsnavet](company-hub-add-company.md)  

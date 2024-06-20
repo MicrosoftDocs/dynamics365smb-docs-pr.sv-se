@@ -8,8 +8,9 @@ ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="save-and-personalize-list-views"></a>Spara och anpassa listvyer
+# Spara och anpassa listvyer
 
 När du har angett ett filter för en lista och du vill behålla filtret för senare kan du spara det som en vy. Mer information om filtrerings listor finns i [ange filter för listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -17,7 +18,7 @@ Om det finns vyer visas gruppen **vyer** högst upp i filterrutan. Vyer är vari
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view"></a>För att spara en vy
+## För att spara en vy
 
 1. Öppna vilken listsida som helst.
 2. Välj ![ikonen filterruta.](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på <kbd>Shift</kbd>+<kbd>F3</kbd> för att öppna filterrutan.
@@ -33,16 +34,16 @@ Om du inte ger den ett namn får den namnet **Alla (kopia)**.
 > [!TIP]
 > Ser du inte ikonen ![Spara vy](media/save_view_icon.png "Spara vy")? Mer information finns i [Varför har jag inte någon Spara-ikon?](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view"></a>Så här byter du namn på eller tar bort en vy
+## Så här byter du namn på eller tar bort en vy
 
 1. Välj den för den vy som för närvarande visar listan ![Visa fler alternativ.](media/show-more-options-icon.png "Visa fler alternativ") ikon för att se vilka alternativ som är tillgängliga.
 2. Välj antingen **Byt namn** eller **Ta bort**.
 
-## <a name="managing-many-views"></a>Hantera många vyer
+## Hantera många vyer
 
 När antalet vyer på en sida växer kan du behöva ytterligare kontroll över hur vyer visas i filterrutan. Med banderollen **Anpassa** kan du dölja oönskade vyer eller ändra ordning på vyerna så att du får den perfekta ordningen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Vanliga frågor och svar om listvyer](ui-views-faq.yml)  
 [Anpassa din arbetsyta](ui-personalization-user.md)    

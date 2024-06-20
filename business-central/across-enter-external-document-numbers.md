@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="enter-external-document-numbers"></a>Ange externa dokumentnummer
+# Ange externa dokumentnummer
 
 Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäljnings- och inköpsorder, fakturor och kreditnotor. Du kan använda numren för att söka efter bokförda försäljnings- och inköpsrader senare.  
 
@@ -18,7 +19,7 @@ Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäl
 
 I proceduren nedan beskrivs hur du anger ett externt dokumentnummer på en försäljningsorder, men liknande steg gäller för andra försäljnings- och inköpsdokument.
 
-## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Så här anger du externa dokumentnummer i en försäljningsorder
+## Så här anger du externa dokumentnummer i en försäljningsorder  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj relevant försäljningsorder och välj sedan åtgärden **Redigera**.  
@@ -27,7 +28,7 @@ I proceduren nedan beskrivs hur du anger ett externt dokumentnummer på en förs
     I inköpsdokument är det relevanta fältet **Leverantörens fakturanr**.
 4. Fyll i övriga fält enligt behov.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Externa dokumentnummer på inköpsdokument](purchasing-ext-doc-no.md)  
 [Externa dokumentnummer på inköpsdokument](sales-how-invoice-sales.md#external-document-numbers)  

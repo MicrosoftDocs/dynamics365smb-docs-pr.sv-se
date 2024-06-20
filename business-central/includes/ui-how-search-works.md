@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 När du har angett nyckelorden startar [!INCLUDE [prod_short](prod_short.md)] sökningen i bakgrunden och går igenom en tabell i taget. Sökresultaten börjar visas när du har avslutat varje tabell. Om du anger fler än ett nyckelord kommer resultatet att inkludera endast poster som innehåller alla ord i något av de markerade fälten.

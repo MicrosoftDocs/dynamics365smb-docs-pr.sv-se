@@ -3,7 +3,7 @@ title: Konfigurera företagskonsolidering
 description: Lär dig hur du kan konfigurera hur data från olika företag i Business Central rapporteras till ett konsolideringsföretag.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/14/2024
 ms.custom: bap-template
@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-company-consolidation"></a>Konfigurera företagskonsolidering
+# Konfigurera företagskonsolidering
 
 Innan du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag måste du förbereda kontoplaner och konsolideringsföretag.  
 
@@ -23,7 +23,7 @@ Det finns två sätt att ställa in konsolideringen beroende på hur komplicerat
   * I varje affärsenhet anger du vilka redovisningskonton som ska inkluderas i konsolideringen, samt anger omräkningsmetoden för respetive konto.
   * I det konsoliderade företaget skapar du ett affärsenhetskort för varje företag som ska inkluderas i konsolideringen. Affärsenhetskortet innehåller information, till exempel datumen för affärsenhetens räkenskapsår och procentandelen av varje konto som ska inkluderas i konsolideringen.
 
-## <a name="simple-consolidation-setup"></a>Enkel konsolidering
+## Enkel konsolidering
 
 Om din konsolidering är enkel, till exempel eftersom du helt äger de affärsenheter som ska konsolideras, kommer guiden **Företagskonsolidering** att hjälpa dig med följande steg:
 
@@ -35,11 +35,11 @@ Så här använder du den assisterade konfigurationsguiden:
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk.
 2. Välj **Behandla konsolideringar** och slutför sedan varje steg i den assisterade konfigurationsguiden för företagskonsolidering.
 
-## <a name="advanced-consolidation-setup"></a>Avancerad konsolidering
+## Avancerad konsolidering
 
 Om du behöver mer avancerade inställningar för en konsolidering kan du konfigurera konsolideringen manuellt. Om du till exempel har kunder som du delvis äger, eller om du har företag som du inte vill inkludera.  
 
-### <a name="set-up-the-consolidated-company"></a>Ange det konsoliderade företaget
+### Ange det konsoliderade företaget
 
 Först måste du konfigurera det konsoliderade företaget. Du kan lägga upp det konsoliderade företaget i en databas på samma sätt som du lägger upp andra företag. Mer information om hur du konfigurerar ett företag finns i [Göra sig redo att göra affärer](ui-get-ready-business.md).  
 
@@ -63,7 +63,7 @@ I följande lista visas de viktigaste aspekterna av det konsoliderade företaget
 
     Mer information finns i avsnittet [Inkludera eller exkludera dimensioner](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Lägg till affärsenheter
+### <a name="busunit"></a>Lägg till affärsenheter
 
 I det konsoliderade företaget konfigurerar du varje företag som du vill konsolidera data från som en affärsenhet. Innan du kör en konsolidering och genererar konsolideringsrapporten är det en bra idé att verifiera de ekonomiska uppgifterna i respektive affärsenhet.
 
@@ -75,7 +75,7 @@ En stor del av att skapa affärsenheten är att ange hur enheten ska dela sina e
 > [!NOTE]
 > Med API-alternativet kan du också dela redovisningstransaktioner från andra [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer. Om du vill använda API-alternativet måste användaren som konfigurerar konsolideringen ha behörighet att komma åt redovisningstransaktioner. Behörighetsuppsättningarna D365 Basic och D365 Read ger till exempel åtkomst.
 
-#### <a name="set-up-business-unit-currencies"></a>Konfigurera valutor för affärsenhet
+#### Konfigurera valutor för affärsenhet
 
 När du kör konsolidering för affärsenheter som använder en utländsk valuta måste du vara särskilt uppmärksam på de valutakurser som används i olika delar av processen och ännu mer när du kör konsolideringen igen. Det gör du genom att använda sidan **Ställ in valutor för affärsenhet** för att enkelt hålla reda på kurserna.
 
@@ -86,7 +86,7 @@ Du startar batch-jobbet **Kör konsolidering** från listsidan **Affärsenheter*
 > [!NOTE]
 > Sidorna för valutakursinställning för genomsnittskurs, stängningskurs och senaste stängningskurs som för närvarande finns på kortet **affärsenhet** kommer att bli inaktuella i en framtida version. Du kan emellertid fortfarande behålla dessa priser om du har affärsenheter som du importerar via filer.
 
-#### <a name="create-a-business-unit"></a>Skapa en affärsenhet
+#### Skapa en affärsenhet
 
 1. Logga in på det konsoliderade företaget.
 2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
@@ -102,7 +102,7 @@ Du startar batch-jobbet **Kör konsolidering** från listsidan **Affärsenheter*
         Om du vill hämta slutpunkts-URL:en öppnar du sidan **Affärsenhetskort** i företagets [!INCLUDE [prod_short](includes/prod_short.md)] och väljer åtgärden **Inställningar**. 
    * Om du vill exportera en XML-fil och dela den manuellt väljer du **Filformat**.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Förbereda redovisningskonton för konsolidering
+### <a name="glacc"></a>Förbereda redovisningskonton för konsolidering
 
 Kontoplanen för ett företag som ska konsolideras måste innehålla konton för konsolidering. För respektive redovisningskonto i respektive företag måste du ange vilket redovisningskonto i det konsoliderade företaget som saldot ska överföras till. Med den här mappningen kan du konsolidera företag som har olika kontoplaner.
 
@@ -117,7 +117,7 @@ Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget m
 > [!TIP]
 > Det kan finnas scenarier där du inte vill inkludera ett konto i en konsolidering. Till exempel om du vill att konsolideringsföretaget endast ska återspegla balansräkningarna från dotterbolagen. Om du vill utesluta ett konto från konsolidering aktiverar du växlingsknappen **Exkludera från konsolidering** för kontot.
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Ange valutakurs för konsolidering
+### <a name="exchrates"></a>Ange valutakurs för konsolidering
 
 Om en affärsenhet har en annan valuta än det konsoliderade företaget, måste du ange valutakurser för metoder för varje konto innan du konsoliderar. För varje konto bestämmer innehållet i **Konsoliderad omräkningsmetod** valutakursen. I det konsoliderade företaget, på varje affärsenhetskort, i fältet **Valutakurstabell**, anger du om konsolideringen ska använda valutakurser från affärsenheten eller det konsoliderade företaget. Om du använder valutakurser från det konsoliderade företaget kan du ändra valutakurserna för en affärsenhet. För affärsenheter, om fältet **Valutakurstabell** innehåller **Lokal** kan du ändra valutakursen från affärsenhetskortet. Valutakurserna kopieras från tabellen **Valutakurs**, men du kan ändra dem före konsolideringen.
 
@@ -138,7 +138,7 @@ Om du vill ange valutakurs för en affärsenhet gör du följande:
 2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Valutakurser**.  
 3. På sidan **Ställ in valutor för affärsenhet** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Inkludera eller exkludera dimensioner
+### <a name="dim"></a>Inkludera eller exkludera dimensioner
 
 Du kan konsolidera dimensionsinformation såväl som redovisningskonton.
 
@@ -148,15 +148,15 @@ Du kan konsolidera dimensionsinformation såväl som redovisningskonton.
   * För att konsolidera dimensionsvärdekoden i affärsenheten med en annan dimensionsvärdekod i det konsoliderade företaget fyller du i fältet **Konsolideringskod** för dimensionerna.  
 * Lägg till dimensioner på relevanta redovisningskonton.
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Exkludera ett företag från konsolidering
+### <a name="exclude"></a>Exkludera ett företag från konsolidering
 
 Om du inte vill inkludera en affärsenhet i konsolideringen kan du exkludera den. Om du vill göra det, öppnar du affärsenhetskortet och avmarkerar kryssrutan **Konsolidera**.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Inkludera ett delvis ägt företag i konsolideringen
+### <a name="include"></a>Inkludera ett delvis ägt företag i konsolideringen
 
 Om du bara äger en del av ett företag kan inkludera en procentandel av varje transaktion som motsvarar den procentandel som du äger. Om du äger 70 % av företaget kommer konsolideringen till exempel att innehålla 70 SEK av en faktura på 100 SEK. Om du vill ange hur stor procentandel av företaget du äger går du till affärsenhetskortet och anger procentsatsen i fältet **Konsolideringsgrad %**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  

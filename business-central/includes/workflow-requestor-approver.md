@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 När du lägger upp användare för godkännande arbetsflöden är det viktigt att samma användare inte har en beställare och en godkännare i en arbetsflödesanvändargrupp. När en användare är både en begärande och en godkännare fungerar godkännanden för dem enligt följande:

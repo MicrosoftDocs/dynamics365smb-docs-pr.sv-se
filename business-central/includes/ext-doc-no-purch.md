@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 I inköpsdokument och journaler kan du ange ett dokumentnummer som refererar till leverantörens nummersystem. Använd det här fältet för att registrera numret som leverantören har tilldelat ordern, fakturan eller kreditnotan. Sedan kan du använda numret om du av någon anledning behöver söka efter den bokförda posten med hjälp av detta nummer.

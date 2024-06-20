@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="making-payments"></a>Göra betalningar
+# Göra betalningar
 
 När du gör betalningar till leverantörer eller kunder eller återbetalningar till anställda bokför du relaterade betalningsraderna på sidan **Betalningsjournal**. Betalningsjournalen är en redovisningsjournal som är optimerad för betalningar och innehåller flera kraftfulla funktioner, till exempel funktionen **Betalningsförslag för lev.** som söker efter leverantörsbetalningar som har förfallit, och rapporten **Leverantör – Ålderssammandrag** som visar en översikt över förfallna leverantörsbetalningar.  
 
@@ -34,7 +34,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Betala leverantören kontant eller med check och bokför betalningen när du bokför fakturan. |[Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Se till att banken bara godkänner validerade checkar och belopp genom att skicka en fil som innehåller information om leverantör, check ch betalning. |[Exportera en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

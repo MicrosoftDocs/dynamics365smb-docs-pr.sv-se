@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/31/2023
 ms.author: andreipa
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Om du vill använda demonstrationsdata för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>

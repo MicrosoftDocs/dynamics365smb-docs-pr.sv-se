@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 När du anger datum och tid som datum och tid som kombineras till ett enda fält, måste du ange ett blanksteg mellan datumet och tiden. Datumdelen kan bara innehålla blanksteg i form av officiella datumavgränsare för din regionsinställning. Tiden kan innehålla blanksteg runt AM/PM-indikatorn i relevanta regionala inställningar.
 

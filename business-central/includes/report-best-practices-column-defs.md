@@ -4,9 +4,10 @@ ms.topic: include
 ms.date: 04/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-## <a name="best-practices-for-working-with-column-definitions"></a>Metodtips för att arbeta med kolumndefinitioner
+## Metodtips för att arbeta med kolumndefinitioner
 
 Kolumndefinitioner versionshanteras inte. När du ändrar en kolumndefinition ersätts den gamla versionen när ändringen sparas i databasen. Följande lista innehåller några metodtips för hur du arbetar med kolumndefinitioner.
 

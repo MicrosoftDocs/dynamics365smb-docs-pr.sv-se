@@ -8,15 +8,16 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
+# Planera med och utan lagerställen.
 
 Innan du börjar använda planeringsmotorn bör du bestämma dig för om du ska använda platser eller inte. Det finns två huvudsakliga enkla sätt:
 
 * behovsraderna alltid har lagerställekoder och systemet helt och hållet använder lagerställeenheter, inklusive den relevanta lagerställekonfigurationen. Lära dig mer på [behov vid lagerställe](#demand-at-location).  
 * behovsraderna förses aldrig med lagerställekoder och systemet använder artikelkortet. Se scenariot [behov på "tomt lagerställe"](#demand-at-blank-location) nedan.
 
-## <a name="demand-at-location"></a>Behov vid lagerställe
+## Behov vid lagerställe  
 
 När planeringssystemet identifierar behov vid ett lagerställe (en rad med en lagerställekod) reagerar det på olika sätt beroende på 2 viktiga konfigurationsvärden.  
 
@@ -52,7 +53,7 @@ Se variationerna i [scenarierna nedan](#scenarios).
 >
 > Du kan också definiera detta för en viss lagerställeenhet genom att välja en annan lagerställekod i fältet **Komponenter på lagerställe** på lagerställeenhetskortet. Observera dock att detta sällan har någon betydelse eftersom planeringslogiken kan komma att förvridas när du planerar för komponenten Lagerställeenhet.
 
-## <a name="demand-at-blank-location"></a>Efterfrågan vid "tomt lagerställe"
+## Efterfrågan vid "tomt lagerställe"
 
 I allmänhet planeras artikeln enligt planerings parametrarna på artikelkortet när ett behov identifieras på en tom plats (en rad utan lagerställekod) i planeringssystemet.
 
@@ -62,75 +63,75 @@ Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt f
 * En lagerställeenhet finns för den planerade artikeln.
 * Fältet **Lagerställe ska finnas** är markerat.
 
-## <a name="scenarios"></a>Scenarierna
+## Scenarierna
 
 Se variationerna i inställningsscenarierna nedan.
 
-### <a name="setup-1"></a>Konfiguration 1
+### Konfiguration 1
 
 * Lagerställe ska finnas = *Ja*  
 * Lagerställeenheten är inställd på *VÄST*  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case-11-demand-is-at-west-location"></a>Fall 1.1: Behov finns vid lagerställe *VÄST*
+#### Fall 1.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras enligt planeringsparametrarna på kortet för lagerställeenheten (inklusive möjlig överföring).
 
-#### <a name="case-12-demand-is-at-east-location"></a>Fall 1.2: Behov finns vid lagerställe *ÖST*
+#### Fall 1.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
-#### <a name="case-13-demand-is-at-main-location"></a>Ärende 1.3: Behov finns vid lagerställe *HUVUD*
+#### Ärende 1.3: Behov finns vid lagerställe *HUVUD*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case-14-demand-is-at-blank-location"></a>Fall 1.4: Behov finns vid lagerställe *TOM*
+#### Fall 1.4: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### <a name="setup-2"></a>Konfiguration 2
+### Konfiguration 2
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case-21-demand-is-at-west-location"></a>Fall 2.1: Behov finns vid lagerställe *VÄST*
+#### Fall 2.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case-22-demand-is-at-east-location"></a>Fall 2.2: Behov finns vid lagerställe *ÖST*
+#### Fall 2.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-### <a name="setup-3"></a>Konfiguration 3
+### Konfiguration 3
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case-31-demand-is-at-west-location"></a>Fall 3.1: Behov finns vid lagerställe *VÄST*
+#### Fall 3.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case-32-demand-is-at-east-location"></a>Fall 3.2: Behov finns vid lagerställe *ÖST*
+#### Fall 3.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-#### <a name="case-33-demand-is-at-blank-location"></a>Fall 3.3: Behov finns vid lagerställe *TOM*
+#### Fall 3.3: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### <a name="setup-4"></a>Konfiguration 4
+### Konfiguration 4
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komp. vid lagerställe = *TOM*  
 
-#### <a name="case-41-demand-is-at-east-location"></a>Fall 4.1: Behov finns vid lagerställe *ÖST*
+#### Fall 4.1: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case-42-demand-is-at-blank-location"></a>Fall 4.2: Behov finns vid lagerställe *TOM*
+#### Fall 4.2: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
@@ -138,7 +139,7 @@ Som du ser i det sista scenariet, går det bara att korrigera resultat från en 
 
 Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Planerad](production-planning.md)  
 [Konfigurera Produktion](production-configure-production-processes.md)  

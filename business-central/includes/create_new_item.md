@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 22.](../media/ui-search/search_small.png "Sök förstoringsglas") anger du **Artiklar** och väljer sedan relaterad länk.  

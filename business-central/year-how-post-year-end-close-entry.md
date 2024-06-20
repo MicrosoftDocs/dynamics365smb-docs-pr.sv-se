@@ -8,15 +8,16 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Bokför du årsslutstransaktionen
+# Bokför du årsslutstransaktionen
 
 När du har använt batch-jobbet **Avslut av resultatkonton** för att generera transaktioner eller bokslutsposter för årsslut, måste du öppna den journal du har angett i batch-jobbet och sedan granska och bokföra transaktionerna.  
 
 > [!TIP]
 > Beroende på organisationens arbetsprocesser kan du välja att avsluta eller inte avsluta bokföringsperioder och räkenskapsår i [!INCLUDE [prod_short](includes/prod_short.md)]. Följande procedur förutsätter att du har avslutat räkenskapsåret med hjälp av alternativet *Bokföringsperioder*, genererat en årsbokslutstransaktion med hjälp av batchjobbet **Avsluta resultaträkning** och är nu redo att bokföra årsbokslutstransaktionen tillsammans med kontoposter för motbokskapital. Organisationen kan välja att arbeta annorlunda, till exempel bokföra årsbokslutstransaktionen som en del av räkenskapsåret.
 
-## <a name="to-post-the-year-end-closing-entry"></a>Så här bokför du årsslutstransaktionen
+## Så här bokför du årsslutstransaktionen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournal** och väljer sedan relaterad länk.
 2. På sidan **Redovisningsjournal** i fältet **Batch-namn** väljer du den batch som innehåller årsavslutstransaktionerna.
@@ -26,7 +27,7 @@ När du har använt batch-jobbet **Avslut av resultatkonton** för att generera 
 > [!NOTE]  
 > Om ett fel påträffas visas ett felmeddelande. Om bokföringen utförs tas de bokförda transaktionerna bort från journalen. Efter bokföringen bokförs en transaktion på varje resultatkonto så att saldot blir noll och årets resultat överförs till balansräkningen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta bokföringsperioder](year-close-account-periods.md)  
 [Avsluta böcker](year-close-books.md)  

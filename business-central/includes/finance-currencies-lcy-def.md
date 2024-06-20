@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Om ditt företag är verksamt i mer än ett land eller en region är det förmodligen viktigt att du kan göra affärer i mer än en valuta. Du definierar din lokala valuta (BVA) på sidan **Redovisningsinställningar**. Därefter representeras din lokala valuta som tom valuta i dokument och transaktioner. När fältet **Valuta** är tomt är valutan BVA.
 

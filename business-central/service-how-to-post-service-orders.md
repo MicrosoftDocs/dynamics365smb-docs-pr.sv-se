@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="post-service-orders-and-credit-memos"></a>Bokföra serviceorder och kreditnotor
+# Bokföra serviceorder och kreditnotor
 När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.  
 
 Om du har ett stort antal serviceorder kan spara du tid genom att använda ett batch-jobb för att bokföra dem samtidigt. Du kan köra batch-jobbet från en serviceorder.
@@ -17,7 +18,7 @@ Om du har ett stort antal serviceorder kan spara du tid genom att använda ett b
 > [!Tip]
 > Innan du bokför ett servicedokument kan det vara praktiskt att använda åtgärden **Testrapport** om du vill kontrollera om några fel eller någon bristfällig information. Om det finns fel, måste du korrigera det. Du kan sedan skriva ut en ny testrapport för att verifiera åtgärdningen och bokföra dokumentet.
 
-## <a name="to-post-a-service-order"></a>Så här bokför du serviceorder
+## Så här bokför du serviceorder    
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. På sidan **serviceordern** väljer du något av följande.  
@@ -42,13 +43,13 @@ Du kan bokföra förbrukningen endast om raden innehåller ett antal som inte ha
 
 När ordern bokförs skapas motsvarande transaktioner och bokförda dokument automatiskt. Dessutom uppdateras alla relevanta fält i serviceorderdokumentet.  
 
-## <a name="to-batch-post-service-orders"></a>Så här batch-bokför du serviceorder
+## Så här batch-bokför du serviceorder
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Bokför batch**.  
 3.  Du kan skapa ett filter för att välja ut vissa ordernummer eller intervaller av ordernummer för det batch-jobb som ska köras.  
 4.  Välj **OK** när du vill starta batchjobbet.  
 
-## <a name="to-post-a-service-credit-memo"></a>Så här bokför du servicekreditnotor
+## Så här bokför du servicekreditnotor  
 När du har skapat en servicekreditnota och fyllt i den, kan du bokföra kreditnotan. Om fel eller saknad information upptäcks i kreditnotan under bokföringen avbryts processen och ett felmeddelande visas.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Servicekreditnotor** och väljer sedan relaterad länk.  
@@ -61,7 +62,7 @@ När du har skapat en servicekreditnota och fyllt i den, kan du bokföra kreditn
 > [!NOTE]  
 >  Det är viktigt att all nödvändig information har angetts i kreditnotorna innan du batch-bokför dem. Annars kan det hända att de inte bokförs. När batch-bokföringen är klar visas ett meddelande som anger hur många servicekreditnotor som har bokförts.  
 
-## <a name="to-post-consumption-from-a-service-order"></a>Så här bokför du förbrukning från en serviceorder
+## Så här bokför du förbrukning från en serviceorder  
 Nedan beskrivs hur du bokför artiklar, resurstimmar och/eller kostnader som har använts för en specifik serviceoperation som du inte debiterar kunden för. Du kan bokföra förbrukade artiklar, timmar och/eller kostnader för en bokförd leverans som inte innehåller några bokförda fakturor eller bokförd förbrukning.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
@@ -76,7 +77,7 @@ Nedan beskrivs hur du bokför artiklar, resurstimmar och/eller kostnader som har
 
 Nu bokförs servicen som delvis eller helt förbrukad, beroende på värdet i fältet **Ant. att förbruka**. Motsvarande transaktioner skapas också. Dessutom uppdateras alla tidigare bokförda serviceleveransdokument kronologiskt med de förbrukade antalen. Alla relevanta antal uppdateras på serviceraden/-raderna på ordern.  
 
-## <a name="to-post-shipments-from-service-orders"></a>Så här bokför du utleveranser från serviceorder
+## Så här bokför du utleveranser från serviceorder  
 När du har angett detaljerad information för en service kan du justera och bokföra antalen artiklar som använts, tidsåtgång och uppkomna kostnader. Detta innebär att nödvändiga ändringar utförs via [!INCLUDE[prod_short](includes/prod_short.md)] så att du kan se det nya läget i lagret och aktuell status av behandlingen av den specifika ordern.  
 
 I följande procedur beskrivs hur du bokför leveransen av serviceradartiklar på lagerställen som inte kräver lagerhantering.  
@@ -95,7 +96,7 @@ Om lagerstället kräver distributionslagerhantering sker leverans och flytt av 
 
 Om du vill veta mer om leverans av serviceradartiklar i avancerade distributionslagerfunktioner går du till plocka artiklar för distributionslagerutleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-## <a name="to-undo-posted-consumption"></a>Så här ångrar du bokförd förbrukning
+## Så här ångrar du bokförd förbrukning  
 Du kan ångra förbrukning på en serviceorder. Till exempel om den bokförs av misstag.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda serviceleveranser** och väljer sedan relaterad länk.  
@@ -111,7 +112,7 @@ Du kan ångra förbrukning på en serviceorder. Till exempel om den bokförs av 
 >    * Tjänsteordern har stängts.  
 >    * Den har bokförts i modulen projekt, så att det finns projekttransaktioner som är kopplade till artikeln.  
 
-## <a name="to-post-service-lines"></a>Så här bokför du servicerader
+## Så här bokför du servicerader  
 Om du behöver arbeta med en serviceorder under en längre period utan att bokföra den kanske du behöver bokföra några av de servicerader som är kopplade till ordern för att t. ex. hålla lagret uppdaterat. Du kan då bokföra genom att ange de relevanta antalen på den/de rad(-er) som ska bokföras. Du kan välja att bokföra raderna var för sig eller välja att bokföra flera rader åt gången.  
 
 Nedan beskrivs hur du bokför leveransen direkt från en serviceorder i lagerställen utan lagerhantering. Om lagerstället är inställt på lagerhantering görs leveransbokföringen i ett annat distributionslagerdokument, beroende på inställningen av lagerställe.
@@ -121,7 +122,7 @@ Nedan beskrivs hur du bokför leveransen direkt från en serviceorder i lagerst�
 4. På de rader som du vill bokföra fyller du i fälten **Ant. att utleverera**, **Ant. att fakturera** och/eller **Ant. att förbruka**, beroende på hur du ska bokföra raden/raderna.  
 5. Välj åtgärden **Bokföra**.
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Bokföra tjänstehantering](service-service-posting.md)  
 [Skapa en tjänsteorder](service-how-to-create-service-orders.md)  
 

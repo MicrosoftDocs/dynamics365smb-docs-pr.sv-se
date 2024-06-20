@@ -3,7 +3,7 @@ title: Omvärdera saldon på redovisningskonto
 description: Lära dig hur du omvärderar redovisningskontosaldon innan du upprättar dina finansiella rapporter.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/14/2024
 ms.custom: bap-template
@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Omvärdera saldon på redovisningskonto
+# Omvärdera saldon på redovisningskonto
 
 Om du använder redovisningskonton för att registrera balansposter i utländsk valuta, bör du omvärdera kontosaldona innan du upprättar finansiella rapporter. Valutakurser ändras ofta och omvärdering hjälper till att göra dina finansiella rapporter mer exakta.
 
-## <a name="set-up-revaluations"></a>Ställ in omvärderingar
+## Ställ in omvärderingar
 
 Du skapar varje konto som du vill inkludera i omvärderingar på sidan **Redovisningskontokort**. Du kan välja om omvärderingsjusteringar ska bokföras på konton för realiserade eller orealiserade vinster/förluster. Bokföring av vinster och förluster under en valutakursjustering följer den normala bokföringsrutinen. Du kan till exempel göra det för varje inställning på sidan **Valutor**. Mer information om valutakursjusteringar finns i [Uppdatera valutakurser](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ För att minimera felen kan du i fältet **Bokföring i källvaluta** ställa in
 * Samma valuta
 * Lokal valuta
 
-## <a name="run-a-revaluation"></a>Kör en omvärdering
+## Kör en omvärdering
 
 För att omvärdera beloppen i utländsk valuta i lokal valuta för huvudbokens saldon, på sidan **Kontoplaner** använd åtgärden **Omräkning i redovisningsvaluta** för att starta ett batch-jobb. Batch-jobbet skapar justeringstransaktioner i den journal som du väljer. När du bokför transaktionerna justerar du saldot i lokal valuta (BVA) för kontot. Redovisningskontosaldon som alltid visas i BVA återspeglar nu ändringar i de valutor som transaktionerna bokfördes i. Denna omvärdering gör att du kan producera en mer exakt finansiell rapport med mindre ansträngning.
 
@@ -38,7 +38,7 @@ Om du använder en alternativ rapporteringsvaluta (ACY) har redovisningsomvärde
 > [!NOTE]
 > Omvärdering ger inte möjlighet att koppla eller ta bort kopplingar, som du kan med kund- och leverantörsreskontraposterna. Justeringar sker på saldo per valutabasis.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Omvärdera konton kontra kund- och leverantörsvalutakursjusteringar
+## Omvärdera konton kontra kund- och leverantörsvalutakursjusteringar
 
 Omvärdering förenklar justeringen av redovisningskontots saldon. Funktionen omvärderar saldot per valuta per redovisningskonto ungefär som du gör för justeringar av redovisningskonton som är kopplade till bankkonton. Om du använder ett redovisningskonto för att spåra flera tillgångar bör du överväga att använda ett leverantörs- eller kundkonto i stället.
 
@@ -56,7 +56,7 @@ Den här skillnaden är viktig när du bedömer om redovisningsomvärdering är 
 > [!TIP]
 > Vi rekommenderar att du frågar din revisor vilken typ av konto som är bäst för ditt företag. Det kan också finnas en app för [!INCLUDE [prod_short](includes/prod_short.md)] på [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) som är precis rätt för dina affärsscenarier.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Granska belopp på redovisningskonton](finance-review-accounts.md)  
 [Förstå redovisningen och kontoplanen](finance-general-ledger.md)  

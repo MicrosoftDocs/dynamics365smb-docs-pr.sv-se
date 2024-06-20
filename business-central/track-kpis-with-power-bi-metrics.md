@@ -3,7 +3,7 @@ title: 'Spåra dina affärs-KPI: er med Power BI-mått'
 description: 'Få en användningsöversikt för Power BI i syfte att få business intelligence och KPI:er från dina Business Central-data.'
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spåra dina affärs-KPI: er med Power BI-mått
+# Spåra dina affärs-KPI: er med Power BI-mått
 
 Om du använder Power BI i [!INCLUDE[prod_short](includes/prod_short.md)] data, är det enkelt att spåra KPI:er eller mått som är viktiga för dig.
 
@@ -32,7 +32,7 @@ Läs mer på Power BI mått finns i [Komma igång med mått i Power BI](/power-b
 > [!NOTE]
 > Från och med Business Central utgivningscykel 2 för 2023 är det möjligt att bädda in styrkort från Power BI-mått i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål](analytics-about-kpis.md)  
 [Introduktion till Business Central och Power BI](admin-powerbi.md)  
