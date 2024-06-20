@@ -10,19 +10,19 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Aktivera arbetsflöden för godkännande
+# <a name="enable-approval-workflows"></a>Aktivera arbetsflöden för godkännande
 
 När du har skapat ett arbetsflöde för godkännande och du vet att det är redo att startas måste du aktivera det.  
 
 På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
-## Aktivera ett arbetsflöde
+## <a name="enable-a-workflow"></a>Aktivera ett arbetsflöde
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Öppna arbetsflödet du vill aktivera.  
 3. På sidan **arbetsflödet**, aktivera växlingskontrollen **Aktiverad**.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  

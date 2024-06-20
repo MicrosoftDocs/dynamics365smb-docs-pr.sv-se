@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Släppa och öppna försäljnings- och inköpsdokument igen
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Släppa och öppna försäljnings- och inköpsdokument igen
 
 I den här artikeln lär du dig hur du släpper eller återöppnar försäljnings- och inköpsdokument som en beställning, faktura och offert. Du släpper försäljnings- och inköpsdokument för att flytta dem till nästa steg i bearbetningen innan de bokförs. När en order släpps, tas den med i alla dispositionsberäkningar från och med artiklarnas planerade inleveransdatum.
 
-## Frisläpp ett försäljnings- eller köpdokument
+## <a name="release-a-sales-or-purchase-document"></a>Frisläpp ett försäljnings- eller köpdokument
 
 1. Öppna dokumentet som du vill släppa enligt följande:
 
@@ -25,7 +25,7 @@ I den här artikeln lär du dig hur du släpper eller återöppnar försäljning
 
    Fält **Status** ändras statusen till **Släppt**.
 
-## Öppna ett försäljnings- eller inköpsdokument igen
+## <a name="reopen-a-sales-or-purchase-document"></a>Öppna ett försäljnings- eller inköpsdokument igen
 
 Om du vill göra ändringar i en släppt försäljnings- eller inköpsdokument, kan du öppna ordern igen.
 
@@ -43,7 +43,7 @@ Du kan nu göra ändringar i dokument innan du släpper den igen.
 > [!NOTE]
 > På dokumentrader, som redan har hanterats i distributionslagret, kan du bara ändra antalet.
 
-## Se även
+## <a name="see-also"></a>Se även
   
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  

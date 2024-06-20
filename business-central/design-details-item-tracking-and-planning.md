@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Designdetaljer: Artikelkoppling och planering
+# <a name="design-details-item-tracking-and-planning"></a>Designdetaljer: Artikelkoppling och planering
 Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter. Det betyder att artiklar med orderspårningsposter kan tilldelas artikelspårningsnummer. Artiklar som har artikelspårningsnummer kan bli orderspårningsposter. Mer information finns i [Designdetaljer: Design av artikelspårning](design-details-item-tracking-design.md).
 
 Mer information om de integrerade systemet finns i [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ För artiklar som använder specifik artikelspårning måste alla serie- eller p
 
 Mer information finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).
 
-## Balansera efterfrågan och tillgång
+## <a name="balancing-demand-and-supply"></a>Balansera efterfrågan och tillgång
 Om en artikel kräver särskild artikelspårning skapas en orderspårningslänk från artikelns hela artikelspårningsefterfrågan till en motsvarande artikelspårningstillgång, med den enda begränsningen att tillgången ska komma före efterfrågan. Om under dessa omständigheter ingen artikelspårningstillgång kan hittas som motsvarar den objektspårningsspecifika efterfrågan, skapas en ny artikelspårningstillgång omedelbart och utan att överväga orderstorlek, planeringsparametrar eller ändrad tidpunkt för befintlig leverans av samma serie- eller partinummer.
 
 Om artikelspårningsnummer tilldelas på efterfråganssidan eller på tillgångssidan utan att kräva särskild artikelspårning skapas en orderspårningslänk från efterfrågan till den tillgången, baserat på lämpligaste tidpunkt och antal, som i den vanliga balanseringsproceduren. Det angivna artikelspårningsnumret ingår i orderspårningsposten på samma sätt som alla angivna artikelspårningsantal definierar en ände av orderspårningslänken. Det betyder att artikelspårningsnumret som angetts bevaras, medan det även är en del av orderspårningsposten.
@@ -44,7 +44,7 @@ Om artikelspårningsnummer tilldelas på tillgångssidan utan att kräva särski
 
 Mer information finns i [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md).  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)  
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)   

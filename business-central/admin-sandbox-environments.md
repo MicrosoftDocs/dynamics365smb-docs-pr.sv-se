@@ -10,7 +10,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a>Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller affärsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
 
@@ -34,13 +34,13 @@ Miljön i begränsat läge är inte minst användbar eftersom den innehåller et
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-## Avancerad användarupplevelse
+## <a name="advanced-user-experience"></a>Avancerad användarupplevelse
 
 Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]  i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation** till *Premium*. Leta upp sidan **företagsinformation** i menyn :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="ikonen Inställningar."::: meny.  
 
 När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### Fullständiga exempeldata
+### <a name="complete-sample-data"></a>Fullständiga exempeldata
 
 Om du behöver ytterligare exempeldata kan du prata med återförsäljningspartnern.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -55,7 +55,7 @@ Om du behöver ytterligare exempeldata kan du prata med återförsäljningspartn
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## Designer
+## <a name="designer"></a>Designer
 
 I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera Designer genom att välja designikonen ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **Design** på menyn ![Inställningar](media/ui-experience/settings_icon_small.png).  
 
@@ -63,7 +63,7 @@ Mer information finns i [Använda designer](/dynamics365/business-central/dev-it
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

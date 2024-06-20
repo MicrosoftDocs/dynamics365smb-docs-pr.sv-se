@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ställa in Produktion
+# <a name="setting-up-manufacturing"></a>Ställa in Produktion
 
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 
@@ -33,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använd standarduppgifter om du vill förenkla verksamhetsföljder genom att snabbt lägga till extra information för återkommande transaktioner.|[Skapa standardverksamhetsföljdrader](production-how-set-up-standard-routing-lines.md)|  
 |Förbered produktionsgrupper och verksamhetsföljder för att representera legotillverkning.|[Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)|  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Produktion](production-manage-manufacturing.md)  
 [Planerad](production-planning.md)  

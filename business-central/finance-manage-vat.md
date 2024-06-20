@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Översikt över momshantering
+# <a name="vat-management-overview"></a>Översikt över momshantering
 Moms är en indirekt skatt på förbrukningen av varor och tjänster. Moms tas ut vid varje etapp i leveranskedjan där värdet läggs till från den första produktionen till försäljningsstället. När du vill börja med momshantering, se följande avsnitt.  
 
 |  Artikel  |  Description  |  
@@ -29,7 +29,7 @@ Moms är en indirekt skatt på förbrukningen av varor och tjänster. Moms tas u
 | [Validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md) | Den här artikeln förklarar hur du använder Business Central-validering för momsregistreringsnummer för dina kontakter, kunder och leverantörer baserat på EU VIES-valideringstjänst för momsnummer.|
 
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

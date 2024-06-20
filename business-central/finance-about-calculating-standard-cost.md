@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Om beräkning av standardkostnad
+# <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
 
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
 
@@ -22,7 +22,7 @@ Standardkostnader kan bibehållas för artiklar som fylls i via inköp, monterin
 |**Montering**|Inköpskostnad för material, direkt eller fast arbetskostnad och omkostnad.|  
 |**Prod.order**|Inköpskostnad för material, arbetskostnad, underleverantörskostnad och omkostnad.|  
 
-## Ställa in standardkostnader
+## <a name="setting-up-standard-costs"></a>Ställa in standardkostnader
 
 Eftersom standardkostnaden för en producerad eller monterad artikel kan innehålla flera kostnadsslag måste en standardkostnad utarbetas för alla följande kostnadsslag: materialkostnader, kapacitetskostnader (arbete) och leveratörskostnader (inköpskostnader och overheadkostnader).  
 
@@ -39,7 +39,7 @@ Följande viktiga kostnadselement utgör den totala inköpskostnaden för en fä
 - Kapacitetskostnad.  
 - Underleverantörskostnader endast för den producerade artikeln.  
 
-### Materialkostnader
+### <a name="material-costs"></a>Materialkostnader
 
 Materialkostnaderna är kostnader som är kopplade till detaljmontage och inköpt råmaterial. Materialkostnaden kan bestå av kostnadsslag för både inköpskostnad och indirekt kostnad.  
 
@@ -57,7 +57,7 @@ Materialkostnaden för en tillverkad artikel kan visas på två sätt som motsva
 |En nivå|Den producerade artikeln är lika med totalkostnaden för alla inköpta eller detaljmonterade artiklar i artikelns produktionsstruktur.|  
 |En nivå eller flera nivåer|Producerad artikel är summan av materialkostnaden för alla delmontage i den artikelns struktur och kostnaden för alla inköpta artiklar i den artikelns produktionsstruktur.|  
 
-### Kapacitetskostnader
+### <a name="capacity-costs"></a>Kapacitetskostnader
 
 Kapacitetskostnaderna är kostnader som är kopplade till interna kostnader för arbetskraft och maskiner. Du måste lägga upp dessa kostnader för varje resurs (i monteringshanteringen) och arbete eller maskingrupp i verksamhetsföljden (i produktion). På samma sätt som med materialkostnaderna kan du identifiera kostnadsslag för kapacitetskostnaden, vad beträffar både inköpskostnaden och den indirekta kostnaden. Inköpskostnaden för en produktionsgrupp kan t.ex. vara "verkstadskostnaden" som har skapats för en särskild uppgift. Den indirekta kostnaden för en produktionsgrupp kan utgöras av allmänna kostnader för fabriken, t. ex. belysning, uppvärmning o.s.v. På liknande sätt som med materialkostnaderna kan kapacitetsoverhead uttryckas i form av en procentsats för den indirekta kostnaden eller en fast overheadkostnad.  
 
@@ -82,13 +82,13 @@ För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte
 
 På En-nivå-basis är detta den arbetskostnad som krävs för att producera den färdiga produktionsartikeln och anges på produktionsartikelns verksamhetsföljd. På en fler-nivå-basis är den kapacitet som har angetts för varje enskild tillverkad artikel som ingår i den överordnade artikelns struktur.  
 
-### Underleverantörskostnader
+### <a name="subcontractor-costs"></a>Underleverantörskostnader
 
 Underleverantörskostnaderna är kostnader som är kopplade till tjänster från företagets fristående leverantörer eller underleverantörer. På liknande sätt som med material- och kapacitetskostnaderna kan underleverantörskostnaderna bestå av både inköpskostnad och overheadkostnad. Inköpskostnaden för legotillverkningen utgörs av den faktiska avgiften per enhet för de erhållna tjänsterna. Overheadkostnaden för legotillverkningen kan t. ex. vara frakt- och hanteringskostnader som företaget ådrog sig vid en legotillverkningsorder.  
 
 Eftersom legotillverkning är en utlagd kapacitet ställs kostnaden för legotillverkningstjänsterna (inköpskostnad och indirekt kostnad) in för produktionsgruppkortet som motsvarar legotillverkningsoperationen.  
 
-## Uppdatera standardkostnader
+## <a name="updating-standard-costs"></a>Uppdatera standardkostnader
 
 Använd funktionen från artikelkortet för att uppdatera eller beräkna standardkostnaden för monteringsartiklar.  
 
@@ -99,9 +99,9 @@ Processen för att uppdatera eller att beräkna standardkostnader består vanlig
 3.  Använda standardkostnaderna som anges när du kör de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Använd batch-jobbet **Implementera ändringar av standardkostnad**, som uppdaterar ändringarna av standardkostnaden för artiklar med de i tabellen Standardkostnadsformulär.  
 4.  Implementera ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lagerutvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).
 
-## Använda batch-jobb för att uppdatera standardkostnader
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Använda batch-jobb för att uppdatera standardkostnader
 I följande avsnitt beskrivs de batch-jobb som du kan använda för att uppdatera standardkostnader.
-### Föreslå artikelstandardkostnad
+### <a name="suggest-item-standard-cost"></a>Föreslå artikelstandardkostnad
 
  Skapar förslag för ändring av kostnader och kostnadsandelar för standardkostnader på artikelkortet. När batch-jobbet är klart visas resultatet i fönstret Standardkostnadsförslag.
 
@@ -109,7 +109,7 @@ I följande avsnitt beskrivs de batch-jobb som du kan använda för att uppdater
 > Det här batchjobbet används endast för inköpta artiklar. Om du vill uppdatera en artikel med en produktionsstruktur eller monteringsstruktur måste du först fylla i formuläret med alla komponenterna och sedan köra batch-jobbet Uppsummerad standardkostnad.
 
 Det här batch-jobbet skapar bara förslag. De föreslagna ändringarna införs inte. Om du är nöjd med förslagen och vill implementera dem, det vill säga uppdatera dem på artikelkorten och infoga dem i omvärderingsjournalen, välj sedan Implementera standardkostnadsändringar i fönstret Standardkostnadskalkylblad.
-#### Alternativ
+#### <a name="options"></a>Alternativ
 
 **Standardkostnad**: Ange den justeringsfaktor som ska användas vid uppdateringen av standardkostnaden. Du kan också välja en avrundningsmetod för den nya standardkostnaden. Du måste fylla i fältet med en decimal för den procentuella ökningen, till exempel 1,1.
 
@@ -117,21 +117,21 @@ Det här batch-jobbet skapar bara förslag. De föreslagna ändringarna införs 
 
 **Overheadkostnad**: Ange den justeringsfaktor som ska användas vid uppdateringen av overheadkostnaden. Du kan också välja en avrundningsmetod för den nya overheadkostnaden. Du måste fylla i fältet med en decimal för den procentuella ökningen, till exempel 1,1.
 
-### Föreslå prod./maskin std.kostnad
+### <a name="suggest-workmach-ctr-std-cost"></a>Föreslå prod./maskin std.kostnad
 
 Skapar förslag för ändring av kostnader och kostnadsandelar för standardkostnader på produktionsgrupper, maskingrupper eller resurskort. När batch-jobbet är klart visas resultatet i fönstret **Standardkostnadsförslag**.
 
 Det här batch-jobbet skapar bara förslag. De föreslagna ändringarna införs inte. Om du är nöjd med förslagen och vill implementera dem, det vill säga uppdatera dem på arbets/maskingrupper och resurskort och infoga dem i fönstret Omvärderingsjournal och välj sedan **Implementera standardkostnadsändringar** i fönstret **Standardkostnadsformulär**.
 
 När du har kört batchjobbet och vill visa effekten på produktionen eller monteringsavdelningar, kör du batchjobbet **Uppsummerad standardkostnad** för att uppdatera standardkostnader på arbetsplatser, maskincenter, monteringsresurser, produktionsstycklistor och monteringsstycklistor.
-#### Alternativ
+#### <a name="options-1"></a>Alternativ
 **Standardkostnad**: Ange den justeringsfaktor som ska användas vid uppdateringen av standardkostnaden. Du kan också välja en **avrundningsmetod** för den nya standardkostnaden. Du måste fylla i fältet med en decimal för den procentuella ökningen, till exempel 1,1.
 
 **Indirekt kostnad %**: Ange den justeringsfaktor som ska användas vid uppdateringen av indirekt kostnad %. Du kan också välja en avrundningsmetod för den nya indirekt kostnad %. Du måste fylla i fältet med en decimal för den procentuella ökningen, till exempel 1,1.
 
 **Overheadkostnad**: Ange den justeringsfaktor som ska användas vid uppdateringen av overheadkostnaden. Du kan också välja en avrundningsmetod för den nya overheadkostnaden. Du måste fylla i fältet med en decimal för den procentuella ökningen, till exempel 1,1.
 
-### Bokför lagerkostnad i redov.
+### <a name="post-inventory-cost-to-gl"></a>Bokför lagerkostnad i redov.
 
  Registrera antals- och värdeändringar i lagret i lagertransaktionerna och värdetransaktionerna när du bokför artikeltransaktioner, t.ex. försäljningsutleveranser eller inköpsinleveranser.
 
@@ -149,7 +149,7 @@ Om du vill vara säker på att inga fel påträffas av batch-jobbet kan du köra
  
 > [!IMPORTANT]  
 > Innan du använder det här batch-jobbet kan du köra batch-jobbet **Justera kostn. – artikeltrans**. När du kör det här batch-jobbet uppdateras kostnaderna du bokför i redovisningen.
-#### Alternativ
+#### <a name="options-2"></a>Alternativ
 
 |Alternativ  |Description  |
 |--------------|---------|
@@ -157,7 +157,7 @@ Om du vill vara säker på att inga fel påträffas av batch-jobbet kan du köra
 |**Verifikationsnr**|I det här fältet kan du skriva in ett verifikationsnummer om du har valt alternativet Bokför per lagerbokföringsmall. Verifikationsnumret visas på bokförda transaktioner.|
 |**Bokför**|Markera det här fältet om du vill bokföra automatiskt i redovisningen via batchjobbet. Om du väljer att inte bokföra lagerkostnaden i redovisningen kommer batch-jobbet bara att skriva ut en testrapport som visar värden som kan bokföras i redovisningen och på rapporten kommer det att stå: **Testrapport (inte bokförd)**.|
 
-### Uppsummerad standardkostnad
+### <a name="roll-up-standard-cost"></a>Uppsummerad standardkostnad
 
 Summerar standardkostnaden för monterade och tillverkade artiklar. Dessa påverkas av standardkostnadsändringen för komponenterna som föreslås för batch-jobbet **Föreslå artikelstandardkostnad**. Dessutom påverkas de av förändringen av standardkostnad av produktionskapacitet och monteringsresurser som föreslås av batch-jobbet **Föreslå prod./maskin std.kostnad**.
 
@@ -167,14 +167,14 @@ När du har kört någon av (eller båda) dessa batchjobb och du summerar, komme
 > Den här funktionen summerar bara standardkostnader på artikelkort, inte på Lagerställeenhet kort.
 
 Det här batch-jobbet skapar bara förslag. De föreslagna ändringarna införs inte. Om du är nöjd med förslagen och vill använda dem, det vill säga uppdatera dem på artikelkorten och infoga dem i fönstret **omvärderingsjournal**, sedan kan du använda batch-jobbet **Inför stand.kost.ändring**. Du öppnar batch-jobbet från fönstret **Standardkostnadsformulär**.
-#### Alternativ
+#### <a name="options-3"></a>Alternativ
 
 **Beräkningsdatum**: Skriv det datum som gäller för den produktionsstrukturversion du vill summera för.
  
-### Inför stand.kost.ändring
+### <a name="implement-standard-cost-change"></a>Inför stand.kost.ändring
 
 Uppdaterar standardkostnadsändringarna i tabellen **Artikel** med de som finns i tabellen **Standardkostnadsformulär**. Förslagen på standardkostnadsändringar kan skapas med batch-jobbet **Föreslå artikelstandardkostnad** och/eller **Föreslå prod./maskin std.kostnad**, och de kan också ändras. Innehållen i alla fält i förändringsförslaget för standardkostnader överförs. När du implementerar ändringsförlagen för standardkostnad kan du visa dem på artikelkortet och/eller produktions-/maskingruppskorten. En omvärderingsjournal skapas också så att du kan uppdatera värdet på det befintliga lagret.
-#### Alternativ
+#### <a name="options-4"></a>Alternativ
 
 **Bokföringsdatum**: Skriv det datum som omvärderingen ska ske.
 
@@ -186,7 +186,7 @@ Uppdaterar standardkostnadsändringarna i tabellen **Artikel** med de som finns 
 
 Välj **OK** när du vill starta batchjobbet. Om du inte vill köra batch-jobbet nu klickar du på **Avbryt** för att stänga fönstret.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)  

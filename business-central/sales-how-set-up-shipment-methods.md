@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Så här definierar du leveransmetoder
+# <a name="set-up-shipment-methods"></a>Så här definierar du leveransmetoder
 
 Utleveransmetoderna är ofta beroende av vilka artiklar, kunder eller leverantörer som avses. Om kunden t. ex. bor på en ö kan han eller hon välja att få artiklarna levererade per flyg eller båt. Vissa kunder kan kräva leverans nästa dag. En del kanske vill plocka upp ordern. På kund- och leverantörskorten kan du ange vilken typ av leverans som önskas.
 
 Du upprättar en beskrivning och en kod för varje leveransvillkor på sidan **Leveransmetoder**. Du kan t. ex. upprätta koden FOB och i fältet **Beskrivning** skriver du Fritt ombord. Du kan skriva in koden i fältet **Leveransmetodkod** någon annanstans i systemet, t. ex. på ett kundkort. När du sedan skapar nya order, fakturor, kreditnotor, etc. fyller systemet i den beskrivning, som representeras av koden. Du kan ändra den i dokumentet om det behövs.
 
-## Så här definierar du utleveransvillkor
+## <a name="to-set-up-a-shipment-method"></a>Så här definierar du utleveransvillkor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **leveransmetoder** och väljer sedan relaterad länk.
 2. På sidan **Leveransmetoder** väljer du åtgärden **Ny**.
@@ -26,7 +26,7 @@ Du upprättar en beskrivning och en kod för varje leveransvillkor på sidan **L
 > [!TIP]
 > Om du använder Incoterms ställer du in utleveransmetoder för att representera relevanta Incoterms-regler.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)  
 [Spåra paket](sales-how-track-packages.md)  

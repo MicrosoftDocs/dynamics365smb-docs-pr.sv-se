@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Arbeta med måttenheter för produktionsbatch
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Arbeta med måttenheter för produktionsbatch
 Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa en produktionsorder som använder enheten för produktionsbatch för att beräkna rätt antal komponenter under batch-jobbet **Uppdatera produktionsorder**. Ett exempel på beräkning med en enhet för produktionsbatch är när tillverkade artiklar lagerförs styckvis, men tillverkas tonvis.  
 
-## Så här skapar du en produktionsstruktur med hjälp av en batchenhet  
+## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Så här skapar du en produktionsstruktur med hjälp av en batchenhet
 1.  Enheten för produktionsbatchen anges som en alternativ enhet på sidan **Artikelenheter** för den artikel som ska tillverkas. Batchenheten kommer inte att ersätta basenheten för artikeln.  
 2.  Skapa en produktionsstruktur för den artikel som har angetts med enheten för produktionsbatch. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-production-boms.md).  
 3.  Markera enhetskod för produktionsbatch i fältet **Enhetskod**.  
@@ -26,7 +26,7 @@ Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa 
 
 På snabbfliken **Rader** väljer du åtgärden **Rad** och väljer sedan åtgärden **Komponenter** för att visa resultatet. I programmet beräknas det rätta antalet komponenter som krävs för att uppfylla produktionsstrukturen baserat på enheten för produktionsbatch.  
 
-## Så här beräknar du en enhet för produktionsbatch i en produktionsorder  
+## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Så här beräknar du en enhet för produktionsbatch i en produktionsorder
 1.  Skapa ett produktionsorderhuvud med hjälp av den artikel som har angetts med enheten för produktionsbatch.  
 2.  I fältet **Artikelnr** på produktionsorderraden anger du samma artikelnummer som användes i huvudet.  
 3.  I fältet **Antal** anger du samma antal som användes i huvudet.  
@@ -36,7 +36,7 @@ På snabbfliken **Rader** väljer du åtgärden **Rad** och väljer sedan åtgä
 7.  Välj knappen **OK**.  
 8.  På snabbfliken **Rader** väljer du åtgärden **Rad** och väljer sedan åtgärden **Komponenter** för att visa resultatet. Det rätta antalet komponenter som krävs för att uppfylla produktionsstrukturen beräknas baserat på enheten för produktionsbatch.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Skapa verksamhetsföljder](production-how-to-create-routings.md)  
 [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)     
 [Ställa in Produktion](production-configure-production-processes.md)  

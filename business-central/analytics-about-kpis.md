@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål
+# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål
 
 En KPI (Key Performance Indicator) är ett mätbart värde som visar hur effektivt du uppfyller dina mål. Tänk på KPI:er som ditt företags styrkort, ett sätt att mäta om du levererar dina mål eller inte.
 
-## Varför KPI:er är viktiga
+## <a name="why-kpis-matter"></a>Varför KPI:er är viktiga
 
 Genom att identifiera och spåra KPI:er kan du veta om ditt företag är på rätt väg – eller om du bör ändra kurs för att undvika att förlora värdefull tid och pengar. När KPI:er används på rätt sätt är de kraftfulla verktyg som hjälper dig att:
 
@@ -25,7 +25,7 @@ Genom att identifiera och spåra KPI:er kan du veta om ditt företag är på rä
 - Motivera teammedlemmar.
 - Fatta bättre beslut, snabbare.
 
-## Kom igång med att identifiera dina KPI:er
+## <a name="get-started-identifying-your-kpis"></a>Kom igång med att identifiera dina KPI:er
 
 Så hur börjar du identifiera de KPI: er som är viktiga för ditt företag? Börja med att klargöra dina strategiska mål – kollektivt eller per avdelning.
 
@@ -35,7 +35,7 @@ Identifiera sedan de KPI-mål som du arbetar mot och hur de ska mätas. Tänk p�
 
 Prata med ditt team och uppmuntra till en öppen dialog om KPI:erna och deras mål. Är de för aggressiva? För enkla? Målen bör vara utmanande, men om de är alltför avlägsna eller helt förlitar sig på mätvärden som ditt team inte kontrollerar, är det bra att ompröva dem. Du vill också utforska de aktiviteter och en taktik som ditt företag kommer att använda för att uppnå dessa mål. Slutligen ägnar du en stund åt att utvärdera var du befinner dig idag – det här kommer att vara din KPI-utgångspunkt.
 
-## Lär känna de olika typerna av KPI:er
+## <a name="get-to-know-the-different-types-of-kpis"></a>Lär känna de olika typerna av KPI:er
 
 Att identifiera vilka KPI:er du ska spåra blir enklare när du har en bättre förståelse för de typer av KPI:er som oftast används för att mäta framsteg.
 
@@ -47,7 +47,7 @@ Att identifiera vilka KPI:er du ska spåra blir enklare när du har en bättre f
 
 För varje KPI som du väljer att spåra tilldelar du en ägare och kommer överens om spårningsfrekvens. Oavsett vilka KPI:er du väljer att spåra är det viktigt att använda en KPI-plattform eller ett KPI-verktyg för att samarbeta med ditt team om KPI-definitioner. Genom att gemensamt definiera varje KPI, sedan samla in kontextuell data och förena den i en enda vy, möjliggör du precisa, realtidsåtgärder.
 
-## KPI-rapportering
+## <a name="kpi-reporting"></a>KPI-rapportering
 
 KPI-rapporter tar informationen som presenteras på KPI-instrumentpanelen till en ny nivå. De går djupare in i data för att få fram mer detaljerade insikter och analyser.
 
@@ -68,7 +68,7 @@ Ytterligare överväganden när du skapar KPI-rapporter är:
 - Presentera endast de relevanta KPI:erna så att du inte överbelastar rapporten med KPI:er som inte relaterar till rapporteringsmålen.
 - Se till att din rapportering är tydlig, lätt att förstå och användbar för den avsedda målgruppen.
 
-## Verktyg för implementering av KPI:er
+## <a name="tools-for-implementing-kpis"></a>Verktyg för implementering av KPI:er
 
 Följande tabell länkar till artiklar om hur du använder Business Intelligence- och rapporteringsverktyg med [!INCLUDE[prod_short](includes/prod_short.md)]-data för att implementera KPI:er.
 
@@ -79,7 +79,7 @@ Följande tabell länkar till artiklar om hur du använder Business Intelligence
 | [Analysera finansiella rapporter med Microsoft Excel](finance-analyze-excel.md) |
 | Integrera externa Business Intelligence-verktyg med [!INCLUDE[prod_short](includes/prod_short.md)].| [Externa Business Intelligence-verktyg](reports-external-analysis.md) |
 
-## Bästa praxis för KPI:er
+## <a name="kpi-best-practices"></a>Bästa praxis för KPI:er
 
 För att hjälpa dig att framgångsrikt utnyttja kraften i KPI:er har vi sammanställt några tips för att komma igång.
 
@@ -96,7 +96,7 @@ Identifiera KPI:er:
 - Bestäm en kadens för att övervaka och agera på KPI:er. Övervakas KPI-instrumentpaneler dagligen eller varje vecka? Kommer åtgärder först efter rapportering eller har intressenter och/eller teammedlemmar befogenhet att justera taktik längs vägen?
 - Se till att du har ett enkelt komplett dataskydd för datainstrumentpaneler, med kontroller för delning utanför organisationen.
 
-## Vanliga KPI-misstag
+## <a name="common-kpi-mistakes"></a>Vanliga KPI-misstag
 
 Undvik dessa vanliga KPI-misstag:
 
@@ -106,7 +106,7 @@ Undvik dessa vanliga KPI-misstag:
 - Spåra KPI:er utan ägare. Ansvarsskyldighet är viktigt, inte bara för resultaten utan även för processen. Varje KPI bör ha en ägare som ansvarar för övervakning, rapportering, analys och åtgärder.
 - Underlåtenhet att vidta åtgärder på dina KPI:er. Oavsett om du uppfyller dina mål eller hamnar på efterkälken är KPI:er verktyg som hjälper dig att fatta bättre beslut. Så spåra inte bara för spårningens skull – vidta åtgärder.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över analyser](reports-bi-reporting.md)  
 [Använda ekonomisk rapportering för att göra finansiella rapporter och KPI:er](bi.md)  
