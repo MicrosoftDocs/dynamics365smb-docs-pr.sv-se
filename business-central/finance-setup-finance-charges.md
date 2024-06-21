@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Konfigurera räntevillkor
+# <a name="set-up-finance-charge-terms"></a>Konfigurera räntevillkor
 
 Om en kund inte har betalat på förfallodatumet kan du låta beräkna dröjsmålsränta automatiskt och lägga på den på de förfallna beloppen på kundens konto. Du kan informera kunder om debiterade dröjsmålsräntor genom att skicka räntefakturor. Först måste du emellertid upprätta en kod som representerar respektive ränteberäkning. Du kan sedan ange denna kod i fältet Räntevillkorskod på kundkorten.  
 
-## Räntevillkor
+## <a name="finance-charge-terms"></a>Räntevillkor
 
 Du måste ange räntevillkor för respektive ränteberäkning och sedan tilldela villkoren till kunden i fältet **Räntevillkorskod** på sidan **Kund**.
 
@@ -33,7 +33,7 @@ Räntor kan antingen beräknas med metoden genomsnittligt saldo per dag eller me
 
 Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell, nämligen Räntetext. För respektive uppsättning av räntevillkor kan du definiera en inledande och/eller avslutande text som kan inkluderas på räntefakturan.
 
-### Ange räntevillkoren
+### <a name="to-set-up-finance-charge-terms"></a>Ange räntevillkoren
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **räntevillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
@@ -62,7 +62,7 @@ Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell,
 |%8|Innehållet i fältet **Valutakod** i räntefakturans huvud|  
 |%9|Innehållet i fältet **Bokföringsdatum** i räntefakturans huvud|  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Regelefterlevnad – översikt
+# <a name="compliance-overview"></a>Regelefterlevnad – översikt
 
 Det här innehållet anger information om regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

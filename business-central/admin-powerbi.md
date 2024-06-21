@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Introduktion till Business Central och Power BI
+# <a name="introduction-to-business-central-and-power-bi"></a>Introduktion till Business Central och Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Det är enkelt att få insikter i dina [!INCLUDE[prod_short](includes/prod_short
 
 ![Power BI och Business Central.](media/power-bi-intro.png)
 
-## Vad du kan göra med Power BI och Business Central
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Vad du kan göra med Power BI och Business Central
 
 Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI. Vissa saker kan du göra från Power BI, medan andra saker görs via [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa funktioner är dessutom endast tillgängliga med [!INCLUDE[prod_short](includes/prod_short.md)] online, inte lokalt. Följande tabell ger dig en översikt.
 
@@ -33,7 +33,7 @@ Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denna funktion kräver ett registrerat program för Business Central i Microsoft Azure. Mer information finns i [Registrera Business Central lokalt i Microsoft Entra ID för integrering med andra tjänster](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Komma igång med Power BI
+## <a name="get-ready-to-use-power-bi"></a>Komma igång med Power BI
 
 Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Uppgifterna beror på din roll i organisationen och vad du vill göra med Power BI:
 
@@ -49,12 +49,12 @@ Det finns några uppgifter som måste utföras innan du kan börja använda Powe
 |Aktivera integrering med Power BI<br />(endast lokalt)||![det är en bock.](media/check.png)||[Konfigurera Business Central lokalt för Power BI-integration](across-working-with-business-central-in-powerbi.md#setup)|
 
 
-## Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 - Om du är administratör som behöver installera Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], g till [Aktivera Power BI Integration](admin-powerbi-setup.md).
 - Om Power BI redan är inställt och du vill testa funktionerna går du till [Arbeta med Power BIRapporter i Business Central](across-working-with-powerbi.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över analyser](reports-bi-reporting.md)   
 [Spåra dina KPI:er med Power BI-mått](track-kpis-with-power-bi-metrics.md)   

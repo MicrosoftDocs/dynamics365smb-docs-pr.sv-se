@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Redovisning och bokföring
+# <a name="accounting-and-bookkeeping"></a>Redovisning och bokföring
 
 Redovisning är en viktig funktion i alla ERP-lösningar (Enterprise Resource Planning) och även i de flesta företag. Redovisning representerar processen att bokföra och katalogisera ett företags ekonomiska transaktioner och sedan hämta, mäta, summera och visa resultaten med hjälp av olika rapporter som ofta krävs enligt lokal lagstiftning. Det främsta målet med den här metoden är att hjälpa företagets ledning med att förstå affärsverksamhetens ekonomi och bedöma resultatet av företagets ekonomiska aktiviteter.
 
@@ -100,7 +100,7 @@ I följande tabell beskrivs en serie uppgifter och ge länkar till de artiklar d
 | Aktivera global ekonomisk rapportering som står till internationella organisationer i redovisning med standarden eXtensible Business Reporting Language (XBRL). | [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md) |
 | Ändra åtkomstmetoden för databaser gällande rapporter, sidor av typen API och frågor för att minska belastningen och förbättra prestandan. | [Hantera åtkomstmetod för databas](admin-data-access-intent.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in Finance](finance-setup-finance.md)  
 [Försäljning](sales-manage-sales.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Spåra dina affärs-KPI: er med Power BI-mått
+# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spåra dina affärs-KPI: er med Power BI-mått
 
 Om du använder Power BI i [!INCLUDE[prod_short](includes/prod_short.md)] data, är det enkelt att spåra KPI:er eller mått som är viktiga för dig.
 
@@ -32,7 +32,7 @@ Läs mer på Power BI mått finns i [Komma igång med mått i Power BI](/power-b
 > [!NOTE]
 > Från och med Business Central utgivningscykel 2 för 2023 är det möjligt att bädda in styrkort från Power BI-mått i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål](analytics-about-kpis.md)  
 [Introduktion till Business Central och Power BI](admin-powerbi.md)  

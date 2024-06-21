@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Snabbstart för Business Intelligence
+# <a name="business-intelligence-quick-start"></a>Snabbstart för Business Intelligence
 
 Att samla in och analysera de ständigt ökande data mängderna på ett praktiskt sätt är en värdefull del av att göra affärer med dessa dagar. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller många Business Intelligence-verktyg (BI)&mdash;som både är inbyggda och integrerade med andra tjänster&mdash;för att hjälpa företaget i beslutsarbetet.
 
@@ -28,7 +28,7 @@ Olika roller i organisationer har ofta föredragna sätt att använda och analys
 
 Om du vill veta mer om analyser öppnar du [Analytics översikt](reports-bi-reporting.md).
 
-## Analys efter funktionsområde
+## <a name="analytics-by-functional-area"></a>Analys efter funktionsområde
 
 Följande tabell innehåller länkar till artiklar som beskriver hur du arbetar med analys inom specifika funktionsområden [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ Följande tabell innehåller länkar till artiklar som beskriver hur du arbetar 
 | Inköp | [Inköpsanalys](purchasing-analytics-overview.md) |
 | Hantering av anläggningstillgångar | [Analys av anläggningstillgångar](fa-analytics-overview.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över analyser](reports-bi-reporting.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ställa in lagerstyrning
+# <a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
 
 Ett företags distributionsstrategi återspeglas i konfigurationen av dess lagerprocesser. Detta omfattar att definiera hur olika artiklar hanteras på olika lagerställen, till exempel graden av styrning av lagerplats och omfattningen av arbetsflödet som krävs mellan lageraktiviteterna.  
 
@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Få tips på hur du ordnar om lagerställen, lagerställen eller zoner för att få mer effektiva lageraktiviteter.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Monteringshantering](assembly-assemble-items.md)  

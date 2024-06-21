@@ -11,12 +11,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tillägget för skattefilformat (DK)
+# <a name="the-tax-file-formats-dk-extension"></a>Tillägget för skattefilformat (DK)
 Om du handlar med företag eller interna filialer eller dotterbolag i andra EU-länder/regioner måste du rapportera information om aktiviteterna till SKAT och för Danmark statistik. Om du använder funktionerna för moms- och Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)] kan du med det här tillägget kontrollera att filen som du exporterar är kompatibel med kraven från dessa organisationer. Tillägget lägger till kodmoduler för exportfil för MS-ECSL-rapport och Intrastat-exportradöverföring till din momskonfiguration så att du kan exportera data i det nya formatet direkt.
 
 Tillägget är gratis, du måste bara installera det.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Anpassa Business Central med tillägg](ui-extensions.md)
 
 

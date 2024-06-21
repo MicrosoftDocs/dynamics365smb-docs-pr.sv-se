@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Planera service
+# <a name="planning-services"></a>Planera service
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
@@ -25,7 +25,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Förstå förhållandet mellan status på reparation och vilken effekt de har på tilldelade resurser och tvärtom.|[Förstå fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)|  
 |Använda statistik för att analysera dina serviceprocesser. | [Visa servicestatistik](service-service-statistics.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Leverera service](service-deliver-service.md)  
 [Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  

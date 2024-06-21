@@ -10,18 +10,18 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Hantera produktvarianter
+# <a name="manage-product-variants"></a>Hantera produktvarianter
 
 Artikelvarianter är ett fantastiskt sätt att se till att listan över produkter är under kontroll. Till exempel om du har ett stort antal artiklar som är nästan identiska och endast varierar i färg. Du kan definiera varje variant som en separat artikel. Men du väljer att ställa in en artikel och ange olika färger som varianter av artikeln.  
 
 > [!TIP]
 > En praktisk introduktion till hur du använder varianter i produktionen finns i [Genomgång: varianter](contoso-coffee/manufacturing/variants.md) för Contoso Coffee-demodata.  
 
-## Lägga till varianter i en artikel
+## <a name="add-variants-to-an-item"></a>Lägga till varianter i en artikel
 
 Om ditt företag har beslutat att använda varianter är det enkelt nog att definiera varianter för en artikel.  
 
-### Lägga till varianter
+### <a name="to-add-variants"></a>Lägga till varianter
 
 1. Öppna [sidan **Artikellista**](https://businesscentral.dynamics.com/?page=31) och öppna relevant artikel.  
 2. På kortet **Artikel** väljer du åtgärden **Artikel** och väljer sedan åtgärden **Varianter**.  
@@ -29,11 +29,11 @@ Om ditt företag har beslutat att använda varianter är det enkelt nog att defi
 
 När du sedan skapar ett försäljningsdokument och lägger till artikeln kan du ange varianten av artikeln i fältet **Variantkod**. Detsamma gäller för inköpsdokument.  
 
-## Artikeldisposition per variant
+## <a name="item-availability-by-variant"></a>Artikeldisposition per variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Kräver användning av varianter
+## <a name="require-use-of-variants"></a>Kräver användning av varianter
 
 Från och med utgivningscykel 2 år 2022 kan administratörer kräva att användarna anger varianten i dokument och journaler för artiklar som innehåller varianter. Om du vill aktivera funktionen går du till sidan **Lagerinställningar** och väljer fältet **Variant obligatorisk om den finns**. Du kan åsidosätta den globala inställningen för specifika artiklar.  
 
@@ -50,11 +50,11 @@ På artikelkort har fältet **Variant obligatorisk om den finns** följande alte
 
 Om funktionen är aktiverad kan användarna inte bokföra en transaktion om inte varianten har angetts.
 
-## Kategorier, attribut och varianter
+## <a name="categories-attributes-and-variants"></a>Kategorier, attribut och varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in allmän lagerinformation](inventory-how-setup-general.md)  

@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tillägget QuickBooks Online datamigrering
+# <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 
 Tillägget ingår i assisterade guiden **datamigrering** som hjälper dig att migrera viktiga affärsdata från QuickBooks Online till [!INCLUDE[prod_short](includes/prod_short.md)]. Detta är exempelvis användbart när företaget växer och du har bestämt dig för att uppgradera ditt program för hantering av företag genom att börja använda [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Vilka data kan jag importera från QuickBooks Online?
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>Vilka data kan jag importera från QuickBooks Online?
 
 Du kan importera följande data från QuickBooks Online till [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -33,7 +33,7 @@ Vi migrerar endast hela belopp på försäljnings- och inköpsdokument. Vi uppda
 > [!NOTE]  
 > Vi migrerar inte inköpsorder eller försäljningsorder.
 
-## Innan du börjar
+## <a name="before-you-start"></a>Innan du börjar
 
 En viktig del av är att ange konton för att migrera transaktionerna till. Det är praktiskt att planera den här mappningen innan du migrerar data. Exempelvis konton där du bokför transaktioner för:  
 
@@ -45,14 +45,14 @@ En viktig del av är att ange konton för att migrera transaktionerna till. Det 
 
 Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett skattekonto för din skattemyndighet i [!INCLUDE[prod_short](includes/prod_short.md)] innan du kan bokföra transaktioner.
 
-## Hur börjar jag använda tillägget?
+## <a name="how-do-i-start-using-the-extension"></a>Hur börjar jag använda tillägget?
 
 Komma igång enkelt. Allt du behöver göra är att köra den assisterade guiden **datamigrering**. Så här gör du:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **assisterad konfiguration** och sedan **Migrera affärsdata**.
 2. Följ instruktionerna i varje steg i guiden assisterad konfiguration.
 
-## Vad gör jag efter att jag har migrerat data?
+## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
 
 När du har migrerat data har transaktionerna statusen **ej bokförda**, så att du kan granska dem och göra ändringar. Gå till sidan där du normalt hittar dem om du vill granska transaktionerna. Till exempel för att visa ej bokförda fakturor, går du till sidan **försäljningsfakturor**. Om du vill gå igenom journaler, går du till sidan **betalningsjournaler**.  
 
@@ -62,7 +62,7 @@ Det finns några saker som du bör göra:
 * Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
 * Kontrollera de ingående saldona för konton i redovisningen. QuickBooks Online sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  

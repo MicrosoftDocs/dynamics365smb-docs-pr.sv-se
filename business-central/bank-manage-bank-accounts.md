@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Hantera och stämma av dina bankkonton
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Hantera och stämma av dina bankkonton
 
 En bankavstämning bör slutföras med jämna mellanrum för alla dina bankkonton för att säkerställa att företagets kassaregister är korrekta. Du gör detta genom att jämföra och matcha poster i dina interna bankkonton med banktransaktioner på din bank och sedan bokföra saldona på dina interna bankkonton för att göra summorna tillgängliga för ekonomichefer. Bankavstämning är också ett praktiskt sätt att upptäcka och lösa problem med saknade betalningar och bokföringsfel.
 
@@ -32,7 +32,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 > [!TIP]
 > Med bankavstämningar kan du kontrollera att dina böcker är aktuella och inte bokföra avstämningen förrän du är nöjd med avstämningen.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)  

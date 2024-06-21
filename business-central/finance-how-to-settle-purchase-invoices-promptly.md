@@ -9,14 +9,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Betala inköpsfakturor snabbt
+# <a name="settle-purchase-invoices-promptly"></a>Betala inköpsfakturor snabbt
 
 Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.  
 
 > [!NOTE]  
 > Om du ofta betalar inköpsfakturor kontant, via check eller banöverföring, kan det vara praktiskt att definiera ett särskilt betalningssätt för ett balanskonto och ange detta i fältet **Betalningssätt** på leverantörskortet. Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura. Mer information finns i [Definiera betalningssätt](finance-payment-methods.md).  
 
-## Så här gör du för att snabbt betala inköpsfakturor:
+## <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -27,7 +27,7 @@ Om du vill betala leverantören kontant eller med check kan du bokföra betalnin
 >
 > Denna anpassning krävs endast om du inte anger balanskonton för betalningssätten enligt beskrivningen ovan.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

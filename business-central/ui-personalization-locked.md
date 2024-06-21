@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Varför är en sida låst för anpassning?
+# <a name="why-a-page-is-locked-from-personalization"></a>Varför är en sida låst för anpassning?
 
 Det finns två villkor som hindrar dig från att anpassa en sida. Antingen är sidan låst (vilket indikeras av ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås")) eller spärrad (vilket indikeras av ikonen ![Anpassning spärrad.](media/personalization-blocked-icon.png "Anpassning spärrad") ).
 
-## Låst för att anpassa
+## <a name="locked-from-personalizing"></a>Låst för att anpassa
 
 Om det finns ett ![Anpassa lås.](media/personalization-lock-icon.png "Anpassa lås") i banderollen **Anpassa** när du öppnar en sida, kan du för tillfället inte kan göra några fler anpassningsändringar på sidan.
 
@@ -30,14 +30,14 @@ Det kan finnas två orsaker till detta:
 
 2. Hittills har du bara använt inaktuellt [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] för att anpassa sidan.
 
-### Låsa upp sidan
+### <a name="unlocking-the-page"></a>Låsa upp sidan
 
 Om du vill låsa upp en sida och fortsätta anpassa den väljer du ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås") och sedan åtgärden **Lås upp**.  
 
 > [!CAUTION]
 > Den aktuella anpassningen på sidan kommer att tas bort. Sidan går tillbaka till sin ursprungliga layout och du måste börja om från början.  
 
-## Blockerad från att anpassa
+## <a name="blocked-from-personalizing"></a>Blockerad från att anpassa
 
 Om det finns en ikon för ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad") i banderollen **Anpassning** har du spärrats från att göra några anpassningar på sidan.
 
@@ -45,7 +45,7 @@ Om det finns en ikon för ![Anpassning spärrad](media/personalization-blocked-i
 
 Orsaken till detta är att det rollcenter eller den roll som för närvarande är associerad med ditt användarkonto ändrar sidan specifikt för din roll. Kontakta administratören om du behöver hjälp. Du kan också försöka växla till ett rollcenter som innehåller rollspecifika roller för den här sidan. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Anpassa sidor för profiler](ui-personalization-manage.md)  

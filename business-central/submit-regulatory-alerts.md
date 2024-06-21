@@ -10,11 +10,11 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
 Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) för att skicka regelnotifieringar Dynamics tjänst för att skicka regelnotifieringar.  
 
-## Att skicka regelnotifiering i LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Att skicka regelnotifiering i LCS
 
 1. Gå till [Lifecycle Services](https://lcs.dynamics.com) och logga in.  
 
@@ -67,7 +67,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
       När du har skickat meddelandet får du en bekräftelse på att meddelandet har skickats till Microsoft.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Byta språk och plats](about-locale-language.md)  

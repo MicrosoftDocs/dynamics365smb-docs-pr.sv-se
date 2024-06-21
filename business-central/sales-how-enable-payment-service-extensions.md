@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Aktivera kundbetalningar via betalningstjänster
+# <a name="enable-customer-payments-through-payment-services"></a>Aktivera kundbetalningar via betalningstjänster
 
 Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan dina kunder betala via sina konton med betalningstjänster som t.ex. PayPal eller WorldPay.  
 
@@ -22,7 +22,7 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
 > [!CAUTION]
 > WorldPay Payments Standard-tillägget kommer att vara inaktuellt. Koden är marknadsförd som föråldrad från och med 2023 utgivningscykel 2. Appen kommer att vara aktiv för de följande tre större versionerna och kommer sedan att tas bort.   
 
-## Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-"></a>Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningstjänster** och väljer sedan relaterad länk.  
 2. På sidan **Betalningstjänst** väljer du åtgärden **Ny**.  
@@ -31,7 +31,7 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
 5. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Stäng sidan.  
 
-## Välja en betalningstjänst för en försäljningsfaktura
+## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Välja en betalningstjänst för en försäljningsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Öppna den försäljningsfaktura som du vill betala med hjälp av betalningstjänsten.  
@@ -40,7 +40,7 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
     > [!NOTE]  
     > Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  

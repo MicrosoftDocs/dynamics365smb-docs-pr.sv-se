@@ -27,11 +27,11 @@ Informationen tar även hänsyn till andra faktorer som påverkar tillgänglighe
 > [!NOTE]
 > Denna funktion kräver att du aktiverar växlingsknappen **Dirigerad artikelinförsel och plockning** för de platser som du använder i plockningsprocessen.
 
-### Konfigurera förhandsversioner
+### <a name="set-up-previews"></a>Konfigurera förhandsversioner
 
 Om du vill ha information om vad som plockas och vad som inte plockas aktiverar du växlingsknappen **Visa sammanfattning (dirigerad artikelinförsel och plockning)** på sida **Dist.lagerkälla – Skapa dokument** eller **Dist.-leverans – Skapa plockning**.
 
-### Bestäm hur mycket du kan plocka
+### <a name="determine-the-quantity-you-can-pick"></a>Bestäm hur mycket du kan plocka
 
 På raderna på sidan **Skapa plockningssammanfattning** visar fältet **Ant. att hantera (bas)** vilka och hur många artiklar som [!INCLUDE [prod_short](prod_short.md)] försökte plocka. I faktaboxen **Sammanfattning** finns mer information.
 
@@ -58,7 +58,7 @@ Följande bild illustrerar den maximala kvantitet som beaktas för plockning.
 |B     |Lagerplatser med innehåll av typen Plocka med spärrad avgående transport         |
 |O     |Andra lagerplatser         |
 
-### Reservationer
+### <a name="reservations"></a>Reservationer
 
 Om det finns reservationer för den artikel som plockas fortsätter beräkningen. Tanken är att reserverad efterfrågan har högre prioritet än icke-reserverad, vilket innebär att plockning för icke-reserverad efterfrågan inte bör förhindra plockning för reserverad efterfrågan senare.
 
@@ -93,7 +93,7 @@ Följande bild illustrerar tilldelningen av tillgänglig kvantitet för reserver
 
 Även om det finns tillräckligt med tillgängligt antal i lagret för att tillfredsställa plockningen helt, leder det till att det totala reserverade antalet fördelas mot kvantiteterna på dedikerade eller spärrade lagerplatser, vilket förhindrar plockning för detta behov. Eftersom reserverad efterfrågan har högre prioritet minskar [!INCLUDE [prod_short](prod_short.md)] antalet som ska plockas för att förhindra negativ påverkan, till exempel oförmåga att plocka, på reserverad efterfrågan.
 
-### Annan information
+### <a name="other-details"></a>Annan information
 
 Om artiklar kräver artikelspårning kan du även hitta antalet i spärrade partier eller serienummer, vilket medför följande minskningar:
 
