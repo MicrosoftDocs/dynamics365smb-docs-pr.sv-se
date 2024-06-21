@@ -11,7 +11,7 @@ ms.date: 03/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="automate-reminders-in-collections"></a>Automatisera betalningspåminnelser i samlingar
+# Automatisera betalningspåminnelser i samlingar
 
 Gör dina insamlingar mer effektiva genom att automatisera processen för att skapa, utfärda och skicka påminnelser till dina kunder. Automatisering kan avsevärt minska den tid du spenderar på insamlingar, ge en bättre översikt över processen och ge dig full kontroll över varje steg.
 
@@ -19,7 +19,7 @@ På sidan **Automatisering av påminnelser** definierar du de enskilda åtgärde
 
 Automatisering sker via en projektkötransaktioner. När du ställer in en automatisering använder du fältet **Kadens** för att ange hur och när den ska köras. Om du väljer **Manuell** körs automatiseringen en gång när du använder åtgärden **Starta**. Du kan också välja **Varje vecka**, **Varje månad** eller välja **Anpassad** för att ställa in en mer detaljerad kadens. Om du väljer **Anpassad** måste du ange en datumformel. Mer information om hur du anger en datumformel finns i [Använda datumformler](ui-enter-date-ranges.md#use-date-formulas). När du väljer ett annat alternativ än **Manuell** körs automatiseringen tills du pausar den för att pausa den. Om du vill vara ännu mer specifik om när den körs kan du använda åtgärden **Jobbkötransaktioner** för att öppna sidan **Jobbkötransaktioner** och justera upprepningen, till exempel till en daglig eller en viss veckodag.
 
-## <a name="automate-the-reminders-flow"></a>Automatisera påminnelseflödet
+## Automatisera påminnelseflödet
 
 I följande avsnitt beskrivs hur du ställer in betalningspåminnelser så att de skapas, skickas ut och skickas automatiskt.
 
@@ -31,22 +31,22 @@ I följande avsnitt beskrivs hur du ställer in betalningspåminnelser så att d
 1. Beroende på vilken typ av åtgärd som automatiseringen utför fyller du i fälten efter behov på inställningssidan. Om du vill veta mer om inställningarna går du till [Inställningar för påminnelseåtgärder](#settings-for-reminder-actions).
 1. När du har ställt in åtgärderna för automatiseringen kan du använda åtgärderna **Flytta upp** och **Flytta ned** för att justera i vilken ordning de körs.
 
-## <a name="settings-for-reminder-actions"></a>Inställningar för påminnelseåtgärder
+## Inställningar för påminnelseåtgärder
 
 Inställningsinställningarna skiljer sig för åtgärderna Skapa, Utfärda och Skicka påminnelse. I följande avsnitt finns beskrivningar om att använda dem.
 
-### <a name="create"></a>Skapa
+### Skapa
 
 * Ange högsta nivå på alla påminnelserader.  
 * Skapa betalningspåminnelser för transaktioner som har spärrats. Den här inställningen är till exempel användbar om du befinner dig i en pågående tvist med en kund och vill att de ska se helheten.
 * Skapa påminnelser för alla obetalda fakturor och inte bara fakturor som är förfallna. I rapporten visas förfallna fakturor och fakturor som är obetalda men inte förfallna i separata avsnitt.
 * Ställ in filter för att göra påminnelsen mer specifik.
 
-### <a name="issue"></a>Utskick
+### Utskick
 
 När du skickar ut en betalningspåminnelse skapar du transaktioner i kundreskontran som innehåller bokföringsdatum och skattedatum. Använd inställningarna på sidan **Inställningar för betalningspåminnelser** för att ange om informationen på den utskickade påminnelsen ska ersättas med informationen från den skapade påminnelsen. Om du till exempel skapade påminnelsen igår och skickar ut den i dag flyttas förfallodatumet en dag.
 
-### <a name="send"></a>Skicka
+### Skicka
 
 > [!NOTE]
 > Skicka automatiseringen kräver att du har konfigurerat e-post i [!INCLUDE [prod_short](includes/prod_short.md)]. Om du vill ha mer information om hur du ställer in e-post går du till [Ställ in e-post](admin-how-setup-email.md).
@@ -59,19 +59,19 @@ Använd inställningarna på sidan **Skicka påminnelseinställningar** för att
 * Inställningar för vad som ska tas med i betalningspåminnelsen.
 * Inställningar för att spåra påminnelser som du skickar genom att skapa interaktioner, oavsett om du skriver ut eller skickar påminnelsen via e-post och om du endast vill bifoga förfallna fakturor, alla fakturor eller inga fakturor. 
 
-## <a name="access-the-history-of-a-reminder"></a>Öppna historiken för en påminnelse
+## Öppna historiken för en påminnelse
 
 [!INCLUDE [prod_short](includes/prod_short.md)] håller reda på varje gång en automatisering körs. Du kan komma åt historiken genom att välja åtgärden **Loggtransaktioner**. Du kan också använda åtgärden **Utskickade påminnelser** för att komma åt en lista över de påminnelser som du har skickat.
 
-## <a name="handle-errors"></a>Hantera fel
+## Hantera fel
 
 På snabbfliken **Åtgärder** kan du för varje åtgärd ange om du vill att automatiseringen ska stoppas om åtgärden innehåller ett fel. Om du gör det kommer automatiseringen inte att bearbeta de åtgärder som kommer efteråt. Om du vill aktivera eller inaktivera den här funktionen använder du åtgärderna **Ange stopp vid fel** eller **Rensa stopp vid fel**.
 
-## <a name="change-action-settings-for-an-automation"></a>Ändra åtgärdsinställningar för en automatisering
+## Ändra åtgärdsinställningar för en automatisering
 
 Du kan när som helst ändra inställningarna för en automatisering. På snabbfliken **Åtgärder** väljer du **Inställningar** och gör sedan ändringarna.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera villkor och nivåer för betalningspåminnelser](finance-setup-reminders.md)  
 [Skicka påminnelser om utestående saldon](receivables-send-reminders.md)  

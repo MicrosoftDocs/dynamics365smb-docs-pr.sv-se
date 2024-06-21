@@ -10,7 +10,7 @@ ms.date: 09/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Ange när och hur meddelanden om arbetsflöde ska tas emot
+# Ange när och hur meddelanden om arbetsflöde ska tas emot
 
 När du konfigurerar godkännandeanvändare i arbetsflöden där du vill att någon ska godkänna ändringar, till exempel när nya poster skapas eller när någon begär ett godkännande, måste du ange hur och när godkännandeanvändaren ska meddelas. Du kan t.ex. ange att en godkännandeanvändare direkt får ett e-postmeddelande när någon skapar en ny kund. Du kan också schemalägga att meddelanden ska levereras, t.ex. en gång per vecka eller per månad.
 
@@ -24,11 +24,11 @@ Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare
 > [!NOTE]
 > Om du vill använda e-post som aviseringsmetod måste du konfigurera e-post för både avsändaren och mottagaren i [!INCLUDE [prod_short](includes/prod_short.md)]. Läs mer i [Ställa in e-post](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Steg i arbetsflöden
+## Steg i arbetsflöden
 
 Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Läs mer i [arbetsflöden](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Ange när och hur användare ska meddelas
+## Ange när och hur användare ska meddelas  
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
@@ -57,7 +57,7 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
    |**Datum i månaden**|Ange om användaren meddelas på den första, den sista eller ett visst datum i månaden.|
    |**Datum för månadsvis meddelande**|Ange månadsdag då användaren meddelas när värdet i fältet **Datum i månaden** är **Anpassat**.|
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Ändra när och hur du ska meddelas
+## Ändra när och hur du ska meddelas
 
 1. Välj knappen **Ändra meddelandeinställningar** i ett av meddelandena som du har tagit emot, antingen eller som e-post eller notering.  
 2. Ändra dina meddelandeinställningar så som beskrivs i steg 3-5 ovan på sidan **Konfigurera arbetsflödesavisering**.
@@ -65,7 +65,7 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
    2. Välj om du vill få ett e-postmeddelande eller en meddelande anteckning i fältet **meddelandemetod**.
    3. Välj **meddelandeschema** för att ändra frekvens och tidpunkt då meddelanden skickas.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  

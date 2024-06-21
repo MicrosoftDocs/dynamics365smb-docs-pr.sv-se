@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# <a name="payment-practices-report"></a>Rapport om betalningsrutiner
+# Rapport om betalningsrutiner  
 
 Vissa länder/regioner kräver att företag rapporterar betalningstider för sina leverantörer enligt lokala myndigheters definition. Denna rapportering kan baseras på olika källor och kan sortera leverantörer baserat på deras storlek eller definierade betalningsvillkor, vilket ger rapportering för leverantörer för följande enligt krav från lokala myndigheter:  
 
@@ -24,7 +24,7 @@ Användare kan välja den period som de vill köra en beräkning för och hitta 
 > [!NOTE]
 > Denna rapportering krävs hittills i vissa länder, men detta är en global funktion och kan användas överallt. För närvarande måste svenska företag med 250 eller fler anställda varje år rapportera till Bolagsverket vilka betalningstider de har för inköp från företag som är mindre än dem själva. Liknande handlingar finns i Storbritannien, Australien och Nya Zeeland.  
 
-## <a name="generate-the-report"></a>Skapa rapporten
+## Skapa rapporten 
 
 Använd följande steg för att köra rapporten **Betalningsrutiner**:
 
@@ -48,7 +48,7 @@ Använd följande steg för att köra rapporten **Betalningsrutiner**:
 6. Från alla beräknade fält kan du gå djupare för att se hur resultatet har beräknats genom att öppna sidan **Lista över data för betalningsrutinen**.
 7. Om du vill skriva ut dokumentet kan du göra det genom att köra åtgärden **Skriv ut**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomiska rapporter](finance-reports.md)  
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  

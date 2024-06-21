@@ -10,14 +10,14 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="create-sales-opportunities"></a>Skapa affärsmöjligheter
+# Skapa affärsmöjligheter
 Du kan skapa möjligheter för de affärsmöjligheter som du har via dina kontakter. Alla affärsmöjligheter måste fördelas till en säljare eller inköpare och innefatta en kontakt.
 
 Du kan skapa affärsmöjligheter från sidan **Affärsmöjlighetslista**. Men vanligtvis kan du skapa affärsmöjligheter från den specifika kontakten eller säljaren.
 
 Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a>Så här skapar du en affärsmöjlighet från en säljare
+## Så här skapar du en affärsmöjlighet från en säljare
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
 2. Markera den säljare i listan som du vill skapa en affärsmöjlighet för.
 3. Välj åtgärden **Affärsmöjligheter** och välj sedan **Lista**.
@@ -25,7 +25,7 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a>Så här skapar du en affärsmöjlighet från en kontakt
+## Så här skapar du en affärsmöjlighet från en kontakt
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Markera kontakten i listan som du vill skapa en affärsmöjlighet för.
 3. Gör något av följande:
@@ -33,7 +33,7 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
    * Välj åtgärden **Affärsmöjligheter** och välj sedan **Ny**.
 4. Fyll i relevanta fält.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med Business Central](ui-work-product.md)

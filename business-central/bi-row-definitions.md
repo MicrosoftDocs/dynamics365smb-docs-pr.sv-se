@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="row-definitions-in-financial-reporting"></a>Raddefinitioner i ekonomiska rapporter
+# Raddefinitioner i ekonomiska rapporter
 
 Raddefinitioner i ekonomiska rapporter är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Du kan också beräkna mellanliggande steg som inte visas i slutrapporten.
 
-## <a name="create-or-edit-a-row-definition"></a>Skapa eller redigera en raddefinition
+## Skapa eller redigera en raddefinition
 
 Följ dessa steg för att skapa eller redigera en raddefinition:
 
@@ -29,7 +29,7 @@ Följ dessa steg för att skapa eller redigera en raddefinition:
 > [!NOTE]
 > Kolumnerna som du anger på varje rad i raddefinitionen representerar kolumnerna tre och uppåt på sidan **Ekonomisk rapport**. De två första kolumnerna **Radnr** och **beskrivning** korrigeras.  
 
-## <a name="built-in-row-definitions"></a>Inbyggda raddefinitioner
+## Inbyggda raddefinitioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel på raddefinitioner som hjälper dig att snabbt komma igång med att skapa ekonomirapporter som passar dina behov.
 
@@ -45,7 +45,7 @@ Följ dessa steg för att skapa eller redigera en raddefinition:
 > [!NOTE]
 > De ekonomiska exempelrapporterna i [!INCLUDE[prod_short](includes/prod_short.md)] är inte färdiga att användas direkt. Beroende på hur du konfigurerar redovisningskonton, dimensioner, redovisningskontokategorier och budgetar måste du justera exempelrad- och kolumndefinitionerna och de ekonomiska rapporter som de används i så att de matchar dina inställningar.
 
-## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Använda kontokategorier för att ändra layout på din redovisning
+## Använda kontokategorier för att ändra layout på din redovisning
 
 Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat dina kontokategorier på sidan **Redovisningskontokategorier** kan du välja åtgärden **Skapa ekonomiska rapporter** och uppdatera de underliggande ekonomiska rapporterna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapporten **Kontoavstämning** kommer nya summor och underposter att läggas till.
 
@@ -56,7 +56,7 @@ En annan fördel med att använda redovisningskontokategorier framför de råa r
 >
 > Du bör skapa och strukturera egna redovisningskontokategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t. ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**. Läs mer i [Mappa redovisningskonton till kontokategorier](finance-general-ledger.md#account-categories).
 
-## <a name="best-practices-for-working-with-row-definitions"></a>Metodtips för att arbeta med raddefinitioner
+## Metodtips för att arbeta med raddefinitioner
 
 Raddefinitioner versionshanteras inte. När du ändrar en raddefinition ersätts den gamla versionen när ändringen sparas i databasen. Följande lista innehåller några metodtips för hur du arbetar med raddefinitioner:
 
@@ -64,7 +64,7 @@ Raddefinitioner versionshanteras inte. När du ändrar en raddefinition ersätts
 - Innan du ändrar en raddefinition bör du överväga att ta en kopia av den som säkerhetskopia, ifall ändringen inte fungerar som förväntat. Du kan antingen bara kopiera definitionen (ge den ett bra namn) eller exportera den. För mer information går du till [Importera eller exportera raddefinitioner](#import-or-export-financial-reporting-row-definitions).
 - Om du behöver en ny kopia av en definition som [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller är ett enkelt sätt att skapa ett nytt företag som bara innehåller inställningsdata. Exportera sedan definitionen och importera den till det företag där definitionen behöver uppdateras.
 
-## <a name="import-or-export-financial-reporting-row-definitions"></a>Importera eller exportera raddefinitioner för ekonomiska rapporter
+## Importera eller exportera raddefinitioner för ekonomiska rapporter
 
 Du kan importera och exportera raddefinitioner som RapidStart-konfigurationspaket. Till exempel är konfigurationspaket användbara för att dela information med andra företag. Paketet skapas i en .rapidstart-fil, vilket komprimerar innehållet.
 
@@ -76,7 +76,7 @@ Så här importerar eller exporterar du raddefinitioner för ekonomiska rapporte
 1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Raddefinitioner** och välj relaterad länk.
 1. Välj raddefinition och välj sedan åtgärden **Importera raddefinition** eller **Exportera raddefinition**, beroende på vad du vill göra.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kolumndefinitioner i ekonomiska rapporter](bi-column-definitions.md)  
 [Förbereda ekonomisk rapportering](bi-how-work-account-schedule.md)  

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="setting-up-service-management"></a>Ställa in tjänstehantering
+# Ställa in tjänstehantering
 Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)], finns det saker som du kan ställa in. t. ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
 
 När du gör inställningarna i tjänstehanteringen måste du bestämma vilken service du erbjuder kunderna och schemalägga denna service. Service är en typ av arbete som utförs av en eller flera resurser åt kunden. Service kan till exempel vara en typ av datorreparation. En serviceartikel är den utrustning eller artikel som behöver servas, till exempel datorn som måste repareras. Du kan ställa in service som en del av en grupp relaterade reparations- eller underhållsartiklar.  
@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 | Ställa in tjänsteartiklar och tjänsteartikelkomponenter |[Skapa tjänsteartiklar](service-how-setup-service-items.md) |
 | Innan du skapar servicekontrakt och kontraktsofferter. |[Skapa servicekontrakt](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 [Servicehantering](service-service.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 

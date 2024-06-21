@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
+# Spåra artiklar med artikelspårning
 
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
 
@@ -23,7 +23,7 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 
  De två funktionerna kan användas tillsammans genom att överföra ett spårat serie- eller partinummer till sidan **Hitta transaktioner** för att slutföra ett spårningsscenario. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar
+## Se spårade artiklar  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **artikelspårning** och väljer sedan relaterad länk.  
 2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
@@ -52,14 +52,14 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 >   
 >  Välj **Gå till redan spårat** om du vill söka efter artikelspårningsrader där transaktionshistoriken redan har spårats. Den aktuella artikelspårnings raden är markerad, och alla underliggande rader expanderade.  
 
-## <a name="to-find-item-tracked-items-with-find-entries"></a>Så här hittar du spårade artiklar med Hitta transaktioner
+## Så här hittar du spårade artiklar med Hitta transaktioner  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **hitta transaktioner** och väljer sedan relaterad länk.  
 2. Välj **Åtgärder** > **Sök efter** > **Sök efter artikelreferens**.
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med serienummer, partinummer och paketnummer](inventory-how-work-item-tracking.md)  

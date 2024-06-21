@@ -12,11 +12,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="specify-posting-periods"></a>Ange bokföringsperioder
+# Ange bokföringsperioder
 
 Använd bokföringsperioder för att ange när användare kan bokföra i redovisningen.  
 
-## <a name="to-specify-posting-periods"></a>Så här anger du bokföringsperioder
+## Så här anger du bokföringsperioder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
@@ -24,13 +24,13 @@ Använd bokföringsperioder för att ange när användare kan bokföra i redovis
 > [!NOTE]  
 > Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i [Ställ du in tidsbegränsningar för användare](ui-define-granular-permissions.md#set-up-time-constraints-for-users).
 
-## <a name="video-guidance"></a>Videovägledning
+## Videovägledning
 
 När du avslutar en bokföringsperiod kanske du vill förhindra att nya inlägg kommer in, eller tillåta endast vissa personer att lägga upp transaktioner. Följande video visar hur du kontrollerar när och vem som kan bokföra transaktioner till din huvudbok.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fAB8]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  

@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
+# Konsolidera ekonomiska data från flera företag
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som ska rapportera till överordnade organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] ger revisorer verktyg som hjälper dem att överföra redovisningstransaktioner från två eller flera företag (dotterbolag) till ett konsoliderat företag.  
 
@@ -36,11 +36,11 @@ Du kan lägga upp det konsoliderade företaget i en databas på samma sätt som 
 > [!TIP]
 > Att konsolidera ekonomiska data kan vara särskilt användbart för företagsinterna processer. Mer information om företagsinterna funktioner finns i [Hantera företagsinterna transaktioner](intercompany-manage.md).
 
-## <a name="consolidate-data"></a>Konsolidera data
+## Konsolidera data
 
 Innan du konsoliderar är det en bra idé att testa dina data innan du överför dem till det konsoliderade företaget. [!INCLUDE[prod_short](includes/prod_short.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Korrigera eventuella fel som du hittar innan du kör rapporten. Du kan testa en databas eller - om du importerar data från en XML-fil - testa filen.
 
-### <a name="test-the-data-before-you-consolidate"></a>Testa du datan före konsolidering
+### Testa du datan före konsolidering
 
 1. Öppna det konsoliderade företaget.  
 2. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
@@ -49,7 +49,7 @@ Innan du konsoliderar är det en bra idé att testa dina data innan du överför
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  
     * Om du vill testa en databas väljer du **Testa databas**.  
 
-### <a name="run-the-consolidation"></a>Kör konsolideringen
+### Kör konsolideringen
 
 När du har testat data kan du starta konsolideringen överför den till det konsoliderade företaget. En assisterad konfigurationsguide hjälper dig genom processen.
 
@@ -60,7 +60,7 @@ När du har testat data kan du starta konsolideringen överför den till det kon
 2. På sidan **Affärsenheter** väljer du åtgärden **Konsolidera**.  
 3. Fyll i relevanta fält.  
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Använd rapporten Konsoliderad råbalans
+## Använd rapporten Konsoliderad råbalans
 
 Rapport **Konsoliderad råbalans** kan ge dig en överblick över din verksamhets övergripande ekonomiska hälsa. Rapporten kombinerar redovisningstransaktioner från var och ett av företagen i ett nytt företag som du skapar för att innehålla konsoliderade data. Det konsoliderade företaget är bara en behållare för konsoliderade data och saknar levande affärsdata. Företagen som du inkluderar i det konsoliderade företaget blir **Affärsenheter** i rapporten. Om det är fyra affärsenheter eller färre kan rapporten **Konsoliderad råbalans (4)** användas.  
 
@@ -71,7 +71,7 @@ Rapporten visar en linje för varje konto och följer kontoplanens struktur. Ett
 * De gjorda elimineringarna i det konsoliderade företaget. Elimineringar kommer alltid att visas för en period motsvarande det konsoliderade företagets räkenskapsår.
 * Totalen för det konsoliderade företaget efter elimineringar. Visas som en nettoförändring eller som saldo t.o.m. datum.
 
-## <a name="eliminate-repeated-transactions"></a>Eliminera upprepade transaktioner
+## Eliminera upprepade transaktioner
 
 När du har konsoliderat företagen måste du hitta och eliminera alla transaktioner som registreras mer än en gång mellan företag. Bearbeta konsolideringselimineringar är en manuell process.  
 
@@ -96,7 +96,7 @@ En rad skapas för varje konto enligt kontoplanens uppställning. Ett konto visa
 * Beskrivningen kopierad från redovisningsjournalen.
 * Det konsoliderade företagets total efter elimineringarna om de är bokförda.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Exportera och importera konsoliderade data mellan databaser
+## Exportera och importera konsoliderade data mellan databaser
 
 Om data för en affärsenhet finns i en annan databas kan du göra en manuell filbaserad överföring eller automatisera processen med hjälp av ett API. Mer information om API:et finns i [Använda vårt API för att automatiskt dela data mellan miljöer](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -116,11 +116,11 @@ De exporterade posterna innehåller följande fält: **Kontonr**, **Bokföringsd
 3. Det dimensionsvärde som exporteras för transaktionen är det konsoliderade företagets dimensionsvärde som har lagts upp i fältet **Konsolideringskod** för det dimensionsvärdet. Om inget dimensionsvärde har angetts för det konsoliderade företaget i fältet **Konsolideringskod** för det dimensionsvärdet, exporteras själva dimensionsvärdet till raden.  
 4. XML-filerna innehåller dessutom valutakurserna i konsolideringsperioden. Dessa kurser placeras i ett separat avsnitt i början av filen.  
 
-## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Använd vårt API för att automatiskt dela data mellan miljöer
+## Använd vårt API för att automatiskt dela data mellan miljöer
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller ett API som gör att du kan automatisera processen för att dela ekonomiska data från affärsenheter till det konsoliderade företaget. API:et är gratis att använda och enkelt att installera. Du kan till och med dela data mellan [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer. Du kan till exempel behöva dela mellan miljöer när affärsenheter inte finns i samma geografiska Azure-områden. Mer information om hur du använder API:et för att automatisera konsolideringsprocessen finns i [Konfigurera företagskonsolidering](finance-consolidated-company-reporting-setup.md#busunit).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera företagskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory"></a>Ställa in lager
+# Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
 
 Du kan förbättra kundservicen och optimera din leverantörskedja genom att fördela ditt lager på olika adresser. Du kan sedan köpa, lagra eller sälja artiklar på olika lägerställen och överföra lager mellan dessa.
@@ -32,7 +32,7 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Hantera inköp](purchasing-manage-purchasing.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Ställa in flera räntesatser för fördröjd betalning
+# Ställa in flera räntesatser för fördröjd betalning
 
 Du kan använda olika räntesatser för olika perioder för försenade betalningar i handelstransaktioner. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -18,7 +18,7 @@ En myndighet anger till exempel den högsta räntan som kan tas ut för en kund.
 
 När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så kan du för avgiften för försenad betalning ange flera räntesatser så att avgiften beräknas utifrån olika räntesatser under olika perioder.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Så här ställer du in flera räntesatser
+## Så här ställer du in flera räntesatser
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **räntevillkor** och väljer sedan relaterad länk.  
 2. Gå till sidan **Räntevillkor** välj räntevillkoret och välj sedan åtgärden **Räntesatser**.  
@@ -30,7 +30,7 @@ När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så
 
 När du skickar ut en räntefaktura, visar fakturan dröjsmålsräntan med flera räntesatser för en viss tidsperiod. Räntefakturan innehåller även kontaktinformation för kunden, företaget som skickar räntefakturan, det ytterligare beloppet och totalt belopp. Den ingående transaktionen på räntefakturan visas i fet stil. Dröjsmålsräntan beräknas med flera räntesatser för en viss tidsperiod och skrivs ut efter den ingående transaktionen på räntefakturan.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in Finance](finance-setup-finance.md)

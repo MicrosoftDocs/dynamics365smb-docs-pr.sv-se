@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="unsubscribe-or-remove-"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prod_short](includes/prod_short.md)]
+# Avbryta prenumerationen eller ta bort [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Om du vill sluta använda [!INCLUDE[prod_short](includes/prod_short.md)], kan du avsluta ditt konto eller hämta licenser som tagits bort från ditt konto. Stegen du tar skiljer sig om du använder testversionen eller har en prenumeration.  
 
@@ -23,11 +23,11 @@ Om du vill avsluta en prenumeration måste administratören ta bort prenumeratio
 
 Du kan läsa mer om hur du exporterar data till Excel i [Exportera data till andra finanssystem](about-export-data.md#exporting-data-to-other-finance-systems). Om du hellre vill exportera alla data till en Azure-lagringsenhet kan din Microsoft 365-administratör göra det i administrationscentret. Mer information finns i [Exportera databaser i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing--from-your-app-launcher"></a>Ta bort [!INCLUDE[prod_short](includes/prod_short.md)] från din programmarstartbild
+## Ta bort [!INCLUDE[prod_short](includes/prod_short.md)] från din programmarstartbild
 
 Om du vill dölja [!INCLUDE[prod_short](includes/prod_short.md)] från din programmarstartbild, kan du ta bort den. Inga data förloras och det går inte att avbryta prenumerationen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Vanliga frågor och svar för utvärderingsversion av Business Central](trial-faq.md)  
 [Utvärderingsversioner och prenumerationer (för administratörer)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

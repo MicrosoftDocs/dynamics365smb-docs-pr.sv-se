@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-banking"></a>Ställa in bank
+# Ställa in bank
 
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.
 
@@ -25,7 +25,7 @@ Om du vill använda elektroniska banktjänster för att importera kontoutdrag oc
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

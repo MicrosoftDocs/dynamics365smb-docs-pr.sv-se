@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Köpa artiklar till försäljning genom att skapa inköpsfakturor
+# Köpa artiklar till försäljning genom att skapa inköpsfakturor
 
 Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvantiteter som krävs av försäljningen från försäljningsorder och fakturor. Du kan använda två olika funktioner beroende på dokumenttypen.
 
@@ -23,7 +23,7 @@ Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvan
 |**Skapa inköpsorder**|Från en försäljningsorder skapar den här funktionen en inköpsorder för varje leverantör av artiklar som levererar artiklarna på försäljningsordern. Du kan redigera inköpskvantiteten innan du skapar inköpsorder. Endast ej tillgängligt antal föreslås.
 |**Skapa inköpsfaktura**|Från en försäljningsorder och en försäljningsfaktura skapar funktionen en inköpsfaktura för en vald leverantör för alla eller markerade områden i dokumentet. Hela försäljningskvantiteten föreslås.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Så här skapar du inköpsorder för en eller flera serviceorder från en försäljningsorder
+## Så här skapar du inköpsorder för en eller flera serviceorder från en försäljningsorder
 Om du vill skapa en inköpsorder för varje artikelkvantitet som inte är tillgängliga på försäljningsordern, använd funktion **skapa inköpsorder**.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
@@ -43,7 +43,7 @@ Om du vill skapa en inköpsorder för varje artikelkvantitet som inte är tillg�
 7. Fortsätt att behandla inköpsorder, till exempel genom att redigera eller lägga till inköpsorderrader. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Så här skapar du en försäljningsorder från en försäljningsfaktura
+## Så här skapar du en försäljningsorder från en försäljningsfaktura
 Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljningsdokument väljer du först vilken leverantör som du köper från med funktionen **skapa inköpsfaktura**.
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
     En inköpsfaktura skapas som har en, flera eller alla rader på försäljningsfakturan.
 7. Fortsätt att behandla inköpsfakturan, till exempel genom att redigera eller lägga till inköpsfakturarader. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Fakturera försäljning](sales-how-invoice-sales.md)  

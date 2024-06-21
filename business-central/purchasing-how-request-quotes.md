@@ -11,16 +11,16 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="request-quotes"></a>Begära offerter
+# Begära offerter
 
 En inköpsoffert kan användas som ett preliminärt utkast för en inköpsorder, som sedan kan göras om till en inköpsfaktura.
 
-## <a name="create-a-purchase-quote"></a>Skapa en inköpsoffert
+## Skapa en inköpsoffert
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsofferter** och väljer sedan relaterad länk.
 2. Skapa ett nytt dokument på samma sätt som du gör en inköpsorder. Lär dig mer i [registrera inköp](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Konvertera inköpsofferter till inköpsorder
+## Konvertera inköpsofferter till inköpsorder
 
 När du har accepterat leverantörens offert kan du omvandla den till en inköpsorder för att behandla inköpet.
 
@@ -31,7 +31,7 @@ Inköpsofferten tas bort från databasen. En inköpsorder skapas utifrån inform
 > [!NOTE]
 > Det går inte att konvertera en inköpsoffert till en inköpsfaktura direkt, som det är möjligt med försäljningsofferter. Om du vill ha mer information om hur du skapar en inköpsfaktura kan du läsa [Registrera inköp med inköps fakturor](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  

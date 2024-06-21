@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="purchasing"></a>Inköp
+# Inköp
 
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
 
@@ -25,7 +25,7 @@ För alla inköpsprocesser kan du t. ex. inkludera ett arbetsflöde för godkän
 
 Följande avsnitt beskriver en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
-## <a name="get-started-with-purchase-capabilities"></a>Kom igång med inköpsfunktioner
+## Kom igång med inköpsfunktioner
 
 Innan du köper varor måste du ange hur du vill hantera företagets inköpsprocesser.
 
@@ -34,7 +34,7 @@ Innan du köper varor måste du ange hur du vill hantera företagets inköpsproc
 | Konfigurera de regler och värden som definierar företagets inköpsprinciper. | [Konfigurera inköp](purchasing-setup-purchasing.md) |
 | Registrera varje leverantör som du har köpt från ett leverantörskort. | [Registrera nya leverantörer](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Inköpsanalys
+## Inköpsanalys
 
 I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om dina inköpsprocesser.
 
@@ -44,7 +44,7 @@ I det här avsnittet beskrivs analysverktyg som du kan använda för att få ins
 | Utför ad hoc-analys av inköpsdata direkt på listsidor och frågor. | [Ad hoc-analys av inköpsdata](ad-hoc-analysis-purchasing.md) |
 | Utforska inbyggda inköpsrapporter. | [Inbyggda inköpsrapporter](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Offert för order till inköpsfaktura
+## Offert för order till inköpsfaktura
 
 I följande tabell beskrivs hur du använder enkla inköpsprocesser.
 
@@ -65,7 +65,7 @@ Om du behöver mer komplicerade inköpsprocesser visas i följande tabell artikl
 |Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Annullerade beställningar, återbetalningar och returer
+## Annullerade beställningar, återbetalningar och returer
 
 I följande tabell beskrivs hur du hanterar annullerade order, återbetalningar och returer av varor som du köper.
 
@@ -75,7 +75,7 @@ I följande tabell beskrivs hur du hanterar annullerade order, återbetalningar 
 |Konvertera till exempel elektroniska fakturor från leverantörer till fakturor i Business Central.|[Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Andra processer inom försäljning
+## Andra processer inom försäljning
 
 I följande tabell beskrivs hur du hanterar andra inköpsprocesser.
 
@@ -84,11 +84,11 @@ I följande tabell beskrivs hur du hanterar andra inköpsprocesser.
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Externa dokumentnummer
+## Externa dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  

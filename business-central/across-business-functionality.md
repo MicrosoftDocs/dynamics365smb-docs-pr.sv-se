@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="business-functionality"></a>Affärsfunktion
+# Affärsfunktion
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas. Lär dig mer om hur du får en kostnadsfri utvärderingsversion [här](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.reviewer: bholtorf
 |Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md)|
 |Registrera externa dokument i [!INCLUDE[prod_short](includes/prod_short.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Administration](admin-setup-and-administration.md)    
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  

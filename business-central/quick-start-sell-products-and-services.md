@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-quick-start"></a>Försäljning snabbstart
+# Försäljning snabbstart
 
 För att kunna sälja produkter och tjänster måste du först lägga upp objekt och kunder. När du är klar kan du börja registrera försäljningsorder och skicka ut fakturor.
 
-## <a name="set-up-items-to-sell"></a>Ställ in objekt att sälja
+## Ställ in objekt att sälja
 
 Det här videoklippet visar hur du ställer in en artikel för försäljning [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,13 +22,13 @@ Det här videoklippet visar hur du ställer in en artikel för försäljning [!I
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Skapa en ny artikel
+### Skapa en ny artikel
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Mer information och andra åtgärder du kan utföra när du ställer in objekt finns i [registrera nya objekt](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Ställ in kunder
+## Ställ in kunder
 
 Det här videoklippet visar hur du lägger upp en ny kund i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -36,17 +36,17 @@ Det här videoklippet visar hur du lägger upp en ny kund i [!INCLUDE[prod_short
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Skapa en ny kund
+### Skapa en ny kund
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Mer information och andra åtgärder du kan utföra när du ställer in kund finns i [registrera nya kunder](sales-how-register-new-customers.md).
 
-## <a name="create-a-sales-order"></a>Skapa en försäljningsorder
+## Skapa en försäljningsorder  
 
 När du säljer något till en kund finns det två alternativ. Det första är att bara skapa en försäljningsfaktura. Om försäljningsprocesser är mer komplicerade, till exempel om du har situationer där du endast levererar delar av en orderkvantitet, använder du dock en försäljningsorder.
 
-### <a name="to-create-a-sales-order"></a>Så här skapar du försäljningsorder
+### Så här skapar du försäljningsorder  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 10.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Skapa en ny post genom att välja **Ny**.
@@ -76,11 +76,11 @@ När du säljer något till en kund finns det två alternativ. Det första är a
 
 Mer information och andra åtgärder du kan utföra när du skapar kundförsäljningsorder finns i [sälja produkter med kundförsäljningsorder](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Skapa en försäljningsfaktura
+## Skapa en försäljningsfaktura
 
 När du skapar och bokför en försäljningsfaktura kan du inte bara skapa det fakturadokument som du skickar till kunden. Du kan också skapa tillhörande antal och värdetransaktioner i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a>Så här skapar och bokför du en försäljningsfaktura
+### Så här skapar och bokför du en försäljningsfaktura  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 20.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 
@@ -106,7 +106,7 @@ När du skapar och bokför en försäljningsfaktura kan du inte bara skapa det f
 
 Mer information och andra åtgärder du kan utföra när du skapar en kundförsäljningsfakturor i [Fakturaförsäljning](sales-how-invoice-sales.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Snabbstart för Business Central](quick-start-business-central.md)  
 [Försäljningsöversikt](sales-manage-sales.md)  

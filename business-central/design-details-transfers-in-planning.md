@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-transfers-in-planning"></a>Designdetaljer: Överföringar i planering
+# Designdetaljer: Överföringar i planering
 
 Överföringsorder är också en källa till tillgång när de arbetar på nivån med lagerställeenheter. När du använder flera lagerställen (distributionslager) kan återanskaffningssystemet för lagerställeenheter ställas in till Överföring, vilket anger att lagerstället fylls på genom att varor överförs från ett annat lagerställe. I en situation med fler lagerställen kanske du har en kedja med överföringar. Leverans till GRÖN plats överförs från GULT, till exempel GULT överförs från RÖTT och så vidare. I början av kedjan finns återanskaffningssystemet **Prod. order** eller **Inköp**.  
 
@@ -28,7 +28,7 @@ Om efterfrågan ändras kan det orsaka en dominoeffekt genom kedjan. Alla överf
 
 ![Exempel på tillgång/efterfrågan på överföringar.](media/nav_app_supply_planning_7_transfers2.png "Exempel på tillgång/efterfrågan på överföringar")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Varför är överföring ett specialfall?
+## Varför är överföring ett specialfall?  
 
 Överföringsordrar liknar andra order som inköps- och produktionsorder. Men bakom kulisserna det är mycket annorlunda.  
 
@@ -38,7 +38,7 @@ En skillnad är att en överföringsrad representerar både efterfrågan och til
 
 När [!INCLUDE [prod_short](includes/prod_short.md)] ändrar tillgångssidan för överföringen måste den göra en liknande ändring på efterfrågesidan.  
 
-## <a name="transfers-are-dependent-demand"></a>Överföringar är härledd efterfrågan
+## Överföringar är härledd efterfrågan  
 
 Relationen tillgång och efterfrågan liknar komponenterna på produktionsorderraderna. Skillnaden är att komponenter på produktionsorderrader är på nästa planeringsnivå och har en annan artikel. De båda delarna av överföringen finns på samma nivå för samma artikel.  
 
@@ -48,7 +48,7 @@ Om inte planläggningsflexibiliteten är Ingen ska en överföringsrad aldrig ha
 
 I planeringsproceduren ska överföringsbegäran endast beaktas när tillgångssidan har behandlats av planeringssystemet. Innan bearbetningen sker är den verkliga efterfrågan inte känd. Ordningen på ändringar är viktig för överföringsorder.  
 
-## <a name="planning-sequence"></a>Planera sekvens
+## Planera sekvens  
 
 I följande bild visas ett exempel på en sträng med överföringar.  
 
@@ -60,7 +60,7 @@ I det här exemplet kommer planeringssystemet starta på kundefterfrågan och ar
 
 ![Leveransplanering med överföringar.](media/nav_app_supply_planning_7_transfers5.png "Leveransplanering med överföringar")  
 
-## <a name="transfer-level-code"></a>Överföringsnivåkod
+## Överföringsnivåkod  
 
 Överföringsnivåkoden för lagerställeenheten bestämmer i vilken sekvens planeringssystemet bearbetar lagerställen.  
 
@@ -72,7 +72,7 @@ I det här exemplet kommer planeringssystemet starta på kundefterfrågan och ar
 
 När du uppdaterar en lagerställeenhet identifierar om återanskaffningssystemet för lagerställeenheter har cirkulära referenser.  
 
-## <a name="planning-transfers-without-sku"></a>Planera överföringar utan lagerställeenhet
+## Planera överföringar utan lagerställeenhet  
 
 För mindre avancerade distributionslagerinställningar kan du använda lagerställen och göra manuella överföringar mellan lagerställen, även om du inte använder lagerställeenheter. Överföringen kan till exempel täcka en försäljningsorder på det lagerstället. Planeringssystemet svarar på ändringar i efterfrågan.  
 
@@ -82,7 +82,7 @@ För manuella överföringar analyserar planeringssystemet överföringsorder oc
 
 Om det finns fler överföringar till ett lagerställe finns kommer det första överföringsordern att definiera planeringsriktningen. Överföringar i den motsatta riktningen annulleras.  
 
-## <a name="changing-quantity-with-reservations"></a>Ändra antal med reservationer
+## Ändra antal med reservationer  
 
 När du ändrar kvantiteter för en leverans tar det hänsyn till reservationer i planeringssystemet. Reserverad kvantitet representerar den undre gränsen för hur mycket du bör minska tillgången.  
 
@@ -97,7 +97,7 @@ En överföringsorderrad på 117 stycken är till exempel reserverad för följa
 
 ![Reservationer i överföringsplanering.](media/nav_app_supply_planning_7_transfers8.png "Reservationer i överföringsplanering")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Ändra antal i en överföringskedja
+## Ändra antal i en överföringskedja  
 
 Här följer ett exempel på vad som händer när du ändrar en kvantitet i en överföringsändring.
 
@@ -119,7 +119,7 @@ När planeringssystemet körs igen ska det avlägsna den överskjutande tillgån
 
 Överföringen ROSA-RÖD har minskat till 22. Den inkommande delen av den BLÅ-ROSA överföringen reserveras inte, men den avgående delen gör det. Reservationen innebär att du inte kan minska kvantiteten under 27.  
 
-## <a name="lead-time-calculation"></a>Ledtidsberäkning
+## Ledtidsberäkning  
 
 När förfallodatumet beräknas för en överföringsorder beaktas olika typer av ledtid.  
 
@@ -150,7 +150,7 @@ Exemplet visar följande beräkningar:
 * Startdatum + Leveranstid = Slutdatum  
 * Slutdatum + inkommande hanteringstid = Inleveransdatum  
 
-## <a name="safety-lead-time"></a>Säkerhetsledtid
+## Säkerhetsledtid  
 
 Fältet **Standard säkerhetsledtid** på sidan **Produktionsinställningar** och det relaterade fältet **Säkerhetsledtid** på sidan **Artikelkort** ska inte beaktas vid beräkningen av en överföringsorder. Säkerhetsledtiden påverkar dock hela planen. Säkerhetsledtiden påverkar återanskaffningsordern (inköp eller produktion) i början av överföringskedjan. Det är den punkt där artiklarna placerades på det lagerställe som de ska överföras från.  
 
@@ -160,7 +160,7 @@ På produktionsorderraden är Slutdatum + Säkerhetsledtid + inkommande Dist.lag
 
 På inköpsorderraden är Planerat inleveransdatum + Säkerhetsledtid + inkommande Lagerhanteringstid = Förväntat inleveransdatum.  
 
-## <a name="reschedule"></a>Omplanera
+## Omplanera  
 
 När du planerar om en befintlig överföringsrad söker planeringssystemet efter den utgående artikeln och ändrar datum och tid.
 
@@ -171,11 +171,11 @@ När du planerar om en befintlig överföringsrad söker planeringssystemet efte
 
 När du ändrar förfallodatumet på en överföringsrad måste därför ledtiden beräknas för att uppdatera den utgående sidan av överföringen.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Serie- och partinummer i överföringskedjor
+## Serie- och partinummer i överföringskedjor  
 
 Om efterfrågan använder serie- eller partinummer och du kör planeringsmotorn kommer den att skapa överföringsorder. Se Artikelattribut för mer information om begreppet. Om däremot serie- eller partinummer tas bort från efterfrågan kommer de skapade överföringsorderna fortfarande använda serie- eller artikelnummer och planeringen ignorerar dem (inte tas bort).  
 
-## <a name="order-to-order-links"></a>Order-till-order-länkar
+## Order-till-order-länkar  
 
 I det här exemplet ställs en BLÅ SKU in med partiformningsmetoden **Order**. De ROSA och RÖDA lagerställeenheterna har partiformningsmetoden **Parti-för-parti**. Om du skapar en försäljningsorder för 27 vid lagerställe RÖTT leder det till en kedja av överföringar. Den sista överföringen sker vid lagerstället BLÅ och är reserverad med bindning. I det här fallet är reservationerna inte fasta reservationer som skapats av planeraren på lagerställe ROSA. I planeringssystemet skapas bindningarna. Den viktiga skillnaden är att planeringssystemet kan ändra det sistnämnda.  
 
@@ -183,7 +183,7 @@ I det här exemplet ställs en BLÅ SKU in med partiformningsmetoden **Order**. 
 
 Om efterfrågan ändras från 27 till 22 kommer planeringssystemet att minska antalet nedåt genom kedjan. Den bindande reservationen minskas också.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)   

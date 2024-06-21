@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
+# Ställa in en alternativ rapporteringsvaluta.
 
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
 
@@ -25,7 +25,7 @@ Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan
 >
 > Du har till exempel en stor mängd kundreskontra i brittiska pund (GBP) och du har ställt in den alternativa rapporteringsvalutan (ACY) som GBP. I det här scenariot kommer belopp i de kundreskontra som använder GBP inte att justeras för valutakurs vinster/-förluster i ACY, utan endast belopp i kundreskontra som tillhör andra valutor. Det innebär att om du använder ACY för att rapportera de ekonomiska rapporterna, kan det leda till att utestående saldon för kundreskontra blir undertryckta eller överskattade.
 
-## <a name="displaying-reports-and-amounts-in-acy"></a>Visa rapporter och belopp i den alternativa rapporteringsvalutan
+## Visa rapporter och belopp i den alternativa rapporteringsvalutan
 Med hjälp av en alternativ rapporteringsvaluta kan rapporteringsprocessen för ett företag förenklas i följande fall:
 
 - Företag i länder/regioner utanför EU som har en stor andel transaktioner med länder/regioner inom EU. I det här fallet kan landet utanför EU också vilja rapportera i euro för att göra sina ekonomirapporter mer användbara för sina EU-handelspartner.
@@ -33,11 +33,11 @@ Med hjälp av en alternativ rapporteringsvaluta kan rapporteringsprocessen för 
 
 Flera finansiella rapporter som är baserade på redovisningstransaktioner. Om du vill visa rapportdata i alternativ rapporteringsvaluta markerar du kryssrutan **Visa belopp i alt. rapporteringsvaluta** på snabbfliken **Alternativ** för den relevanta redovisningsrapporten.
 
-## <a name="adjusting-exchange-rates"></a>Justera valutakurser
+## Justera valutakurser
 
 Eftersom valutakurser ständigt fluktuerar måste alternativa valutavärden i systemet justeras med jämna mellanrum. Om dessa justeringar inte görs kan de belopp som har konverterats från utländska (eller alternativa) valutor och bokförts i huvudboken i BVA vara missvisande. Dessutom måste dagliga transaktioner som bokförs innan en daglig valutakurs har registrerats i programmet uppdateras efter det att den dagliga valutakursinformationen har registrerats. Batch-jobbet **Justera valutakurser** används för att justera valutakurserna för bokförda kund-, leverantörs- och bankkontotransaktioner. Det kan även användas för att uppdatera belopp i alternativ rapporteringsvaluta för redovisningstransaktioner. Mer information finns i [uppdatera valutakurser](finance-how-update-currencies.md).
 
-## <a name="setting-up-an-acy"></a>Skapa en alternativ rapporteringsvaluta
+## Skapa en alternativ rapporteringsvaluta
 
 Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 
@@ -46,7 +46,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 - Ange kursjusteringsmetod för momstransaktioner.  
 - Aktivera den alternativa rapporteringsvalutan.  
 
-### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Så här anger du redovisningskonton för bokföring av valutakursjusteringar
+### Så här anger du redovisningskonton för bokföring av valutakursjusteringar  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
 2. På sidan **Valutor** fyller du i följande fält för alternativ rapporteringsvaluta.  
@@ -63,7 +63,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 
 För varje redovisningskonto måste du ange hur redovisningsbelopp för det kontot ska justeras för valutakursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Ange kursjusteringsmetod för alla redovisningskonton
+### Ange kursjusteringsmetod för alla redovisningskonton
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** väljer du relevant konto och sedan åtgärden **Redigera**.  
@@ -81,7 +81,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 
 4.  Stäng sidan **Redovisningskontokort**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Så här anger du kursjusteringsmetod för momstransaktioner
+### Så här anger du kursjusteringsmetod för momstransaktioner
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du relevant metod i fältet **Moms valutakursjustering**.  
@@ -97,7 +97,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
     |**Justera belopp**|BVA-beloppet justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
     |**Justera belopp alt. valuta**|Alternativ rapporteringsvaluta justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Alt. valuta belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
 
-### <a name="to-activate-the-acy"></a>Så här aktiverar du den alternativa rapporteringsvalutan.
+### Så här aktiverar du den alternativa rapporteringsvalutan.  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du fältet **Alternativ rapporteringsvaluta** och välj den alternativa valuta du vill rapportera i.  
 3. När du lämnar fältet visar [!INCLUDE[prod_short](includes/prod_short.md)] ett bekräftelsemeddelande som beskriver effekterna när du väljer (och aktiverar) den alternativa rapporteringsvalutan.  
@@ -123,7 +123,7 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 > [!NOTE]  
 > Fältet **Alt. rapporteringsvaluta** kommer bara att vara aktivt när du har valt **OK** i batch-jobbet **Just. alt. rapporteringsvaluta**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  

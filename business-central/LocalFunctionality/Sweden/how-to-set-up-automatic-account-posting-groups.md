@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-automatic-account-posting-groups-in-the-swedish-version"></a>Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
+# Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
 
 [!INCLUDE [automatic-account-posting-groups-setup](../includes/FISE/automatic-account-posting-groups-setup.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Automatiska kontokoder](automatic-account-codes.md)  
 [Ställa in bokföringsmallar](../../finance-posting-groups.md)  
