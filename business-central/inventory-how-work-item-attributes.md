@@ -11,7 +11,7 @@ ms.search.forms: '7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 91
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Arbeta med artikelattribut
+# <a name="work-with-item-attributes"></a>Arbeta med artikelattribut
 
 När kunder gör förfrågningar om en artikel, antingen i motsvarande fält eller via en integrerad webbutik kan kunden fråga eller söka efter egenskaper som till exempel höjd och modellår. För att tillhandahålla denna kundservice kan du tilldela artikelattributvärden av andra typer till artiklarna. Attributen kan fungera som söknyckelord.
 
@@ -20,7 +20,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 > [!TIP]  
 > Om du kopplar bilder till poster, kan tillägget Image Analyzer identifiera attribut i bilden och föreslå attribut så att du kan bestämma om du vill tilldela dem. Filnamnstillägget är klar. Du måste aktivera det. Mer information finns i [Tillägget Image Analyzer för](ui-extensions-image-analyzer.md).
 
-## Skapa artikelattribut
+## <a name="create-item-attributes"></a>Skapa artikelattribut
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelattribut** och väljer sedan relaterad länk.
 2. På sidan **Artikelattribut** väljer du åtgärden **Ny**.
@@ -29,13 +29,13 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 > [!NOTE]  
 > Om du väljer **Alternativ** i fältet **Typ** kan du välja åtgärden **Artikelattributvärden** för att skapa artikelattributvärden. Mer information finns i [Att skapa artikelattributvärden av typen alternativ](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
-## Skapa värden för artikelattribut av typen alternativ
+## <a name="create-values-for-item-attributes-of-type-option"></a>Skapa värden för artikelattribut av typen alternativ
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelattribut** och väljer sedan relaterad länk.
 2. På sidan **Artikelattribut** markerar du ett artikelattribut av typen **Alternativ** som du vill tilldela värden på, och väljer sedan åtgärden **Artikelattributvärden**.
 3. På sidan **Artikelattributvärden** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Tilldela artikelattribut till artiklar
+## <a name="assign-item-attributes-to-items"></a>Tilldela artikelattribut till artiklar
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. På sidan **Artiklar** markerar du den artikel som du vill tilldela artikelattribut på, och väljer sedan åtgärden **Attribut**.
@@ -45,7 +45,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 6. För artikelattribut av typen **Alternativ** väljer du sökknappen i fältet **Värde** och väljer sedan ett artikelattributvärde. Välj alternativt åtgärden **Ny** för att först skapa ett nytt artikelattributvärde som förklaras i [Att skapa värden för artikelattribut av typen Alternativ](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Upprepa steg 4 genom 6 för alla artikelattribut som du vill tilldela artikeln.
 
-## Tilldela artikelattribut till artikelkategorier
+## <a name="assign-item-attributes-to-item-categories"></a>Tilldela artikelattribut till artikelkategorier
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelkategorier** och väljer sedan relaterad länk.
 2. På sidan **Artikelkategorier** markerar du den artikelkategori, som du vill tilldela artikelattributen till och väljer sedan åtgärden **Redigera**.
@@ -57,7 +57,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 > [!NOTE]  
 > Artikelattribut för överordnade artikelkategorier kommer att ärvas av underordnade artikelkategorier. Detta indikeras av fältet **Ärvd från** på snabbfliken **Attribut**. Mer information finns i [Kategorisera artiklar](inventory-how-categorize-items.md).
 
-## Filtrera artikel efter attribut
+## <a name="filter-by-item-attributes"></a>Filtrera artikel efter attribut
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. På sidan **Artiklar** väljer du åtgärden **Filtrera efter attribut**.
@@ -75,7 +75,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 
 Artiklarna på sidan **Artiklar** filtreras efter de angivna artikelattributvärdena.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kategorisera artiklar](inventory-how-categorize-items.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

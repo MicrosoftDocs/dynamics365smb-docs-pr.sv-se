@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Arbeta med Microsoft Excel-layouter
+# <a name="working-with-microsoft-excel-layouts"></a>Arbeta med Microsoft Excel-layouter
 
 Microsoft Excel-rapportlayouter baseras på Excel-arbetsböcker (.xlsx-filer). Med dem kan du skapa rapporter som innehåller välbekanta Excel-funktioner för sammanfattning, analys och presentation av data som formler, PivotTables och PivotCharts.
 
@@ -19,7 +19,7 @@ Microsoft Excel-rapportlayouter baseras på Excel-arbetsböcker (.xlsx-filer). M
 
 I den här artikeln beskrivs några av de viktigaste sakerna du behöver veta för att komma igång med Excel-layouter.
 
-## Varför använda Excel-layouter?
+## <a name="why-use-excel-layouts"></a>Varför använda Excel-layouter?
 
 Fördelar med att använda Excel-layouter:
 
@@ -35,14 +35,14 @@ Fördelar med att använda Excel-layouter:
 > [!TIP]
 > När OneDrive-integrationsinställningar, när du kör en rapport med en Excel-layout, kopieras Excel-arbetsboksfilen till OneDrive och sedan öppnas i Excel Online. Mer information finns i [Spara Excel-arbetsböcker och rapportfiler i OneDrive](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
 
-## Kom i gång
+## <a name="get-started"></a>Kom i gång
 
 Det finns huvudsakligen två uppgifter som du behöver för att skapa en Excel-layout i en rapport:
 
 1. Skapa den nya Excel-layoutfilen.
 2. Lägg till den nya i rapporten.
 
-## Uppgift 1: Skapa den nya Excel-layoutfilen
+## <a name="task-1-create-the-excel-layout-file"></a>Uppgift 1: Skapa den nya Excel-layoutfilen
 
 Det finns tre sätt att skapa en Excel-layoutfil för en rapport.
 
@@ -61,13 +61,13 @@ Följ dessa steg om du vill skapa en Excel-layout från en rapport, oavsett vilk
 
 Om det redan finns en Excel-layout för en rapport kan du använda den befintliga layouten som utgångspunkt. Det finns två tillvägagångssätt för att få en kopia av layouten. Du kan antingen exportera den befintliga layouten från sidan **Rapportlayout** eller hämta layouten från sidan för rapportens förfrågan. Du kan hämta en Excel-layouttabell som innehåller alla blad i den befintliga filen på båda sätten. Skillnaden är att när du laddar ner den från begärandesidan inkluderar layouten faktiska data. (Data krävs inte, men det är enklare att designa dem.)
 
-#### Metod 1: exportera layouten från sidan **rapportlayout**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Metod 1: exportera layouten från sidan **rapportlayout**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Välj Excel-layouten i listan och välj sedan åtgärden **exportera layout** högst upp på sidan.
 3. Öppna filen i Excel, gör ändringar och spara sedan filen.
 
-#### Metod 2: Hämta layouten från rapportens förfrågan sida
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Metod 2: Hämta layouten från rapportens förfrågan sida
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. På sidan **Rapportlayouter** väljer du en layout för rapporten och väljer sedan åtgärden **Kör rapport**.
@@ -80,7 +80,7 @@ Det här är den mest avancerade metoden för att skapa en layout för en Excel-
 
 ---
 
-## Uppgift 2: Lägg till Excel-layouten i rapporten
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Uppgift 2: Lägg till Excel-layouten i rapporten
 
 När du väl har Excel-layoutfilen är nästa uppgift att lägga till den som en ny layout för rapporten.
 
@@ -110,7 +110,7 @@ När du väl har Excel-layoutfilen är nästa uppgift att lägga till den som en
 3. Report metadata 
 -->
 
-## Förstå Excel-layouter
+## <a name="understanding-excel-layouts"></a>Förstå Excel-layouter
 
 Det finns några saker som du behöver veta eller överväga när du skapar eller gör ändringar i Excel-layouter. Alla Excel-layouter måste innehålla två element: ett **datablad** och en **data**-tabell. Dessa element bygger på layouten genom att definiera affärsdata från Business Central som du kan arbeta med. Du kan betrakta **data**-bladet som ett slags kontrakt mellan layouten i affärsdata. Du ska använda dessa data som källa för de beräkningar och visuella effekter som du vill presentera i andra blad.
 
@@ -132,7 +132,7 @@ Sammanfattningsvis är detta vad du bör och inte bör göra **data**-bladet:
 - Lägg inte till några kolumner om de inte är med i rapport datauppsättningen.
 - Du kan placera bladen i valfri ordning med **data**-bladet först eller sist.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Skapa en Excel-layoutrapport (utvecklardokumentation)](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout?toc=/dynamics365/business-central/toc.json)  
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md)  

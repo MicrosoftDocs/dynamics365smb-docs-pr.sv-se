@@ -9,7 +9,7 @@ ms.search.form: '4,'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera betalningsvillkor
+# <a name="set-up-payment-terms"></a>Konfigurera betalningsvillkor
 
 Betalningsvillkor avgör hur du hanterar förfallodatum och kassarabatter. Du kan använda datumformler för att definiera betalningsvillkoren. När du registrerar dig för [!INCLUDE [prod_short](includes/prod_short.md)] för första gången erbjuder demonstrationsföretaget några betalsätt som företagen ofta använder. Du kan emellertid lägga till hur många rader du vill.  
 
@@ -21,7 +21,7 @@ När du bokför en kreditnota kommer på samma sätt [!INCLUDE [prod_short](incl
 
 Om du vill skicka påminnelser om förfallna betalningar måste du ange nivåer och villkor för betalningspåminnelser. Om du vill veta mer om påminnelser, gå till [Konfigurera villkor och nivåer för betalningspåminnelser](finance-setup-reminders.md).  
 
-## Så här definierar du betalningsvillkor
+## <a name="to-set-up-payment-terms"></a>Så här definierar du betalningsvillkor
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsvillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leve
 >
 > I vissa länder/regioner *kan* du ställa in betalningsvillkor med delbetalningar. För att ta reda på om ditt land/din region stöder denna funktion, gå till avsnittet **Lokal funktionalitet** i innehållsförteckningen till vänster i en artikel [Microsoft Learn](about-localization.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera betalningssätt:](finance-payment-methods.md)  
 [Konfigurera förskottsbetalningar](finance-set-up-prepayments.md)  

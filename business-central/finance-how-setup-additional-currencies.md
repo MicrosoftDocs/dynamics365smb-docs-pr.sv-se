@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera en alternativ rapporteringsvaluta
+# <a name="set-up-an-additional-reporting-currency"></a>Konfigurera en alternativ rapporteringsvaluta
 
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
 
@@ -25,7 +25,7 @@ Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan
 >
 > Du har till exempel en stor mängd kundreskontra i brittiska pund (GBP) och du har ställt in den AVAL som GBP. I det här scenariot kommer belopp i de kundreskontra som använder GBP inte att justeras för valutakurs vinster/-förluster i AVAL, utan endast belopp i kundreskontra som tillhör andra valutor. Det innebär att om du använder ACY för att rapportera de ekonomiska rapporterna, kan det leda till att utestående saldon för kundreskontra blir undertryckta eller överskattade.
 
-## Visa rapporter och belopp i AVAL
+## <a name="displaying-reports-and-amounts-in-acy"></a>Visa rapporter och belopp i AVAL
 
 Med hjälp av AVAL kan rapporteringsprocessen för ett företag förenklas i följande fall:
 
@@ -34,11 +34,11 @@ Med hjälp av AVAL kan rapporteringsprocessen för ett företag förenklas i fö
 
 Flera finansiella rapporter som är baserade på redovisningstransaktioner. Om du vill visa rapportdata i AVAL markerar du kryssrutan **Visa belopp i alt. rapporteringsvaluta** på snabbfliken **Alternativ** för den relevanta redovisningsrapporten.
 
-## Justera valutakurser
+## <a name="adjusting-exchange-rates"></a>Justera valutakurser
 
 Eftersom valutakurser ständigt fluktuerar måste alternativa AVAL i systemet justeras med jämna mellanrum. Om dessa justeringar inte görs kan de belopp som har konverterats från utländska (eller alternativa) valutor och bokförts i huvudboken i BVA vara missvisande. Dessutom måste dagliga transaktioner som bokförs innan en daglig valutakurs har registrerats i programmet uppdateras efter det att den dagliga valutakursinformationen har registrerats. Batch-jobbet **Justera valutakurser** används för att justera valutakurserna för bokförda kund-, leverantörs- och bankkontotransaktioner. Det kan även användas för att uppdatera AVAL-belopp för redovisningstransaktioner. Mer information finns i [uppdatera valutakurser](finance-how-update-currencies.md).
 
-## Konfigurerar en AVAL
+## <a name="setting-up-an-acy"></a>Konfigurerar en AVAL
 
 Följ dessa steg för att konfigurera AVAL:
 
@@ -47,7 +47,7 @@ Följ dessa steg för att konfigurera AVAL:
 - Ange kursjusteringsmetod för momstransaktioner.  
 - Aktivera AVAL.  
 
-### Så här anger du redovisningskonton för bokföring av valutakursjusteringar  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Så här anger du redovisningskonton för bokföring av valutakursjusteringar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
 2. På sidan **Valutor** fyller du i följande fält för AVAL.  
@@ -64,7 +64,7 @@ Följ dessa steg för att konfigurera AVAL:
 
 För varje redovisningskonto måste du ange hur redovisningsbelopp för det kontot ska justeras för valutakursfluktuationer mellan BVA och AVAL.  
 
-### Ange kursjusteringsmetod för alla redovisningskonton
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Ange kursjusteringsmetod för alla redovisningskonton
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** väljer du relevant konto och sedan åtgärden **Redigera**.  
@@ -82,7 +82,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 
 4.  Stäng sidan **Redovisningskontokort**.  
 
-### Så här anger du kursjusteringsmetod för momstransaktioner
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Så här anger du kursjusteringsmetod för momstransaktioner
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du relevant metod i fältet **Moms valutakursjustering**.  
@@ -98,7 +98,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
     |**Justera belopp**|BVA-beloppet justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
     |**Justera belopp i alternativ valuta**|AVAL justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Alt. valuta belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
 
-### Så här aktiverar du AVAL  
+### <a name="to-activate-the-acy"></a>Så här aktiverar du AVAL
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du fältet **Alternativ rapporteringsvaluta** och välj den alternativa valuta du vill rapportera i.  
@@ -125,7 +125,7 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 > [!NOTE]  
 > Fältet **Alt. rapporteringsvaluta** kommer bara att vara aktivt när du har valt **OK** i batch-jobbet **Just. alt. rapporteringsvaluta**.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  

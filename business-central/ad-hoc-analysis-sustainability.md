@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analys av data för hållbarhet
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Ad hoc-analys av data för hållbarhet
 
 Den här artikeln förklarar hur du använder funktionen **Dataanalys** för att analysera data för hållbarhet direkt från listsidor och frågor. Du behöver inte köra en rapport eller växla till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "utsläppsöversikt" eller "utsläpp per scope" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Använd följande listsidor för ad hoc-analys av data för hållbarhet:
 
 - [Hållbarhetstransaktioner](https://businesscentral.dynamics.com/?page=6220)
 
-## Scenarier för ad hoc-analys för hållbarhet
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Scenarier för ad hoc-analys för hållbarhet
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -36,7 +36,7 @@ Följande avsnitt innehåller exempel på scenarier för hållbarhet i [!INCLUDE
 | [Genomsnittliga utsläpp per kategori](#example-average-emissions-by-category) | Analysera dina genomsnittliga utsläpp per kategori. | [Hållbarhetstransaktioner](https://businesscentral.dynamics.com/?page=6220) | **Kontokategori**, **Kontonamn**, **Utsläpp NH4**, **Utsläpp CO2** och **Utsläpp N2O**.|
 | [Utsläpp per scope](#example-emissions-by-scope) | Analysera dina utsläpp per scope. | [Hållbarhetstransaktioner](https://businesscentral.dynamics.com/?page=6220) | **Utsläpps-scope**, **Kontokategori**, **Utsläpp NH4**, **Utsläpp CO2** och **Utsläpp N2O**.|
 
-## Exempel: Utsläppsöversikt (summan per kategori)
+## <a name="example-emission-overview-sum-by-category"></a>Exempel: Utsläppsöversikt (summan per kategori)
 
 Följ dessa steg för att analysera dina utsläpp per kategori:
 
@@ -51,7 +51,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Exempel 1 på hur du gör dataanalyser på sidan Hållbarhetstransaktioner." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Exempel: Genomsnittliga utsläpp per kategori
+## <a name="example-average-emissions-by-category"></a>Exempel: Genomsnittliga utsläpp per kategori
 
 Följ dessa steg för att analysera dina genomsnittliga utsläpp per kategori:
 
@@ -67,7 +67,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Exempel 2 på hur du gör dataanalyser på sidan Hållbarhetstransaktioner." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Exempel: Utsläpp per scope
+## <a name="example-emissions-by-scope"></a>Exempel: Utsläpp per scope
 
 Följ dessa steg för att analysera dina utsläpp per scope:
 
@@ -82,13 +82,13 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Exempel 3 på hur du gör dataanalyser på sidan Hållbarhetstransaktioner." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Underlag för ad hoc-analys av hållbarhet
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Underlag för ad hoc-analys av hållbarhet
 
 Den information som du anger i en hållbarhetsjournal är tillfällig och kan ändras så länge den finns i journalen. När du bokför hållbarhetsjournalen, överförs informationen till transaktioner på hållbarhetstransaktioner eller enskilda hållbarhetskonton, där den inte kan ändras. Du kan emellertid bokföra återföring eller rättning av transaktioner. Listsidan [Hållbarhetstransaktioner](https://businesscentral.dynamics.com/?page=6220) är den huvudsakliga datakällan för ad hoc-analys av hållbarhetsdata.
 
 Mer information om hur du bokför hållbarhetstransaktioner finns i [Registrera hållbarhetstransaktioner](finance-sustainability-journal.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Registrera hållbarhetstransaktioner](finance-sustainability-journal.md)  
 [Inbyggda hållbarhetsrapporter](sustainability-reports.md)   

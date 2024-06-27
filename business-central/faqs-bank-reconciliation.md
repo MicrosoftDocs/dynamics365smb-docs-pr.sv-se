@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanliga frågor om bankkontoavstämningshjälp med Copilot (förhandsversion)
+# <a name="faq-for-bank-account-reconciliation-assist-with-copilot-preview"></a>Vanliga frågor om bankkontoavstämningshjälp med Copilot (förhandsversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ Dessa vanliga frågor beskriver AI-effekten av Microsoft Copilot-hjälp med bank
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Vad är bankavstämningshjälp?
+## <a name="what-is-bank-reconciliation-assist"></a>Vad är bankavstämningshjälp?
 
 Bankavstämning är en vanlig redovisningsuppgift där organisationer granskar sina bankkontoutdrag för att identifiera transaktioner som ska registreras i [!INCLUDE[prod_short](includes/prod_short.md)]. Den här uppgiften skulle till exempel användas för att identifiera periodiska bankavgifter eller små personalkostnader.
 
@@ -29,7 +29,7 @@ Bankavstämning är vanligtvis en process i flera steg. Först importeras kontou
 
 Copilot i [!INCLUDE[prod_short](includes/prod_short.md)] minskar det manuella arbetet genom att matcha fler transaktioner och föreslå redovisningskonton som du kan bokföra på.
 
-## Vilka är funktionerna för bankavstämningshjälp?
+## <a name="what-are-the-capabilities-of-bank-reconciliation-assist"></a>Vilka är funktionerna för bankavstämningshjälp?
 
 Copilot tillhandahåller AI-driven hjälp med två olika uppgifter:
 
@@ -43,21 +43,21 @@ Copilot tillhandahåller AI-driven hjälp med två olika uppgifter:
 
 Copilot ansluter inte till din bank för att hämta eller skicka transaktioner. Denna uppgift förblir helt inom din kontroll. Det är en förutsättning för att börja använda Copilot-hjälpen, oavsett om dessa transaktioner läggs till i [!INCLUDE[prod_short](includes/prod_short.md)] med en digital bankanslutning, importeras från en kontoutdragsfil eller anges manuellt.
 
-## Vad är den avsedda användningen av bankavstämningshjälp?
+## <a name="what-is-the-intended-use-of-bank-reconciliation-assist"></a>Vad är den avsedda användningen av bankavstämningshjälp?
 
 Avstämningshjälpen för bankkonton är utformad för att förbättra hjälpa till att noggrannheten i redovisningen genom att hjälpa kunderna identifiera nya transaktioner som de ska redovisa i [!INCLUDE[prod_short](includes/prod_short.md)]. Det är inte avsett för att upptäcka bedrägerier eller för att identifiera om kunder betalade i tid.
 
-## Hur utvärderades bankavstämningshjälpen? Vilka mått används för att mäta prestanda?
+## <a name="how-was-bank-reconciliation-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hur utvärderades bankavstämningshjälpen? Vilka mått används för att mäta prestanda?
 
 Bankkontoavstämning har testats med hjälp av kombinationer av syntetiska banktransaktionsdata och liknande redovisningskonton och redovisningstransaktioner som omfattar de typiska variationerna och datagränserna för varje fält och på olika språk. Testdata representerar både typisk användning och användning av dåliga aktörer. Prestanda mättes i jämförelse med manuell avstämning av samma data.
 
-## Vilka är begränsningarna för bankavstämningshjälp? Hur kan användare minimera påverkan av dessa begränsningar när de använder systemet?
+## <a name="what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-these-limitations-when-they-use-the-system"></a>Vilka är begränsningarna för bankavstämningshjälp? Hur kan användare minimera påverkan av dessa begränsningar när de använder systemet?
 
 Bankkontoavstämningshjälpen fungerar bäst när redovisningskontonamn, transaktionsbeskrivningar och banktransaktionsbeskrivningar är på samma språk. Blandade språk eller blandat språk för transaktionsbeskrivningar resulterar ofta i färre matchningar och förslag.
 
 Föreslagna redovisningskonton fungerar bäst på något av de språk som stöds (se nästa avsnitt för en lista över språk). Användare kan uppleva färre transaktionsmatchningar och färre föreslagna redovisningskonton på andra språk.
 
-## I vilka geografiska områden och på vilka språk finns bankavstämningshjälp tillgängligt? 
+## <a name="in-which-geographies-and-languages-is-bank-reconciliation-assist-available"></a>I vilka geografiska områden och på vilka språk finns bankavstämningshjälp tillgängligt?
 
 - Tillgängliga geografiska områden
 
@@ -69,13 +69,13 @@ Föreslagna redovisningskonton fungerar bäst på något av de språk som stöds
 
 För mer information om språk, se föregående fråga om begränsningar.
 
-## Vad förväntas av systemanvändare när de använder bankkontoavstämningshjälp?
+## <a name="what-is-expected-of-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Vad förväntas av systemanvändare när de använder bankkontoavstämningshjälp?
 
-### Under en bankkontoavstämning
+### <a name="during-bank-account-reconciliation"></a>Under en bankkontoavstämning
 
 AI-drivna matchningar och förslag kan ibland vara felaktiga eller ofullständiga. Användare av bankkontoavstämningshjälp måste granska riktigheten i matchningar och förslag från Copilot innan de väljer att behålla dem. Copilot-matchningar och förslag sparas inte i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen förrän du väljer knappen **Behåll den** och stänger Copilot-fönstret. Du kan redigera och korrigera eventuella matchningar eller förslag innan du väljer att behålla dem.
 
-### När du slutför bankkontoavstämning
+### <a name="after-bank-account-reconciliation-is-completed"></a>När du slutför bankkontoavstämning
 
 Vi rekommenderar att användarna också kontrollerar riktigheten och korrigerar eventuella avvikelser när de lämnar Copilot-fönstret. Denna process bör omfatta följande aktiviteter:
 
@@ -84,20 +84,20 @@ Vi rekommenderar att användarna också kontrollerar riktigheten och korrigerar 
 - Öppna bokförda avstämningar igen med hjälp av funktionen **Ångra**.
 - Korrigera eventuella felaktiga transaktioner genom omvänd bokföring av transaktioner.
 
-## Vad förväntas av administratörer och systemanvändare när de använder bankkontoavstämningshjälp?
+## <a name="what-is-expected-of-administrators-and-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Vad förväntas av administratörer och systemanvändare när de använder bankkontoavstämningshjälp?
 
 Systemanvändare, till exempel revisorer, kassörer eller andra som arbetar med affärsredovisning, bör alltid granska riktigheten i matchningar och förslag från Copilot innan de väljer att behålla dem. När användarna har stämt av med Copilot rekommenderar vi att de granskar avstämningstestrapporten för att verifiera noggrannheten och identifiera eventuella avvikelser.
 
 Administratörer bör se till att lämpliga redovisningsanvändare har beviljats åtkomst till den här funktionen.
 
-## Är Copilot det enda sättet att slutföra bankkontoavstämning?
+## <a name="is-copilot-the-only-means-of-completing-bank-account-reconciliation"></a>Är Copilot det enda sättet att slutföra bankkontoavstämning?
 
 Nr. Användning av Copilot är valfri. [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder traditionella, icke-AI-drivna sätt att importera kontoutdrag, köra fördefinierade matchningsregler och manuellt tillämpa matchningar och bokföra på lämpliga redovisningskonton. Både det traditionella tillvägagångssättet och Copilot kan användas samtidigt inom en organisation.
 
-## Hur ger jag feedback om AI-genererat innehåll?
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hur ger jag feedback om AI-genererat innehåll?
 
 Varje gång Copilot ger matchningar eller förslag kan du ge feedback till Microsoft direkt från Copilot-fönstret med hjälp av kontrollerna gilla (tummen upp) och ogilla (tummen ned). Din feedback förblir anonym och vi använder dessa uppgifter för att förbättra kvaliteten på tjänsten.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Stämma av bankkonton med Copilot (förhandsversion)](bank-reconciliation-with-copilot.md)

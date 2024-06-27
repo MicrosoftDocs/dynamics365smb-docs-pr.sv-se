@@ -11,7 +11,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Hantera relationer
+# <a name="managing-relationships"></a>Hantera relationer
 
 Kundhanteringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
 

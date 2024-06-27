@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Registrera betalningar och återbetalningar i betalningsjournalen
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
 
 På sidan **Betalningsjournal** registrerar du betalningar du gör till leverantörer och återbetalningar som du gör till kunder. När du bokför en utbetalningsjournalrad registreras det betalda beloppet för det angivna bankkontot. Du måste sedan vidta åtgärder för att utföra den faktiska överföringen pengar från relaterat bankkonto.  
 
@@ -29,7 +29,7 @@ Betalningsjournaler är redovisningsjournaler som är optimerade för att göra 
 
     Förutom registrering att betalning har gjort kan du också använda sidan **betalningsjournal** till att skapa betalningen för vidare behandling av din bank. Mer information finns i [Göra checkbetalningar](payables-how-work-checks.md) och [Göra elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Göra betalningar i betalningsjournal
+## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
 2. Öppna den journal som du använder för betalningar.
@@ -40,7 +40,7 @@ Betalningsjournaler är redovisningsjournaler som är optimerade för att göra 
 5. Alternativt kan du använda åtgärden **Betalningsförslag för lev.**. Alla som kopplas till information och belopp kommer sedan också anges på journalraderna. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 6. När alla betalningsjournalrader är ifyllda, välj åtgärden **Bokför**.
 
-## Så här skickar du en återbetalningscheck
+## <a name="to-issue-a-refund-check"></a>Så här skickar du en återbetalningscheck
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. I fältet **Dokumenttyp** väljer du **Återbetalning**.  
@@ -53,7 +53,7 @@ Betalningsjournaler är redovisningsjournaler som är optimerade för att göra 
 9. I fältet **Kopplas till ver.nr.** väljer du de dokument som kräver en återbetalning.  
 10. När alla utbetalningsjournalrader är slutförda, välj åtgärden **Bokför/skriv ut** och välj åtgärden **Bokför och skriv ut** och välj **Ja**.  
   
-## Se även
+## <a name="see-also"></a>Se även
 
 [Göra checkbetalningar](payables-how-work-checks.md)  
 [Göra elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Göra direktutleveranser
+# <a name="make-drop-shipments"></a>Göra direktutleveranser
 
 Direktleverans innebär leverans av artiklar från någon av företagets leverantörer direkt till någon av företagets kunder.
 
@@ -19,7 +19,7 @@ När en försäljningsorder har markerats för direktleverans och du skapar en i
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Så här skapar du försäljningsorder för direktleveranser
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Så här skapar du försäljningsorder för direktleveranser
 
 För att förbereda en direktleverans skapar du en försäljningsorder för en artikel och anger på försäljningsraden att försäljningen kräver direktleverans.
 
@@ -29,7 +29,7 @@ För att förbereda en direktleverans skapar du en försäljningsorder för en a
 > [!TIP]
 > Som standard är kryssrutan Direktleverans och fältet INköpskod inte tillgänglig på raderna. Om den inte är det kan du lägga till den genom att anpassa avsnittet av sidan som innehåller raderna. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## Så här skapar du inköpsorder för direktleverans
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Så här skapar du inköpsorder för direktleverans
 
 När du förbereder en direktleverans anger du på inköpsordern att den måste levereras till kunden, inte till dig själv.
 
@@ -46,7 +46,7 @@ Du kan nu be din leverantör att skicka artiklarna direkt till kunden. Du kan ti
 
 Om din leverantör tillhandahåller ytterligare information, till exempel ett spårningsnummer, kan du lägga till den informationen som en kommentar på en inköpsorderrad. Om du vill lägga till en kommentar på en rad, på fältet **Typ** väljer du **Kommentar** och anger sedan informationen i fältet **Beskrivning**.  
 
-## Så här skapar du flera inköpsorder för direktleveranser
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Så här skapar du flera inköpsorder för direktleveranser
 
 Du kan också använda inköpskalkylarket för att skapa inköpsorder. Fördelen med att använda inköpskalkylarket är att du kan skapa inköpsorder för alla utestående direktleveranser. Det innebär att du inte behöver skapa varje order för sig.
 
@@ -56,11 +56,11 @@ Du kan också använda inköpskalkylarket för att skapa inköpsorder. Fördelen
 4. Granska inköpsorderraderna och i fältet **Leverantörsnr** väljer du leverantör som levererar erforderliga varor.
 5. Välj åtgärden **Utför åtgärdsmeddelande** för att konvertera mottagna rader till en inköpsorder.
 
-## Om du vill se den länkade inköpsordern från försäljningsordern
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Om du vill se den länkade inköpsordern från försäljningsordern
 
 Markera försäljningsordern direktleverans, välj åtgärden **Order**, välj åtgärden **Direktleverans** och välj sedan åtgärden **Inköpsorder**.
 
-## Så här bokför du en direktutleverans
+## <a name="to-post-a-drop-shipment"></a>Så här bokför du en direktutleverans
 
 När leverantören har levererat artiklarna kan du bokföra försäljningsordern som levererad. Du kan också bokföra inköpsordern, men endast med alternativet **Ta emot** tills försäljningsordern har fakturerats.
 
@@ -73,7 +73,7 @@ När leverantören har levererat artiklarna kan du bokföra försäljningsordern
 > [!TIP]
 > Glöm inte att du måste bokföra inköpsorderfakturan.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa specialorder](sales-how-to-create-special-orders.md)  
 [Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  

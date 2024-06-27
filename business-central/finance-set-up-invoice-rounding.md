@@ -10,7 +10,7 @@ ms.search.form: '5, 16, 118, 459, 460, 495'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera fakturaavrundning
+# <a name="set-up-invoice-rounding"></a>Konfigurera fakturaavrundning
 
 Om du måste avrunda fakturabelopp när du skapar fakturor, kan du använda funktionen för automatisk avrundning. När en faktura rundas av infogas en extra rad med avrundningsbeloppet och bokförs tillsammans med övriga fakturarader.
 
@@ -26,11 +26,11 @@ För att kunna använda den automatiska fakturaavrundningen måste du:
 > [!NOTE]  
 >  Förutom fakturaavrundningsfunktionen kan belopp på fakturor rundas av med funktionerna A-pris avrundning och Belopp avrundning.  
 
-## Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor
 
 Om du vill använda programmets funktion för automatisk avrundning av fakturabelopp måste du först upprätta redovisningskonton eller konton där avrundningsskillnaderna bokförs. Innan du kan göra detta måste du definiera produktbokföringsmallar för moms. Mer information finns i [Ange moms](finance-setup-vat.md).  
 
-### Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor  
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser av fakturor
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** ställer du in kontot och kallar det för **Faktura avrundning** eller något liknande. [!INCLUDE[prod_short](includes/prod_short.md)] använder kontonamnet som text för de fakturor som avrundas.  
 3. Beroende på om du använder moms eller omsättningsskatt väljer du i fälten **Omsättn. skatt produktbokföringsmall** eller **Moms produktbokföringsmal** och väljer en bokföringsmall för avrundade belopp. Du vill kanske skapa en ny gruppkod som kan användas för fakturaavrundning.
@@ -38,24 +38,24 @@ Om du vill använda programmets funktion för automatisk avrundning av fakturabe
 
 Nu kan du koppla fakturaavrundningskontot till bokföringsmallar på sidan **Leverantörsbokföringsmallar**.  <!-- Why only the vendor posting groups? -->
 
-## Så här anger du avrundningsregler för utländska valutor
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Så här anger du avrundningsregler för utländska valutor
 Innan du kan använda den automatiska fakturaavrundningsfunktionenmåste du ställa in avrundningsregler för utländsk och lokal valuta.
 
-### Så här anger du avrundningsregler för utländska valutor:  
+### <a name="to-set-up-rounding-for-foreign-currencies"></a>Så här anger du avrundningsregler för utländska valutor:
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
 2. På sidan **valutor** väljer du valutan för att öppna **valutakort**, och fyller sedan i fälten **Belopp avrundning**, **A-pris avrundning**, **Faktura avrundning** och **Avrundningstyp**.
 
-### Så här anger du avrundningsregler för den lokala valutan:
+### <a name="to-set-up-rounding-for-your-local-currency"></a>Så här anger du avrundningsregler för den lokala valutan:
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** på snabbfliken **Allmänt** fyller du i fälten **Faktura avrundning** och **Avrundningstyp**.  
 
-## Så här aktiverar du funktionen Avrunda fakturabelopp  
+## <a name="activate-the-invoice-rounding-function"></a>Så här aktiverar du funktionen Avrunda fakturabelopp
 För att se till att försäljnings- och inköpsfakturor avrundas automatiskt aktiverar du funktionen Avrunda fakturabelopp. Du kan aktivera fakturaavrundningen separat för försäljnings- och inköpsfakturor.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Försäljningsinställningar** eller **Inköpsinställningar**, och välj sedan relaterad länk.  
 2. På snabbfliken **Allmänt**, välj kryssrutan **Öresutjämning**.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)
 

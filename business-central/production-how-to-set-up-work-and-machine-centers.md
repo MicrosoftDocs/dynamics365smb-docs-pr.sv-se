@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera produktionsgrupper och maskingrupper
+# <a name="set-up-work-centers-and-machine-centers"></a>Konfigurera produktionsgrupper och maskingrupper
 
 [!INCLUDE [prod_short](includes/prod_short.md)] skiljer mellan tre typer av kapaciteter som är ordnade i en hierarki där varje nivå innehåller underordnade nivåer.  
 
@@ -23,7 +23,7 @@ En produktionsgrupps planerade kapacitet består av motsvarande maskingrupps dis
 > [!IMPORTANT]
 > Innan du ställer in produktions- eller maskingrupper, måste du lägga upp fabrikskalendrar. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).
 
-## Så här skapar du produktionsgrupper:
+## <a name="to-set-up-a-work-center"></a>Så här skapar du produktionsgrupper:
 
 Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in maskingruppkalender är liknande förutom snabbfliken **verksamhetsföljdinställningar**.  
 
@@ -69,7 +69,7 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
 > [!NOTE]
 > Använd kötider för att tillhandahålla en buffert mellan den tidpunkt då en komponent anländer till en maskin eller en produktionsgrupp och när operationen verkligen startar. Exempelvis levereras en del till en maskingrupp kl. 10:00, men det tar en timme att montera den på maskinen, varför åtgärden inte påbörjas förrän kl. 11:00. För att redovisa för den timmen är kötiden en timme. Värdet i fältet **Kötid** på en maskin eller i en produktionsgrupp, plus summan av värdena i **Konfigurationstid**, **Bearbetningstid**, **Väntetid** och **Transporttid** på artikelns verksamhetsföljdrad kombineras i syfte att tillhandahålla artikelns produktionsledtid. På så sätt får du exakta totala produktionstider.  
 
-## Överväganden om kapacitet
+## <a name="considerations-about-capacity"></a>Överväganden om kapacitet
 
 Kapaciteten och effektiviteten för arbets- och maskingrupper påverkar mer än bara den tillgängliga kapaciteten. Värdena påverkar också den totala produktionstiden som består av installationstiden och körtiden som båda definieras på verksamhetsföljdsraden.  
 
@@ -78,7 +78,7 @@ När du allokerar en verksamhetsföljdsrad till en produktions- eller maskingrup
 - Hur mycket kapacitet som behövs.
 - Hur lång tid det tar att slutföra åtgärden.  
 
-### Bearbetningstid
+### <a name="run-time"></a>Bearbetningstid
 
 Vid beräkning av bearbetnings tiden, tilldelar systemet den exakta tid som definieras i fältet **bearbetningstid** för verksamhetsföljdsraden. Effektivitet och kapacitet påverkar inte den tilldelade tiden. Om bearbetnings tiden exempelvis definieras som 2 timmar kommer den allokerade tiden att vara 2 timmar, oavsett värdena i fälten effektivitet och kapacitet i produktionsgruppen.  
 
@@ -94,7 +94,7 @@ Vid beräkning av bearbetnings tiden, tilldelar systemet den exakta tid som defi
 
 Fraktionerad kapacitet är svårt. Vi kommer att diskutera det senare i den här artikeln. 
 
-### Omställningstid
+### <a name="setup-time"></a>Omställningstid
 
 Tidsallokeringen för omställningstiden beror på kapaciteten och beräknas som *omställningstid * kapacitet*. Om kapaciteten till exempel är *2* , så dubbleras den allokerade omställningstiden, eftersom du måste upprätta två maskiner för operationen.  
 
@@ -105,7 +105,7 @@ Tidsallokeringen för omställningstiden beror på kapaciteten och beräknas som
 
 Fraktalkapaciteten används endast i specifika fall.
 
-### Bearbeta flera order samtidigt i produktionsgruppen
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Bearbeta flera order samtidigt i produktionsgruppen
 
 Nu ska vi använda en sprutlackeringsbås som exempel. Den har samma inställnings- och körtider för varje bearbetat parti. Varje parti kan dock innehålla flera enskilda order som målas samtidigt.  
 
@@ -123,7 +123,7 @@ Den allokerade omställningstiden för varje enskild order kommer i omvänd ordn
 I båda fallen är den totala fördelade tiden för alla order två timmar.
 
 
-### Effektiv resurs kan endast avsätta en del av sitt arbetsdatum för att producera arbete
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effektiv resurs kan endast avsätta en del av sitt arbetsdatum för att producera arbete
 
 > [!NOTE]
 > Detta scenario rekommenderas inte. Vi rekommenderar att du använder effektivitet i stället. 
@@ -134,7 +134,7 @@ Den allokerade körtiden är två timmar och varaktigheten är fyra timmar.
 
 Använd inte omställningstid för sådana scenarier eftersom [!INCLUDE [prod_short](includes/prod_short.md)] endast tilldelar 50 % av tiden. Om omställningstiden är *2*, är den allokerade omställningstiden en timme och varaktigheten två timmar.
 
-### Konsoliderad kalender
+### <a name="consolidated-calendar"></a>Konsoliderad kalender
 
 När fältet **konsoliderad kalender** är markerat har produktionsgruppen inte en egen kapacitet. I stället är dess kapacitet lika med summan av kapaciteten hos alla maskingrupper som är kopplade till produktionsgruppen.  
 
@@ -150,7 +150,7 @@ Om du till exempel har två maskingrupper med en verkningsgrad på 80 respektive
 > [!NOTE]
 > Använd fältet **konsoliderad kalender** när du strukturerar operationsföljder för att tidsplanera produktions operationer på maskingruppsnivå, inte på produktionsgruppsnivån. När du konsoliderar kalendern blir sidan med **Produktionsgruppbeläggning** en översikt över den samlade beläggningen i alla maskingrupper som har kopplats till produktionsgruppen.
 
-### Exempel – Olika maskingrupper kan kopplas till en produktionsgrupp
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exempel – Olika maskingrupper kan kopplas till en produktionsgrupp
 
 Det är viktigt att planera vad som ska utgöra den totala kapaciteten när maskin- och produktionsgrupper skapas.
 
@@ -160,7 +160,7 @@ Om du däremot kombinerar identiska maskingrupper (till exempel 210 Packbord 1 o
 
 Om du inte vill att kapaciteten på arbetsplatser ska bidra till den totala kapaciteten, specificera **0** i fältet **Effektivitet**.
 
-## Om du vill ställa in en kapacitetsbegränsad maskin- eller produktionsgrupp
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Om du vill ställa in en kapacitetsbegränsad maskin- eller produktionsgrupp
 
 Du måste skapa produktionsresurser som du anser är kritiska och markera dem för att acceptera en bestämd beläggning i stället för den obestämda beläggning som är standard och som andra produktionsresurser accepterar. Ett kapacitetsbegränsad resurs kan vara en produktions- eller maskingrupp som en flaskhals och för vilken du vill skapa en begränsad (bestämd) beläggning.
 
@@ -179,7 +179,7 @@ När du ska planera med kapacitetsbegränsade resurser ser [!INCLUDE [prod_short
 
 > I händelse av åtgärdsdelning tilldelas inställningstiden bara en gång, eftersom det antas att vissa manuella justeringen sker för att optimera schemat.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

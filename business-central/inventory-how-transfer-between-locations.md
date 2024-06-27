@@ -11,14 +11,14 @@ ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ms.service: dynamics-365-business-central
 ---
-# Överföra lager mellan olika lagerställen
+# <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
 
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
 
 > [!NOTE]
 > Om du vill överföra artiklar måste lägerställen och överföringsflöden ställas in. Om du vill ha mer information om hur du ställer in lagerställen går du till [Skapa lagerställen](inventory-how-setup-locations.md). Det går inte att använda överföringsorder för *tomma* platser.
 
-## Överföringsorder
+## <a name="transfer-orders"></a>Överföringsorder
 
 Du kan leverera en utgående överföring från ett lagerställe och ta emot den inkommande överföringen i målet. Du kan:
 
@@ -27,7 +27,7 @@ Du kan leverera en utgående överföring från ett lagerställe och ta emot den
 * Använd olika distributionslagerfunktioner för inkommande och utgående lagerställen.
 * Använd överföringsorder för direkta överföringar, med vissa begränsningar.
 
-## Artikelgrupperingsjournaler
+## <a name="item-reclassification-journals"></a>Artikelgrupperingsjournaler
 
 Du kan använda sidan **Artikelgrupperingsjournaler** för att:
 
@@ -38,7 +38,7 @@ Du kan använda sidan **Artikelgrupperingsjournaler** för att:
 * Omgruppera artiklar från ett tomt lagerställe till ett faktiskt lagerställe.
 * Skapa distributionslagertransaktioner om du inte hanterar lageraktiviteter.
 
-## För att överföra artiklar med en överföringsorder.
+## <a name="to-transfer-items-with-a-transfer-order"></a>För att överföra artiklar med en överföringsorder.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **överföringsorder** och väljer sedan relaterad länk.
 2. På sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -63,7 +63,7 @@ Du kan använda sidan **Artikelgrupperingsjournaler** för att:
     Som lagerarbetare på utleveranslagerstället fortsätter du med att inleverera artiklarna. Överföringsorderraderna är desamma som när de levereras och kan inte redigeras.
 5. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
 
-### Bokföra flera överföringsorder i en batch
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bokföra flera överföringsorder i en batch
 
 I proceduren nedan beskrivs hur du bokför överföringsorder i en batch.
 
@@ -83,7 +83,7 @@ I proceduren nedan beskrivs hur du bokför överföringsorder i en batch.
     > [!NOTE]
     > Det kan ta en stund att bokföra flera dokument och samtidigt blockera andra användare. Överväg att aktivera bakgrundsbokföring. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Tidsplanera en jobbkötransaktion för att bokföra flera dokument i en batch
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Tidsplanera en jobbkötransaktion för att bokföra flera dokument i en batch
 
 Du kan också använda jobbkön för att schemalägga bokföringen så att den sker vid en tidpunkt som passar organisationen. Inom ditt företag kanske det exempelvis passar bättre att köra vissa rutiner när merparten av datainmatningen har slutförts för dagen.
 
@@ -103,7 +103,7 @@ Följande förfarande visar hur du konfigurerar rapporten **Batch-bokför överf
 8. I fältet **starttid** anger du kl. **16:00**.
 9. Välj åtgärden **Ställ in status till klar**.
 
-## Så här överför du artiklar med artikelgrupperingsjournalen
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Så här överför du artiklar med artikelgrupperingsjournalen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelgrupperingsjournaler** och väljer sedan relaterad länk.
 2. På sidan **Artikelgrupp.journal** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -116,7 +116,7 @@ Följande förfarande visar hur du konfigurerar rapporten **Batch-bokför överf
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Ångra överföringsutleverans
+## <a name="undo-a-transfer-shipment"></a>Ångra överföringsutleverans
 
 Om du hittar ett fel i en kvantitet på en bokförd överföringsorder, så länge som leveransen inte har tagits emot kan du enkelt korrigera antalet. På sidan **Bokför överföringsutleverans** skapar åtgärden **Ångra utleverans** korrigerande rader, enligt följande:
 
@@ -128,7 +128,7 @@ Om antalet har levererats i en lagerutleverans infogas en rättningsrad i den bo
 
 Om du vill slutföra korrigeringen öppnar du överföringsordern på nytt, anger rätt antal och bokför ordern. Om du använder en lagerutleverans för att skicka order skapar du och bokför en ny lagerutleverans.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Konfigurera lagerställen](inventory-how-setup-locations.md)  

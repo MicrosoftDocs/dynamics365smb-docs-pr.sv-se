@@ -11,7 +11,7 @@ ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Underhålla anläggningstillgångar
+# <a name="maintain-fixed-assets"></a>Underhålla anläggningstillgångar
 
 Underhållskostnader är driftskostnader för de saker du gör för att bevara anläggningstillgångarnas skick. Till skillnad från kapitalförbättringar ökar underhåll inte värdet på dina tillgångar.
 
@@ -24,7 +24,7 @@ Varje gång du skickar en anläggningstillgång för service, registrerar du inf
 
 Indexering används för att anpassa värden till den allmänna prisnivån. Använd åtgärden **Indexera anläggningstillgångar** om du vill omberäkna underhållskostnader.
 
-## Registrera en underhållskostnad direkt på en anläggningstillgång
+## <a name="record-a-maintenance-cost-directly-on-a-fixed-asset"></a>Registrera en underhållskostnad direkt på en anläggningstillgång
 
 Varje gång som underhåll har utförts för en tillgång, exempelvis ett servicebesök kan du registrera detta på sidan **Underhållsregistrering**.  
 
@@ -32,7 +32,7 @@ Varje gång som underhåll har utförts för en tillgång, exempelvis ett servic
 2. Markera den anläggningstillgång som du vill registrera underhåll för och välj sedan åtgärden **Underhållsregistreringar**.
 3. På sidan **Underhållsregistreringar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Bokför underhållskostnader från en redovisningsjournalen för anläggningstillgångar
+## <a name="post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Bokför underhållskostnader från en redovisningsjournalen för anläggningstillgångar
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lista för avskrivningsregel** och väljer sedan relaterad länk.  
 2. Markera den avskrivningsregel som är tilldelad anläggningstillgången och välj sedan åtgärden **Redigera**.
@@ -46,7 +46,7 @@ Varje gång som underhåll har utförts för en tillgång, exempelvis ett servic
     > Steg 7 fungerar bara om du har ställt in följande: På sidan **Anl.bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Underhållskonto** redovisningsdebitkontot och fältet **Underhållskontosaldo** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Välj åtgärden **Bokföra**.
 
-## Registrera underhållskostnader från en inköpsfaktura
+## <a name="record-maintenance-cost-from-a-purchase-invoice"></a>Registrera underhållskostnader från en inköpsfaktura
 
 Följande steg beskriver hur du registrerar underhållskostnader för en anläggningstillgång från en inköpsfaktura. Momenten är liknande för en inköpsorder.
 
@@ -57,7 +57,7 @@ Följande steg beskriver hur du registrerar underhållskostnader för en anlägg
 5. I fältet **Anskaffningskostnad**, välj **Underhåll**.
 6. Bokför inköpsfakturan
 
-## Uppföljning av servicebesök
+## <a name="follow-up-on-service-visits"></a>Uppföljning av servicebesök
 
 Du kan skriva ut rapporten **Underhåll – nästa service** om du vill ange de tillgångar som är bokade för service. Du kan även använda den här rapporten om du vill uppdatera fältet **Nästa servicedatum** på anläggningstillgångskortet.  
 
@@ -65,7 +65,7 @@ Du kan skriva ut rapporten **Underhåll – nästa service** om du vill ange de 
 2. Fyll i fälten **Startdatum** och **Slutdatum**.  
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
-## Övervaka underhållskostnader
+## <a name="monitor-maintenance-costs"></a>Övervaka underhållskostnader
 
 Du kan visa statistik för att övervaka underhållskostnader.  
 
@@ -76,7 +76,7 @@ Du kan visa statistik för att övervaka underhållskostnader.
 
 Använd sidan **Underhållstransaktioner** för att visa de poster som utgör beloppet i fältet **Underhåll**.
 
-## Visa eller skriva ut underhållskostnader för åtskilliga anläggningstillgångar
+## <a name="view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Visa eller skriva ut underhållskostnader för åtskilliga anläggningstillgångar
 
 I rapporten **Underhållsanalys** kan du välja om du vill visa undersöka underhåll baserat på en, två eller tre underhållskoder för ett angivet datum eller en angiven period. Rapporten visar summan för alla markerade tillgångar eller summan för varje tillgång.
 
@@ -84,7 +84,7 @@ I rapporten **Underhållsanalys** kan du välja om du vill visa undersöka under
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
-## Visa underhållstransaktioner
+## <a name="view-maintenance-ledger-entries"></a>Visa underhållstransaktioner
 
 Du kan också utforska underhållskostnader genom att visa underhållstransaktionerna.  
 
@@ -92,7 +92,7 @@ Du kan också utforska underhållskostnader genom att visa underhållstransaktio
 2. Markera den fasta anläggningstillgång som du vill visa transaktioner för välj sedan åtgärden **Avskrivningsregler**.
 3. På sidan **Avskrivningsregler för anl.tillg.** väljer du relevant avskrivningsregel för anläggningstillgång åtgärden **Underhållstransaktioner**.
 
-## Visa eller skriva ut underhållstransaktioner för åtskilliga anläggningstillgångar
+## <a name="view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Visa eller skriva ut underhållstransaktioner för åtskilliga anläggningstillgångar
 
 I rapporten **Underhåll – Uppgifter** kan du visa eller skriva ut underhållstransaktioner för en eller flera anläggningstillgångar.  
 
@@ -100,7 +100,7 @@ I rapporten **Underhåll – Uppgifter** kan du visa eller skriva ut underhålls
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

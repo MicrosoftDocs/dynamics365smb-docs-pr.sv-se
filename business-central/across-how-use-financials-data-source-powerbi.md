@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
+# <a name="building-power-bi-reports-to-display--data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Gör din [!INCLUDE[prod_long](includes/prod_long.md)]-data tillgänglig som datakälla i Power BI Desktop och bygga kraftfulla rapporter av din verksamhets status.
 
 I den här artikeln beskrivs hur du kommer gång med att använda Power BI Desktop för att skapa rapporter som visar [!INCLUDE[prod_long](includes/prod_long.md)]-data. När du har skapat en rapport kan du publicera den i din Power BI-tjänst eller dela den med samtliga användare i din organisation. När rapporten väl har publicerats i Power BI-tjänsten kan användare som konfigurerats för det se rapporten i [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## Gör dig redo
+## <a name="get-ready"></a>Gör dig redo
 
 - Registrera dig frö Power BI-tjänsten.
 
@@ -44,7 +44,7 @@ I den här artikeln beskrivs hur du kommer gång med att använda Power BI Deskt
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
 
 Den första uppgiften i samband med att skapa rapporter är att lägga till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop. När du väl är ansluten kan du börja skapa rapporten.
 
@@ -99,39 +99,39 @@ När datan har lästs in kan du se den i den högra navigeringen på sidan. Vid 
 > [!TIP]
 > Mer information om hur du använder Power BI Desktop finns i [Komma igång med Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Skapa tillgängliga rapporter
+## <a name="creating-accessible-reports"></a>Skapa tillgängliga rapporter
 
 Det är viktigt att du gör dina rapporter användbara för så många personer som möjligt. Försök att utforma rapporter så att de inte kräver någon särskild anpassning för att uppfylla olika behov hos olika användare. Kontrollera att designen tillåter användare att utnyttja vanliga hjälpmedelstekniker, som skärmläsare. Power BI innehåller olika hjälpmedelsfunktioner, verktyg och riktlinjer som hjälper dig att uppnå detta mål. Mer information får du genom att [utforma Power BI-rapporter för tillgänglighet](/power-bi/create-reports/desktop-accessibility-creating-reports) i Power BI-dokumentationen.
 
-## Skapa rapporter för att visa data kopplade till en lista
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Skapa rapporter för att visa data kopplade till en lista
 
 Du kan skapa rapporter som visas i en FactBox tillhörande en [!INCLUDE [prod_short](includes/prod_short.md)]-listsida. Rapporterna kan innehålla data om den post som har valts i listan. Du skapar dessa rapporter på i princip samma sätt som du skapar andra rapporter, förutom att det finns några saker som du måste göra för att rapporten ska visas på avsett sätt. Mer information finns i [Skapa Power BI-rapporter som ska visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="theme"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat (tillval)
+## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat (tillval)
 
 Innan du skapar din rapport rekommenderar vi att du laddar ned samt importerar [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen. Temafilen skapar en färgpalett så att du kan skapa rapporter med samma färgdesign som [!INCLUDE [prod_short](includes/prod_short.md)]-apparna utan att du behöver ange färger för respektive grafik.
 
 > [!NOTE]
 > Denna uppgift är valfri. Du kan alltid skapa dina rapporter och sedan ladda ned och tillämpa designmallen senare.
 
-### Hämta temat
+### <a name="download-the-theme"></a>Hämta temat
 
 Temafilen finns som json-fil i temagalleriet för Microsoft Power BI Community. Utför följande steg för att ladda ned temafilen:
 
 1. Gå till [Temagalleriet för Microsoft Power BI Community för Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Välj nedladdningsbilagan **Microsoft Dynamics Business Central.json**.
 
-### Importera temat i en rapport
+### <a name="import-the-theme-on-a-report"></a>Importera temat i en rapport
 
 När du har laddat ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat kan du importera det i din rapport. Om du vill importera uppställningen väljer du **Visa** > **Teman** > **Bläddra efter uppställningar**. Mer information finns i [Power BI Desktop – Importera anpassade rapportuppställningar](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## Publicera rapporter
+## <a name="publish-reports"></a>Publicera rapporter
 
 När du har skapat eller ändrat en rapport kan du publicera rapporten i din Power BI-tjänst samt dela den med andra i din organisation. När du har publicerat en rapport är den tillgänglig i Power BI. Rapporten görs också tillgänglig för val i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Om du vill publicera en rapport väljer du **Publicera** i fliken **Start** i menyfliksområdet eller i menyn **Arkiv**. Om du har loggat in på Power BI-tjänsten publiceras rapporten i denna tjänst. I annat fall uppmanas du att logga in. 
 
-## Distribuera eller dela en rapport
+## <a name="distribute-or-share-a-report"></a>Distribuera eller dela en rapport
 
 Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och andra:
 
@@ -146,7 +146,7 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 
     Om du har en Power BI Pro-licens kan du dela rapporten med andra direkt från din Power BI-tjänst. Mer information finns i [Power BI – Dela en instrumentpanel eller rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## Hur man utvecklar Power BI-rapporter över företag eller miljöer
+## <a name="how-to-develop-cross-company-or-cross-environment-power-bi-reports"></a>Hur man utvecklar Power BI-rapporter över företag eller miljöer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] API-slutpunkterna har alla prefixet `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` följt av `/companies({company_id})/accounts({id})` (här använder vi API:et `accounts` som illustration). Du kan använda den här strukturen för att skapa PowerQuery-frågor som läser in data för flera företag eller flera miljöer om användaren som läser data kan komma åt dem.
 
@@ -155,9 +155,9 @@ Så här ställer du in en fråga för att läsa in data för flera företag:
 1. Ta PowerQuery-frågan som läser in data för ett enda företag. Konvertera den till en anpassad Power Query-funktion som tar företags-ID:t (eller kanske miljönamnet) som parametrar. Mer information finns i [Använda anpassade Power Query-funktioner](/power-query/custom-function).
 1. Använd nu den nya anpassade funktionen i en PowerQuery-fråga, där du mappar funktionen över en lista över företag och sedan sammanfogar datauppsättningarna med hjälp av funktionen [Table.Combine](/powerquery-m/table-combine) Power Query.
 
-## Åtgärda problem
+## <a name="fixing-problems"></a>Åtgärda problem
 
-### "Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
 
 > **GÄLLER:** Business Central online
 
@@ -188,7 +188,7 @@ Från och med februari 2022 kommer nya rapporter som använder [!INCLUDE [prod_s
 9. Välj **Utfört**.
 10. Välj **Stäng och tillämpa** i menyfliksområdet för att spara ändringarna och stäng Power Query-redigeraren.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Aktivera dina affärsdata för Power BI](admin-powerbi-setup.md)  
 [Affärsstöd](bi.md)  

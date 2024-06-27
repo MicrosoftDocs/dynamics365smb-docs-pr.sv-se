@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# Skapa produktionsstrukturlistor
+# <a name="create-production-boms"></a>Skapa produktionsstrukturlistor
 
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en artikel. När du skapar en produktionsorder för en artikel, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 
@@ -24,7 +24,7 @@ Innan du kan skapa en verksamhetsföljd måste följande installationer vara på
 - Artikelkort kan skapas för överordnade artiklar som ingår i produktionen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
-## Skapa en ny produktionsstruktur.
+## <a name="to-create-a-production-bom"></a>Skapa en ny produktionsstruktur.
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Produktionsstrukturer** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -48,7 +48,7 @@ Innan du kan skapa en verksamhetsföljd måste följande installationer vara på
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Om du vill beräkna om standardkostnaden för artikeln från artikelkortet, välj **Produktion** och sedan åtgärden **Ber. standardkostnad**.  
 
-## Så här skapar du nya versioner av produktionsstrukturer
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Så här skapar du nya versioner av produktionsstrukturer
 
 Använd till exempel nya versioner av produktionsstrukturer till exempel när en artikel ersätts eller när en kund begär en specialversion av en produkt. Med versionsprincipen kan olika versioner av en produktionsstruktur hanteras. Strukturen i produktionsstrukturversionen motsvarar strukturen i produktionsstrukturen. Den största skillnaden är versionernas giltighetstid. Startdatumet definierar giltigheten.  
 
@@ -72,7 +72,7 @@ Versionens giltighetstid anges i fältet **Startdatum**.
 >
 > Fiktiva prod.strukturer fungerar som struktureringsprodukter. Den här typen av produktionsstruktur leder aldrig till en färdig produkt, men används enbart för att bedöma den härledda efterfrågan. Fiktiva prod.strukturer har inga egna standarduppgifter om artiklar.
 
-## Antal beräkningsformel på produktionsstrukturer
+## <a name="quantity-calculation-formula-on-production-boms"></a>Antal beräkningsformel på produktionsstrukturer
 
 Antal beräknas med hänsyn till olika dimensioner, som också anges på produktionsstrukturraderna. Dimensionerna avser en orderenhet för respektive artikel. Längd, bredd, djup och vikt kan anges som dimensioner.  
 
@@ -90,13 +90,13 @@ Relationen i en enskild komponent definieras av en beräkningsformel. Följande 
 > [!NOTE]
 > Med beräkningsformeln för **fast kvantitet** ser du till att förbrukningen av en komponent är densamma, oavsett kassation eller utflöde. För produktions order komponenter, när fältet **beräkningsformel** är inställt på fast antal, är fältet **Fast kvantitet** och **Förväntad kvantitet** alltid lika med **kvantiteten per** fält. Den procentuella kassation som har definierats på samma rad ignoreras. Fast kvantitet respekteras av rapporten **Artikeldisposition**. I rapporten visas artikeln som flaskhals, om disponibelt antal är mindre än antalet i fältet **Antal per överordnad**. Fälten **Kan skapa överordnad** och **Kan skapa toppartikel** är alltid tomma, oavsett tillgänglig kvantitet. Fast kvantitet ingår också i beräkningar för standardkostnader. Partistorleken för den producerade artikeln påverkar kostnaden som har allokerats för en artikel.
 
-### Exempel
+### <a name="example"></a>Exempel
 
 I en produktionsstruktur behövs 70 metalldelar med dimensionerna längd = 0,20 m och bredd = 0,15 m. Ange värdena så här: Beräkningsformel = längd x bredd, längd = 20, bredd = 15, antal per = 70.
 
 Antal per x längd * bredd, d.v.s. Antal = 70 x 0,20 m x 0,15 m = 2,1 m2 ger antalet.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa operationsföljder](production-how-to-create-routings.md)  
 [Hantera produktvarianter](inventory-item-variants.md)  

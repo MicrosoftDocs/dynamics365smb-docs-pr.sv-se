@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Hållbarhetsrapport och analys i Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Hållbarhetsrapport och analys i Business Central
 
 Hållbarhetsrapportering förser finansproffs med insikter och statistik om nuvarande och tidigare hållbarhetsinvesteringar och utsläpp.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Uppgifter
+## <a name="tasks"></a>Uppgifter
 
 Följande artiklar beskriver några av nyckeluppgifterna för att analysera tillståndet för ditt hållbarhetsarbete:
 
 * [Beräkna utsläpp baserat på redovisning](finance-sustainability-journal.md)
 
-## Utforska hållbarhetsrapport med Rapportutforskaren
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Utforska hållbarhetsrapport med Rapportutforskaren
 
 Om du vill ha en översikt över de rapporter som är tillgängliga för hållbarhet väljer du **Alla rapporter** på startsidan. Denna åtgärd öppnar rollutforskaren, som är filtrerad efter funktionerna i alternativet **Rapport och analys**. Under rubriken **TODO** väljer du **Utforska**.
 
@@ -34,7 +34,7 @@ Om du vill ha en översikt över de rapporter som är tillgängliga för hållba
 
 Läs mer i [Söka efter rapporter med Rollutforskaren](ui-role-explorer.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ad hoc-analys av data för hållbarhet](ad-hoc-analysis-sustainability.md)   
 [Översikt över hållbarhetsstyrning](finance-manage-sustainability.md)   

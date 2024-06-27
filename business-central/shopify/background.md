@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.custom: bap-template
 ---
 
-# Köra uppgifter i bakgrunden
+# <a name="run-tasks-in-the-background"></a>Köra uppgifter i bakgrunden
 
 Det är effektivt att köra vissa uppgifter samtidigt och på ett automatiserat sätt. Du kan utföra sådana uppgifter i bakgrunden och du kan också ange ett schema när du vill att uppgifterna ska köras automatiskt. Om du vill köra uppgifter i bakgrunden stöds två lägen:
 
 - Manuellt utlösta uppgifter schemaläggs direkt via **Jobbkötransaktioner**.
 - Återkommande uppgifter schemaläggs i **Jobbkötransaktioner**.
 
-## Kör uppgifter i bakgrunden för en specifik butik
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Kör uppgifter i bakgrunden för en specifik butik
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill köra synkronisering i bakgrunden för och öppna sidan **Shopify-butikskort**.
@@ -25,7 +25,7 @@ Det är effektivt att köra vissa uppgifter samtidigt och på ett automatiserat 
 
 När synkroniseringsåtgärden startar, i stället för att köra en uppgift i förgrunden, ombeds du att vänta. När den är klar kan du fortsätta med nästa åtgärd. Uppgiften skapas som **Jobbkötransaktion** och startar direkt.
 
-## Så här schemalägger du återkommande uppgifter
+## <a name="to-schedule-recurring-tasks"></a>Så här schemalägger du återkommande uppgifter
 
 Du kan schemalägga följande återkommande uppgifter så att de utförs på ett automatiserat sätt. Läs mer om schemaläggning av uppgifter på [jobbkö](../admin-job-queues-schedule-tasks.md).
 
@@ -57,7 +57,7 @@ Du kan använda **Shopify ordernr.** för att identifiera försäljningsdokument
 
 Om du vill lära dig mer om hur du bokför försäljningsorder i en batch går du till [Skapa en jobbkötransaktion för batchbokföring av försäljningsorder](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## Att kontrollera status för synkronisering
+## <a name="to-check-the-status-of-synchronization"></a>Att kontrollera status för synkronisering
 
 I rollcenter **Chef** erbjuder **Shopify aktiviteter** part offers flera ledtrådar som kan hjälpa dig att snabbt identifiera om det finns problem med Shopify anslutningsprogram.
 
@@ -68,6 +68,6 @@ I rollcenter **Chef** erbjuder **Shopify aktiviteter** part offers flera ledtrå
 - **Leveransfel**: Shopify-anslutningsprogram kunde inte synkronisera bokförda försäljningsutleveranser med Shopify.
 - **Synkroniseringsfel**: Det finns misslyckade jobbkötransaktioner relaterade till synkronisering med Shopify.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Komma i gång med Shopify-anslutningsprogrammet](get-started.md)  

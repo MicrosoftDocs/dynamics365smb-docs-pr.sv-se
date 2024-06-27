@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analysera data i listor med hjälp av Copilot (förhandsversion)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Analysera data i listor med hjälp av Copilot (förhandsversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -18,21 +18,21 @@ I den här artikeln beskriver vi hur du använder *analyshjälp* när du analyse
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Om analyshjälp
+## <a name="about-analysis-assist"></a>Om analyshjälp
 
 Analysassistenten är en Copilot för [analysläget](analysis-mode.md) på listsidor i Business Central. Analysläget ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. Om du vill analysera data i analysläget skapar du fliken *analysflik* där du transformerar data för att visa önskade aggregeringar och sammanfattningar. Du kan till exempel ordna fält i rader och kolumner, ange filter, sortera kolumner och pivotera efter fält. Med analyshjälp, istället för att göra denna uppgift manuellt, uppnår du mycket av samma&mdash;eller åtminstone som en början&mdash;genom att använda ord. Genom att uttrycka den struktur du vill ha på naturligt språk, som "sortera på kvantitet från minsta till största" eller "visa genomsnittlig kostnad per kategori", använder analyshjälp AI för att generera ett förslag till layout på en analysflik.
 
-## Tillgängliga språk
+## <a name="available-languages"></a>Tillgängliga språk
 
 [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
-## Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 - Funktionen analyshjälp är aktiverad och du får behörighet att använda den. Den uppgiften är vanligtvis av en administratör. [Läs mer om att konfigurera Copilot och AI-funktioner](enable-ai.md).
 <!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
 <!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
-## Kom i gång
+## <a name="get-started"></a>Kom i gång
 
 1. Öppna listsidan du vill analysera.
 
@@ -64,7 +64,7 @@ Analysassistenten är en Copilot för [analysläget](analysis-mode.md) på lists
 
 1. Om du vill spara analysflik väljer du **Behåll den**. Om du inte vill spara den väljer du **Ignorera**.
 
-## Prompttips och exempel
+## <a name="prompt-tips-and-examples"></a>Prompttips och exempel
 
 Att skapa effektiva prompter för Copilot är viktigt för att få korrekta och relevanta analysförslag. Det finns också sätt att minimera text som du lägger till i prompter för att det ska gå snabbare att skriva. Här är några tips och riktlinjer följt av några exempel:
 
@@ -76,7 +76,7 @@ Att skapa effektiva prompter för Copilot är viktigt för att få korrekta och 
 - Vanliga förkortningar är acceptabla.
 - Brevfall är inte viktigt.
 
-### Exempel
+### <a name="examples"></a>Exempel
 
 Dessa följande snabba exempel använder analyshjälp på listan **Artiklar**. Artikelsidan innehåller tre summerbara fält för analys: **Lagersaldo**, **Styckkostnad**, **A-pris**.
 
@@ -92,7 +92,7 @@ Prompt: `Show total quantity per type per UoM`
 
 Den här prompt skapar en pivottabell i fältet **Lagersaldo** per **Basenhet** per **Typ**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ansvarig AI vanliga frågor för analyshjälp](faqs-analysis-assist.md)  
 [Ad hoc-dataanalys](reports-adhoc-analysis.md)  

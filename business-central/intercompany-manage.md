@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# Hantera koncerninterna transaktioner
+# <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
 
 Företag med fler än en juridisk person med separata redovisningsfunktioner kan utnyttja koncerninterna transaktioner. Det kan till exempel vara användbart för företag som har dotter bolag på flera internationella marknader eller regioner. Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. Koncerninterna transaktioner förenklar affärsprocesser och transaktioner mellan företag i koncerninterna partnerskap.
 
@@ -24,7 +24,7 @@ Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:
 * Transparent redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
 * Effektiva transaktioner med dotterbolag  
 
-## Förenkling av arbetsflödesaktiviteter  
+## <a name="streamline-the-flow-of-business-activities"></a>Förenkling av arbetsflödesaktiviteter
 
 Med hjälp av koncerninterna transaktioner kan du distribuera försäljnings- och inköpsdokument samt journaltransaktioner till alla satellitkontor, försäljningskontor och dotterbolag. Att fördela transaktioner sparar tid och ökar effektiviteten i hela organisationen genom att minska datainmatning. Det minskar behovet av att skicka, ta emot, skriva ut och arkivera försäljnings- och inköpsdokument.  
 
@@ -69,7 +69,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ordna och bearbeta ingående och utgående transaktioner som du skickar till din koncerninterna partner.|[Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)|
 |Använd koncerninterna transaktioner för att fördela kostnader mellan partnerföretag.|[Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  

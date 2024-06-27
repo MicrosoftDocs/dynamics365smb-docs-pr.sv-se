@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-## Språk som stöds för Copilot
+## <a name="supported-languages-for-copilot"></a>Språk som stöds för Copilot
 
 Copilot fungerar med alla visningsspråk i Business Central, men endast följande språk stöds fullt ut för närvarande. Du kan fortfarande använda andra språk, men resultaten kan vara mindre exakta och tillförlitliga.
 

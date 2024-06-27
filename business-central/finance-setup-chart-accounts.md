@@ -11,14 +11,14 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Ställa in eller ändra kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet. Du kan dock ändra standardkontona och du kan lägga till nya konton.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Lägga till eller ändra konton
+## <a name="add-or-change-accounts"></a>Lägga till eller ändra konton
 
 Från kontoplanen kan du öppna varje redovisningskonto och lägga till eller ändra inställningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ För konton av typen **Summa** måste fältet **Summeringsintervall** fyllas i. 
 > [!IMPORTANT]
 > Om du har angett definitioner i fälten **Summeringsintervall** för konton av typen **Till-summa** innan indragsfunktionen används, måste du ange dessa igen eftersom värdena i alla **Till-summa**-fält skrivs över med funktionen.
 
-## Ta bort konton
+## <a name="delete-accounts"></a>Ta bort konton
 
 Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande villkor gälla:  
 
@@ -43,17 +43,17 @@ Du kan också ange när personer ska tillåta att ta bort konton. På sidan **Re
 
 Aktivera **Spärra radering av redovisningskonton** anses ofta vara bästa praxis, och så även att ställa in datumet i fältet **Kontrollera borttagning av redovisningskonto efter** till exempel det datum efter vilket du måste lagra dina finansdata.  
 
-### Videovägledning
+### <a name="video-guidance"></a>Videovägledning
 
 Den här videon visar hur man anger om och när personer kan ta bort huvudbokkonton.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Utbildningsväg: Ställ in kontoplanen i Dynamics 365 Business Central
+## <a name="learning-path-set-up-the-chart-of-accounts-in-dynamics-365-business-central"></a>Utbildningsväg: Ställ in kontoplanen i Dynamics 365 Business Central
 
 Vill du lära dig hur du ställer in kontoplanen i [!INCLUDE [prod_short](includes/prod_short.md)]? Börja sedan med följande utbildningsväg i [Ställ in kontoplanen i Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  

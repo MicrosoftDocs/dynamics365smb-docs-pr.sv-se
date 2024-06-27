@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Ställa in lager
+# <a name="setting-up-inventory"></a>Ställa in lager
 
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
 
@@ -33,7 +33,7 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Hantera inköp](purchasing-manage-purchasing.md)  

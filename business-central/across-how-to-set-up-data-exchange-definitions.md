@@ -11,7 +11,7 @@ ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Konfigurera definitioner för dataintegration
+# <a name="set-up-data-exchange-definitions"></a>Konfigurera definitioner för dataintegration
 
 Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att utbyta data i specifika tabeller med data om externa filer. Om du t.ex. vill skicka och ta emot elektroniska dokument, importerar och exporterar du bankdata eller andra data, t.ex. lön och artikelkataloger. Läs mer i [Utbyta data elektroniskt](across-data-exchange.md).  
 
@@ -28,14 +28,14 @@ I den här artikeln beskrivs följande procedurer:
 * Exportera en datautbytesdefinition som en XML-fil som andra ska använda.
 * Importera en XML-fil för en befintlig datautbytesdefinition.
 
-## Skapa en datautbytesdefinition
+## <a name="create-a-data-exchange-definition"></a>Skapa en datautbytesdefinition
 
 Två uppgifter måste utföras för att skapa en definition för datautbyte:  
 
 1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen. Läs mer i avsnittet [Beskriva formateringen av rader och kolumner i filen](#formatlinescolumns).  
 2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i avsnittet [Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -110,7 +110,7 @@ Nästa steget i att skapa en definition för datautbyte är att avgöra vilka ko
 > [!NOTE]  
 > Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Ibland är värdena i de fält som du vill mappa olika. I ett företagsprogram är till exempel språkkoden för USA "U.S.", men i det andra är det "US". Det innebär att du måste omvandla värdet när du utbyter data. Detta sker genom omvandlingsregler som du definierar för fälten. Läs mer i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -165,7 +165,7 @@ Du kan även gruppera efter valfritt fält. Använd nyckelindexet för att sorte
      |**Fält-ID**|Ange numret på fältet i den externa filen som används för gruppering och detta fält måste anges av användare.|
      |**Fältrubrik**|Ange rubriken på fältet i den externa filen som används för gruppering.|
 
-## Omvandlingsregler
+## <a name="transformation-rules"></a>Omvandlingsregler
 
 Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
 
@@ -190,7 +190,7 @@ Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandli
 > [!NOTE]  
 > Lär dig mer om datum- och tidsformatering på [Standardsträngar för datum- och tidsformat](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Tips för utvecklare: exempel på det anpassade alternativet
+### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips för utvecklare: exempel på det anpassade alternativet
 
 I följande exempel visas hur du implementerar din egen omvandlingskod.
 
@@ -208,7 +208,7 @@ codeunit 60100 "Hello World"
 
 När du har definierat dina regler kan du testa dem. På snabbfliken **Test** anger du ett exempel på ett värde som du vill omvandla och kontrollerar sedan resultatet genom att välja **Uppdatera**.
 
-## Exportera en datautbytesdefinition som en XML-fil som andra ska använda
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportera en datautbytesdefinition som en XML-fil som andra ska använda
 
 När du har skapat definitionen för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil du kan importera. Den här uppgiften beskrivs i följande procedur.  
 
@@ -219,14 +219,14 @@ När du har skapat definitionen för datautbyte för en viss datafil kan du expo
 
     Om en definition för datautbyte redan har skapats behöver du bara importera XML-filen till ramverket för datautbyte. Den här uppgiften beskrivs i följande procedur.  
 
-## Importera en befintlig datautbytesdefinition
+## <a name="import-an-existing-data-exchange-definition"></a>Importera en befintlig datautbytesdefinition
 
 1. Spara XML-filen som representerar definitionen för datautbytet på ett lämpligt ställe.  
 2. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.  
 3. Välj åtgärden **Importera datautbytesdefinition**.  
 4. Välj filen som du har sparat i steg 1.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera dataintegration](across-set-up-data-exchange.md)  
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

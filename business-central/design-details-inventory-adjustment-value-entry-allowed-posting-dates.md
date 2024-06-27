@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
 
 När du använder batch-jobbet **Justera kost. – artikeltrans.** kan du köra följande felmeddelande:
 
@@ -18,7 +18,7 @@ När du använder batch-jobbet **Justera kost. – artikeltrans.** kan du köra 
 
 Det här meddelandet anger att du inte får bokföra transaktioner för det datum du angav. Du kan komma runt det här problemet genom att ändra användarinställningarna.
 
-## Ändra användarinställningar  
+## <a name="change-the-user-setup"></a>Ändra användarinställningar
 
 |Användar-ID  |Tillåt bokföring från  | Tillåt bokföring till  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Det här meddelandet anger att du inte får bokföra transaktioner för det datu
 
 I det här fallet får du bokföra i datumintervallet från 11 september till 30 september. Du får dock inte bokföra justeringsvärdetransaktionen med bokföringsdatumet den 10 september.  
 
-### Översikt över inställningar för bokföringsdatum
+### <a name="overview-of-the-posting-date-setup"></a>Översikt över inställningar för bokföringsdatum
 
-#### Lagerperioder
+#### <a name="inventory-periods"></a>Lagerperioder
 
 |Slutdatum  |Name  |Avslutat  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ I det här fallet får du bokföra i datumintervallet från 11 september till 30
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |December 202   |         |  
 
-#### Redovisningsinställningar
+#### <a name="general-ledger-setup"></a>Redovisningsinställningar
 
 |Fält|Värde|
 |---------|---------|
@@ -54,7 +54,7 @@ I det här fallet får du bokföra i datumintervallet från 11 september till 30
 |Tidsregistrering:       |         |
 |Lokalt adressformat:|   Postnr      |  
 
-#### Användarinställningar
+#### <a name="user-setup"></a>Användarinställningar
 
 |Användar-ID  |Tillåt bokföring fr.o.m.  | Tillåt bokföring till  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ I det här fallet får du bokföra i datumintervallet från 11 september till 30
 
 Tilldela ett bredare datumintervall där du tillåter inlägg på sidan **lagerperiod** eller **redovisningskonfigurationen** för att undvika konflikten som orsakar felmeddelandet. Med det bredare intervallet kan du till exempel bokföra justeringsvärdetransaktionen med bokföringsdatumet den 10 september.
   
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  

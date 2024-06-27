@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera försäljning
+# <a name="setting-up-sales"></a>Konfigurera försäljning
 
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
 
@@ -35,7 +35,7 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 |Ange om användare tillåts bokföra försäljningsfaktura och om de måste bokföra tillsammans med en leverans. |[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)|
 
-## Se även
+## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
