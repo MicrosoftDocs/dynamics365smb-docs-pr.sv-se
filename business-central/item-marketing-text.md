@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Med hjälp av Copilot får du snabbt ett textförslag som genereras automatiskt.
 
 Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och engagerande text som återspeglar ditt varumärke och som är konsekvent över hela produktlinjen. Börja med att generera ett förslag och ändra sedan den föreslagna texten efter behov.
 
+### Tillgängliga språk
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Förutsättningar
 
-- Funktionen för marknadsföringstextförslag är aktiverad i din miljö. Den uppgiften är vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera Copilot och AI-funktioner](enable-ai.md).
-- Du använder ett av de språk som för närvarande stöds av marknadsföringstextförslagen.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Om du vill ändra språk väljer du ikonen **Inställningar** i det övre högra hörnet ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") > **Mina inställningar** > **Språk**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language).
-- Gå igenom [vanliga frågor för marknadsföringstextförslag](faqs-marketing-text.md) för att lära dig hur AI tillämpas.
+Funktionen för marknadsföringstextförslag är aktiverad i din miljö. Den uppgiften är vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera Copilot och AI-funktioner](enable-ai.md).
 
 ### Skapa första utkast med Copilot
 
@@ -137,6 +135,6 @@ Text genereras alltid på det språk som definieras av dina [inställningar](ui-
 
 [Översikt över förslag på marknadsföringstext](ai-overview.md)  
 [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)  
-[Frågor och svar om marknadsföringstext för artikel](faqs-marketing-text.md)  
+[Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)  
 [Konfigurera Copilot- och AI-funktioner](enable-ai.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

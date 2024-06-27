@@ -2,14 +2,15 @@
 title: Konfigurera valutor
 description: Du måste konfigurera respektive valuta om du köper eller säljer i andra valutor än den lokala valutan (BVA) eller registrerar redovisningstransaktioner i olika valutor.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: '5, 118'
-ms.date: 03/15/2022
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-currencies"></a>Konfigurera valutor
+# Konfigurera valutor
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -17,7 +18,7 @@ Använd en extern tjänst för att hämta de senaste valutakurserna till listan 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="curr"></a>Valutor
+## <a name="curr"></a>Valutor
 
 I följande tabell beskrivs fälten i listan **Valutor**.
 
@@ -33,11 +34,11 @@ I följande tabell beskrivs fälten i listan **Valutor**.
 |**Kursförlust konstaterad redov.**|Kontot där den faktiska förlusten kommer att bokföras när du får betalningar för fordringar eller registrerar den faktiska valutakursen på betalningar till leverantörsreskontra. Exempel på en transaktion för en fordringsvaluta finns i exemplet under den här tabellen. |
 |**Kursvinst okonstaterad redov.**|Det konto där den teoretiska vinsten kommer att bokföras när du utför en valutajustering.|
 |**Kursförlust okonstaterad redov.**|Det konto där den teoretiska förlusten kommer att bokföras när du utför en valutajustering.|
-|**Precision av beloppavrundning**|Vissa valutor har andra format för fakturabelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar precisionen av beloppavrundning för en valuta avrundas alla fakturabelopp i den valutan med den uppdaterade precisionen.|
-|**Beloppdecimaler**|Vissa valutor har andra format för fakturabelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar plats för beloppdecimaler för en valuta avrundas alla fakturabelopp i den valutan med de uppdaterade decimalerna|
-|**Avrundningstyp faktura**|Anger vilken metod som ska användas om beloppen ska avrundas. Alternativen är **Närmsta**, **Uppåt** och **Nedåt**.|
+|**Belopp avrundning**|Vissa valutor har andra format för fakturabelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar precisionen av beloppsavrundning för en valuta avrundas alla fakturabelopp i den valutan med den uppdaterade precisionen.|
+|**Belopp antal decimaler**|Vissa valutor har andra format för fakturabelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar plats för beloppsdecimaler för en valuta avrundas alla fakturabelopp i den valutan med de uppdaterade decimalerna|
+|**Avrundningstyp**|Anger vilken metod som ska användas om beloppen ska avrundas. Alternativen är **Närmsta**, **Uppåt** och **Nedåt**.|
 |**Precision av avrundning av enhetsbelopp**|Vissa valutor har andra format för enhetsbelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar precisionen av avrundning av enhetsbelopp för en valuta avrundas alla enhetsbelopp i den valutan med den uppdaterade precisionen.|
-|**Decimalplatser för enhetsbelopp**|Vissa valutor har andra format för enhetsbelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar plats för decimaler i enhetsbelopp för en valuta avrundas alla enhetsbelopp i den valutan med de uppdaterade decimalerna.|
+|**A-pris antal decimaler**|Vissa valutor har andra format för enhetsbelopp än vad som har definierats på sidan **Redovisningsinställning**. Om du ändrar plats för decimaler i enhetsbelopp för en valuta avrundas alla enhetsbelopp i den valutan med de uppdaterade decimalerna.|
 |**Precision av programavrundning**|Anger storleken på det intervall som tillåts som avrundningsskillnad när du kopplar transaktioner i olika valutor till varandra.|
 |**Avrundning konversation BVA. Debetkonto**|Anger konverteringsinformation som även måste innehålla ett debetkonto om du vill infoga korrigeringsrader för avrundningsdifferenser i redovisningsjournalerna med hjälp av åtgärden **Infoga rader för konv. BVA avr.**.|
 |**Avrundning konversation BVA. Kreditkonto**|Anger konverteringsinformation som även måste innehålla ett kreditkonto om du vill infoga korrigeringsrader för avrundningsdifferenser i redovisningsjournalerna med hjälp av åtgärden **Infoga rader för konv. BVA avr.**.|
@@ -53,7 +54,7 @@ I följande tabell beskrivs fälten i listan **Valutor**.
 |**Max. tillåten momsdifferens**|Det högsta belopp som tillåts för momsskillnader i den här valutan. Mer information finns i [Korrigera momsbelopp manuellt i försäljnings- och inköpsdokument](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Det här fältet kanske inte visas som standard. Den kan hämtas genom att anpassa sidan.|
 |**Momsavrundningstyp**|Anger avrundningsmetoden för att korrigera momsbelopp manuellt i försäljnings- och inköpsdokument. Det här fältet kanske inte visas som standard. Den kan hämtas genom att anpassa sidan.|
 
-### <a name="available-currency-functions"></a>Tillgängliga valutafunktioner
+### Tillgängliga valutafunktioner
 
 I följande tabell anges viktiga åtgärder på sidan **Valutor**.  
 
@@ -62,17 +63,17 @@ I följande tabell anges viktiga åtgärder på sidan **Valutor**.
 |**Bearbeta**|**Föreslå konton**|Använd konton från övriga valutor. De konton som används oftast kommer att infogas.|
 ||**Ändra betalningstolerans**|Ändra den maximala betalningstoleransen och betalningstoleransens procenttal och filtrera efter valuta. Mer information finns i [Betalningstolerans och kassarabattstolerans](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ||**Valutakurser**|Visa uppdaterade valutakurser för valutorna du använder.|
-||**Justera valutakurser**|Justera redovisnings-, kund-, leverantörs- och bankkontotransaktioner för att återspegla ett mer aktuellt saldo om valutakursen har ändrats sedan transaktionerna bokfördes.|
+||**Justera valutakurser**|Uppdatera saldon för redovisnings-, kund-, leverantörs- och bankkontotransaktioner. Uppdateringen är användbar om valutakursen ändras efter att transaktionerna bokfördes.|
 ||**Valutakursjusteringsregister**|Visa resultatet av körningen av batch-jobbet **Justera valutakurser**. En rad skapas för varje valuta eller varje kombination av valuta och bokföringsmall som tas med i justeringen.|
 |**Valutakurstjänster**|**Valutakurstjänster**|Visa eller redigera inställningarna av tjänster som ställts in för att hämta uppdaterade valutakurser när du väljer åtgärden **Uppdatera valutakurser**.|
 ||**Uppdatera valutakurser**|Hämta de senaste valutakurserna från en tjänsteleverantör.|
 |**Rapporter**|**Utländskt valutasaldo**|Visa saldon för alla kunder och leverantörer i både utländska valutor och i lokal valuta (BVA). Rapporten innehåller två saldon i BVA. Ett är det utländska valutasaldot konverterat till BVA med hjälp av valutakursen vid tidpunkten för transaktionen. Det andra är det utländska valutasaldot konverterat till BVA med hjälp av valutakursen på arbetsdagen.|
 
-## <a name="lcy-and-other-currencies"></a>BVA och andra valutor
+## BVA och andra valutor
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a>Avrunda valutor
+## Avrunda valutor
 
 När du hanterar valutor som inte använder decimaler och om du vill undvika onödiga decimaler i utländsk valuta kan du använda två olika avrundningsfunktioner:
 
@@ -80,39 +81,39 @@ När du hanterar valutor som inte använder decimaler och om du vill undvika on�
 
 - Belopp avrundning  
 
-Dessa funktioner kan användas oberoende av varandra eller i kombination. Dessa funktioner kan dessutom användas i samband med fakturaavrundning.
+Dessa funktioner kan användas oberoende av varandra eller i kombination. Dessa funktioner kan dessutom användas med fakturaavrundning.
 
-I motsats till fakturaavrundningsfunktionerna, påverkar funktionen A-pris avrundning och Belopp avrundning bara belopp i utländsk valuta - inte motsvarande belopp i BVA. Dessa två funktioner leder inte till några bokföringar på redovisningskontona. Därför behöver inga redovisningskonton anges i bokföringsmallar eller på andra ställen.
+I motsats till fakturaavrundningsfunktionerna, påverkar funktionen A-pris avrundning och Belopp avrundning bara belopp i utländsk valuta - inte motsvarande belopp i BVA. Dessa två funktioner bokför inget i redovisningskontona. Därför behöver inga redovisningskonton anges i bokföringsmallar eller på andra ställen.
 
-### <a name="unit-amount-rounding"></a>Enhetspris-avrundning
+### Enhetspris-avrundning
 
 Funktionen Enhetspris-avrundning styr hur försäljningspriser för artiklar och resurser i utländsk valuta rundas av på försäljnings- och inköpsrader. Du måste ange reglerna för respektive valuta separat, i fältet **Enhetspris-avrundning** i listan **Valutor**.
 
 Funktionen Enhetspris-avrundning används automatiskt varje gång du registrerar ett artikel- eller resursnummer på en försäljningsrad. Om fakturan gäller en kund med en valutakod, konverteras artikel- eller resurspriset till kundens valuta. Priset avrundas enligt Enhetspris-avrundning för valutan.
 
-### <a name="amount-rounding"></a>Beloppavrundning
+### Beloppavrundning
 
 Funktionen Beloppsavrundning styr hur belopp i utländsk valuta rundas av på redovisningsjournalrader, försäljningsrader och inköpsrader. Du måste ange reglerna för respektive valuta separat, i fältet **Beloppsavrundning** i listan **Valutor**.
 
 Belopp i utländsk valuta avrundas när du fyller i och bokför redovisningsjournalrader, försäljningsrader och inköpsrader.
 
-## <a name="exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Du kan registrera valutakurser för varje utländsk valuta och ange vilka datum som valutakurserna gäller från. Du kan t.ex. ange dagliga, månatliga eller kvartalsvisa valutakurser för respektive utländsk valuta.
 
 Du kan lagra historiska valutakurser på sidan **Valutakurser** som referens. När du behöver uppdatera valutakurserna kan du använda knappen **Uppdatera valutakurser** för att visa de senaste valutakurserna från en extern tjänsteleverantör.
 
-## <a name="general-ledger-accounts"></a>Redovisningskonton
+## Redovisningskonton
 
 Du kan inte koppla valutakoder till redovisningskonton eftersom belopp på redovisningskonton anges i BVA. Om du har ett banklån i USD och gör insättningar på ett bankkonto i SEK, kan du hålla ordning på dessa konton genom att skapa bankkonton i både USD och SEK. Med bokföringsmallar kan du koppla kontona till relevanta redovisningskonton. I redovisningen visas värdet på beloppen i BVA.
 
 Du kan registrera en valutakod på en redovisningsjournalrad och bokföra raden på ett redovisningskonto. Relevant valutakurs används för att konvertera beloppet till BVA innan det bokförs på redovisningskontot.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a>Exempel på en transaktion med ingående valuta
+## Exempel på en transaktion med ingående valuta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  

@@ -5,28 +5,28 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/19/2023
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-stock-keeping-units"></a>Konfigurera lagerställeenheter
+# Konfigurera lagerställeenheter
 
 Använd lagerställeenheter (SKU) för att registrera artikelinformation som rör ett visst lagerställe eller en viss variant. De ger dig möjlighet att lägga till olika typer av information om en artikel på en viss plats, t.ex.:
 
 * Ett lagerställe eller distributionscenter
 * Varianter, t.ex. olika hyllnummer och olika återanskaffnings information, för samma artikel  
 
-## <a name="to-set-up-a-sku"></a>Så här skapar du lagerställeenheter
+## Så här ställer du in ett SKU  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerställeenheter** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod**och/eller **Variantkod**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-När du har skapat den första lagerställeenheten för en artikel, markeras kryssrutan **Lagerställeenhet finns** på **artikelkortet**.  
+När du har skapat den första SKU för en artikel, markeras kryssrutan **Lagerställeenhet finns** på **artikelkortet**.  
 
-Om du vill skapa flera lagerställeenheter för en artikel, kan du använda batch-jobbet **Skapa lagerställeenhet**. Lär dig mer om batchjobb i [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
+Om du vill skapa flera SKU:er för en artikel, kan du använda batch-jobbet **Skapa lagerställeenhet**. Lär dig mer om batchjobb i [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 > [!NOTE]  
 > Informationen på **lagerställeenhetskortet** har högre prioritet än informationen på **artikelkortet**.
@@ -35,7 +35,7 @@ Om du vill skapa flera lagerställeenheter för en artikel, kan du använda batc
 > Om LAGERSTÄLLEENHETEN levereras via produktion, kommer inte fältet **Standardkostnad** användas för fakturering, och justera den faktiska kostnaden för den producerade artikeln. I stället använder [!INCLUDE [prod_short](includes/prod_short.md)] värdet i fältet **Standardkostnad** på den underliggande artikelkortet, och eventuella avvikelser beräknas mot kostnadsandelar för artikeln.<br><br>
 > Även om du kan tilldela produktionsstrukturer och operationsföljden inte kan tilldelas Lagerställekonfiguration, är styckkostnaden summerad och den relaterade beräkningen av kostnad delar inte heller tillgängliga på Lagerställeenheter. Om du vill veta mer om standardkostnader går du till [Beräkna standardkostnad](finance-about-calculating-standard-cost.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

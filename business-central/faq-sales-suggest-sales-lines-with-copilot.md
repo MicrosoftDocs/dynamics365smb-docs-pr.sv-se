@@ -12,19 +12,19 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Vanliga frågor och svar om förslag på försäljningsrader med Copilot (förhandsversion)
+# Vanliga frågor och svar om förslag på försäljningsrader med Copilot (förhandsversion)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Dessa vanliga frågor beskriver AI-effekten av funktionen förslag på försäljningsrader i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>Vad är förslag på försäljningsrader med Copilot?
+## Vad är förslag på försäljningsrader med Copilot?
 
 Förslag på försäljningsrader med Copilot kan hjälpa dig att skapa rader i försäljningsdokument som försäljningsofferter, order och fakturor baserat på strukturerad inmatning eller naturligt språk. Funktionen är inte en allmän chatt, utan en mycket specifik och integrerad upplevelse som du kan använda på försäljningsdokument. Funktionen erbjuder två olika färdigheter som hjälper dig att hitta data om enskilda produkter eller hela dokument.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Vilka funktioner har förslag på försäljningsrader med Copilot?
+## Vilka funktioner har förslag på försäljningsrader med Copilot?
 
 * Hitta produkter
 
@@ -34,7 +34,7 @@ Förslag på försäljningsrader med Copilot kan hjälpa dig att skapa rader i f
 
   Människor upprepar ofta en tidigare order, eller åtminstone använder den som utgångspunkt. Men det kan vara svårt att hitta rätt order i en bunt med order. Du kanske kommer ihåg en del av orderns ID, som kan vara ett företagsnummer eller ett referensnummer som du fått från en kund. Att kunna använda prompter som *Behöver sista fakturan från april* bör hjälpa dig att hitta en order snabbare.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Vilken är den avsedda användningen av förslag på försäljningsrader med Copilot?
+## Vilken är den avsedda användningen av förslag på försäljningsrader med Copilot?
 
 * Hitta produkter
 
@@ -59,13 +59,13 @@ Förslag på försäljningsrader med Copilot kan hjälpa dig att skapa rader i f
   * *Hämta produkter från beställning 103031*
   * *Behöver produkter från sista fakturan i augusti*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Hur utvärderades förslag på försäljningsrad med Copilot? Vilka mått används för att mäta prestanda?
+## Hur utvärderades förslag på försäljningsrad med Copilot? Vilka mått används för att mäta prestanda?
 
 Funktionen genomgick omfattande tester där många uppmaningar på amerikansk engelska representerar både typisk användning och användning av dåliga aktörer. Testningen baserades på [!INCLUDE [prod_short](includes/prod_short.md)] demonstrationsdata och en stor märkt produktkatalog tillgänglig som öppen källkod.
 
 Den här funktionen är byggd i enlighet med Microsofts standard för ansvarsfull AI. [Läs mer om ansvarsfull AI från Microsoft](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Vilka är begränsningarna för förslag på försäljningsrader med Copilot? Hur kan användare minimera effekten av förslag på försäljningsrader med Copilot när de använder systemet?
+## Vilka är begränsningarna för förslag på försäljningsrader med Copilot? Hur kan användare minimera effekten av förslag på försäljningsrader med Copilot när de använder systemet?
 
 * Hitta produkter
   
@@ -113,33 +113,39 @@ För produkter anger följande tabell de tabeller och fält som Copilot söker i
 
   Copilot returnerar inte alla rader av typen Artikel. Endast artikelnummer, variantkoder och kvantiteter överförs. Kvantiteter från källdokumentet konverteras till **Måttenhet för försäljning**.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>I vilka geografiska områden och på vilka språk finns förslag på försäljningsrader tillgängligt?
+## I vilka geografiska områden och på vilka språk finns förslag på försäljningsrader tillgängligt?
 
-Med undantag för Kanada är den här funktionen tillgänglig för alla länder/-regioner och på alla språk som stöds. På grund av begränsat språkstöd kommer funktionen inledningsvis inte att vara tillgänglig för kanadensiska kunder på grund av regelspråksefterlevnad. För att denna funktion ska vara tillgänglig för kundmiljöer i länder/regioner där Azure OpenAI Service inte distribueras måste administratörer först godkänna att data flyttas över gränserna för [!INCLUDE [prod_short](includes/prod_short.md)] för att ansluta till Azure OpenAI Service.  
+- Tillgängliga geografiska områden
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Vilka driftfaktorer och inställningar gör det möjligt att på ett effektivt och ansvarigt sätt använda funktionen?
+   Copilot-funktionen är tillgänglig i alla geografiska [Business Central länder/regioner som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). För kundmiljöer i länder/regioner där Azure OpenAI Service inte distribueras måste administratörer först godkänna att data flyttas över gränserna för [!INCLUDE [prod_short](includes/prod_short.md)] för att ansluta till Azure OpenAI Service. Läs mer om [Copilot dataförflyttning mellan geografiska områden](ai-copilot-data-movement.md).
+
+- Tillgängliga språk
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## Vilka driftfaktorer och inställningar gör det möjligt att på ett effektivt och ansvarigt sätt använda funktionen?
 
 AI-drivna förslag kan ibland vara felaktiga eller ofullständiga. Du bör alltid granska riktigheten i Copilot-förslag innan du väljer om du vill behålla dem. Copilot-förslag sparas inte i [!INCLUDE [prod_short](includes/prod_short.md)]-databasen förrän du väljer knappen **Behåll den** den och stänger Copilot-fönstret. Du kan redigera och korrigera eventuella förslag innan du väljer att behålla dem eller efter att de har infogats i ett försäljningsdokument.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Vad förväntas av administratörer och slutanvändare när de använder förslag på försäljningsrader?
+### Vad förväntas av administratörer och slutanvändare när de använder förslag på försäljningsrader?
 
 Varje enskild användare väljer om han eller hon vill använda **förslag på försäljningsrader**. Även när funktionen är aktiverad av administratörer och tillgänglig kan du välja att använda den alltid, ibland eller aldrig.  
 
-Administratörer fattar det övergripande beslutet om Copilot-funktioner ska användas eller inte i [!INCLUDE [prod_short](includes/prod_short.md)]. Om administratörer aktiverar Copilot bör de se till att bevilja åtkomst till lämpliga användare.   
+Administratörer fattar det övergripande beslutet om Copilot-funktioner ska användas eller inte i [!INCLUDE [prod_short](includes/prod_short.md)]. Om administratörer aktiverar Copilot bör de se till att bevilja åtkomst till lämpliga användare.
 
-> [OBS!]
+> [!NOTE]
 > - Vi stöder inte den här funktionen i [!INCLUDE [prod_short](includes/prod_short.md)] lokalt eller i privata moln.
 > - Partner kan inte utöka den här funktionen. Det innebär att partnerutvecklare inte kan ändra, ersätta eller utöka den.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Är Copilot det enda sättet att skapa försäljningsrader?
+## Är Copilot det enda sättet att skapa försäljningsrader?  
 
 Nej, användning av Copilot är valfri. [!INCLUDE [prod_short](includes/prod_short.md)] erbjuder icke-AI-drivna sätt att infoga försäljningsrader eller kopiera dokument. Organisationer kan använda båda metoderna samtidigt.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hur ger jag feedback om AI-genererat innehåll?
+## Hur ger jag feedback om AI-genererat innehåll?  
 
 Varje gång Copilot ger förslag kan du ge feedback till Microsoft direkt från Copilot-fönstret med hjälp av knapparna gilla och ogilla. Din feedback förblir anonym och vi använder dessa uppgifter för att förbättra kvaliteten på tjänsten.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Föreslå rader på försäljningsorder med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Konfigurera Copilot- och AI-funktioner](enable-ai.md)  

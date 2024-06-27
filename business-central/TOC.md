@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Gester för touch och penna](touch-gestures.md)
 ### [Felsökning: komma åt kamera och plats](ui-troubleshooting-camera-location.md)
 ### [Intelligenta insikter (endast online)](about-intelligent-cloud.md)
-## Vanliga frågor och svar
+## Felsökning och vanliga frågor
 ### [Vanliga frågor och svar](across-faq.yml)
 ### [Vanliga frågor och svar om chatt med Copilot (förhandsversion)](chat-with-copilot-faq.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Vanliga frågor och svar om Teams](teams-faq.md)
 ### [Vanliga frågor och svar om elektronisk fakturering](faq-electronic-invoicing.yml)
 ### [Minsta krav](product-requirements.md)
+### [Felsökning i Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Hjälp och support
 ### [Resurser för hjälp och support](product-help-and-support.md)
@@ -458,7 +459,12 @@ ms.service: dynamics-365-business-central
 #### [Översikt över hållbarhetsstyrning](finance-manage-sustainability.md)
 #### [Hållbarhetskonfiguration](finance-sustainability-setup.md)
 #### [Kontoplan för hållbarhetskonton och huvudbok](finance-sustainability-accounts-ledger.md)
-#### [Hur du registrerar utsläpp av växthusgaser](finance-sustainability-journal.md)
+#### [Hur du registrerar utsläpp av växthusgaser (GHG)](finance-sustainability-journal.md)
+#### Hållbarhetsanalys
+##### [Ad hoc-analys av data för hållbarhet](ad-hoc-analysis-sustainability.md)
+##### [Inbyggda hållbarhetsrapporter](sustainability-reports.md)
+#### Hållbarhets-API:n
+##### [Hållbarhets-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Organisationer med utlokaliserad verksamhet och internationella organisationer](finance-multi-site-organizations.md)
 #### Konsolidera ekonomiska data från flera företag
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)
 #### [Ad hoc-analys av data för anläggningstillgångar](ad-hoc-analysis-fa.md)
 #### Inbyggda verktyg för analys av anläggningstillgångar
-##### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Övervaka underhållskostnader](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Viktiga ekonomiska rapporter](finance-reports.md)
 #### [Kundreskontrarapporter](receivables-reports.md)
 #### [Leverantörsreskontrarapporter](payables-reports.md)
+#### [Hållbarhetsrapporter](sustainability-reports.md)
 
 ### [Försäljningsrapporter](sales-reports.md)
 ### [Inköpsrapporter](purchase-reports.md)

@@ -2,36 +2,36 @@
 title: Exportera dina Business Central-data till Excel
 description: 'Du kan exportera dina finansiella rapporter och affärsinformationsdata från Business Central till Excel, eller också öppna dina data i Excel.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
-ms.search.form: 9901
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
+ms.search.form: '9901,'
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="export-your-business-data-to-excel"></a>Exportera dina affärsdata till Excel
+# Exportera dina affärsdata till Excel
 
 Excel är ett kraftfullt verktyg för att arbeta med data. Du kan öppna valfri lista i Excel inifrån [!INCLUDE[prod_short](includes/prod_short.md)]. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. På samma sätt kan du enkelt ta med dig dina data om du väljer att avbryta prenumerationen.
 
-## <a name="opening-lists-in-excel"></a>Öppna listor i Excel
+## Öppna listor i Excel
 
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
 
 > [!NOTE]
-> Använd det här alternativet om du inte vill ändra och publicera ändringarna till [!INCLUDE[prod_short](includes/prod_short.md)].  
+> Använd det här alternativet om du inte vill publicera ändringarna till [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Varje lista innehåller några kolumner. Exporten till Excel innehåller kolumner som är i den aktuella vyn. Ändra kolumnerna genom att öppna snabbmenyn för valfri kolumn och ange sedan vilka kolumner som ska visas. Listan över kolumner skiljer sig åt i de flesta listor. Kolumnerna återspeglar strukturen i databasen där dina data lagras. Om du är osäker på vilken typ av data en viss kolumn innehåller lägger du till den i vyn. Du kan alltid ta bort den igen.  
 
-### <a name="edit-data-in-excel"></a>Redigera data i Excel
+### Redigera data i Excel
 
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
+## Exportera data till andra finanssystem
 
 Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
 
-Du kan exportera alla sidor, men det kan vara mer än vad du verkligen behöver. Så överväg att exportera följande viktiga sidor och kom ihåg att lägga till alla kolumner som beskrivits tidigare:  
+Du kan exportera alla sidor, men det kan vara mer än vad du verkligen behöver. Överväg att exportera följande viktiga sidor och kom ihåg att lägga till alla kolumner:  
 
 * Kontoplan  
 * Kunder  
@@ -39,7 +39,7 @@ Du kan exportera alla sidor, men det kan vara mer än vad du verkligen behöver.
 * Banker  
 * Artiklar  
 
-Om du även vill ha med alla dina ekonomiska transaktioner, är detta stora mängder data, så exporten tar ofta mer än några minuter. De finansiella transaktionerna visas på sidan **redovisningstransaktioner**.  
+Om du även vill exportera alla dina ekonomiska transaktioner, är detta stora mängder data, så exporten tar ofta mer än några minuter. De finansiella transaktionerna visas på sidan **redovisningstransaktioner**.  
 
 Vi rekommenderar att du också överväger att exportera data från följande sidor:  
 
@@ -71,7 +71,8 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 
 Mer information finns i avsnittet [Få en översikt en användares behörigheter](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).
 
-## <a name="see-also"></a>Se även
+## Se även
+
 [Avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  

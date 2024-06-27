@@ -1,60 +1,63 @@
 ---
-title: Skapa artikelkort för varor eller tjänster (innehåller video)
+title: Skapa artikelkort för varor eller tjänster
 description: Du skapar artikelkort för service som du säljer som timmar och för fysiska produkter. Exempel inkluderar monteringsartiklar och färdiga varor som du säljer från lagret.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrera nya artiklar
 
-Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tjänster som du handlar med. Varje artiklar måste registreras som ett artikelkort.
+Artiklar är de varor eller tjänster som du köper, lagrar, säljer, levererar och står för. Använd sidan **Artikelkort** för att registrera information om följande typer av artiklar:
 
-Artikelkort innehåller den information som behövs för att köpa, lagra, sälja, leverera och informera om artiklar.
+* **Lager** anger att artikeln är en fysisk enhet som du hanterar och spårar i lagret.
+* **INte i lager** är fysiska enheter som du inte hanterar eller spårar i lagret.
+* **Serviceartiklar** är en arbetstidsenhet som vanligtvis används i servicehantering.
 
-Artikelkortet kan vara av typen **Lager**, **Service** eller **Inte i lager** för att ange om artikeln är en fysisk lagerenhet, en arbetstidsenhet eller en fysisk enhet som inte spåras i inventeringen. Mer information om typerna finns i [Om artikeltyper](inventory-about-item-types.md).
+Om du vill veta mer om dessa typer av artiklar som inte finns i lager går du till [Om artikeltyper](inventory-about-item-types.md).
 
-En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. Läs mer om monteringsstrukturer och produktionsstrukturer på [Arbeta med strukturer](inventory-how-work-BOMs.md).
+> [!TIP]
+> Det finns också katalogartiklar som liknar artiklar som inte finns i lager på så sätt att de är artiklar som du erbjuder till kunder men inte hanterar förrän du säljer dem. Om du vill lära dig mer går du till [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
 
-Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Sidan **Artikelleverantörskatalog** visar leverantör så att du enkelt kan välja en annan leverantör.
+## Primära och alternativa leverantörer
 
-*Katalogartiklar* är artiklar du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem. Katalogartiklar är inte vanliga artiklar av typen **Inte i lager**. Mer information: [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
+Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikeln. Använd åtgärden **Leverantörer** på sidan **Artikelkort** för att öppna sidan **Artikelns leverantörskatalog**. På sidan visas de leverantörer som du köper artikeln från, så att du enkelt kan skapa eller välja en alternativ leverantör när du skapar en inköpsorder.
 
-> [!NOTE]  
-> Om artikelmallar finns för olika artikeltyper, visas en sida när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
+## Använd artikelmallar
 
-I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan också skapa nya artikelkort genom att kopiera befintliga artiklar. Mer information finns i [kopiera befintliga objekt om du vill skapa nya objekt](inventory-how-copy-items.md).  
+Om du vill återanvända inställningar för olika typer av objekt när du skapar nya objekt kan du spara objekten som artikelmallar. Artikelmallar hjälper till att påskynda processen med att lägga till nya artiklar och ökar enhetligheten i dina artikeldata. När du registrerar ett nytt objekt visas en sida där du kan välja en mall. När du har valt en mall fylls dess inställningar i automatiskt för objektet du skapar. Om du bara har en artikelmall använder nya objekt alltid den mallen. Information om hur du skapar en artikelmall finns i [Spara ett artikelkort som en artikelmall](#save-an-item-card-as-an-item-template).
 
-<br />
+## Ta med artiklar i strukturlistor
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Du kan strukturera hierarkier som har en huvudartikel med underliggande komponentartiklar i monterings- och produktionsstrukturer. Om du vill lära dig mer om strukturer går du till [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
 ## Skapa ett nytt artikelkort
+
+Följande video visar hur du ställer in ett objekt på sidan Artikelkort. Men du kan också ställa in nya objekt genom att kopiera befintliga. Mer information finns i [kopiera befintliga objekt om du vill skapa nya objekt](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
+> I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information om kostnad finns i [Designdetaljer: värderingsprinciper](design-details-costing-methods.md).
 >
-> Om du använder **Genomsnitt** beräknas en artikels styckkostnad som den genomsnittliga styckkostnaden vid respektive tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
+> Om du använder **Genomsnitt** beräknas en artikels styckkostnad som den genomsnittliga styckkostnaden vid respektive tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** för att se de transaktioner som användes för att beräkna den genomsnittliga kostnaden.
 
-Du kan visa eller redigera specialpriser eller rabatter som du beviljar eller som säljaren ger dig för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum Det gör du genom att välja åtgärderna **ange särskilda priser** eller **ange särskilda rabatter**. Varje rad på, t. ex. sidan **försäljningspriser**, representerar ett specialpris. Varje kolumn representerar ett kriterium som måste användas för att ge kunden det särskilda pris som du anger i fältet **enhetspris** på sidan **försäljningspriser**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrera särskilda inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Du kan använda specialpriser eller rabatter som du eller leverantören beviljar för artikeln baserat på vissa kriterier. Kriterierna omfattar till exempel kund, minsta orderkvantitet eller slutdatum. Du ställer in specialpriser genom att välja åtgärderna **ange särskilda priser** eller **ange särskilda rabatter**. Varje rad på, t. ex. sidan **försäljningspriser**, representerar ett specialpris. Varje kolumn representerar ett kriterium som måste användas för att ge kunden det särskilda pris som du anger i fältet **enhetspris** på sidan **försäljningspriser**. För att lära dig mer om prissättning, gå till [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrera särskilda inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Artikeln är nu registrerad, och artikelkortet är klart att användas i försäljningsdokument.
+### Spara ett artikelkort som en artikelmall
 
-Om du vill använda detta artikelkort som en mall när du skapar nya artikelkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:  
-
-### Om du vill spara artikelkortet som en mall
-
-1. På sidan **artikelkort** väljer du åtgärden **Spara som mall**. Sidan **artikelmall** öppnas och uppvisar artikelkortet som mall.
+1. På sidan **artikelkort** väljer du åtgärden **Spara som mall**. Sidan **artikelmall** visar artikelkortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Sidan **Dimensionsmallar** öppnas och visar de dimensionskoder som ställts in för artikeln.
-4. Ändra eller ange dimensionskoder som ska kopplas till nya artikelkort som skapas med hjälp av mallen.
-5. Välj **OK** när du har slutfört den nya artikelmallen.
+
+> [!TIP]
+> Du kan även återanvända dimensioner för artiklar. Om du vill återanvända dimensioner i mallar väljer du fönstret **Dimensioner**. Sidan **Dimensionsmallar** visar de mått som är inställda för artikeln. Redigera eller lägg till dimensioner som gäller för nya objekt som du skapar från mallen.
 
 Artikelmallen läggs till listan över artikelmallar, så att du kan använda det för att skapa nya artikelkort.
 

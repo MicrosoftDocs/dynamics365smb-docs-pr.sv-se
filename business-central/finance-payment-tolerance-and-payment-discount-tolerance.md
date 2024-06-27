@@ -5,19 +5,20 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '118, 314, 395'
-ms.date: 04/03/2023
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
+# Arbeta med betalningstoleranser och kassarabattstoleranser
 
-Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t. ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
+Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t. ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet.  
 
 Du kan använda betalningstolerans så att alla utestående belopp anger ett maximum som medger betalningstolerans. Om betalningstoleransen uppfylls analyseras betalningsbeloppet. Om beloppet är en underbetalning stängs det utestående beloppet helt av underbetalningen. En detaljerad redovisningstransaktion har bokförts på betalningstransaktionen så att det inte finns något belopp kvar på fakturaposten. Om beloppet är en överbetalning bokförs en ny detaljerad reskontratransaktion på betalningstransaktionen så att det inte finns något belopp kvar på betalningstransaktionen.
 
-Du kan använda kassarabattstolerans så att om du godkänner en kassarabatt efter kassarabattsdatumet, bokförs den alltid på kontot för kassarabatt eller kontot för betalningstolerans.
+Du kan använda kassarabattstolerans så att om du godkänner en rabatt efter kassarabattsdatumet, bokförs den alltid på kontot för kassarabatt eller kontot för betalningstolerans.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Använda betalningstolerans på flera dokument
+## Använda betalningstolerans på flera dokument
 
 Ett enskilt dokument har samma betalningstolerans oavsett om det används som det är eller tillsammans med andra dokument. Godkännande av en sen kassarabatt, när du kopplar betalningstolerans till flera dokument sker automatiskt för varje dokument där följande regel gäller:  
 
@@ -35,9 +36,9 @@ Du kan välja att visa ett varningsmeddelande som baseras på olika toleranssitu
 
 Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>Så här lägger du upp toleranser
+## Så här lägger du upp toleranser
 
-Tolerans på dagar och belopp gör att du kan stänga en faktura trots att betalningen inte helt täcker beloppet på fakturan. Till exempel på grund av att förfallodatumet för kassa rabatten överskrids, har varor dragits av eller på grund av ett mindre fel. Det gäller även återbetalningar och kreditnotor.  
+Tolerans på dagar och belopp gör att du kan stänga en faktura trots att betalningen inte helt täcker beloppet på fakturan. Till exempel på grund av att förfallodatumet för kassa rabatten överskrids, har varor dragits av eller på grund av ett mindre fel. Denna princip gäller även återbetalningar och kreditnotor.  
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
@@ -61,26 +62,27 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 
 > [!NOTE]  
 > Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
->   
+>
 > Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
->   
+>
 > När du lägger upp toleransen kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
 
 > [!IMPORTANT]  
 > När du aktiverar fältet **Justera för kassarabatt** på sidan **Bokföringsinställningar för moms** anses momsbeloppet vara kopplat till beloppen i **betalningstolerans** och **kassarabatter** och moms minskas för båda transaktionsbeloppen om de finns. Det går inte att konfigurera systemet att använda momsminskning för en typ av transaktion.  
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
+## Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 
-Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.    
+Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett saldo som ligger inom den tillåtna toleransen. Du kan då välja hur du vill bokföra och dokumentera saldot.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att stänga av växlingen.  
 
 > [!NOTE]  
 > Standardalternativet för sidan **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för sidan **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>Så här spärrar du betalningstolerans för kunder
+## Så här spärrar du betalningstolerans för kunder
 
-Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Nedan beskrivs hur du gör för en kund. Momenten är liknande för en leverantör.
+Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Följande steg beskriver hur du gör det för en kund. Momenten är liknande för en leverantör.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.  
 2. Välj kryssrutan **Spärra betalningstolerans** på Snabbfliken **Betalningar**.  
@@ -88,15 +90,16 @@ Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleran
 > [!NOTE]  
 > Om det finns öppna transaktioner för kunden eller leverantören tillfrågas du om du vill ta bort betalningstoleransen från transaktioner som är öppna för tillfället.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exempel 1 – toleransberäkningar för enstaka dokument
+## Exempel 1 – toleransberäkningar för enstaka dokument
 
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer.  
 
 Sidan **redovisning** innehåller följande inställningar:
+
 - Kassarabattfrist:    5D  
 - Max betalningstolerans: 5  
 
-Scenarier med alternativ A och B motsvarar dessa följande:  
+Scenarier med alternativ A och B motsvarar:  
 
 - **A** I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför saldo som betalningstolerans).  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt (Lämna saldo som återstående belopp).  
@@ -122,11 +125,11 @@ Scenarier med alternativ A och B motsvarar dessa följande:
 |14|1 000|20|5|03-01-15|03-01-20|>03-01-20|980|Ingen|Nej, 20 på fakturan|0|0|  
 |15|1 000|20|5|03-01-15|03-01-20|>03-01-20|975|Ingen|Nej, 25 på fakturan|0|0|  
 
-### <a name="payment-range-diagrams"></a>Betalningsintervalldiagram
+### Betalningsintervalldiagram
 
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
+#### (1) Betalningsdatum <=03-01-15 (scenarier 1–3)
 
 Återstående belopp per  
 
@@ -138,7 +141,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-20 (scenario 4-9)
+#### (2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-20 (scenario 4-9)
 
 Återstående belopp per  
 
@@ -150,7 +153,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Betalningsdatum infaller efter 03-01-20 (scenario 10-15)
+#### (3) Betalningsdatum infaller efter 03-01-20 (scenario 10-15)
 
 Återstående belopp per  
 
@@ -162,7 +165,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exempel 2 – toleransberäkningar för flera dokument
+## Exempel 2 – toleransberäkningar för flera dokument
 
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer. Exemplen gäller bara de scenarier som resulterar i att alla poster i programmet stängs.  
 
@@ -172,7 +175,7 @@ Sidan **redovisning** innehåller följande inställningar:
 
 Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:  
 
-- **A**  I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför som tolerans) i en faktura.  
+- **A** I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför som tolerans) i en faktura.  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt i en faktura.  
 - **C** – I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
 - **D** – I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
@@ -210,11 +213,11 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**>03-01-22**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
 |30|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|1990|PaymentTolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams-1"></a>Betalningsintervalldiagram
+### Betalningsintervalldiagram
 
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
+#### (1) Betalningsdatum <=03-01-15 (scenarier 1–3)
 
 Återstående belopp per  
 
@@ -226,7 +229,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-17 (scenario 4-9)
+#### (2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-17 (scenario 4-9)
 
 Återstående belopp per  
 
@@ -238,7 +241,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Betalningsdatumet infaller mellan 03-01-18 och 03-01-20 (scenario 10-21)
+#### (3) Betalningsdatumet infaller mellan 03-01-18 och 03-01-20 (scenario 10-21)
 
 Återstående belopp per  
 
@@ -250,7 +253,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Betalningsdatumet infaller mellan 03-01-21 och 03-01-22 (scenario 22-27)
+#### (4) Betalningsdatumet infaller mellan 03-01-21 och 03-01-22 (scenario 22-27)
 
 Återstående belopp per  
 
@@ -262,7 +265,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Betalningsdatum infaller efter 03-01-22 (scenario 28-30)
+#### (5) Betalningsdatum infaller efter 03-01-22 (scenario 28-30)
 
 Återstående belopp per  
 
@@ -274,7 +277,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  

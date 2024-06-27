@@ -1,11 +1,11 @@
 ---
-title: Skapa rapporter i Power BI Desktop för att visa Business Central-data | Microsoft Docs
+title: Skapa rapporter i Power BI Desktop för att visa Business Central-data
 description: Gör din data tillgänglig som datakälla i Power BI och bygga kraftfulla rapporter av din verksamhets status.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,7 +15,7 @@ ms.reviewer: jswymer
 
 Gör din [!INCLUDE[prod_long](includes/prod_long.md)]-data tillgänglig som datakälla i Power BI Desktop och bygga kraftfulla rapporter av din verksamhets status.
 
-I den här artikeln beskrivs hur du kommer gång med att använda Power BI Desktop för att skapa rapporter som visar [!INCLUDE[prod_long](includes/prod_long.md)]-data.  När du har skapat en rapport kan du publicera den i din Power BI-tjänst eller dela den med samtliga användare i din organisation. När rapporten väl har publicerats i Power BI-tjänsten kan användare som konfigurerats för det se rapporten i [!INCLUDE[prod_long](includes/prod_long.md)].
+I den här artikeln beskrivs hur du kommer gång med att använda Power BI Desktop för att skapa rapporter som visar [!INCLUDE[prod_long](includes/prod_long.md)]-data. När du har skapat en rapport kan du publicera den i din Power BI-tjänst eller dela den med samtliga användare i din organisation. När rapporten väl har publicerats i Power BI-tjänsten kan användare som konfigurerats för det se rapporten i [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Gör dig redo
 
@@ -27,9 +27,7 @@ I den här artikeln beskrivs hur du kommer gång med att använda Power BI Deskt
 
   Power BI Desktop är ett kostnadsfritt program som du installerar lokalt på din dator. Mer information finns i [snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Se till att den data du vill inkludera i rapporten är tillgänglig som en API-sida eller publicerad som en webbtjänst.
-
-  Mer information finns i [Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata).
+- Se till att den data du vill inkludera i rapporten är tillgänglig som en API-sida eller publicerad som en webbtjänst. Mer information finns i [Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -69,11 +67,11 @@ Den första uppgiften i samband med att skapa rapporter är att lägga till [!IN
     <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
-    > När du väl har anslutit till [!INCLUDE[prod_short](includes/prod_short.md)] kommer du inte uppmanas att logga in en gång till. [Hur ändrar jag eller avmarkerar jag det konto som jag använder för att ansluta till Business Central från Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+    > När du har anslutit till [!INCLUDE[prod_short](includes/prod_short.md)] kommer du inte uppmanas att logga in en gång till. [Hur ändrar jag eller avmarkerar jag det konto som jag använder för att ansluta till Business Central från Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. När ansluten Power BI kontakten är till Business Central-tjänsten. **Navigator** fönstren visas och visar tillgängliga data källor för att skapa rapporter. Markera en mapp för att expandera den och se tillgängliga datakällor. 
+6. När du är ansluten Power BI kontaktar [!INCLUDE [prod_short](includes/prod_short.md)] tjänsten. **Navigator** fönstren visas och visar tillgängliga data källor för att skapa rapporter. Markera en mapp för att expandera den och se tillgängliga datakällor.
 
-   Dessa datakällor representerar samtliga de webbtjänster och AP-sidor som har publicerats för [!INCLUDE [prod_short](includes/prod_short.md)]. Datakällorna grupperas enligt de Business Central-miljöerna och företagen. Med Business Central online har **Navigator** följande struktur:
+   Dessa datakällor representerar samtliga de webbtjänster och AP-sidor som har publicerats för [!INCLUDE [prod_short](includes/prod_short.md)], grupperade efter miljöer och företag. Med [!INCLUDE [prod_short](includes/prod_short.md)] online, har **Navigator** följande struktur:
 
     - **Miljönamn**
       - **Företagsnamn**
@@ -129,7 +127,7 @@ När du har laddat ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapportte
 
 ## Publicera rapporter
 
-När du har skapat eller ändrat en rapport kan du publicera rapporten i din Power BI-tjänst samt dela den med andra i din organisation. När rapporten har publicerats kan du se den i Power BI. Rapporten görs också tillgänglig för val i [!INCLUDE[prod_short](includes/prod_short.md)].
+När du har skapat eller ändrat en rapport kan du publicera rapporten i din Power BI-tjänst samt dela den med andra i din organisation. När du har publicerat en rapport är den tillgänglig i Power BI. Rapporten görs också tillgänglig för val i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Om du vill publicera en rapport väljer du **Publicera** i fliken **Start** i menyfliksområdet eller i menyn **Arkiv**. Om du har loggat in på Power BI-tjänsten publiceras rapporten i denna tjänst. I annat fall uppmanas du att logga in. 
 
@@ -148,19 +146,28 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 
     Om du har en Power BI Pro-licens kan du dela rapporten med andra direkt från din Power BI-tjänst. Mer information finns i [Power BI – Dela en instrumentpanel eller rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## Hur man utvecklar Power BI-rapporter över företag eller miljöer
+
+[!INCLUDE[prod_short](includes/prod_short.md)] API-slutpunkterna har alla prefixet `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` följt av `/companies({company_id})/accounts({id})` (här använder vi API:et `accounts` som illustration). Du kan använda den här strukturen för att skapa PowerQuery-frågor som läser in data för flera företag eller flera miljöer om användaren som läser data kan komma åt dem.
+
+Så här ställer du in en fråga för att läsa in data för flera företag:
+
+1. Ta PowerQuery-frågan som läser in data för ett enda företag. Konvertera den till en anpassad Power Query-funktion som tar företags-ID:t (eller kanske miljönamnet) som parametrar. Mer information finns i [Använda anpassade Power Query-funktioner](/power-query/custom-function).
+1. Använd nu den nya anpassade funktionen i en PowerQuery-fråga, där du mappar funktionen över en lista över företag och sedan sammanfogar datauppsättningarna med hjälp av funktionen [Table.Combine](/powerquery-m/table-combine) Power Query.
+
 ## Åtgärda problem
 
 ### "Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
 
 > **GÄLLER:** Business Central online
 
-Från och med februari 2022 kommer nya rapporter som använder Business Central-data att anslutas till en skrivskyddad kopia av Business Central-databasen som standard. I sällsynta fall visas ett felmeddelande, beroende på siddesignen, när du försöker ansluta till och hämtar data från sidan.
+Från och med februari 2022 kommer nya rapporter som använder [!INCLUDE [prod_short](includes/prod_short.md)]-data att anslutas till en skrivskyddad kopia av [!INCLUDE [prod_short](includes/prod_short.md)]-databasen som standard. I sällsynta fall visas ett felmeddelande, beroende på siddesignen, när du försöker ansluta till och hämtar data från sidan.
 
 1. Starta Power BI Desktop.
 2. I menyfliksområdet väljer du **Hämta data** > **Onlinetjänster**.
 3. I fönstret **Onlinetjänster** väljer du **Dynamics 365 Business Central** och sedan **Anslut**.
 4. I fönstret **Navigator** väljer du den API-ändpunkt som du vill läsa in data från.
-5. I förhandsgranskningen till höger visas följande felmeddelande:
+5. I förhandsgranskningsfönstret visas följande fel:
 
    *Dynamics365BusinessCentral: Begäran misslyckades: Fjärrservern returnerade ett fel: (400) Felaktig begäran. (Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad. CorrelationId: [...])".*
 

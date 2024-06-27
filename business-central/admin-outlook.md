@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
 ms.search.form: '1831, 1832'
-ms.date: 04/27/2022
+ms.date: 06/14/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
+# Hämta Business Central-tillägget för Outlook
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillägget kan du visa ekonomiska data som är relaterade till kunder och leverantörer. Du kan också skapa och skicka ekonomiska dokument, till exempel offerter och fakturor.  
 
@@ -21,7 +21,7 @@ Det finns två sätt att få fram Business Central-tillägget för Outlook insta
 
 - För varje användare installerar du tillägget för egen användning, om din administratör inte redan har distribuerat det åt dig.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tillägget för Outlook
+## Om Business Central-tillägget för Outlook
 
 Business Central-tillägget för Outlook består av två mindre tillägg:
 
@@ -40,50 +40,51 @@ Varje tillägg tillhandahålls som en XML-fil, som kallas *manifest*, som måste
 > [!IMPORTANT]
 > Arbetar du med flera miljöer? Business Central-tillägget för Outlook har utformats för arbete med en enskild Business Central-miljö. När tillägget har installerats ingår namnet på miljön i tilläggets manifest. Den här konfigurationen innebär att tillägget endast ansluts till miljön som det installerades från. Öppna miljön och installera tillägget på nytt för att använda tillägget i en annan miljö.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuera tillägget med hjälp av centraliserad distribution som en administratör
+## Distribuera tillägget med hjälp av centraliserad distribution som en administratör
 
 Centraliserad distribution är en funktion i administratörscentret för Microsoft 365 som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Outlook. Det är det rekommenderade sättet för administratörer att distribuera Office-tillägg till användare och grupper inom organisationen.
 
 > [!NOTE]
 > För Business Central lokal, se [Konfigurera tillägget för Outlook-integration med Business Central lokal](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrationsinnehållet (endast engelska).
 
-### <a name="prerequisites"></a>Förutsättningar
+### Förutsättningar
 
 - En Microsoft 365-prenumeration  
 - Användare tilldelas en Microsoft 365-licens  
 - Ditt Microsoft 365-konto har rollen *Global administratör* eller *Exchange-administratör*
 
-### <a name="deploy-the-add-in"></a>Distribuera tillägget
+### Distribuera tillägget
 
 1. I Business Central, välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"). anger du **Assisterad konfiguration** och väljer sedan relaterad länk.
-2. Välj **Outlook-tillägget centraliserad distribution** för att starta guiden för assisterad konfiguration.
-3. Gå igenom den första sidan och välj **Nästa** för att öppna sidan för att hämta tilläggen.
-4. Markera kryssrutan för de tillägg som du vill distribuera i kolumnen **distribution** och välj **Hämta och fortsätt**.
+1. Välj **Outlook-tillägget centraliserad distribution** för att starta guiden för assisterad konfiguration.
+1. Gå igenom den första sidan och välj **Nästa** för att öppna sidan för att hämta tilläggen.
+1. Markera kryssrutan för de tillägg som du vill distribuera i kolumnen **distribution** och välj **Hämta och fortsätt**.
 
     En fil med namnet *OutlookAddins.zip* hämtas till enheten.
 
-5. I det här skedet är du klar med det arbete som du behöver för att göra i Business Central, så du kan välja **klart**.
+1. I det här skedet är du klar med det arbete som du behöver för att göra i Business Central, så du kan välja **klart**.
 
    >[!TIP]
    > Innan du väljer **Nästa** väljer du länken **Gå till Microsoft 365 (öppnar ett nytt fönster)** för att öppna och logga in på administrationscentret för Microsoft 365 i ett nytt webbläsarfönster. Du kommer att behöva gå till administrationscentret för Microsoft 365 i ett senare steg i alla fall.
 
-6. Gå till mappen där OutlookAddins.zip har hämtats och extrahera filerna **Contact Insights.xml** och **Document View.xml** från zip-mappen till en valfri mapp.
+1. Gå till mappen där OutlookAddins.zip har hämtats och extrahera filerna **Contact Insights.xml** och **Document View.xml** från zip-mappen till en valfri mapp.
 
     Mer information finns i [komprimera och packa upp filer och mappar](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Logga in på administrationscentret för Microsoft 365 och gå sedan till [Integrerade appar](https://go.microsoft.com/fwlink/?linkid=2163967).
+1. Logga in på administrationscentret för Microsoft 365 och gå sedan till [Integrerade appar](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-8. Välj **överför egna appar**.
-9. På sidan **Ladda upp appar att distribuera**, välj **Ladda upp manifest-fil (.xml) Ladda upp** > **Välj fil**.
-10. Markera en av de filer som du har extraherat tidigare t.ex. **Contact Insights.xml**.
-11. Följ instruktionerna för att tilldela användare och distribuera tillägget.
-12. Upprepa steg 9 till 11 för den andra tilläggsfilen om du vill.
+1. Välj **överför egna appar**.
+1. På sidan **Ladda upp appar som ska distribueras**, ange **Apptyp** till **Office-tillägg**.
+1. Välj **Ladda upp manifestfil (.xml) från enheten** > **Välj fil**.
+1. Välj en av tilläggsfilerna **Context Insights.xml** eller **Documents.xml** som du har extraherat tidigare.
+1. Följ instruktionerna för att tilldela användare och distribuera tillägget.
+1. Upprepa steg 9 till 11 för den andra tilläggsfilen om du vill.
 
 > [!IMPORTANT]
 > En grön bockmarkering visas när tillägget distribueras till administrationscentret. Det kan ta upp till 24 timmar innan användaren ser tillägget i automatiskt-appen. Användare kan behöva starta om Outlook även.
 
 När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscentret finns i [distribuera tillägg i administrationscentret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installera tillägget för egen användning
+## <a name="install"></a>Installera tillägget för egen användning
 
 Om ditt företag tillåter det, kan du installera Business Central-tillägget för bara dig själv. Kontakta administratören om du är osäker.
 
@@ -94,7 +95,7 @@ Om ditt företag tillåter det, kan du installera Business Central-tillägget f�
 
 Business Central ansluter till e-postservern och installerar tillägget i Outlook. Det tar inte lång tid. Du är nu redo att börja använda tillägget i Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>För Business Central lokalt
+### <a name="onprem"></a>För Business Central lokalt
 
 Om du använder Business Central lokalt kan det vara något annorlunda att installera tillägget.
 
@@ -116,7 +117,7 @@ Om du använder Business Central lokalt kan det vara något annorlunda att insta
 
 Du är nu redo att börja använda tillägget i Outlook.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  

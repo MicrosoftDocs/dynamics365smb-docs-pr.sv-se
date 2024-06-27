@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
 # Mappa e-dokument mot inköpsorderrader med Copilot (förhandsversion)
 
-När anskaffningsprocesser blir mer digitala spelar e-dokumentfunktionen i Business Central en nyckelroll för att automatisera mottagning och bearbetning av leverantörsfakturor. Copilot kan hjälpa till i denna process genom att förbättra mappningen och matchningen av leverantörsfakturor till inköpsorder. Detta minskar tidskrävande uppgifter som normalt skulle omfatta omfattande sökning, uppslag och datainmatning. Fördelen förstärks av det faktum att leverantörsfakturor ofta inte överensstämmer exakt med inköpsorder, vilket innebär att Copilot är bättre positionerad att identifiera de motsvarande inköpsorder. Förbättrade matchningsfunktioner gynnar särskilt små och medelstora organisationer som behöver effektiv dokumentspårning för inköpsorderrader. Copilot är den AI-drivna assistenten för arbete som ökar kreativiteten och förbättrar produktiviteten för Business Central-användare.
+När anskaffningsprocesser blir mer digitala spelar e-dokumentfunktionen i Business Central en nyckelroll för att automatisera mottagning och bearbetning av leverantörsfakturor. Copilot kan hjälpa till i denna process genom att förbättra mappningen och matchningen av leverantörsfakturor till inköpsorder. Denna hjälp minskar tid som spenderas på uppgifter som normalt skulle omfatta omfattande sökning, uppslag och datainmatning. En annan fördel är när leverantörsfakturor inte exakt relaterar till inköpsorder. I så fall är Copilot väl positionerat för att identifiera motsvarande inköpsorder. Förbättrade matchningsfunktioner gynnar särskilt små och medelstora organisationer som behöver effektiv dokumentspårning för inköpsorderrader. Copilot är den AI-drivna assistenten för arbete som ökar kreativiteten och förbättrar produktiviteten för Business Central-användare.
 
 > [!IMPORTANT]
-> - Det här är en funktion för produktionsklar förhandsgranskning för produktionsmiljöer och miljöer i begränsat läge i alla länder, med undantag för Kanada.
+> - Det här är en funktion för produktionsklar förhandsgranskning för produktionsmiljöer och miljöer i begränsat läge i alla länder<!-- with the exception of Canada -->.
 > - Produktionsklara förhandsvisningar är föremål för kompletterande användarvillkor. Mer information: [Kompletterande användningsvillkor för förhandsversionen av Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - AI-genererat innehåll kan vara felaktigt.
 
@@ -25,19 +25,18 @@ I den första versionen av appen **e-dokument** introducerade vi grundläggande 
 
 Du kan nu uppdatera en befintlig inköpsorder i Business Central med den information som tas emot i e-fakturan.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Tillgängliga språk
 
-## Så här aktiverar du Copilot  
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Aktivera Copilot  
 
 Om du inte har aktiverat Copilot för **Matchningshjälp för e-dokument** måste du göra det manuellt. För att aktivera copilot för **Matchningshjälp för e-dokument** följer du stegen nedan: 
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Copilot och AI-funktioner** och väljer sedan relaterad länk. 
 2. I listan över funktioner väljer du **Matchningshjälp för e-dokument** och ändrar status till **Aktiv**.  
 
-Du kan börja använda Copilot så snart den är aktiverad. 
+Du kan börja använda Copilot så snart du har aktiverat den. 
 
 ## Identifiera inköpsorder
 
@@ -64,11 +63,11 @@ Om du vill köra matchningen från inköpsordern väljer du åtgärden **Mappa e
 2. Du kan se att prompten **Matcha e-dokument mot orderrader med Copilot** fungerar och du har sidan **Matchning av inköpsorder** i bakgrunden. Det betyder att samma process händer men med automatiskt stöd från **Copilot**, som kör matchningsprocessen istället för dig. 
 3. Efter några sekunder kommer **Matcha e-dokument mot orderrader med Copilot** att föreslå rader för matchning med ytterligare information: 
 
-    1. I prompthuvudet hittar du följande information: 
+    1. I prompthuvudet hittar du följande information:   
 
     |Fältnamn |Description |
     |--------|-----------------|
-    |Automatiskt matchade | Anger antalet matchningar som föreslås automatiskt. Detta är baserat på en strängjämförelse och om det finns 80 % eller mer beskrivningar som överlappar, matchar systemet dessa beskrivningar automatiskt utan att använda GPT-funktioner. |
+    |Automatiskt matchade | Anger antalet matchningar som föreslås automatiskt. Detta nummer är baserat på en strängjämförelse och om det finns 80 % eller mer beskrivningar som överlappar, matchar systemet dessa beskrivningar automatiskt utan att använda Copilot-funktioner. |
     |Copilot-matchad | Anger antalet matchningar som föreslås av Copilot med hjälp av både sträng- och semantisk jämförelse. |
     |E-dokumentnummer | Anger det länkade numret för e-dokumentet. |
     |Faktura med totalt belopp exkl. moms | Anger det totala fakturabeloppet, exklusive moms. |
@@ -84,7 +83,7 @@ Om du vill köra matchningen från inköpsordern väljer du åtgärden **Mappa e
     |Matchad kvantitet | Anger antalet som ska kopplas till inköpsorderraden. |
     |Förslag | Anger den åtgärd som AI föreslår och de föreslagna åtgärderna är relaterade till matchningen av inköpsorderraderna. |
 
-    4. Alla helt föreslagna och matchade linjer är markerade med grön färg. Om det finns något problem, dvs. ett annat pris, men i det tillåtna prisintervallet markeras den här raden som gul färg, och om det finns någon likhet mellan beskrivningsfälten men prisskillnaden är större än tillåten, markeras den här raden som röd färg. 
+    4. Alla helt föreslagna och matchade linjer är markerade med grön färg. Om det finns ett problem, till exempel ett annat pris men inom det tillåtna prisintervallet, markeras den här raden med en gul färg. Om det finns några likheter mellan beskrivningsfälten men prisskillnaden är större än tillåtet, markeras den här raden med en röd färg.
     5. Om du inte är nöjd med vissa förslag kan du ta bort dem med åtgärden **Ta bort rad**.  
     6. Om du vill se förslagsmatchningar kan du klicka på länken i kolumnen **Förslag** för att öppna sidan **Matchningsdetaljer för e-dokument**. 
     7. På sidan **Matchningsdetaljer för e-dokument** kan du jämföra uppgifter från **e-dokumentet** och **inköpsordern** för att vara säker på den föreslagna matchningen innan du bekräftar den. 

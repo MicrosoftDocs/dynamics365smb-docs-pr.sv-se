@@ -3,15 +3,15 @@ title: Hantera koncerninterna transaktioner
 description: Med de koncerninterna funktionerna förenklar du affärsprocesser och transaktioner mellan företag inom samma organisation.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
+# Hantera koncerninterna transaktioner
 
 Företag med fler än en juridisk person med separata redovisningsfunktioner kan utnyttja koncerninterna transaktioner. Det kan till exempel vara användbart för företag som har dotter bolag på flera internationella marknader eller regioner. Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. Koncerninterna transaktioner förenklar affärsprocesser och transaktioner mellan företag i koncerninterna partnerskap.
 
@@ -21,10 +21,10 @@ Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:
 
 * Ökad produktivitet till följd av tidsbesparingar och förenklade transaktioner  
 * Mindre misstag eftersom informationen endast behöver registreras en gång och automatiserade processer över hela systemet  
-* Fullständig redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
-* Effektiva, kostnadseffektiva transaktioner med dotterbolag  
+* Transparent redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
+* Effektiva transaktioner med dotterbolag  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Förenkling av arbetsflödesaktiviteter
+## Förenkling av arbetsflödesaktiviteter  
 
 Med hjälp av koncerninterna transaktioner kan du distribuera försäljnings- och inköpsdokument samt journaltransaktioner till alla satellitkontor, försäljningskontor och dotterbolag. Att fördela transaktioner sparar tid och ökar effektiviteten i hela organisationen genom att minska datainmatning. Det minskar behovet av att skicka, ta emot, skriva ut och arkivera försäljnings- och inköpsdokument.  
 
@@ -32,9 +32,9 @@ Du har full kontroll över alla transaktionsdokument. Du kan t. ex. avvisa ett d
 
 När du registrerar en transaktion behöver du inte ange vilka konton som ska användas. Du väljer just den koncerninterna partnern. De koncerninterna funktionerna skapar rader i redovisningsjournaler som balanserar räkenskaperna för de båda företag som är involverade i en transaktion. I Kundreskontra och Leverantörsreskontra tilldelar du en koncernintern partnerkod till kunder och leverantörer. Från det tillfället producerar alla order och fakturor för transaktioner mellan dessa företag motsvarande dokument i partnerföretaget. Resultatet är rätt balanserade konton.  
 
-Koncernintern fokuserar på försäljnings- och inköpsdokument och redovisningsjournalrader och tillåter transaktioner mellan flera [!INCLUDE [prod_short](includes/prod_short.md)]-databaser. Som exempel:
+Koncernintern fokuserar på försäljnings- och inköpsdokument och redovisningsjournalrader och tillåter transaktioner mellan flera [!INCLUDE [prod_short](includes/prod_short.md)]-databaser. Till exempel:
 
-* I olika länder/regioner
+* Olika länder/regioner
 * Flera valutor
 * Olika kontoplaner
 * Olika dimensioner
@@ -69,7 +69,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ordna och bearbeta ingående och utgående transaktioner som du skickar till din koncerninterna partner.|[Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)|
 |Använd koncerninterna transaktioner för att fördela kostnader mellan partnerföretag.|[Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  

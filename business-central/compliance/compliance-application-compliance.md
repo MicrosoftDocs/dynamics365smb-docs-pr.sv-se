@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Om du utvecklar [!INCLUDE [prod_short](../includes/prod_short.md)] tillägg mås
 
 ## Bokföringsprocesser och kontroller som gör regelefterlevnad enklare
 
-Företag står inför ökande finansiella redovisningsutmaningarna varje år. Beroende på industri, marknader, geografisk plats och finansieringsbehov kan ett företag vara föremål för lokala allmänt vedertagna bokföringsregler (GAAP) och en eller flera av:
+Företag står inför ökande finansiella redovisningsutmaningarna varje år. Beroende på industri, marknader, geografisk plats och finansieringsbehov kan ett företag vara föremål för lokala allmänt vedertagna bokföringsregler<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> och ett eller flera av följande alternativ:
 
 - Sarbanes-Oxley Act (SOX), en amerikansk lag från 2002 för att skydda investerare genom att förbättra noggrannheten och tillförlitligheten för företagsinformation.
 - Avsnittet för internationella standarder för finansiell rapportering i EU:s internationella redovisningsstandarder (IAS/IFRS) som trädde ikraft 2005 och sätter upp standarder för bokföring, mått, konsolidering och rapportering.
@@ -54,7 +54,7 @@ Integrerad information, justerade processer och lättanvända verktyg för att h
 ### Skräddarsy ekonomiska rapporter till dina behov
 
 - Definiera strukturen på ditt företags kontoplan utifrån företagets behov och tillämpliga standarder.
-- Skapa och hantera komplexa processer för en mängd affärsaktiviteter, inklusive lagervärderingen i utländska valutor, segmentrapportering och avvikelser från lokala GAAP.
+- Skapa och hantera komplexa processer för en mängd affärsaktiviteter, inklusive lagervärderingen i utländska valutor, segmentrapportering och avvikelser från lokala GAAP (allmänt vedertagna bokföringsregler).
 - Kontrollera detaljnivån för alla registrerade transaktionen och välj detaljerad registrering för vissa typer av transaktioner, till exempel anläggningstillgångar och leverantörsreskontra.
 - Anpassa schemaberäkningar och visningar för ekonomisk rapportering eller exportera informationen till Microsoft Excel för vidare analys.
 
@@ -62,7 +62,7 @@ Integrerad information, justerade processer och lättanvända verktyg för att h
 
 - Konfigurera datafält för att endast acceptera informationen i dess rätta format, såsom rätt antal decimaler eller alfanumeriska mönster.
 - Försäkra dig om att informationen är komplett med programkontroller, t. ex. att kräva att ett leverantörsfakturanummer anges innan en inköpsorder kan bokföras.
-- Minska risken för felaktig information eller obehörig åtkomst och skydda känslig information för åtkomst som baseras på jobbroll.
+- Minska risken för felaktig information eller obehörig åtkomst och skydda känslig information för åtkomst till information som baseras på jobbroll.
 - Neka åtkomst, ge skrivskyddad åtkomst eller fullständig åtkomst för att användarna ska kunna lägga till, redigera eller ta bort information.
 - Identifiera enkelt och eliminera skillnader med en avstämningsfunktion som hämtar aktuellt bankkonto och aktuell transaktionsinformation och jämför detta med poster i redovisningen.
 - Schemalägga manuell eller automatisk säkerhetskopiering för att skydda information från elektroniska fel.
@@ -82,19 +82,19 @@ Integrerad information, justerade processer och lättanvända verktyg för att h
 
 ## Regelefterlevnad och lokala funktioner
 
-Microsoft bygger lokaliserade versioner av Business Central för ett begränsat antal marknader. Dessa lokaliseringar fokuserar i första hand på regleringsfunktioner i området skatt och ekonomi men kan ibland omfatta andra delar av lösningen. Om du vill se vad som ingår i Microsofts lokaliserade versioner av Business Central, se **Lokal funktionalitet** i menyn på denna webbplats och välj land/region. Läs mer i [Lokala funktioner](../about-localization.md).  
+Microsoft bygger lokaliserade versioner av Business Central för ett begränsat antal marknader. Dessa lokaliseringar fokuserar i första hand på regleringsfunktioner i området skatt och ekonomi men kan ibland omfatta andra delar av lösningen. Om du vill se vad som ingår i Microsofts lokaliserade versioner av Business Central, se **Lokal funktionalitet** i menyn på denna webbplats och välj land/region. Läs mer i [Lokala funktioner](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: Validera data och processer**  
-> I Sarbanes-Oxley Act fastställs standarder för alla amerikanska offentliga företag, hantering och offentliga redovisningsbyråer, inklusive utvärdering och upplysningar om lämplighet för företagets interna kontroller för ekonomisk rapportering. Dokumentera och testa kritiska manuella och automatiserade kontroller är ett stort engagemang för tid och resurser för företag. Business Central är särskilt lämpad för dotterföretag till större organisationer och hjälper dig att stödja små och medelstora företag i enlighet med Sarbanes-Oxley.
+#### Sarbanes-Oxley: Validera data och processer
+ 
+I Sarbanes-Oxley Act fastställs standarder för alla amerikanska offentliga företag, hantering och offentliga redovisningsbyråer, inklusive utvärdering och upplysningar om lämplighet för företagets interna kontroller för ekonomisk rapportering. Dokumentera och testa kritiska manuella och automatiserade kontroller är ett stort engagemang för tid och resurser för företag. Business Central är särskilt lämpad för dotterföretag till större organisationer och hjälper dig att stödja små och medelstora företag i enlighet med Sarbanes-Oxley.
 
-> [!NOTE]  
-> **IAS/IFRS: Erkännande- och mätstandarder**  
-> Beroende på aktuella lokala GAAP omfattar en av de viktigaste ändringarna av erkännande och mätning för IAS/IFRS är användning av principer för rimligt värde i stället för anskaffningsvärde. [!INCLUDE [prod_short](../includes/prod_short.md)] kan hjälpa företag att beräkna rimligt värde och aktuellt nettovärde (NPV) som fokuserar på aktuella och förväntade kontantflöde i stället för historiska inköpspriset. På rapporteringssidan kan det ge segmentrapportering av affärsenhet och geografisk plats.
+#### IAS/IFRS: Erkännande- och mätstandarder
+  
+Beroende på aktuella lokala GAAP omfattar en av de viktigaste ändringarna av erkännande och mätning för IAS/IFRS är användning av principer för rimligt värde i stället för anskaffningsvärde. [!INCLUDE [prod_short](../includes/prod_short.md)] kan hjälpa företag att beräkna rimligt värde och aktuellt nettovärde (NPV) som fokuserar på aktuella och förväntade kontantflöde i stället för historiska inköpspriset. På rapporteringssidan kan det ge segmentrapportering av affärsenhet och geografisk plats.
 
-> [!NOTE]  
-> **Basel II: konsekvenser för rapportering och analyser**  
-> Basel II utvecklas av banken för internationell kvittningar, hjälper till att garantera säkerhet i det finansiella systemet inom tre nyckelområden: minsta kapitalkrav, övervakande av granskningsprocess och marknadsdisciplin. Även om överenskommelse gäller finansiella institut och inte anpassar små och medelstora företag, kan Basel II ha vissa konsekvenser för dessa organisationer i rapporter och analyser.
+#### Basel II: konsekvenser för rapportering och analyser
+
+Basel II utvecklas av banken för internationell kvittningar, hjälper till att garantera säkerhet i det finansiella systemet inom tre nyckelområden: minsta kapitalkrav, övervakande av granskningsprocess och marknadsdisciplin. Även om överenskommelse gäller finansiella institut och inte anpassar små och medelstora företag, kan Basel II ha vissa konsekvenser för dessa organisationer i rapporter och analyser.
 
 ## Se även
 
@@ -102,6 +102,6 @@ Microsoft bygger lokaliserade versioner av Business Central för ett begränsat 
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 [Intyg](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

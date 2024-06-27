@@ -2,35 +2,35 @@
 title: Felmeddelanden "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum"
 description: Lös felet bakom meddelandet "bokföringsdatumet är inte inom det tillåtna intervallet av bokföringsdatum" när du kör batch-jobbet Justera kostn. – artikeltrans.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/17/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
+# Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
 
 När du använder batch-jobbet **Justera kost. – artikeltrans.** kan du köra följande felmeddelande:
 
 **Bokföringsdatumet är inte inom det tillåtna intervallet för bokföringsdatum**
 
-Det här felmeddelandet anger att användaren inte har tillåtelse att bokföra transaktioner för det aktuella datumet, och kan åtgärdas genom att användarinställningarna ändras.
+Det här meddelandet anger att du inte får bokföra transaktioner för det datum du angav. Du kan komma runt det här problemet genom att ändra användarinställningarna.
 
-## <a name="change-the-user-setup"></a>Ändra användarinställningar
+## Ändra användarinställningar  
 
-|Användar-ID  |Tillåt bokföring fr.o.m.  | Tillåt bokföring t.o.m.  |
+|Användar-ID  |Tillåt bokföring från  | Tillåt bokföring till  |
 |---------|---------|--------|
 |EUROPA  |  2020-09-11      |2020-09-30      |
 
-Användaren i detta exempel har ett tillåtet datumintervall för bokföring från den 11 september till den 30 september, och får därmed inte bokföra justeringsvärdetransaktionen med bokföringsdatum 10 september.  
+I det här fallet får du bokföra i datumintervallet från 11 september till 30 september. Du får dock inte bokföra justeringsvärdetransaktionen med bokföringsdatumet den 10 september.  
 
-### <a name="overview-of-the-posting-date-setup"></a>Översikt över berörda inställningar för bokföringsdatum
+### Översikt över inställningar för bokföringsdatum
 
-#### <a name="inventory-periods"></a>Lagerperioder
+#### Lagerperioder
 
-|Slutdatum  |Name  |Avslutad  |
+|Slutdatum  |Name  |Avslutat  |
 |---------|---------|---------|
 |2020-01-31     |2020 januari      |  Ja    |
 |2020-02-28     |Februari 2020     |  Ja    |
@@ -45,7 +45,7 @@ Användaren i detta exempel har ett tillåtet datumintervall för bokföring fr�
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |December 202   |         |  
 
-#### <a name="general-ledger-setup"></a>Redovisningsinställningar
+#### Redovisningsinställningar
 
 |Fält|Värde|
 |---------|---------|
@@ -54,17 +54,17 @@ Användaren i detta exempel har ett tillåtet datumintervall för bokföring fr�
 |Tidsregistrering:       |         |
 |Lokalt adressformat:|   Postnr      |  
 
-#### <a name="user-setup"></a>Användarinställningar
+#### Användarinställningar
 
-|Användar-ID  |Tillåt bokföring fr.o.m.  | Tillåt bokföring t.o.m.  |
+|Användar-ID  |Tillåt bokföring fr.o.m.  | Tillåt bokföring till  |
 |---------|---------|--------|
 |ANVÄNDARNAMN |  2020-09-10      |2020-09-30      |
 
-Tilldela ett bredare tillåtet intervall för bokföringsdatum som i lagerperioden eller redovisningskonfigurationen för att undvika konflikten som orsakar felmeddelandet. Justeringsvärdestransaktionen med bokföringsdatum 10 september kommer att bokföras med denna inställning.
+Tilldela ett bredare datumintervall där du tillåter inlägg på sidan **lagerperiod** eller **redovisningskonfigurationen** för att undvika konflikten som orsakar felmeddelandet. Med det bredare intervallet kan du till exempel bokföra justeringsvärdetransaktionen med bokföringsdatumet den 10 september.
   
-## <a name="see-also"></a>Se även
+## Se även  
 
-[Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designdetaljer: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 

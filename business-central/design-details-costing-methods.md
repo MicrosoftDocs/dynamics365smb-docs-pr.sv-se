@@ -2,14 +2,15 @@
 title: Värderingsprinciper för designdetaljer
 description: Det här ämnet beskriver hur värderingsprincipen påverkar hur faktiska eller budgeterade värden aktiveras och används i kostnadsberäkningen.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 05/12/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
+# Värderingsprinciper: för designdetaljer
 
 Värderingsprincipen avgör om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen. Tillsammans med bokföringsdatumet och sekvensen, påverkar värderingsprincipen också hur kostnadsflödet registreras.
 
@@ -20,10 +21,10 @@ Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 | Värderingsprincip | Beskrivning | Används när |
 |--|--|--|
-| FIFO | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt FIFO-regeln.<br /><br /> I lagervärdering antas det att de första artiklarna in i lagret säljs först. | I affärsmiljöer där produktkostnaden är stabil.<br /><br /> (När priser stiger visar balansräkningen ett högre värde. Det betyder att skatteskuler ökar, men kreditpoängen och förmåga att låna kontant ökar.)<br /><br /> För artiklar med ett begränsat hållbarhetstid, eftersom de äldsta varorna måste säljas innan deras hållbarhetstid passerat. |
-| LIFO (Sist in, först ut) | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt LIFO-regeln.<br /><br /> I lagervärdering antas det att de senaste artiklarna in i lagret säljs först. | Tillåts inte i många länder/regioner, eftersom det kan användas för att dölja vinst.<br /><br /> (När priser vill stiger, minskas värdet på resultaträkningen. Det betyder att skatteskulder minskar, men din förmåga att låna kontant försämras.) |
-| Genomsnitt | En artikels styckkostnad beräknas enligt den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp.<br /><br /> För lagervärdering förutsätts att alla lagerartiklar säljs samtidigt. | I affärsmiljöer där produktkostnaden inte är stabil.<br /><br /> När lager travas eller blandas samman och inte kan åtskiljas, till exempel kemikalier. |
-| Specifik | En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten. | I produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> För artiklar som lyder under regler.<br /><br /> För artiklar med serienummer. |
+| FIFO | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt FIFO-regeln.<br /><br /> Lagervärdering antas det att de första artiklarna in i lagret säljs först. | I affärsmiljöer där produktkostnaden är stabil.<br /><br /> (När priser stiger visar balansräkningen ett högre värde. Det betyder att skatteskuler ökar, men kreditpoängen och förmåga att låna kontant ökar.)<br /><br /> För artiklar med ett begränsat hållbarhetstid, eftersom de äldsta varorna måste säljas innan deras hållbarhetstid passerat. |
+| LIFO (Sist in, först ut) | En artikels styckkostnad är det verkliga värdet på en mottagen artikel, vald enligt LIFO-regeln.<br /><br /> Lagervärdering antas det att de sista artiklarna in i lagret säljs först. | Tillåts inte i många länder/regioner, eftersom det kan användas för att dölja vinst.<br /><br /> (När priser vill stiger, minskas värdet på resultaträkningen. Det betyder att skatteskulder minskar, men din förmåga att låna kontant försämras.) |
+| Genomsnitt | En artikels styckkostnad beräknas enligt den genomsnittliga styckkostnaden vid varje tidpunkt efter ett inköp.<br /><br /> Lagervärdering förutsätter förutsätts att alla lagerartiklar säljs samtidigt. | I affärsmiljöer där produktkostnaden inte är stabil.<br /><br /> När lager travas eller blandas samman och inte kan åtskiljas, till exempel kemikalier. |
+| Specifikt | En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten. | I produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> För artiklar som lyder under regler.<br /><br /> För artiklar med serienummer. |
 | Standard | En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden. | När kostnadskontroll är kritisk.<br /><br /> I upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> När det finns funktion och personal som underhåller standarder. |
 
 Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
@@ -48,7 +49,7 @@ Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskning
 |**Standard**     |Enkelt att använda men kräver kvalificerat underhåll.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|
 |**Specifikt**     |Kräver artikelspårning på både inkommande och utgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|Alla kopplingar är fasta.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|
 
-## <a name="example"></a>Exempel
+## Exempel
 
 Det här avsnittet ger exempel på hur olika värderingsprinciper påverkar lagervärdet.  
 
@@ -66,7 +67,7 @@ Följande tabell visar lagerökningarna och lagerminskningarna som exemplen base
 > [!NOTE]  
 > De resulterande antalet i lagret är noll. Därför måste lagervärdet också vara noll, oavsett vilken värderingsprincip som används.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effekt av värderingsprinciper på att värdering av lagerökningar
+### Effekt av värderingsprinciper på att värdering av lagerökningar  
 
 För artiklar med värderingsprinciper som använder faktiska kostnader som värderingsbas (**FIFO**, **LIFO**, **Genomsnitt** eller **Specifik**) värderas lagerökningar på artikelns anskaffningskostnad.  
 
@@ -74,11 +75,11 @@ För artiklar med värderingsprinciper som använder faktiska kostnader som vär
 
     För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
 
-#### <a name="standard"></a>Standard
+#### Standard  
 
 För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effekt av värderingsprinciper på att värdering av lagerminskningar
+### Effekt av värderingsprinciper på att värdering av lagerminskningar
 
 - **FIFO**  
 
@@ -146,7 +147,7 @@ För artiklar som använder värderingsprincipen **Standard** värderas lagerök
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
 [Designdetaljer: Varians](design-details-variance.md)  
@@ -156,6 +157,5 @@ För artiklar som använder värderingsprincipen **Standard** värderas lagerök
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ord lista över termer i Dynamics 365 affärsprocesser](/dynamics365/guidance/business-processes/glossary)  
-[Definiera översikt över produkt- och tjänstkostnader](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

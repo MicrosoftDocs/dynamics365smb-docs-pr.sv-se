@@ -1,15 +1,15 @@
 ---
-title: Ta emot artiklar
+title: Inleverera artiklar
 description: Denna artikel är en översikt över olika sätt att inleverera artiklar på ett lagerställe med en distributionslagerinleverans.
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/02/2022
-ms.devlang: al
+ms.date: 06/06/2024
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Inleverera artiklar med en lagerinleveranser
+# Inleverera artiklar med en lagerinleveranser
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -24,7 +24,7 @@ Om du vill veta mer om hur du hanterar inkommande artiklar går du till [Inkomma
 
 Följande artikel avser metoderna C och D i föregående tabell.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Inleverera artiklar med en lagerinleverans
+## Inleverera artiklar med en lagerinleverans
 
 När artiklar tas emot i ett distributionslager som konfigureras för att bearbeta distributionslagerinleveranser måste du hämta raderna för det släppta källdokument som utlöste inleveransen. Om du använder lagerplatser kan du antingen acceptera standardlagerplatsen eller ange den lagerplats där artiklarna ska placeras. Den senare kanske krävs när du tar emot en artikel för första gången. Ange sedan antalet artiklar som har tagits emot och bokföra inleveransen.  
 
@@ -65,7 +65,7 @@ Du kan skapa distributionslagerinleverans på två sätt:
     > [!NOTE]  
     > Om distributionslagret använder direktutleverans kan du kontrollera om artiklar inte kan direktutlevereras utan att de ska tas bort. För att lära dig mer om montering av artiklar, gå till [Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Så här använder du filter för att hämta källdokument
+## Så här använder du filter för att hämta källdokument
 
 Från en lagerinleveransen kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska inlevereras.
 
@@ -81,7 +81,7 @@ Alla relaterade källdokumentrader, som uppfyller filtervillkorna, läggs till p
 
 Du kan skapa ett obegränsat antal filterkombinationer. Filter sparas på sidan **Filter att hämta ursprungsdok.** och är tillgängliga nästa gång du behöver den. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
-## <a name="zone-and-bin-codes"></a>Zon och lagerplatskoder
+## Zon och lagerplatskoder
 
 Om du vill ta emot artiklar med klasskoder för distributionslager som skiljer sig från klasskoderna för lagerplats i fältet **Lagerplatskod** i dokumenthuvudet, avmarkera fältet **Lagerplatskod** i huvudet innan du hämtar källdokumentets rader för artiklarna.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Om lagerplatser är obligatoriska för lagerställen, läggs zon och lagerplatsk
 * För avancerade konfigurationer som använder dirigerad artikelinförsel och plockning använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskod för inleverans från sidan **Lagerställekort** för lagerstället. Om det inte finns någon lagerplatskod för inleverans anges ingen lagerplats. Om artikeln och inleveransens lagerplatser inte matchar är koden för inleveransens lagerplats tom.
 * I andra konfigurationer om lagerplatskod för inleverans inte har angetts använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskoden från källdokumentet.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

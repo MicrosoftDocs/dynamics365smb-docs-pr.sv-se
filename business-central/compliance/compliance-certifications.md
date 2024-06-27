@@ -10,13 +10,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="certifications"></a>Intyg
+# Intyg
 
 Det här innehållet anger information om certifieringar i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Lands-/regionspecifika certifieringar och ackrediteringar
+## Lands-/regionspecifika certifieringar och ackrediteringar
 
-I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet med lokala skatteregler och ekonomiska krav. Vissa länder använder detta som ett årligt återkommande krav och andra som ett direkt krav att följa. Nedan visas en lista över de aktuella länderna/regionerna där Business Central har uppnått certifieringar.
+I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet med lokala skatteregler och ekonomiska krav. Vissa länder använder detta som ett årligt återkommande krav och andra som ett direkt krav att följa. Nedan visas en lista över de aktuella länderna eller regionerna där Business Central har uppnått certifieringar.
 
 > [!NOTE]
 > Endast vissa länder/regioner har detta krav.
@@ -27,13 +27,13 @@ I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet 
 - Indien (detaljer om lokal efterlevnad): [(redovisningsspårning och redigeringsloggar för bokföringsprogram i Indien)](../localfunctionality/india/india-audit-trail-edit-logs-accounting-software.md)
 
 > [!NOTE]  
-> I länder/regioner där Microsoft inte använder en lokal version är det vanligen upp till partnern att få certifieringen av Business Central grundläggande produkt, inklusive dess lokalisering och andra funktioner överst.
+> I länder eller regioner där Microsoft inte använder en lokal version, är det vanligen upp till partnern att få certifieringen av Business Central grundläggande produkt inklusive dess lokalisering och andra funktioner.
 
-## <a name="other-certifications"></a>Andra certifieringar
+## Andra certifieringar
 
-Business Central som molntjänst har uppnått certifieringar som ISO 27001 med mera. En fullständig lista över dessa certifieringar finns i [denna sidan (PDF)](https://aka.ms/d365-compliance-list).
+Business Central som molntjänst har uppnått certifieringar som ISO 27001. En fullständig lista över dessa certifieringar [ladda ned databladet efterlevnad av Microsoft Dynamics 365 Cloud Service](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Regelefterlevnad](compliance-overview.md)  
 [Appens regelefterlevnad](compliance-application-compliance.md)  

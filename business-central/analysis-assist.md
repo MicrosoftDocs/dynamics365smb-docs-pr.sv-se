@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Analysera data i listor med hjälp av Copilot (förhandsversion)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 I den här artikeln beskriver vi hur du använder *analyshjälp* när du analyserar data på listsidor.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Om analyshjälp
 
 Analysassistenten är en Copilot för [analysläget](analysis-mode.md) på listsidor i Business Central. Analysläget ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. Om du vill analysera data i analysläget skapar du fliken *analysflik* där du transformerar data för att visa önskade aggregeringar och sammanfattningar. Du kan till exempel ordna fält i rader och kolumner, ange filter, sortera kolumner och pivotera efter fält. Med analyshjälp, istället för att göra denna uppgift manuellt, uppnår du mycket av samma&mdash;eller åtminstone som en början&mdash;genom att använda ord. Genom att uttrycka den struktur du vill ha på naturligt språk, som "sortera på kvantitet från minsta till största" eller "visa genomsnittlig kostnad per kategori", använder analyshjälp AI för att generera ett förslag till layout på en analysflik.
 
+## Tillgängliga språk
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Förutsättningar
 
 - Funktionen analyshjälp är aktiverad och du får behörighet att använda den. Den uppgiften är vanligtvis av en administratör. [Läs mer om att konfigurera Copilot och AI-funktioner](enable-ai.md).
-- Visningsspråket i Business Central är inställt på något av följande engelska språk: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Läs mer om hur du ändrar språk](ui-change-basic-settings.md#language).
-- Din Business Central-miljö finns i alla länder/regioner utom Kanada (den här funktionen är ännu inte tillgänglig i Kanada).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Kom i gång
 
@@ -48,7 +43,7 @@ Analysassistenten är en Copilot för [analysläget](analysis-mode.md) på lists
     - I åtgärdsfältet högst upp på sidan väljer du ![Visar copilot-ikonen](media/copilot-icon.png) **Copilot** > **Analysera lista**.
     - I åtgärdsfältet högst upp på sidan väljer du ![Visar ikonen för ange analysläge](media/analysis-mode-icon.png) **Gå in i analysläge**, sedan ![Visar copilot-ikonen](media/copilot-icon.png) **Copilot** > **Skapa ny analys**.
 
-1. I fönstret **Analysera** med Copilot anger du en beskrivning av den layout du vill använda. Den här beskrivningen kallas för en *prompt*.
+1. I fönstret **Analysera artiklar** med Copilot anger du en beskrivning av den layout du vill använda. Den här beskrivningen kallas för en *prompt*.
 
     ![Visar analyshjälp Copilot](media/analysis-assist.png)
 
@@ -87,7 +82,7 @@ Dessa följande snabba exempel använder analyshjälp på listan **Artiklar**. A
 
 Prompt: `Show items by brand and unit of measure`
 
-Den här prompten försöker visa summor för alla summeringsfält, grupperade efter varumärke och **Basenhet**. Men i det här fallet matchar "varumärke" inte något fältnamn, så Copilot kan förmodligen inte hitta ett matchande fält så det ber dig att omformulera prompt och försöka igen.
+Den här prompten försöker visa summor för alla summeringsfält, grupperade efter varumärke och **Basenhet**. Men i det här fallet matchar "varumärke" inte något fältnamn, så Copilot kan förmodligen inte hitta ett matchande fält. Den ber dig sedan att omformulera prompten och försöka igen.
 
 Prompt: `Show items by type and uom`
 

@@ -1,29 +1,27 @@
 ---
-title: Skapa bankkonton (innehåller video)
+title: Konfigurera bankkonton
 description: Läs om hur bankkonton används i Business Central och hur du kan stämma av belopp med din bank.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Skapa bankkonton
+# Skapa bankkonton
 
-Du använder bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar. Bankkontona innehåller extra funktionalitet för [betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankavstämning](bank-how-reconcile-bank-accounts-separately.md) och import och export av bankfiler. Bankkontona kan också inkluderas i transaktioner i redovisningsjournalerna. Varje bankkonto är länkat till ett konto i kontoplanen via den tilldelade bankkontobokföringsmallen. Om du använder ett bankkonto i en betalningstransaktion skapas automatiskt en transaktion på både bankkontot och det anslutna redovisningskontot.  
+Använd bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också skriva ut checkar. Bankkontona innehåller även extra funktionalitet för [betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankavstämning](bank-how-reconcile-bank-accounts-separately.md) och import och export av bankfiler.
+
+Du kan inkludera bankkonton i transaktioner i allmän journal. Varje bankkonto är länkat till ett konto i kontoplanen via den tilldelade bankkontobokföringsmallen. Om du använder ett bankkonto i en betalningstransaktion skapas automatiskt en transaktion på både bankkontot och det anslutna redovisningskontot.  
 
 Bankkonton fungerar olika beroende på om en valutakod har angetts:
 
-- Om valutakoden är tom
-
-  Alla transaktioner på bankkontot sker i den lokala valutan (BVA) för det aktuella företaget. Om en transaktion görs till kontot i en annan valuta bokförs beloppen på kontot i BVA baserat på den aktuella valutakursen. Alla checkar som utfärdas från det här kontot måste utfärdas i BVA. Om bank kontot används i en journal kommer Journal raden automatiskt att ärva den tomma valuta koden.  
+- Om en valutakod inte specificeras sker alla transaktioner på bankkontot i den lokala valutan (BVA) för det aktuella företaget. Om du gör en transaktion för kontot i en annan valuta bokförs beloppen på kontot i BVA baserat på valutakursen. Alla checkar som utfärdas från det här kontot måste utfärdas i BVA. Om bank kontot används i en journal kommer Journal raden automatiskt att använda den tomma valuta koden.  
   
-- Valutakoden anges
-
-  Alla transaktioner som görs till och alla checkar som utfärdas från det här kontot måste vara i samma valuta som har angetts på kontot.
+- Om en valutakod anges måste alla transaktioner som görs till detta konto och alla checkar som utfärdas från det använda samma valuta som har angetts på kontot.
 
 Du kan spara tid genom att göra ett bankkonto till det standardkonto som ska användas för den valuta som har angetts för kontot. Om du gör det kommer kontot att tilldelas försäljnings- och servicedokument som använder valutan. Om du vill att kontot ska vara standard för försäljnings- och servicedokument på sidan **Bankkontokort** aktiverar du reglaget **Använd som standard för valuta**. Om det behövs kan du välja ett annat konto när du arbetar med ett dokument.
 
@@ -31,22 +29,22 @@ Ett bankkonto är en viktig del av [!INCLUDE[prod_short](includes/prod_short.md)
 
 ![Illustration av bankkontorelationer.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Du kan se att skapandet av ett bankkonto gör det tillgängligt på alla platser som visas ovan och speglas i det aktuella redovisningskontot och på sidan **Företagsinformation**.
+Skapande av ett bankkonto gör det tillgängligt på alla platser som visas i bilden och speglas i redovisningskontot och på sidan **Företagsinformation**.
 
-Ett bankkonto övervakas oftast dagligen för att säkerställa att alla nya betalningar från kunder registreras så snabbt som möjligt. Detta säkerställer att en kunds faktiska status återspeglas i [!INCLUDE[prod_short](includes/prod_short.md)]. Det ger säljare, revisorer och andra anställda tillgång till den mest relevanta och aktuella informationen så att de inte gör onödiga samtal till kunden om förfallna fakturor eller förseningar i leveranser.  
+Bankkontot övervakas oftast dagligen för att säkerställa att alla nya betalningar från kunder registreras så snabbt som möjligt. Att registrera betalningar snabbt hjälper till att säkerställa att en kunds faktiska status återspeglas i [!INCLUDE[prod_short](includes/prod_short.md)]. Att hålla statusen för kundbetalningar aktuell hjälper säljare, revisorer och andra anställda att ringa onödiga samtal angående förfallna fakturor eller förseningar i leveranser.  
 
 ![Illustration av bankbetalning.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-En annan uppgift är att importera leverantörens valutabetalningar med faktiska valutakurser för att försäkra dig om att leverantörens faktiska status är aktuell. Att använda funktionen för [betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md) är det enklaste sättet att göra det. I **betalningsavstämningsjournal** kan du importera banktransaktioner direkt från ett bankprogram online och låta dem bokföras mer eller mindre automatiskt. Journalen identifierar och bokför automatiskt följande:  
+En annan uppgift är att importera leverantörens valutabetalningar med faktiska valutakurser för att försäkra dig om att leverantörens faktiska status är aktuell. Att använda funktionen för [betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md) är det enklaste sättet att göra det. I **betalningsavstämningsjournal** kan du importera banktransaktioner direkt från ett bankprogram online och låta dem bokföras mer eller mindre automatiskt. Journalen identifierar och bokför automatiskt följande transaktioner:  
 
-- Direkt debitering av betalningar från kunder  
-- Kundbetalningar av enstaka fakturor  
+- Direkt debitering av betalningar från kunder.  
+- Kundbetalningar av enstaka fakturor.  
 - Betalningar i klumpsumma från kunder.  
-- Kundbetalningar i utländska valutor  
-- Leverantörsbetalningar  
-- Leverantörsbetalningar i utländska valutor  
-- Återkommande leverantörsbetalningar och abonnemang  
-- Bankavgifter och intressen  
+- Kundbetalningar i utländska valutor.  
+- Leverantörsbetalningar.  
+- Leverantörsbetalningar i utländska valutor.  
+- Leverantörsbetalningar och abonnemang som är återkommande.  
+- Bankavgifter och intressen.  
 
 Betalningsavstämningen ger en betydande tidsbesparing vid bokföring av inkommande och utgående betalningar. Transaktionerna på bankkontot i [!INCLUDE[prod_short](includes/prod_short.md)] anses dock inte vara 100 % riktiga förrän du kör en bankkontoavstämning.  
 
@@ -58,11 +56,11 @@ I bilden ovan representerar den vänstra sidan bankkontot i [!INCLUDE[prod_short
 
 Från bankkontot i [!INCLUDE[prod_short](includes/prod_short.md)] bör de flesta transaktionerna vara kända för den fysiska banken. De få undantagen är följande fall:  
 
-- Korrigeringar som bokförts i [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Utfärdade checkar som inte har registrerats ännu 
-- Leverantörsbetalningar som inte har godkänts av banken  
+- Korrigeringar som bokförts i [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Checkar utfärdas som inte betalas in.
+- Leverantörsbetalningar som inte har godkänts av banken.  
 
-Från det fysiska kontot i banken kommer transaktioner som inte har identifierats i betalningsavstämningsjournalen in hela tiden, till exempel följande:  
+Från det fysiska kontot i banken kommer transaktioner som inte har identifierats i betalningsavstämningsjournalen in hela tiden, till exempel följande transaktioner:  
 
 - Nya leverantörsabonnemang  
 - Kundbetalningar utan beskrivning
@@ -72,7 +70,7 @@ Från det fysiska kontot i banken kommer transaktioner som inte har identifierat
 
 Ju bättre du är på att mappa information i betalningsavstämningsjournalen, desto fler transaktioner bokförs automatiskt och desto enklare blir den periodiska bankavstämningen.
 
-I videoklippet under de grundläggande stegen visas hur du kan skapa ett bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
+Följande video visar de grundläggande stegen för att skapa ett bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
@@ -81,7 +79,7 @@ I videoklippet under de grundläggande stegen visas hur du kan skapa ett bankkon
 > [!WARNING]
 > Vissa fält kan innehålla känslig information, till exempel fälten **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Läs mer i [Övervaka känsliga fält](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
+## Så här skapar du bankkonton
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
@@ -151,16 +149,16 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Ange ett ingående saldo
+## Ange ett ingående saldo
 
-För att fylla i fältet **Saldo** med en ingående balans måste du bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Läs mer på [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).  
+Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du bokför transaktionen via en bankkontoavstämning. Läs mer på [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternativt kan du implementera den ingående balansen som en del av skapandet av allmänna data i nya företag med hjälp av guiden för assisterad konfiguration **Migrera affärsdata**. Lär dig mer på [Gör dig redo att göra affärer](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Bokför inte det ingående saldot direkt i redovisningen. När du har transaktioner på redovisningskontot som bokförts direkt till det, kan du normalt inte stämma av bankkontot. Med bankkonton i utländsk valuta innebär en sådan åtgärd att skillnaderna ackumuleras när du bokför fler bankavstämningar. Vanligtvis bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen&mdash;framför allt om bankkontot är i en utländsk valuta.
+> Bokför inte det ingående saldot direkt i redovisningen. Transaktioner på redovisningskontot som bokförts direkt till det hindrar dig normalt från att stämma av bankkontot. Med bankkonton i utländsk valuta resulterar direktbokning i skillnader som ackumuleras när du bokför fler bankavstämningar. Vanligtvis bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen&mdash;framför allt om bankkontot är i en utländsk valuta.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
+## Så här skapar du ett bankkonto för import eller export av bankfilerna
 
 Fälten relaterade till import och export av bankfeeds och filer finns på snabbfliken **Överför** på sidan **Bankkontokort**. Läs mer i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Konfigurera tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -173,15 +171,15 @@ Fälten relaterade till import och export av bankfeeds och filer finns på snabb
 
 Fälten på snabbfliken **Transit** på bankkontot har olika syften, beroende på om betalningen är inkommande eller utgående.
 
-I bilden nedan visas flödet av ankommande betalningar (nummer i beskrivningen motsvarar värdena i bilden):
+Bilden visar flödet av ankommande betalningar. Siffrorna i beskrivningen stämmer överens med siffrorna på bilden.
 
 :::row:::
     :::column:::
 
 1. Transaktionerna exporteras från bankkontot i ett läsbart CSV-format eller till bankens egna format.
-2. *Datautbytesdefinition* mappar informationen i filen till fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Så här skapar du dataintegration](across-set-up-data-exchange.md)
-3. I *inställningarna för export/import av data* definieras exporten eller importen och länkar till datautbytesdefinitionen.
-4. *Importformatet för bankutdrag* länkar importinställningarna till bankkontot.
+2. Datautbytesdefinition mappar informationen i filen till fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Så här skapar du dataintegration](across-set-up-data-exchange.md)
+3. I inställningarna för export/import av data definieras exporten eller importen och länkar till datautbytesdefinitionen.
+4. Importformatet för bankutdrag länkar importinställningarna till bankkontot.
 5. Betalningarna importeras med hjälp av **Betalningsavstämningsjournal** eller från sidan **Bankkontoavstämning**.
 
   :::column-end:::
@@ -194,15 +192,15 @@ I bilden nedan visas flödet av ankommande betalningar (nummer i beskrivningen m
 
 Inkommande betalningar importeras alltid med hjälp av **Betalningsavstämningsjournal** eller direkt till sidan **Bankkontoavstämning**. Utgående betalningar kan däremot utgå från alla utbetalningsjournaler. Det enda som krävs är att fältet **Tillåt betalningsexport** i relevant betalningsjournal måste väljas.
 
-I bilden nedan visas flödet av utgående betalningar (nummer i beskrivningen motsvarar värdena i bilden):
+Bilden visar flödet av utgående betalningar. Siffrorna i beskrivningen stämmer överens med siffrorna på bilden.
 
 :::row:::
     :::column:::
 
 6. Transaktionerna fylls i en utbetalningsjournal som har förberetts för export av betalningar till fil.
-7. *Importformatet för bankutdrag* länkar importinställningarna till bankkontot.
-8. I *inställningarna för export/import av data* definieras exporten eller importen och länkar till datautbytesdefinitionen.
-9. *Datautbytesdefinition* mappar informationen i filen till fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Så här skapar du dataintegration](across-set-up-data-exchange.md)
+7. Importformatet för bankutdrag länkar importinställningarna till bankkontot.
+8. I inställningarna för export/import av data definieras exporten eller importen och länkar till datautbytesdefinitionen.
+9. Datautbytesdefinition mappar informationen i filen till fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Så här skapar du dataintegration](across-set-up-data-exchange.md)
 10. Betalningarna exporteras från utbetalningsjournalen och importeras till bankkontot.
 
   :::column-end:::
@@ -213,13 +211,13 @@ I bilden nedan visas flödet av utgående betalningar (nummer i beskrivningen mo
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Så här skapar du leverantörsbankkonto för export av bankfiler
+## Så här skapar du leverantörsbankkonto för export av bankfiler
 
 Fälten på snabbfliken **Överför** på sidan **Leverantörsbankkontokort** är relaterade till exporten av bankfeeds och filer. Läs mer i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Ändra ditt bankkonto
+## Ändra ditt bankkonto
 
 För att använda ett annat bankkonto för företaget måste du skapa det nya bankkontot i [!INCLUDE[prod_short](includes/prod_short.md)]. Vi rekommenderar att du inte bara ersätter informationen om det konto som du använder för tillfället, eftersom det kan orsaka felaktiga data. Den ingående balansen kan t.ex. vara felaktig eller också kan bankens flöde sluta fungera som det ska. Det är viktigt att du behåller det aktuella och nya kontot separat.
 
@@ -230,7 +228,7 @@ När du har skapat det nya bankkontot bör du också skapa en ny bokföringsmall
 
 För att få en mer sammandragen bild av dina konton i den finansiella rapporteringen, använd kontona **Från-summa** och **Till-summa** i din kontoplan, raderna **Summeringsintervall** i ekonomiska rapporter eller redovisningskontokategorier. Läs mer i avsnittet [Business Intelligence och Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Ställa in bokföringsmallar](finance-posting-groups.md)  
