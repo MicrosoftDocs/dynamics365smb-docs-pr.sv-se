@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Vanliga frågor och svar om att mappa e-dokument mot inköpsorder med Copilot](faqs-map-edocuments.md)
 # Ansvarsfull AI
 ## [Översikt](responsible-ai-overview.md)
+## [Vanliga frågor och svar om datasäkerhet och sekretess i Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Vanliga frågor och svar om analyshjälp (förhandsversion)](faqs-analysis-assist.md)
 ## [Vanliga frågor och svar om hjälp med bankkontoavstämning (förhandsversion)](faqs-bank-reconciliation.md)
 ## [Vanliga frågor och svar om chatt med Copilot (förhandsversion)](faqs-chat-with-copilot.md)
