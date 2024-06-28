@@ -12,7 +12,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# Mappa e-dokument mot inköpsorderrader med Copilot (förhandsversion)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Mappa e-dokument mot inköpsorderrader med Copilot (förhandsversion)
 
 När anskaffningsprocesser blir mer digitala spelar e-dokumentfunktionen i Business Central en nyckelroll för att automatisera mottagning och bearbetning av leverantörsfakturor. Copilot kan hjälpa till i denna process genom att förbättra mappningen och matchningen av leverantörsfakturor till inköpsorder. Denna hjälp minskar tid som spenderas på uppgifter som normalt skulle omfatta omfattande sökning, uppslag och datainmatning. En annan fördel är när leverantörsfakturor inte exakt relaterar till inköpsorder. I så fall är Copilot väl positionerat för att identifiera motsvarande inköpsorder. Förbättrade matchningsfunktioner gynnar särskilt små och medelstora organisationer som behöver effektiv dokumentspårning för inköpsorderrader. Copilot är den AI-drivna assistenten för arbete som ökar kreativiteten och förbättrar produktiviteten för Business Central-användare.
 
@@ -25,11 +25,11 @@ I den första versionen av appen **e-dokument** introducerade vi grundläggande 
 
 Du kan nu uppdatera en befintlig inköpsorder i Business Central med den information som tas emot i e-fakturan.
 
-## Tillgängliga språk
+## <a name="available-languages"></a>Tillgängliga språk
 
 [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
-## Aktivera Copilot  
+## <a name="activate-copilot"></a>Aktivera Copilot
 
 Om du inte har aktiverat Copilot för **Matchningshjälp för e-dokument** måste du göra det manuellt. För att aktivera copilot för **Matchningshjälp för e-dokument** följer du stegen nedan: 
 
@@ -38,7 +38,7 @@ Om du inte har aktiverat Copilot för **Matchningshjälp för e-dokument** måst
 
 Du kan börja använda Copilot så snart du har aktiverat den. 
 
-## Identifiera inköpsorder
+## <a name="identify-purchase-orders"></a>Identifiera inköpsorder
 
 Först kan du identifiera de inköpsorder som du kan matcha automatiskt. Om din **Leverantör** har konfigurerat fältet **Ta emot e-dokument till** så att det fungerar med **Inköpsorder**, när ett elektroniskt dokument har skapats i [!INCLUDE[prod_short](includes/prod_short.md)] (manuellt eller från en extern slutpunkt), [!INCLUDE[prod_short](includes/prod_short.md)] gör du följande:
 
@@ -46,7 +46,7 @@ Först kan du identifiera de inköpsorder som du kan matcha automatiskt. Om din 
 Den här länken kommer att visas i fältet **Dokument** på det specifika **e-dokumentet**. Om du behöver ändra den länkade **inköpsordern** automatiskt kan du göra det med åtgärden **Uppdatera inköpsorderlänk** och manuellt välja en av befintliga inköpsorder för den här leverantören. Du kan bara göra det innan du matchar raderna mellan **E-dokument** och **Inköpsorder**.  
 2. Om **inköpsordern** för just den här leverantören *finns men det inte finns något inköpsordernummer* i den mottagna filen **E-dokument** kan du med [!INCLUDE[prod_short](includes/prod_short.md)] välja en av befintliga inköpsorder om du öppnar listan **Inköpsorder** från de order som du fick från leverantören som endast innehåller **E-dokument** där du måste välja den **Inköpsorder** du vill ha och sedan välja **OK**. Om du inte valde rätt **inköpsorder** eller om du fick **e-dokumentet** automatiskt från en extern slutpunkt med hjälp av **jobbkön** kommer det nya **e-dokumentet** inte att länkas till något inköpsdokument och **dokumentstatusen** kommer att vara **fel** och **e-dokumentstatus** på undersidan **Servicestatus** kommer att vara **Bearbetningsfel för importerat dokument**. När du vill slutföra länkningen till **inköpsordern** väljer du åtgärden **Uppdatera inköpsorderlänk** och väljer en av befintliga inköpsorder för leverantören.  
 
-## Definitionsrader
+## <a name="map-lines"></a>Definitionsrader
 
 Copilot hjälper dig att automatiskt matcha e-fakturarader med inköpsorderrader och erbjuder extra matchningsinformation för att förbättra matchningarna.
 
@@ -100,7 +100,7 @@ Om du vill köra matchningen från inköpsordern väljer du åtgärden **Mappa e
 > [!NOTE]
 > Pris/kostnadsanalys och kontroll av tillgänglig kvantitet är en del av förbearbetningsaktiviteten. 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över e-dokument](finance-edocuments-overview.md)    
 [Använd e-dokument inom försäljning](finance-how-use-edocuments.md)    
