@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ställa in analysvy för kassaflöde
+# <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:
 
@@ -25,7 +25,7 @@ Den här artikeln beskriver var informationen i diagrammen kommer från och, vid
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## Kassacykeln och diagram för inkomster och utgifter
+## <a name="the-cash-cycle-and-income--expense-charts"></a>Kassacykeln och diagram för inkomster och utgifter
 
 Diamgrammen **Kassacykel** och **Inkomster och utgifter** är klara, beroende på kontoplan och ekonomiska rapporter. Kontona är var informationen kommer från och ekonomiska rapporter beräknar förhållandet mellan försäljning och kundfordringar. Vissa konton och ekonomiska rapporter tillhandahålls. Du kan använda dem som de är, ändra dem och lägga till nya. Om du lägger till redovisningskonton i kontoplanen, till exempel genom att importera dem från QuickBooks, behöver du mappa till kontona på sidan **Ekonomiska rapporter** för följande rapporter:
 
@@ -44,7 +44,7 @@ Ange konton i fältet **Summeringsintervall** för **Totala intäkter**, **Total
 > [!TIP] 
 > Kontrollera en mappning genom att välja åtgärden **Översikt**.  
 
-## Konfigurera kassaflödesdiagrammet
+## <a name="set-up-the-cash-flow-chart"></a>Konfigurera kassaflödesdiagrammet
 
 Kassaflödesdiagrammet baseras på följande:  
 
@@ -55,7 +55,7 @@ För att hjälpa dig att komma igång, finns vissa konto- och kassaflödeinstall
 
 Du anger dessa konton genom att söka efter **Diagram över kassaflödeskonton**, väljer länken och fyller sedan i fälten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Upprepa stegen för **Kassaflödesinställningar**.
 
-## Konfigurera kassaflödesprognoser.
+## <a name="set-up-cash-flow-forecasts"></a>Konfigurera kassaflödesprognoser.
 
 Diagrammet **kassaflödesprognos** använder kassaflödeskonton, kassaflödesinställningar för kassaflödesprognoser. Vissa tillhandahålls, men du kan ställa in egna med hjälp av en assisterade konfigurationsguiden. Guiden hjälper dig att ange saker som till exempel hur ofta du uppdaterar prognosen, kontona som du vill basera den på, information om när du betalar skatter och om du ska använda [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
@@ -80,7 +80,7 @@ Så här använder du en manuell process:
 > [!TIP]  
 > Beakta längden för perioderna som tjänsten ska använda i dess beräkningar. Ju mer information som du anger, desto mer exakta kommer prognoserna att vara. Se upp för stora avvikelser i perioder. De kommer också att påverka prognoserna. Om Azure AI inte hittar tillräckligt med data, eller om data varierar mycket, kommer tjänsten inte att utföra någon prognos.  
 
-## Designinformation
+## <a name="design-details"></a>Designinformation
 
 Prenumerationer på [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar åtkomst till ett flertal prediktiva webbtjänster i alla regioner där [!INCLUDE[prod_short](includes/prod_short.md)] finns tillgängligt. Mer information finns i Microsoft Dynamics 365 Business Central-licensguiden. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -90,11 +90,11 @@ Dessa webbtjänster är tillståndslösa, vilket innebär att de endast använde
 >
 > Du kan använda din egen prediktiva webbtjänst i stället för vår. Mer information finns i [skapa och använda egna förebyggande webbtjänsten för kassaflödesprognoser](#AnchorText).
 
-### Data som krävs för prognoser
+### <a name="data-required-for-forecast"></a>Data som krävs för prognoser
 
 Om du vill göra förutsägelser om framtida intäkter och kostnader kräver webbtjänsterna historiska data från kundreskontra, leverantörsreskontra och moms.
 
-#### Kundreskontra
+#### <a name="receivables"></a>Kundreskontra
 
 Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för kundreskontra**, där:
 
@@ -103,7 +103,7 @@ Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för k
 
 Innan du använder den prediktiva webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
-#### Leverantörsreskontra
+#### <a name="payables"></a>Leverantörsreskontra
 
 Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för leverantörsreskontra**, där:
 
@@ -112,7 +112,7 @@ Fälten **Förfallodatum** och **Belopp (BVA)** på sidan **Transaktioner för l
 
 Innan du använder den prediktiva webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Förfallodatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
-#### Moms
+#### <a name="tax"></a>Moms
 
 Fälten **Dokumentdatum** och **Belopp** på sidan **Transaktioner för moms**, där:
 
@@ -121,7 +121,7 @@ Fälten **Dokumentdatum** och **Belopp** på sidan **Transaktioner för moms**, 
 
 Innan du använder den prediktiva webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
-## <a name="AnchorText"></a>Skapa och använda en egen prediktiv webbtjänst för kassaflödesprognoser
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Skapa och använda en egen prediktiv webbtjänst för kassaflödesprognoser
 
 Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän modell kallad **Prognosmodell för Microsoft Business Central**. Den här förebyggande modellen finns online i Azure AI-galleriet. För att använda modellen gör du följande:  
 
@@ -134,7 +134,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 7. Expandera snabbfliken för **Azure AI** och fyll sedan i fälten, inklusive API-URL och API-nyckel från Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I rollcentret Revisor väljer du åtgärden **Omberäkna prognos** under diagrammet **Kassaflödesprognos**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Ställa in Finance](finance-setup-finance.md)  

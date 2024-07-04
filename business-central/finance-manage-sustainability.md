@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Översikt över hållbarhetsstyrning
+# <a name="sustainability-management-overview"></a>Översikt över hållbarhetsstyrning
 
 > [!IMPORTANT]
 > Den här funktionen blir tillgänglig i Business Central från **utgivningscykel 1 för 2024**. Alla referenslänkar aktiveras när de är tillgängliga.
@@ -49,7 +49,7 @@ När du vill börja med hållbarhetshantering, se följande artiklar.
 | **Integrationer** |             |
 | [Hållbarhets-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Använd den här artikeln för att lära dig hur du skapar anslutna appar som upprättar en punkt-till-punkt-anslutning mellan Business Central och hållbarhetslösningar eller tjänster som inte kommer från Microsoft med hjälp av API:er. |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hållbarhetskonfiguration](finance-sustainability-setup.md)    
 [Kontoplan för hållbarhetskonton och huvudbok](finance-sustainability-accounts-ledger.md)    
