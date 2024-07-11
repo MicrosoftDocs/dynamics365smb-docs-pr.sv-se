@@ -25,7 +25,7 @@ När betalningar har behandlas enligt din bank, kan du bokföra betalningsinleve
 > [!NOTE]  
 > För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan vara EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
+## <a name="how-to-set-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
 
 Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto enligt formatet för SEPA-autogiro.
 

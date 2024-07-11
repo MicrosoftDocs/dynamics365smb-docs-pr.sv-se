@@ -37,7 +37,7 @@ Om du inte redan har skapat en egen rapportlayout för dokumenttypen måste du g
 3. På sidan **dokumentlayout** på raden för en rapportlayout som du vill använda en anpassad layout för, väljer du fältet **Anpassad layoutbeskrivning**.
 4. På sidan **Anpassade rapportlayouter**, välj den dokumentlayout som du vill använda för försäljningsdokumenttyp. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Så här anger du vilken kontakt som får vilken dokumentlayout för en kund
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Så här anger du vilken kontakt som får vilken dokumentlayout för en kund
 
 Om du vill spara tid när du skickar dokument till kund- och leverantörskontakter via e-post, anger du deras e-postadresser på dokumentlayout. Du kan till exempel alltid skicka kundutdrag till deras revisorskontakter och försäljningsorder till deras köpare eller inköpsorder till säljare.
 
