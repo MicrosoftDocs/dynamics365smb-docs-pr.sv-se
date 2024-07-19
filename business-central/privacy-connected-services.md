@@ -9,7 +9,7 @@ ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Test funktioner som kan anslutas till andra Microsoft-tjänster
+# Test funktioner som kan anslutas till andra Microsoft-tjänster 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] är en omfattande affärshanteringslösning som är djupt integrerad med Microsoft 365 produktivitetsprogram och Power Platform. Din kostnadsfria testversion av Business Central kan ansluta till många olika Microsoft-tjänster som måste konfigureras och aktiveras först. För att få ut det mesta av din kostnadsfria utvärderingsversion har vissa av dessa funktioner aktiveras automatiskt. Även om anslutningen från [!INCLUDE[prod_short](includes/prod_short.md)] är aktiverad ingår inte dessa tjänster i testversionen och måste köpas separat om du inte redan har dem.
 
@@ -28,7 +28,7 @@ Tabellen nedan visar anslutningarna till Microsoft-tjänster som har aktiveras a
 > - Du medgivande på att dina data delas med Microsoft-tjänsten. Om organisationen har distribuerat dessa tjänster i ett annat land eller en annan region kan en anslutning till tjänsten leda till att data korsar datahemvistgränser. Se till att bekräfta organisationens principer och myndighetsefterföljandekrav för datahemvist innan du använder dessa funktioner. 
 > - Det kan påverka tjänster som inte är testversioner. Om dessa tjänster används i produktionen av organisationen och inte är utvärderade tillsammans med Business Central, andra användare av dessa tjänster som inte deltar i denna testversion av [!INCLUDE[prod_short](includes/prod_short.md)] påverkas.
 > - [!INCLUDE[prod_short](includes/prod_short.md)] kan också ansluta till Microsoft-tjänster eller tjänster från tredje part beroende på de anpassningar och tillägg som du eller administratören har installerat i din [!INCLUDE[prod_short](includes/prod_short.md)] testversion. Om du vill ha information om hur dina data kommer att bearbetas, kontaktar du tilläggsutvecklaren eller följer sekretesslänken för tillägget AppSource.
-> - För funktioner i förhandsversion godkänner du [villkor för förhandsversion](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
+> - För funktioner i förhandsversion samtycker du till förhandsversion villkor. [...](https://go.microsoft.com/fwlink/?linkid=2189520)
 
 Din sekretess är viktig för oss. Om du vill veta mer om hur Microsoft behandlar dina data, se [Microsofts sekretesspolicy](https://go.microsoft.com/fwlink/?linkid=521839).
 
