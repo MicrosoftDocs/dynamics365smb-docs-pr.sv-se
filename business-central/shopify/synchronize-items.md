@@ -7,15 +7,14 @@ ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Synkronisera artiklar och lager
 
-**Artiklar** i [!INCLUDE[prod_short](../includes/prod_short.md)] motsvarar *produkter* i Shopify, som innefattar fysiska varor, digitala nedladdningar, tjänster och presentkort som du säljer. Det finns två huvudsakliga anledningar till att synkronisera artiklarna:
+**Artiklar** i [!INCLUDE[prod_short](../includes/prod_short.md)] motsvarar **produkter** i Shopify. De är de fysiska varorna, digitala nedladdningar, tjänster och presentkort som du säljer. Det finns två huvudsakliga anledningar till att synkronisera artiklarna:
 
-1. Datahantering utförs främst i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du måste exportera alla eller vissa data därifrån till Shopify och göra det synligt. Du kan exportera artikelnamn, beskrivning, bild, priser, tillgänglighet, varianter, leverantörsinformation och streckkod. När du har exporterat kan du granska objekten eller låta dem ha skapats direkt.
+1. När du i första hand hanterar data i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du måste exportera alla eller vissa data därifrån till Shopify och göra det synligt. Du kan exportera artikelnamn, beskrivning, bild, priser, tillgänglighet, varianter, leverantörsinformation och streckkod. När de har exporterats kan du granska artiklarna eller göra dem synliga omedelbart.
 2. När en order importeras från Shopify importeras är informationen om artiklarna väsentlig för ytterligare behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De två föregående scenarierna är alltid aktiverade.
@@ -32,7 +31,7 @@ Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar 
    |Alternativ|Beskrivning|
    |------|-----------|
    |**Tomt**| Produkter importeras tillsammans med import av order. Produkter exporteras till Shopify om användare kör åtgärden **Lägg till artikel** från sidan **Shopify-produkter**. Den här alternativet är standardprocess.|
-   |**Till Shopify**| Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via projektkön för återkommande uppdateringar. Glöm inte att aktivera fältet **Kan uppdatera Shopify-produkt**. Om den inte är aktive rad är den lika med det **tomma** alternativet (standardprocess). Mer information finns i avsnittet [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)|
+   |**Till Shopify**| Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via projektkön för återkommande uppdateringar. Glöm inte att aktivera fältet **Kan uppdatera Shopify-produkt**. Om detta inte är aktiverat är det lika med det **tomma** alternativet (standardprocess). Mer information finns i avsnittet [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)|
    |**Från Shopify**| Välj det här alternativet om du planerar att importera produkter från Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera produkt** eller via projektkön för återkommande uppdateringar. Mer information finns i avsnittet [Importera artiklar från Shopify](synchronize-items.md#import-items-from-shopify)|
 
    > [!NOTE]
@@ -44,10 +43,10 @@ Importera först artiklar från Shopify antingen i bulk eller tillsammans med or
 
 |Fält|Beskrivning|
 |------|-----------|
-|**Skapa okända artiklar automatiskt**|När Shopify-produkter och -varianter importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] försöker alltid funktionen [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta matchande poster i artikellistan först. **SKU-mappning** har en inverkan på hur matchningen utförs och skapar nya artiklar och/eller artikelvarianter. Aktivera det här alternativet om du vill skapa en ny artikel eller om det inte finns någon matchande post. Den nya artikeln skapas med hjälp av importerade data och **Kod för artikelmall**. Om det här alternativet inte har aktiverats måste du skapa en artikel manuellt och använda åtgärden **Mappa produkt** från sidan **Shopify-produkter**.|
+|**Skapa okända artiklar automatiskt**|När Shopify-produkter och -varianter importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] försöker alltid funktionen [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta matchande poster i artikellistan först. **SKU-mappning** har en inverkan på hur matchningen utförs och skapar nya artiklar och/eller artikelvarianter. Aktivera det här alternativet om du vill skapa en ny artikel eller om det inte finns någon matchande post. Den nya artikeln skapas med hjälp av importerade data och **Kod för artikelmall**. Om det här alternativet inte har aktiverats skapar du en artikel manuellt och använder åtgärden **Mappa produkt** från sidan **Shopify-produkter**.|
 |**Kod för artikelmall**|Används denna växlingsknapp **Skapa okända artiklar automatiskt**.<br>Välj den mall som ska användas för automatiskt skapade artiklar.|
 |**SKU-mappning**|Välj hur du vill använda **SKU**-värdet som importerats från Shopify under mappning och skapande av artikel/variant. Läs mer i avsnittet [Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Fältavgränsare för lagerställeenhet**|Använd med **SKU-mappning** anges till alternativet **[Artikelnr + Variantkod](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definiera en avgränsare som ska användas för att dela upp SKU.<br>Om du i Shopify skapar en variant med SKU ”1000/001”, skriver du ”/” i fältet **Fältavgränsare för lagerställeenhet** för att få artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] till ”1000” och artikelvariantkoden till ”001”. Observera att om du skapar varianten med SKU '1000/001/111' in Shopify, artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] kommer att vara "1000" och artikelvariantkoden "001". "111"-delen ignoreras. |
+|**Fältavgränsare för lagerställeenhet**|Använd med **SKU-mappning** anges till alternativet **[Artikelnr + Variantkod](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definiera en avgränsare som ska användas för att dela upp SKU.<br>Om du i Shopify skapar en variant med SKU ”1000/001”, skriver du ”/” i fältet **Fältavgränsare för lagerställeenhet** för att få artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] till ”1000” och artikelvariantkoden till ”001”. Om du skapar varianten med SKU '1000/001/111' in Shopify, artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] kommer att vara "1000" och artikelvariantkoden "001". "111"-delen ignoreras. |
 |**Prefix för variant**|Används tillsammans med **SKU-mappning** inställd på **Variantkod** eller **Artikelnr + Variantkod** som en säkerhetsfunktion när lagerställeenheten som kommer från Shopify är tom.<br>Om du vill skapa artikelvarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatiskt måste du ange ett värde i **Kod**. Som standard används det värde som anges i fältet för lagerställeenhet som har importerats från Shopify. Om lagerställeenheten är tom genereras koden med det definierade variantprefixet och ”001”.|
 |**Shopify kan uppdatera artikel**|Välj det här alternativet om du vill uppdatera artiklar och/eller varianter automatiskt.|
 |**Måttenhet som variant**| Välj det här alternativet om du vill att alla artikelenheter ska exporteras som separata varianter. Anpassa sidan för att lägga till fältet. Läs mer i avsnittet [Måttenhet som variant](synchronize-items.md#unit-of-measure-as-variant).|
@@ -62,6 +61,8 @@ Det finns flera sätt att exportera objekt till Shopify:
 * Kör objektsynkronisering en gång eller upprepade gånger med automatisering.
 
 Oavsett hur du exporterar varor, överförs specifik artikelinformation till Shopify produktlistan beroende på ditt val av inställningar för artikelsynkronisering.
+
+Innan en artikel exporteras till Shopify kontrollerar anslutningsprogrammet om artikeln redan finns. Först kontrollerar den om det finns en produkt eller variant med en streckkod, eftersom det är definierat i posten **Artikelreferenser** för en streckkodstyp. Om fältet **SKU-mappning** fylls i kontrollerar anslutningsprogrammet om det är en produkt eller variant med SKU ifylld. För mer information, gå till [Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > Produkten kommer att läggas till i försäljningskanalen för **onlinebutiken** . Du måste publicera produkter till andra försäljnings kanaler, som Shopify POS, från Shopify.
@@ -117,8 +118,8 @@ I följande tabell beskrivs effekten av fältet **Streckkod**.
 |------|-----------------|-----------------|
 |Status|Enligt fältet **Status för skapade produkter** på **Shopify-butikskortet**. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Rubrik | **Beskrivning**. Om språkkoden är definierad och motsvarande artikelöversättning finns kommer artikelöversättningen att användas i stället för beskrivning.|**Beskrivning**|
-|Varianttitel | **Variantkod**.|**Beskrivning** av variant|
-|Beskrivning|Kombinerar utökade texter, marknadsföringstexter och attribut om aktiverar motsvarande reglage på Shopify-butikskortet. Respekterar språkkod.|Inte använd.|
+|Varianttitel | **Variantkod**.<br>Anledningen till att använda **kod** och inte **beskrivning** är att Shopify kräver unika varianttitlar per produkt. I [!INCLUDE[prod_short](../includes/prod_short.md)] är **Kod** unik, medan **Beskrivning** inte är det. Beskrivningar som inte är unika leder till problem under produktexporten.|**Beskrivning** av variant|
+|Description|Kombinerar utökade texter, marknadsföringstexter och attribut om aktiverar motsvarande reglage på Shopify-butikskortet. Respekterar språkkod.|Inte använd.|
 |Sidrubrik, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Metabeskrivning, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Media|**Bild**. Mer information finns i avsnittet [Synkronisera artikelbilder](synchronize-items.md#sync-item-images)|**Bild**|
@@ -151,9 +152,9 @@ Om du vill aktivera den här funktionen använder du fälten **UoM som variant**
 
 **Måttenhet som variantanmärkningar**
 
-* När produkten importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] anslutningsprogram skapas måttenheter. Du måste uppdatera **Antal per måttenhet**.
-* När du har att göra med matris av varianter, till exempel Färg och Måttenhet och du vill importera produkter, bör du ställa in *Artikelnr. + Variantkod* i fältet **SKU-mappning** och se till att **SKU** i Shopify har samma värde för alla måttenheter och inkluderar både artikelnr och variantkod.
+* När du har att göra med matris av varianter, till exempel Färg och Måttenhet och du vill importera produkter till [!INCLUDE[prod_short](../includes/prod_short.md)], bör du ställa in *Artikelnr. + Variantkod* i fältet **SKU-mappning** och se till att **SKU** i Shopify har samma värde för alla måttenheter och inkluderar både artikelnr och variantkod.
 * I [!INCLUDE[prod_short](../includes/prod_short.md)] tillgänglighet beräknas per artikel/artikelvariant och inte per måttenhet. Det betyder att samma tillgänglighet kommer att tilldelas varje variant som representerar måttenhet (avseende **Antal per måttenhet**), som kan leda till fall då tillgänglig kvantitet i Shopify inte är korrekt. Exempel: Artikel som säljs i STYCK och låda om 6. Inventeringen i [!INCLUDE[prod_short](../includes/prod_short.md)] är 6 st. Artikel exporterad till Shopify som Produkt med två varianter. När lagersynkroniseringen har utförts kommer lagernivån i Shopify kommer att vara 6 för variant STYCK och 1 för variant KARTONG. Köparen kan bara utforska, lagra och se att produkten är tillgänglig i båda alternativen och beställa för 1 KARTONG. Nästa köpare kommer att se att KARTONG inte är tillgänglig, men det finns fortfarande 6 st. Detta kommer att åtgärdas efter med nästa lagersynkronisering.
+* Du kan inte lägga till alternativet Måttenhet till befintliga produkter med varianter (specifikt resultat beror på andra inställningar, till exempel **SKU-mappning**).
 
 ### URL och förhandsgransknings-URL
 
@@ -306,6 +307,14 @@ Det finns 10 delar av artikeln som finns tillgängliga i handen och två utestå
 |------|-----------------|-----------------|
 |Tisdag|9|Lager 10 minus försäljningsorder som levereras till måndag|
 |Fredag|7|Lager 10 minus både försäljningsorder|
+
+####  Exempel på beräkning av fritt lager (ej reserverat)
+
+Det finns 10 delar av artikeln som finns tillgängliga i handen och tre utestående försäljningsorder. En order med kvantitet *1* reserverad från artikeltransaktion, en med kvantitet *2* inte reserverad och en med kvantitet *3* reserverad från en inköpsorder. För den här metoden är synkroniseringsdatumet inte viktigt.
+
+|Värde som används för att uppdatera lagernivå|Kommentar|
+|-----------------|-----------------|
+|9|Lager 10 minus försäljningsordern med reserverat lager från artikeltransaktionen. Andra försäljningsorder ignoreras.|
 
 ### Två metoder för att hantera uppfyllanden
 

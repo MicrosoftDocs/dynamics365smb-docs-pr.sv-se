@@ -3,16 +3,16 @@ title: Installera och avinstallera appar
 description: Läs mer om hur du kan installera och avinstallera appar och tillägg i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
-ms.date: 09/07/2023
+ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installera och avinstallera tillägg (appar) i Business Central
+# Installera och avinstallera tillägg (appar) i Business Central
 
 Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera appar som exempelvis lägger till funktioner, ändrar beteenden eller ger dig tillgång till nya onlinetjänster. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).
 
@@ -23,7 +23,7 @@ Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installer
 
 Om du vill använda ett tillägg måste du tilldela de behörighetsgrupper som medföljer det.
 
-## <a name="install-an-extension"></a><a name="install"></a>Installera ett tillägg
+## <a name="install"></a>Installera ett tillägg
 
 Du hanterar appar och tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") i det övre högra hörnet ange **Tillägget** och välj sedan relaterad länk.  
 
@@ -32,7 +32,7 @@ Du kan hämta nya appar från marknadsplatsen på [AppSource.microsoft.com](http
 > [!NOTE]  
 > Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[prod_short](includes/prod_short.md)]. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
 
-Du kan också komma till AppSource från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se apparna som är installerade för närvarande, och du kan öppna sidan **Tilläggmarknadsplatsen** som visar apparna för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Du kan också komma till AppSource från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se apparna som är installerade för närvarande, och du kan öppna sidan **Microsoft AppSource-appar** som visar apparna för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer åtgärden **Visa AppSource** tas du till [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Mer information finns i [Hantera AppSource-appar](admin-manage-appsource-apps.md).  
 
 Välj en app att lära dig om vad den gör och du kan få mer information om appen i hjälpavsnittet. När du väljer att hämta en app, måste du godkänna användningsvillkoret. Om du hämtar appen från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[prod_short](includes/prod_short.md)] för att slutföra installationen.  
 
@@ -70,19 +70,19 @@ Microsoft ger även följande appar:
 * [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Konfigurera en app
+## Konfigurera en app
 
 När du har installerat en app måste du kanske konfigurera den. Till exempel för appen **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]** måste du ange det PayPal-konto som ska användas. Om så är fallet frågar [!INCLUDE[prod_short](includes/prod_short.md)], när installationen har slutförts, om du vill konfigurera appen direkt. Konfigurationer kan krävas för att appen ska fungera, eller så kan de vara valfria.
 
 Om du väljer att konfigurera din app direkt och den har en konfiguration som krävs, öppnar [!INCLUDE[prod_short](includes/prod_short.md)] den konfiguration som krävs. Konfigurationen kan vara antingen en sida där du anger information eller en guide för assisterad konfiguration som hjälper dig genom stegen. Om du inte slutför konfigurationen på en gång kan du använda sidan **Konfigurationer för _appens namn_**, som innehåller en lista över alla konfigurationer för appen. Obligatoriska konfigurationer anges i **fetstil**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Ladda upp ett tillägg per klientorganisation (PTE)
+## Ladda upp ett tillägg per klientorganisation (PTE)
 
 Du överför en PTE med hjälp av sidan för **tilläggshantering**. På siden **Tilläggshantering**, gå till **Hantera**, välj sedan **Ladda upp tillägg**. Sidan **Ladda upp och distribuera tillägg** ange vilken .app-fil som ska laddas upp. Om du vill fortsätta klickar du på knappen **Acceptera** och sedan knappen **Distribuera**, detta kommer att starta processen med att distribuera PTE.
 
 Om PTE innehåller bryt schemaändringar går det att *Framtvinga* en uppladdning av den. Det gör du i läget för **Synkroniseringsläge för schema** välja alternativet **Framtvinga**. Du får en bekräftelse dialogruta som du kan ta emot innan du fortsätter.  
 
-## <a name="uninstall-an-app"></a>Avinstallera en app
+## Avinstallera en app
 
 Du avinstallerar en app på sidan **Tilläggshantering**. Om du vill avinstallera en app markerar du den på sidan och väljer åtgärden **Avinstallera**. Om du avinstallerar en app och du sedan ändrar dig kan du installera appen på nytt.
 
@@ -95,10 +95,11 @@ Som standard, när du avinstallerar en app som du har använt dina data tas inte
 
 Om du vill behålla data för ett avinstallerat program kan du ta bort datan senare. På sidan **Ta bort överblivna tilläggsdata** visas de program som du fortfarande har data för. Om du vill ta bort datan väljer du programmet och sedan **Ta bort data**. 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa Business Central](ui-customizing-overview.md)  
 [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
+[Hantera AppSource-appar](admin-manage-appsource-apps.md)  
 [Konfigurera tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
