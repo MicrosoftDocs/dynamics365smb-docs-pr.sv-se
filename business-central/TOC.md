@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [Rapport för momskontroll](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Momsrapporter](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Momskorrigering i lokal valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Icke-avdragsgill moms](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Anläggningstillgångar
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Lokala funktioner i den amerikanska versionen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Moms
 ##### [Grundläggande momsinställningar](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduktion till IRS 1099-formulären och dess funktionalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Konfigurera och använda IRS 1099-formuläret för version 24 (utgivningscykel 1 för 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Använda IRS 1099-formulären](LocalFunctionality/UnitedStates/how-to-1099-use.md)
