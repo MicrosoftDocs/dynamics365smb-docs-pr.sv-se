@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Göra betalningar
+# <a name="make-payments"></a>Göra betalningar
 
 Du betalar leverantörer eller kunder, eller ersätter dina anställda, genom att lägga ut betalningsrader på sidan **Betalningsjournal**. Betalningsjournalen är en redovisningsjournal som är optimerad för att göra betalningar och erbjuder massor av kraftfulla åtgärder. Till exempel åtgärden **Föreslå leverantörsbetalningar** som hittar leverantörsbetalningar som förfaller och rapporten **Leverantör – Ålderssammandrag** som visar en översikt över förfallna leverantörsbetalningar.  
 

@@ -50,7 +50,7 @@ Fullständigt kopplade leverantörsreskontratransaktioner och bankkontotransakti
 > [!NOTE]  
 > Om du vill skriva ut och betala checkar i flera olika valutor från olika bankkonton måste du köra batch-jobbet **Skriv ut check** separat för varje valuta och ange bankkontot.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Att skriva ut checkar som inte har bokförts
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Att skriva ut checkar som inte har bokförts
 
 Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom att använda åtgärden **Makulera check** på sidan **Betalningsjournal**.
 

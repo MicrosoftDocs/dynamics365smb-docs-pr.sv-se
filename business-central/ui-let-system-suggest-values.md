@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="letting--suggest-values"></a>Låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå värden
+# <a name="let--suggest-values"></a>Låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå värden
 [!INCLUDE[prod_short](includes/prod_short.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.
 
 Funktionen som matar in fältvärden åt dig, erbjuds vanligtvis för uppgifter där du anger stora volymer av transaktionsdata och vill undvika fel och spara tid. Det här avsnittet innehåller ett urval av sådana funktioner. Mer avsnitt ska läggas till i framtida uppdateringar av [!INCLUDE[prod_short](includes/prod_short.md)].
