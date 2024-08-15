@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
-ms.date: 05/03/2024
+ms.date: 05/20/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Inbyggda ekonomiska rapporter i Business Central
+# Inbyggda ekonomiska rapporter i Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Utforska ekonomirapporter med Rapportutforskaren
+## Utforska ekonomirapporter med Rapportutforskaren
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kundreskontra, rapporter och analyser](receivables-reports.md)  
 [Leverantörsreskontra, rapporter och analyser](payables-reports.md)  

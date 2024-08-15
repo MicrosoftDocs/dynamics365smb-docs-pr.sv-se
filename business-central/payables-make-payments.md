@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-payments"></a>Göra betalningar
+# Göra utbetalningar
 
 Du betalar leverantörer eller kunder, eller ersätter dina anställda, genom att lägga ut betalningsrader på sidan **Betalningsjournal**. Betalningsjournalen är en redovisningsjournal som är optimerad för att göra betalningar och erbjuder massor av kraftfulla åtgärder. Till exempel åtgärden **Föreslå leverantörsbetalningar** som hittar leverantörsbetalningar som förfaller och rapporten **Leverantör – Ålderssammandrag** som visar en översikt över förfallna leverantörsbetalningar.  
 
@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 | Betala leverantören kontant eller med check och bokför betalningen när du bokför fakturan. |[Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Se till att banken bara godkänner validerade checkar och belopp genom att skicka en fil som innehåller information om leverantör, check ch betalning. |[Exportera en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

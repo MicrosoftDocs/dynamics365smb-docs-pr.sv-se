@@ -1,17 +1,17 @@
 ---
-title: Granska och koppla betalningar manuellt efter automatisk koppling
+title: Granska och koppla betalningar manuellt efter automatisk ansökan
 description: 'När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 04/01/2021
+ms.date: 05/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Granska och koppla betalningar manuellt efter automatisk koppling
+# Granska och koppla betalningar manuellt efter automatisk ansökan
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -19,7 +19,7 @@ För varje journalrad som representerar en betalning på sidan **Betalningsavst�
 
 Därför bör du söka efter utländska valutakoder i fältet **Valutakod** på sidan **Betalningskoppling** för att kontrollera om kopplingar baseras på konverterade valutor. Om du vill förhandsgranska belopp i det ursprungliga dokumentet i utländsk valuta och för att se den valutakursen som används, välj fältet **Kopplas till löpnr.** och sedan, på snabbmenyn, väljer du knappen för att öppna sidan **Kundreskontratransaktioner** eller **Lev.reskontratransaktioner**.
 
-Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hanteras inte automatiskt i [!INCLUDE[prod_short](includes/prod_short.md)].
+Eventuella vinst- och förlustjusteringar som krävs på grund av valutakonverteringar hanteras inte automatiskt av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   Du kan inte koppla transaktioner till ett annat tecken än tecknet på betalningen. Om du till exempel vill stänga både en kreditnota med negativt tecken och dess relaterade faktura med positivt tecken måste du först koppla kreditnotan till fakturan och sedan koppla betalningen till fakturan med det reducerade återstående beloppet.
@@ -30,20 +30,20 @@ Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hante
 > [!NOTE]  
 >   Du kan bara koppla en betalning till ett konto. Om du vill dela kopplingen på flera öppna transaktioner, till exempel för att koppla en klumpsummabetalning måste de öppna transaktionerna vara för samma konto. Mer information finns i moment 7 och 8 i proceduren i det här avsnittet.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a>Så här granskar och kopplar du betalningar efter automatisk koppling
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
+## Så här granskar och kopplar du betalningar efter automatisk koppling
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Öppna betalningsavstämningsjournalen för ett bankkonto som du vill stämma av betalningar för. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. På sidan **Betalningsavstämningsjournal** väljer du en betalning som du vill granska eller manuellt koppla till en eller flera öppna transaktioner, och väljer sedan åtgärden**Koppla manuellt**.
 4. Välj kryssrutan **Kopplat** på raden för den öppna transaktion som du vill koppla betalningen till.
 5. Betalningsbeloppet, som visas även i fältet **Transaktionsbelopp** på sidan **Betalningskoppling** infogas i fältet **Kopplade belopp** men du kan ändra fältet, t. ex. om du vill koppla beloppet till flera öppna transaktioner.
 6. Om du vill koppla en del av det betalda beloppet till en annan öppen transaktion för kontot, till exempel för att koppla klumpsummabetalning, markera kryssrutan **Kopplad** för raden. Det kopplade beloppet dras automatiskt av från transaktionsbeloppet för att motsvara distributionen på de två öppna transaktionerna.
-7. Skapa en ny rad under raden för samma konto för att koppla en del av en betalning till en eller flera öppna transaktioner som inte finns i databasen. I fältet **Kopplat belopp** anger du beloppet som ska kopplas på nya raden och justerar sedan fältet **Kopplat belopp** på den befintliga raden.
+7. Om du vill koppla en del av en betalning till en eller flera öppna transaktioner som inte finns i databasen skapar du en ny rad under raden för samma konto. I fältet **Kopplat belopp** anger du beloppet som ska kopplas på nya raden och justerar sedan fältet **Kopplat belopp** på den befintliga raden.
 8. Upprepa moment 5, 6 eller 7 för andra öppna transaktioner som du vill koppla en del av eller hela betalningsbeloppet till.
 9. När du har granskat en betalningskoppling eller manuellt har kopplat till en eller flera öppna transaktioner väljer du åtgärden **Acceptera koppling**.
 
 Sidan **Betalningskoppling** stängs och på sidan **Betalningsavstämningsjournal** ändras värdet i fältet **Matchningssäkerhet** till **Accepterat** för att ange att du har granskat eller manuellt kopplat betalningen.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

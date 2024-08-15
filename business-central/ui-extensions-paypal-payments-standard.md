@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
+# Tillägget PayPal Payments Standard
 
 Tillägget PayPal Payments Standard kan hjälpa dig att öka kundservicenivån genom att göra det enklare för dina kunder att betala sina räkningar.
 
@@ -29,7 +29,7 @@ Tjänsten för PayPal Payments Standard ger följande förmåner:
 
 Mer information om hur du konfigurerar tillägget finns i [Aktivera kundbetalning via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="register-payments-automatically-for-business-accounts"></a>Registrera betalningar automatiskt för företagskonton
+## Registrera betalningar automatiskt för företagskonton
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kan registrera betalningar automatiskt om du har ett företagshandelskonto för PayPal Commerce Platform. När dina kunder använder länken PayPal för att betala en faktura [!INCLUDE [prod_short](includes/prod_short.md)]  bokför transaktionerna och stänger dokumentet.
 
@@ -38,7 +38,7 @@ Om du vill använda den här funktionen aktiverar du växlingsknappen **Registre
 > [!TIP]
 > Utvecklare kan använda sandbox-konton för att testa konfigurationen. Det gör du genom att ändra URL:en för PayPal till **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] använder PayPals Instant Payment Notification (IPN) via notify_url.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

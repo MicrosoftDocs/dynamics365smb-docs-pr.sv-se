@@ -1,30 +1,30 @@
 ---
-title: Ställa in mappning för text-till-konto för återkommande betalningar
+title: Ställa in text-till-konto-mappning för återkommande betalningar
 description: Länka text på betalningar med specifika konton så att betalningar bokförs på kontona när du bokför utbetalningsjournalen för avstämning.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 04/01/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
+# Koppla text på återkommande betalningar till konton för automatisk avstämning
 
 På sidan **Mappa text till konto** som du öppnar från sidan **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
 
-Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavstämningsjournaler på en ad hoc-basis. Mer information finns i [Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md).
+Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavstämningsjournaler på en ad hoc-basis. Mer information finns [i Stämma av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
-Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till öppna transaktioner, utan bokförs bara på de angivna kontona utöver att skapa bankkontotransaktioner. Därför lämpar sig text-till-kontomappning för återkommande inbetalningar eller kostnader, till exempel frekventa inköp av bilbränsle eller bankavgifter och ränt, som visas regelbundet på bankutdraget och inte behöver ett relaterat affärsdokument. Mer information finns i avsnittet "Exempel – text-till-konto-mappning för bränsleutgifter" i det här ämnet.
+Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till öppna transaktioner, utan bokförs bara på de angivna kontona utöver att skapa bankkontotransaktioner. Därför är text-till-konto-mappning lämplig för återkommande inbetalningar eller utgifter, till exempel frekventa inköp av bilbränsle eller bankavgifter och ränta, som regelbundet förekommer på kontoutdraget och inte behöver ett relaterat affärsdokument. Mer information finns i avsnittet "Exempel – Text-till-konto-mappning för bränslekostnader" i den här artikeln.
 
 > [!NOTE]  
 >   Betalningar på avstämningsjournalrader anges endast för att bokföra enligt text-till-kontomappning om den automatiska kopplingsfunktionen bara kan ange matchningssäkerheten **Låg** eller **Medium**. Om funktionen för automatisk koppling ger matchningssäkerheten Hög kopplas betalningen automatiskt till en eller flera öppna transaktioner och betalningen bokförs inte på de konton som angetts på sidan **Mappa text till konto**. Med andra ord åsidosätter en matchningssäkerhet på **Hög** en text-till-konto-mappning.
 
 På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och fälten **Kontotyp** och **Kontonr.** innehåller de mappade kontona.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
+## Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ På en rad i en utbetalningsavstämningsjournal där betalningen har angetts fö
 
 Nästa gång importerar en bankutdragsfil eller väljer funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal** innehåller journalrader för betalningar som innehåller den angivna mappningstexten de mappade kontona i fälten **Kontotyp** och **Kontonr.**. Fältet **Matchningssäkerhet** ska innehålla **Hög – mappa text till konto**. Det sker på villkoret att den automatiska kopplingsfunktionen endast kan tillhandahålla matchningssäkerheten **Låg** eller **Medium**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a>Exempel: Text-till-konto-mappning för bankavgifter
+## Exempel: Text-till-konto-mappning för bankavgifter
 
 Fyll i en rad på sidan **Text-till-konto-mappning** enligt följande för att alltid bokföra utgifter som är kopplade till avgifter från en särskild bank, MyBank, i huvudbokskontot för bankavgifter (konto 60400).
 
@@ -52,7 +52,7 @@ Fyll i en rad på sidan **Text-till-konto-mappning** enligt följande för att a
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Redovisningskonto |TOM |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  

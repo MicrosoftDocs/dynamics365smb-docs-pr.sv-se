@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
-ms.date: 05/07/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-check-payments"></a>Göra checkbetalningar
+# Göra checkbetalningar
 
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[prod_short](includes/prod_short.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
 
@@ -20,7 +20,7 @@ I följande procedur beskrivs hur du betalar en leverantör med en datorcheck so
 Du kan betala med två typer av checkar. För båda typerna måste fälten **motkontotyp** eller **kontotyp** innehålla **bankkonto**.
 
 - **Datorcheck** Välj alternativet om du vill att programmet ska upprätta, och senare skriva ut, en check på beloppet på utbetalningsjournalens rad. Du måste skriva ut checkarna, innan du kan bokföra journalraderna.
-- **Manuell check** Välj alternativet om du vill skriva en check för hand och vill att programmet ska upprätta en motsvarande checktransaktion för beloppet. Med det här alternativen kan du inte skriva ut checkar.
+- **Manuell check** Välj alternativet om du vill skriva en check för hand och vill att programmet ska upprätta en motsvarande checktransaktion för beloppet. Med det här alternativet kan du inte skriva ut checken.
 
 > [!NOTE]  
 > Om du vill vara säker på att banken bara godkänner validerade checkar och belopp kan du skicka en fil som innehåller information om leverantör, check ch betalning. Mer information finns i [Exportera en Positive Pay-fil](finance-how-positive-pay.md).
@@ -30,7 +30,7 @@ Du kan betala med två typer av checkar. För båda typerna måste fälten **mot
 
 Du kan skriva ut upp till 10 fakturor på en sida för en checktalong. Om en check är kopplad till fler än 10 fakturor, när du skriver ut en checktalong annullerar vi checken på den första sidan och skriver ut order ANNULLERAD på checken. Sedan skriver vi ut en påminnelse på fakturorna och det totala checkbeloppet på andra sidan.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Betala en leverantörsfaktura med datorcheck
+## Betala en leverantörsfaktura med datorcheck
 
 Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetalning till en kund med check.
 
@@ -50,13 +50,13 @@ Fullständigt kopplade leverantörsreskontratransaktioner och bankkontotransakti
 > [!NOTE]  
 > Om du vill skriva ut och betala checkar i flera olika valutor från olika bankkonton måste du köra batch-jobbet **Skriv ut check** separat för varje valuta och ange bankkontot.
 
-## <a name="to-cancel-printed-checks-that-arent-posted"></a>Att skriva ut checkar som inte har bokförts
+## Så här annullerar du utskrivna checkar som inte har bokförts
 
 Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom att använda åtgärden **Makulera check** på sidan **Betalningsjournal**.
 
 1. På sidan **Betalningsjournal** väljer du **Makulera check** och sedan väljer du checken som ska annulleras.
 
-## <a name="to-void-checks"></a>Så här makulerar du checkar:
+## Så här makulerar du checkar:
 
 När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från de resulterande banktransaktionerna.
 
@@ -69,14 +69,14 @@ När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från d
 4. Markera kryssrutan **Makulera endast check**.
 5. Välj knappen **OK**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Om du vill visa en sammanfattning av bokförda checkar
+## Om du vill visa en sammanfattning av bokförda checkar
 
 Om du vill granska bokförda checkar, till exempel för att kontrollera flera kontroller som betalas till en leverantör, kan du använda rapporten **bankkonto – checkinformation**.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonto – kontrollera detaljer** och väljer sedan relaterad länk.
 2. Ställa in filter som relevanta och välj sedan knappen **förhandsgranskning**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Göra betalningar](payables-make-payments.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

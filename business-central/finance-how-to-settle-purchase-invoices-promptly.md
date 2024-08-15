@@ -1,24 +1,25 @@
 ---
-title: Betala inköpsfakturor snabbt
+title: Kvitta inköpsfakturor omgående
 description: Om du vill betala leverantören kontant eller med check kan all nödvändig bokföring göras när du bokför fakturan.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.form: '51, 9308'
-ms.date: 04/01/2021
+ms.date: 07/18/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Betala inköpsfakturor snabbt
+
+# Kvitta inköpsfakturor omgående
 
 Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.  
 
 > [!NOTE]  
 > Om du ofta betalar inköpsfakturor kontant, via check eller banöverföring, kan det vara praktiskt att definiera ett särskilt betalningssätt för ett balanskonto och ange detta i fältet **Betalningssätt** på leverantörskortet. Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura. Mer information finns i [Definiera betalningssätt](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:
+## Så här gör du för att snabbt betala inköpsfakturor:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .  
 
@@ -27,7 +28,7 @@ Om du vill betala leverantören kontant eller med check kan du bokföra betalnin
 >
 > Denna anpassning krävs endast om du inte anger balanskonton för betalningssätten enligt beskrivningen ovan.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

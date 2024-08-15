@@ -7,10 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Hantera kundreskontra
+# Hantera kundreskontra
 
 Ett vanligt steg i någon finansiell rytm är att stämma bankkonton. Om du vill stänga försäljningsfakturor och inköpskreditnotor som betalda kopplar du inkommande betalningar till kund- eller leverantörsreskontraposter.
 
@@ -41,8 +41,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Förutsäga när betalningar görs sent för försäljningsdokument. | [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Se även
-
+## Se även
 [Försäljning](sales-manage-sales.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

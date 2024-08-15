@@ -10,7 +10,8 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
+
+# Konfigurera förskottsbetalningar
 
 Du använder förskottsbetalningar när:
 
@@ -35,7 +36,7 @@ Det förutbetalda beloppet tillhör köparen tills de tar emot varorna eller tj�
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna
+## Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.
 2. På sidan **Allmänna bokföringsinställningar** fyller du i följande fält för relevanta rader:  
@@ -45,7 +46,7 @@ Det förutbetalda beloppet tillhör köparen tills de tar emot varorna eller tj�
 
 Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarna kan du öppna sidan **Redovisningskontolista** från relevant kontofält.  
 
-## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning
+## Så här skapar du nummerserier för dokument för förskottsbetalning  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** fyller du i följande fält på snabbfliken **Nummerserier**:  
@@ -62,25 +63,25 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
 > [!NOTE]  
 > Du kan använda samma nummerserier för förskottsfakturor och vanliga fakturor eller använda olika nummerserier. Om du använder olika serier får dessa inte överlappa, d.v.s. det får inte finnas några nummer som finns med i båda serierna.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Ställa in Procentandelar, förskottsbetalning för artiklar, kunder och leverantörer
+## Ställa in Procentandelar, förskottsbetalning för artiklar, kunder och leverantörer
 
 Du kan ställa in en artikels standardprocentandel för alla kunder, en specifik kund eller en kundprisgrupp. Om du inte vill använda samma procentuella förskottsbetalning för alla kunder måste du ange vilka kunder eller kundprisgrupper som den procentuella förskottsbetalningen gäller för.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
-2. Välj en artikel och välj sedan åtgärden **Procentandel för förskottsbet**.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.
+2. Välj ett objekt och välj sedan ikonen **Procentuell förskottsbetalning för** försäljning.  
 3. På sidan **Procentandelar, förskottsbetalning för försäljning** fyller du i följande fält: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan ställa in en kunds eller leverantörs standardprocentandel för förskottsbet. för alla artiklar och alla typer av försäljningsrader. Du anger procentsatsen på kund- eller leverantörskortet. I följande procedur beskrivs hur du anger en procentandel för förskottsbetalning för en kund, men liknande steg gäller för leverantörer.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kort för en kund.
-3. Fyll i fältet **Förskottsbetalning %**.
+3.  **På snabbfliken Betalningar** fyller du i fältet Förskottsbetalning **%.** 
 4. Upprepa stegen för andra kunder eller för leverantörer.  
 
 > [!TIP]
 > Du kan också komma åt sidan **Procentandelar, förskottsbetalning för försäljning** via kund- eller leverantörskortet.
 
-### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Så här fastställer du vilken förskottsbetalda procentandel som har första prioritet
+### Så här fastställer du vilken förskottsbetalda procentandel som har första prioritet  
 
 En order kan ha en procentandel för en förskottsbetalning i försäljningshuvudet och i olika procentandelar för artiklarna på raderna. Om du vill fastställa vilken förskottsbetald procentandel som kopplas till varje försäljningsrad letar [!INCLUDE [prod_short](includes/prod_short.md)] efter och tillämpar den första standardprocenten i följande ordning:  
 
@@ -91,7 +92,7 @@ En order kan ha en procentandel för en förskottsbetalning i försäljningshuvu
 
 Procentandelen för förskottsbetalning på kundkortet kommer således endast att användas om det inte finns en inställd procentandel för förskottsbetalning för artikeln. Om du ändrar innehållet i fältet **Förskottsbetalning %** i försäljnings- eller inköpshuvudet efter att du har skapat raderna uppdateras den procentuella förskottsbetalningen. Denna uppdatering gör det enkelt att upprätta en order med en fast procentandel för förskottsbetalning, utan att ta hänsyn till procentandelen som ställts in för artiklar.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Så här släpper du försäljningsorder automatiskt när förskottsbetalningar används
+## Så här släpper du försäljningsorder automatiskt när förskottsbetalningar används
 
 Du kan spara tid genom att lägga upp en jobbkötransaktion som automatiskt släpper försäljningsorder som kräver förskottsbetalning när betalningarna har kopplats. Genom att automatisera proceduren sparar du steget i frisläppa försäljningsordern.
 
@@ -104,7 +105,7 @@ Du kan spara tid genom att lägga upp en jobbkötransaktion som automatiskt slä
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.
 4. Ställ in jobbkötransaktionen **Uppdatera väntande förskottsbetalning** till exempel genom att använda inställningarna på snabbfliken **återkommande** för att schemalägga hur ofta du vill att den ska köras. Mer information finns i [Använda projektköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Genomgång: Konfigurera och fakturera förskottsbetalning för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
