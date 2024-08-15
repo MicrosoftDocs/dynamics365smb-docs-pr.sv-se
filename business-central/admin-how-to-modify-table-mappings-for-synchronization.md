@@ -28,7 +28,7 @@ När du skapar anslutningen mellan programmen ställer [!INCLUDE[prod_short](inc
 >
 > För att undvika långsam prestanda kan du aktivera eller inaktivera händelsebaserade datasynkroniseringar för alla tabeller på sidan **Registermappningar för integrering**. Som standard aktiveras händelsebaserat synkronisering så att befintliga integrationer inte påverkas. Administratören kan aktivera eller inaktivera den för specifika tabeller.
 
-### <a name="additional-mappings"></a>Ytterligare mappningar
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Ytterligare mappningar
 
 Betalningsvillkor, leveranssätt och speditörer kan ändras och det kan vara viktigt att kunna justera dem. Om du aktiverar **funktionsuppdateringen: mappa till alternativuppsättningar i Dataverse utan kod** på sidan [funktionshantering](https://businesscentral.dynamics.com/?page=2610) kan du lägga till mappningar för integrationstabeller för betalningsvillkor (BETALNINGSVILLKOR), Utleveransvillkor (LEVERANSSÄTT) och speditörer (SPEDITÖR). Med hjälp av den här mappningen kan du se till att alla principer är desamma för dessa inställningar i [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

@@ -11,7 +11,7 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Genomgång: Utföra kassaflödesprognoser med hjälp av ekonomiska rapporter
+# <a name="walkthrough-make-cash-flow-forecasts-using-financial-reports"></a>Genomgång: Utföra kassaflödesprognoser med hjälp av ekonomiska rapporter
 
 Den här genomgången beskriver hur du kan använda ekonomiska rapporter för att göra kassaflödesprognoser. Ekonomiska rapporter utför beräkningar som inte kan göras direkt i diagram för kassaflödeskonton. I ekonomiska rapporter kan du skapa delsummor för kassainflöden och utbetalningar. Dessa delsummor kan inkluderas i nya totaler som kan användas för att göra kassaflödesprognoser.  
 
@@ -42,11 +42,11 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 
 Ken är controller på CRONUS som varje månad gör kassaflödesprognoser. Ken tar med ekonomi, försäljning, inköp och anläggningstillgångar i prognosen och presenterar den för Sara som är ekonomichef.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Lägga upp ett nytt namn för ekonomisk rapport
+## <a name="set-up-a-new-financial-report-name"></a>Lägga upp ett nytt namn för ekonomisk rapport
 
 Namnet på den ekonomiska rapporten är det namn som du ger kassaflödesprognosen, som innehåller en serie definierade rader och en kolumndefinition.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Lägga upp ett nytt namn för ekonomisk rapport
+### <a name="set-up-a-new-financial-report-name-1"></a>Lägga upp ett nytt namn för ekonomisk rapport
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomisak rapporter** och väljer sedan relaterad länk.  
 2. På sidan **Ekonomiska rapporter** väljer du **Nytt** för att skapa ett nytt namn på ekonomisk rapport för kassaflöde.  
@@ -54,11 +54,11 @@ Namnet på den ekonomiska rapporten är det namn som du ger kassaflödesprognose
 4. I fältet **Beskrivning**, ange **Kassaflödesprognos**.  
 5. Lämna fälten **Raddefinition** och **Kolumndefinition** tomma.
 
-## <a name="setting-up-row-definition-lines"></a>Ställa in raddefinitionsrader
+## <a name="set-up-row-definition-lines"></a>Ställa in raddefinitionsrader
 
 När ett namn på en ekonomisk rapport ställs in definierar Ken varje rad i den ekonomiska rapporten för kassaflöde. Ken definierar rader så att de visas i rapporter förutom rader som bara används vid beräkning.  
 
-### <a name="set-up-row-definition-lines"></a>Ställa in raddefinitionsrader
+### <a name="set-up-row-definition-lines-1"></a>Ställa in raddefinitionsrader
 
 1. På sidan **Ekonomiska rapporter** väljer du den nya ekonomiska rapporten **Prognos** som du skapat och väljer sedan åtgärden **Redigera raddefinition**.  
 2. På sidan **Raddefinition** anger du varje rad exakt som i följande tabell.  
@@ -94,7 +94,7 @@ När ett namn på en ekonomisk rapport ställs in definierar Ken varje rad i den
     > [!NOTE]
     > Radnumret R10 används för att överföra kontosummorna för kundreskontra. Radnumret R20 används för att beräkna summan av alla inbetalningsjournaler. Radnumret R30 används för att överföra kontosummorna för leverantörsreskontra. Radnumret R40 används för att beräkna summan av alla kontantutbetalningar. Radnumret R50 används för att överföra summan av alla kontantöverskott. Radnumret R60 används för att överföra likvida medel. Radnumret R70 används för att beräkna kassaflödesprognosen.
 
-## <a name="setting-up-a-new-column-definition"></a>Skapa en ny kolumndefinition
+## <a name="set-up-a-new-column-definition"></a>Skapa en ny kolumndefinition
 
 Innan Ken kan skriva ut kassaflödesprognosen, måste han att skapa kolumndefinitionen för den numeriska informationen. I kolumnerna definierar Ken den information som han vill använda från raderna.
 
@@ -103,7 +103,7 @@ Innan Ken kan skriva ut kassaflödesprognosen, måste han att skapa kolumndefini
 - Den tredje kolumnen har numret *C30* och rubriken **Hela året** och innehåller nettoförändringen i saldona för hela räkenskapsåret.  
 - Slutligen anger Ken att kolumndefinitionen ska vara standardalternativet för den ekonomiska rapporten **Prognos**.  
 
-### <a name="set-up-a-new-column-definition"></a>Lägga upp en ny kolumndefinition
+### <a name="set-up-a-new-column-definition-1"></a>Lägga upp en ny kolumndefinition
 
 1. På sidan **Ekonomiska rapporter** väljer det nya namnet för rapporten **Prognos** som du skapat. På fliken **Start**, i gruppen **Bearbeta**, väljer du **Redigera kolumndefinition**.
 
@@ -119,7 +119,7 @@ Innan Ken kan skriva ut kassaflödesprognosen, måste han att skapa kolumndefini
     |C20|Belopp till datum|Saldo t.o.m. datum|Transaktioner|Nettobelopp|Alltid|  
     |C30|Hela räkenskapsåret|Hela räkenskapsåret|Transaktioner|Nettobelopp|Alltid|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Tilldela en kolumndefinition till namnet på den ekonomiska rapporten
+## <a name="assig-the-column-definition-to-the-financial-report-name"></a>Tilldela en kolumndefinition till namnet på den ekonomiska rapporten
 
 Nu kan Ken koppla kolumndefinitionen till namnet på den ekonomiska rapporten.  
 

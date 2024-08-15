@@ -24,7 +24,7 @@ Ett annat exempel är att ställa in en dimension kallad *Avdelning* och sedan a
 * Vem som sålde den.
 * Vilken kund som köpte den.
 
-## <a name="analyzing-by-dimensions"></a>Analys per dimension
+## <a name="analyze-by-dimensions"></a>Analys per dimension
 
 Dimensioner spelar en viktig roll inom affärsstöd, exempelvis när du definierar analysvyer. Läs mer i [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ En dimensionsuppsättning en är en unik kombination av dimensionsvärden. De la
 
 När du skapar en journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 
-## <a name="setting-up-dimensions"></a>Lägga upp dimensioner
+## <a name="set-up-dimensions"></a>Lägga upp dimensioner
 
 Du kan ange dimensioner och dimensionsvärden för att kategorisera journaler och dokument, till exempel försäljningsorder och inköpsorder. Du ställer in dimensioner på sidan **Dimensioner** där du skapar en rad för varje dimension som t. ex. *Projekt*, *Avdelning*, *Område* och *Säljare*.
 

@@ -62,7 +62,7 @@ Så här ställer du in ett standardvärde för ett momsdatum:
 > [!NOTE]
 > Som standard är **standarddatumet för moms** **bokföringsdatumet**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Aktivera eller inaktivera funktionen momsdatum
+### <a name="enable-or-disable-the-vat-date-feature"></a>Aktivera eller inaktivera funktionen momsdatum
 
 För vissa länder/regioner krävs att företag använder ett visst momsdatum, men andra länder/regioner är inte det. Vissa länder/regioner kräver också att företag ändrar moms datumet i särskilda situationer efter att de har bokförts, men andra länder/regioner tillåter inte ändringar av momsdatum. Om du vill tillåta olika kontexter kan du välja om du vill använda den här funktionen och i så fall i vilken grad.
 

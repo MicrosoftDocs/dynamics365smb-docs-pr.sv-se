@@ -27,7 +27,7 @@ Det finns två sätt att öppna sidan **inställningar**: 1) från meddelanderut
 
    ![Inställningar för meddelanderutan Business Central.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se även
+## <a name="related-information"></a>Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

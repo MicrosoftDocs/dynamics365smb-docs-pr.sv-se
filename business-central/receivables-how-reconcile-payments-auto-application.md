@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Stäm av betalningar med automatisk applikation
+# <a name="reconcile-payments-using-automatic-application"></a>Stäm av betalningar med automatisk applikation
 
 På sidan **Betalningsavstämningsjournal** anges betalningar, antingen inkommande eller utgående, som har registrerats som transaktioner på ditt bankkonto online eller på en betalningstjänst. Du kan koppla betalningar till relaterade öppna kund-, leverantörs- och bankkontotransaktioner. Fyll i journalen genom att importera ett kontoutdrag som en bankfeed eller fil eller genom att manuellt registrera transaktioner som du gör via din betalningstjänst.
 
@@ -43,7 +43,7 @@ För varje journalrad som representerar en betalning på sidan **Betalningsavst�
 > [!NOTE]  
 > Du kan starta banktransaktionsimporten samtidigt som du öppnar sidan **Betalningsavstämningsjournal** för en befintlig journal. Följande procedurer beskriver hur du importerar banktransaktioner till sidan **Betalningsavstämningsjournal** när du har skapat en ny journal.
 
-## Så här stämmer du av betalningar genom att använda automatisk koppling
+## <a name="to-reconcile-payments-using-automatic-application"></a>Så här stämmer du av betalningar genom att använda automatisk koppling
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Om du vill arbeta i en ny betalningsavstämningsjournal väljer du åtgärden **Ny journal**.
 3. På sidan **Betalningsbankkontolista** väljer du det bankkonto som du vill stämma av betalningar för och väljer sedan knappen **OK**.
@@ -88,7 +88,7 @@ Du kan jämföra värdet i fältet **Saldo på bankkonto efter bokföring** till
 > [!NOTE]  
 >   Om du inte vill stämma av bankkontot från **sidan Betalningsavstämningsjournal** måste du använda sidan Bankkontoavstämning **.**  Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  

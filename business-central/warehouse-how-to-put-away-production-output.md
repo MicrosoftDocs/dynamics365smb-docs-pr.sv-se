@@ -33,7 +33,7 @@ Det första steget när du inför utflöde är att skapa det inkommande distribu
 > [!NOTE]  
 > Du kan också skapa inkommande distributionslagerkrav genom att välja fältet **Skapa inkommande begärande** när du uppdaterar produktionsordern. Läs mer på [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2. Skapa en ny lagerinförsel. Läs mer på [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ När du bokför en lagerinförsel antas det att alla åtgärder bokförs enligt 
 
 Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföras, anger du utflödesantalet för den sista åtgärden till 0. Du kan välja att inte bokföra den sista raden alls genom att ta bort den.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>För att föra in monterings- eller produktionsutflöde i avancerade distributionslagerkonfigurationer
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>För att föra in monterings- eller produktionsutflöde i avancerade distributionslagerkonfigurationer
 
 När du bokför utflöde från produktion eller monteringsorder på det lagerställe som använder dirigerad artikelinförsel och plockning, placeras utflödet på den lagerplats som definierats i produktions- eller monteringsordern. Lära dig mer om olika sätt att flytta artiklar i distributionslagret med avancerade konfigurationer, gå till [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

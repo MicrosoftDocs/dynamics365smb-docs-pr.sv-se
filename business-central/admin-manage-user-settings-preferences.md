@@ -65,7 +65,7 @@ Som administratör kan du få en översikt över enskilda ändringar till [!INCL
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Så här granskar eller tar du bort användaranpassningar
+## <a name="review-or-delete-user-personalizations"></a>Så här granskar eller tar du bort användaranpassningar
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Personanpassade sidor** och väljer sedan relaterad länk.
 2. Visar en lista över användare och deras anpassade sidor. Om du vill ta bort en användares anpassning klickar du på relevant rad eller väljer **Hantera** och väljer sedan **Ta bort**.

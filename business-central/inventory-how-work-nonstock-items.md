@@ -12,7 +12,7 @@ ms.search.forms: '5725, 5726, 5732'
 ms.service: dynamics-365-business-central
 ---
 
-# Arbeta med katalogobjekt
+# <a name="work-with-catalog-items"></a>Arbeta med katalogobjekt
 
 Katalog artiklar är artiklar som du inte hanterar [!INCLUDE[prod_short](includes/prod_short.md)] förrän du säljer dem. När du använder åtgärden **Välj katalogartikel** för att lägga till en katalogartikel på en rad i en försäljningsorder, offert eller avropsorder för försäljning konverteras katalogartikeln till en vanlig artikel.
 
@@ -24,20 +24,20 @@ En katalogartikel har vanligtvis artikelnumret från den leverantör som leverer
 > [!IMPORTANT]
 > Katalogartiklar ska inte förväxlas med icke-lagerartiklar, som är vanliga artiklar som ges typen **Inte i lager** för att hålla dem från tillgänglighets- och kostnadsberäkningar, till exempel eftersom de endast används internt och har en låg kostnad. Om du vill veta mer om artiklar som inte finns i lager går du till [Om artikeltyper](inventory-about-item-types.md).
 
-## Skapar du en katalogartikel
+## <a name="create-a-catalog-item"></a>Skapar du en katalogartikel
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. På sidan **Katalogartiklar** väljer du **åtgärden Ny** .
 3. Fyll i fälten efter behov på **sidan Katalogartikel kort** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Ställ in katalogartikelnummer konverteras till ditt eget nummer
+## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Ställ in katalogartikelnummer konverteras till ditt eget nummer
 
 Innan du kan konvertera en katalogartikel till en vanlig artikel måste du ange hur leverantörens artikel nummer ska konverteras till strukturen du använder för artikelnummer.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inställning av katalogartiklar** och väljer sedan relaterad länk.
 2. I fältet **Nummerformat** väljer du det alternativ du vill använda.
 
-## Om du vill omvandla en katalogartikel till en normal artikel
+## <a name="convert-a-catalog-item-to-a-normal-item"></a>Om du vill omvandla en katalogartikel till en normal artikel
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för den katalogartikel som du vill konvertera till en normalt artikel.
@@ -45,7 +45,7 @@ Innan du kan konvertera en katalogartikel till en vanlig artikel måste du ange 
 
 Ett nytt artikelkort förifyllt med information från katalogartikeln och en artikelmall skapas. Du kan redigera informationen om den nya artikeln om det behövs. För att lära dig mer om att skapa artiklar, gå till [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-## Om du vill sälja en katalogartikel och konvertera den till en normal artikel
+## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Om du vill sälja en katalogartikel och konvertera den till en normal artikel
 
 I följande processer används en försäljningsorder, men stegen är desamma för avropsorder för försäljning och offerter.
 
@@ -59,7 +59,7 @@ I följande processer används en försäljningsorder, men stegen är desamma f�
 > [!NOTE]  
 > En artikelreferens skapas mellan leverantörens artikelnummer och det nya artikelnumret. Om du vill veta mer om artikelreferenser går du till [Använd artikelreferenser](inventory-how-use-item-cross-refs.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)    
 [Skapa specialorder](sales-how-to-create-special-orders.md)    

@@ -22,7 +22,7 @@ Standardkostnader kan bibehållas för artiklar som fylls i via inköp, monterin
 |**Montering**|Inköpskostnad för material, direkt eller fast arbetskostnad och omkostnad.|  
 |**Prod.order**|Inköpskostnad för material, arbetskostnad, underleverantörskostnad och omkostnad.|  
 
-## <a name="setting-up-standard-costs"></a>Ställa in standardkostnader
+## <a name="set-up-standard-costs"></a>Ställa in standardkostnader
 
 Eftersom standardkostnaden för en producerad eller monterad artikel kan innehålla flera kostnadsslag måste en standardkostnad utarbetas för alla följande kostnadsslag: materialkostnader, kapacitetskostnader (arbete) och leveratörskostnader (inköpskostnader och overheadkostnader).  
 
@@ -88,7 +88,7 @@ Underleverantörskostnaderna är kostnader som är kopplade till tjänster från
 
 Eftersom legotillverkning är en utlagd kapacitet ställs kostnaden för legotillverkningstjänsterna (inköpskostnad och indirekt kostnad) in för produktionsgruppkortet som motsvarar legotillverkningsoperationen.  
 
-## <a name="updating-standard-costs"></a>Uppdatera standardkostnader
+## <a name="update-standard-costs"></a>Uppdatera standardkostnader
 
 Använd funktionen från artikelkortet för att uppdatera eller beräkna standardkostnaden för monteringsartiklar.  
 

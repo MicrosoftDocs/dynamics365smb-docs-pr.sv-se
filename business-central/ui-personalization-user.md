@@ -27,7 +27,7 @@ Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åt
 > Administratörer kan utföra samma layoutändringar när användare kan anpassa den profil (roll) som tilldelas flera användare. Om du vill veta mer om sidor för roller går du till [anpassa sidor för roller](ui-personalization-manage.md)<br /><br />
 Administratörer kan också åsidosätta eller inaktivera användarnas anpassning och de kan definiera vilka funktioner som till och med är tillgängliga för användare att se i alla eller specifika företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 I följande video visas några av de sätt som du kan anpassa ditt rollcenter på.
 

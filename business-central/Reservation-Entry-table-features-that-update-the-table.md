@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tabellen Reservationstransaktion - Introduktion
+# <a name="reservation-entry-table---introduction"></a>Tabellen Reservationstransaktion - Introduktion
 
 Det här tekniska faktabladet innehåller vägledning som hjälper dig att förstå och felsöka problem med datainkonsekvens i tabellen *Reservationstransaktion* (tabell 337) i Microsoft Dynamics NAV. Den första delen är en introduktion till de funktioner som genererar eller ändrar data i den här tabellen. Den täcker också flera fält i tabellen Reservationstransaktion *som* är värda att påpeka i samband med dessa funktioner. Den andra delen visar med exempel hur transaktioner i *tabellen Reservationstransaktion* genereras, tas bort eller ändras när överföringsorder bearbetas eller planeringsfunktioner körs.
 
@@ -28,9 +28,9 @@ Generellt sett beror de data som genereras i tabellen Reservationstransaktion *p
 - Planeringsparametrar för artikeln eller lagerställeenheten kort
 - Artikelspårningskod
 
-## Funktioner som uppdaterar tabellen Reservationstransaktion
+## <a name="features-that-update-the-reservation-entry-table"></a>Funktioner som uppdaterar tabellen Reservationstransaktion
 
-### Policy för orderspårning
+### <a name="order-tracking-policy"></a>Policy för orderspårning
 
  **Om fältet Orderspårningsprincip** för en artikel är inställt på Ingen, Microsoft Dynamics NAV  skapas aldrig reservationstransaktioner i *tabellen Reservationstransaktion*, såvida inte nettoförändringsplanen eller den generativa planen, reservationen eller artikelspårningen utförs. Utan att orderspårning är aktiverad kan du dessutom ha reservationstransaktioner när du använder policyerna Manufacturing-to-Order eller Assembly-to-Order.
 
@@ -51,7 +51,7 @@ Genom att ange **fältet Orderspårningsprincip** för artikeln till Endast spå
 > [!NOTE]  
 > Spårningsfunktionen ersätter inte planeringsfunktionen, som tar hänsyn till alla artiklar, behov och leveranser tillsammans för att ge optimala planeringsförslag för att optimera kundservicenivåer och balansera lagernivåer.
 
-### Policy för bokning
+### <a name="reservation-policy"></a>Policy för bokning
 
 En reservation består av ett par poster i tabellen Reservationstransaktion *med* reservationsstatusen **Reservation**, som delar samma postnummer. En post har fältet Positiv aktiverat och pekar på tillgången. Den andra posten har fältet **Positiv** inte aktiverat och pekar på efterfrågan. Fälten **Ursprungstyp**, **Källref.nr** och **Käll-ID** markerar reservationslänken mellan tillgång och efterfrågan.
 
@@ -122,7 +122,7 @@ Microsoft Dynamics NAV visar följande varningsmeddelande:
 
 Detta avslutar demonstrationen av interaktionen mellan att använda automatiska reservationer och orderspårning. Exemplen visar också vad som händer när du ändrar förfallodatum och felmeddelandet som utlöses när Dit är en reservationskonflikt.
 
-### Planering beräknad
+### <a name="planning-calculated"></a>Planering beräknad
 
 Planering som görs med orderplanering, inköpsförslag eller planeringsförslag genererar transaktioner i *tabellen Reservationstransaktion* med **fältet Reservationsstatus** inställt på Spårning, Reservation eller Överskott. Dit ska alltid vara ett matchande par med samma löpnummer med positivt och negativt värde i **Antal (bas)** -fält när statusen är Spårning eller Reservation. Fältet Ursprungstyp **blir** behovstypen, d.v.s. tabell 37 för den negativa kvantiteten och en planeringstabell, till exempel tabell 246, för den positiva kvantiteten. Fältet Käll-ID **blir** PLANERING.
 
@@ -145,7 +145,7 @@ Dessa poster skapas under planeringen och förklarar var den ej spårade översk
 
  *I tabellen Reservationstransaktion*, liksom på inköps-, överförings- och produktionsorder, är Dit ett **fält för planeringsflexibilitet** . I det här alternativfältet anges om leveransen som representeras av dessa leveransorder beaktas av planeringssystemet när åtgärdsmeddelanden beräknas. Om fältet innehåller alternativet Obegränsat, inkluderar planeringssystemet raden när åtgärdsmeddelanden beräknas. Om fältet innehåller alternativet Ingen är raden fast och går inte att ändra, och planeringssystemet inkluderar inte raden när åtgärdsmeddelanden beräknas. Funktionen hanteras i *tabellen Reservationstransaktion* av fältet med samma namn.
 
-### Beställnings- och tillverkningspolicy
+### <a name="reordering-and-manufacturing-policy"></a>Beställnings- och tillverkningspolicy
 
 Om en planeringsfunktion körs för en artikel som angetts med Partiformningsprincipen inställd på Order, Microsoft Dynamics NAV  skapas transaktioner i *tabellen Reservationstransaktion* med reservationsstatusen Reservation i stället för Spårning.
 
@@ -153,7 +153,7 @@ Fälten Ursprungstyp **och** **Käll-ID** behandlas på samma sätt som andra pa
 
 Fältet **Bindning** fylls i för att styra leveransorder som är bundna till en viss efterfrågan, till exempel produktionsorder som skapas direkt från en försäljningsorder. I fältet visas Order-till-order när transaktionen är knuten till en efterfrågan eller en leverans (Automatisk reservation). Behovet kan vara relaterat till försäljning eller komponentbehov.
 
-### Artikelspårning och reservationstransaktion för potentiella kunder
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Artikelspårning och reservationstransaktion för potentiella kunder
 
 Reservationsstatusen för potentiell kund kan skapas i Microsoft Dynamics NAV  *tabellen Reservationstransaktion* när du inte använder några ordernätverksentiteter, det vill säga orderspårning. På en förbrukningsjournalrad tilldelar du till exempel komponenten Artikelspårning. Om artikeln redan har orderspårats kan det Microsoft Dynamics NAV  dock skapa fler reservationstransaktioner för potentiella kunder. Detta visas i EXEMPEL 2 som rör överföringsorder i den andra delen av detta dokument.
 
@@ -167,15 +167,15 @@ Eftersom artikeltransaktionerna innehåller artikelspårningsinformation reserve
 
 Mer information finns i de Microsoft Dynamics NAV tekniska faktablad som anges i Ytterligare resurser i slutet av det här dokumentet.
 
-### Fälten Källsubtyp, Undertryckt åtgärdsmeddelande, Justering av åtgärdsmeddelande och Tillåt inte annullering
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Fälten Källsubtyp, Undertryckt åtgärdsmeddelande, Justering av åtgärdsmeddelande och Tillåt inte annullering
 
 Fälten Källsubtyp **,** Undertryckt åtgärdsmeddelande **,** Justering **av åtgärdsmeddelande och** Tillåt inte annullering **i tabellen Reservationstransaktion** beskrivs i det *här avsnittet* . Scenarier tillhandahålls för att demonstrera användningen av fälten **Undertryckt åtgärdsmeddelande**, **Justering** av åtgärdsmeddelande och **Tillåt inte annullering** . Fältet **Justering** av åtgärdsmeddelande används för orderspårningspolicyfunktionen Spårning och Åtgärdsmeddelande. Fältet **Tillåt inte annullering** används för funktionen Montering mot order under Microsoft Dynamics NAV 2013.
 
-#### Ursprungssubtyp
+#### <a name="source-subtype"></a>Ursprungssubtyp
 
 I fältet Källundertyp **visas** vilken källundertyp reservationstransaktionen är relaterad till. Om transaktionen är kopplad till en inköpsrad eller försäljningsrad kopieras fältet från **fältet Dokumenttyp** på raden. Om den är relaterad till en journalrad kopieras fältet från **fältet Transaktionstyp** på journalraden.
 
-#### Undertryckt åtgärdsmedd.
+#### <a name="suppressed-action-msg"></a>Undertryckt åtgärdsmedd.
 
 Den **undertryckta åtgärden msg.** Fältposter när en befintlig leverans redan har bearbetats delvis, till exempel när en inköpsorder redan har inlevererats delvis eller när förbrukning bokförts mot en produktionsorder.
 
@@ -208,7 +208,7 @@ Transaktion nr 28 i tabell 337 har reservationsstatusen Spårning för att match
 
 Transaktion nr 30 är den befintliga inköpsorder som delvis har inlevererats med kvantitet 2.  **Därför är fältet Reservationsstatus** Överskott och Microsoft Dynamics NAV anger **fältet Antal (bas)**  till *8*  (återstående saldo) och Undertryckt **åtgärdsmeddelande.** är aktiverat.
 
-#### Åtgärdsmedd.justering
+#### <a name="action-message-adjustment"></a>Åtgärdsmedd.justering
 
 I **fältet Justering** av åtgärdsmeddelande visas den ändring på orderspårningssidan som uppstår när du accepterar relaterade åtgärdsmeddelanden. Ett värde visas bara Hit när funktionerna för både orderspårning och åtgärdsmeddelanden är aktiva (Orderspårningsprincip inställd på Spårning &; Åtgärdsmeddelande). Värdet beräknas baserat på data i *tabellen Åtgärdsmeddelandetransaktion* (tabell 99000849). Följande exempel fungerar som en illustration:
 1. Öppna artikel 80002. Ange följande fält:
@@ -224,7 +224,7 @@ Statusinformationen i tabell 337 visas i följande bild.
 6. Transaktion nr 34 har fältet **Åtgärdsmeddelandejustering** i tabell 337 aktiverat för 5 enheter med reservationsstatus Surplus. Eftersom försäljningsordern ökades till 5 Microsoft Dynamics NAV  steg skapades den här reservationen eftersom mer tillgång krävs.
 7. Öppna sidan **Planeringsförslag** och välj **Hämta åtgärdsmeddelanden i** gruppen **Process** på fliken **Start**. Microsoft Dynamics NAV föreslår att inköpsorderantalet ökas från 100 till 105.
 
-#### Tillåt inte annullering
+#### <a name="disallow-cancellation"></a>Tillåt inte annullering
 
 I **fältet Tillåt inte annullering** anges att reservationstransaktionen utgör länken mellan en försäljningsorderrad och en monteringsorder. Du kan inte ta bort den här reservationen eftersom den krävs för att upprätthålla synkroniseringen som sker när en artikel sätts ihop på beställning. Följande exempel fungerar som en illustration:
 
@@ -253,7 +253,7 @@ Transaktion nr 82 har reservationsstatusöverskott som 9 enheter av monteringsko
 
 Löpnr 86 har bindande order-till-order med reservationsstatusreservation. Dessutom är fältet **Tillåt inte annullering** aktiverat eftersom monteringsprincipen är inställd som Montera mot order för artikelmontering FG. Slutligen **anges fältet Planeringsflexibilitet** till Ingen, eftersom Microsoft Dynamics NAV planeringslogiken inte tillåter att reservationen tas bort.
 
-#### Antal tillgängliga för plockning och reservation
+#### <a name="quantity-available-to-pick-and-reservations"></a>Antal tillgängliga för plockning och reservation
 
 Det **reserverade plock- och leveransantalet.** Fältet i tabell 337 som finns i versioner före Microsoft Dynamics NAV 2013 styr artikeltillgängligheten i ett hanterat lagerställe. I alla installationer av Microsoft Dynamics NAV lagerstyrning finns artikelkvantiteter både som lagertransaktioner och som artikeltransaktioner. Dessa två transaktionstyper innehåller olika information om var artiklar finns och om de är tillgängliga. Distributionslagertransaktioner definierar en artikels tillgänglighet per lagerplats och lagerplatstyp, vilket kallas lagerplatsinnehåll. Artikeltransaktioner definierar en artikels disposition genom dess reservation till avgående dokument. Det finns särskilda funktioner i plockningsalgoritmen för att beräkna den kvantitet som är tillgänglig för plockning när lagerplatsinnehåll kombineras med reservationer. Plockningsalgoritmen subtraherar kvantiteter som är reserverade för andra utgående dokument, kvantiteter i befintliga plockningsdokument och kvantiteter som har plockats men ännu inte levererats eller förbrukats. Resultatet visas i **fältet Disponibelt antal att plocka** på sidan **Plockningsförslag**, där fältet beräknas dynamiskt. Värdet beräknas också när en användare skapar distributionslagerplockningar direkt från utgående dokument, till exempel försäljningsorder, produktionsförbrukning eller utgående överföringar.
 
@@ -301,9 +301,9 @@ När lagerartikelinförseln registreras i steg 7 kan lagerplockningen skapas i s
 
 Följande illustration är hämtad från Microsoft Dynamics NAV 2009 R2.
 
-## Illustrationer med överföringsorder och planering
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Illustrationer med överföringsorder och planering
 
-### Överföringsorder
+### <a name="transfer-orders"></a>Överföringsorder
 
 När du använder överföringsorder och artikeln är levererad men inte helt mottagen, får du reservationsstatusen *Överskott i tabellen Reservationstransaktion* . Lagerställekoden blir Överföring till lagerställe.
 
@@ -313,7 +313,7 @@ När orderspårning är aktiverad och Dit inte finns någon efterfrågan (förs�
 
 Detta visas i det första exemplet.
 
-#### Exempel 1
+#### <a name="example-1"></a>Exempel 1
 
 1. Öppna artiklarna 80003 och 80004 och ställ in fältet **Spårningsprincip** på *Endast* spårning. Lämna de andra fälten som standard.
 2. Öppna en artikeljournal och öka lagret av dessa artiklar till kvantiteten 10 vardera mot lagerställe RÖD och bokför journalraderna.
@@ -342,7 +342,7 @@ Förklaringen till följande fält mot reservationstransaktion 43 är följande:
 |**Ursprungstyp**|Tabellen Artikeltransaktion 32.|  
 |**Källa ref. nr.**|Det öppna artikeltransaktionsnumret 322.|
 
-#### Exempel 2
+#### <a name="example-2"></a>Exempel 2
 
 I nästa exempel visas vad som händer när en komponent överförs mellan lagerställen, men samtidigt spåras mellan ett behovsbehov och ett tillgängligt utbud. Komponenterna överförs från lagerställe RÖD till BLÅ, som ska förbrukas på en släppt produktionsorder. Komponenten använder orderspårning, orderplanering och artikelspårning.
 
@@ -378,7 +378,7 @@ Den producerade artikeln får utdata mot lagerstället BLÅ.
 
 Statusinformationen i tabell 337 visas i följande bild.
 
-##### Reservationstransaktioner med nummer 55 och 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Reservationstransaktioner med nummer 55 och 56
 
 För komponentbehovet för del A respektive parti B skapas orderspårningslänkar från efterfrågan i tabell 5407, Prod.orderkomponent, till tillgången i tabell 32, Artikeltransaktion. Fältet **Reservationsstatus** innehåller spårning för alla fyra transaktionerna för att indikera att dessa dynamiska orderspårningslänkar mellan tillgång och efterfrågan.
 
@@ -387,7 +387,7 @@ Efterfrågan i tabell 5407, Prod.orderkomponent, är kopplad till käll-ID för 
 > [!NOTE]  
 > Fältet **Partinr** är tomt på behovsraderna, eftersom partinumren inte har specificerats på komponentraderna för den släppta produktionsordern.
 
-##### Reservationstransaktion med nummer 57
+##### <a name="reservation-entry-with-number-57"></a>Reservationstransaktion med nummer 57
 
 Från försäljningsbehovet i tabell 37, Försäljningsrad, skapas en orderspårningslänk till tillgången i tabell 5406, Prod.orderrad. Fältet **Reservationsstatus** innehåller Reservation och fältet **Bindning** innehåller Order-till-order. Detta beror på att den släppta produktionsordern genererades specifikt för försäljningsordern och måste förbli länkad till skillnad från orderspårningslänkar med reservationsstatus Spårning, som skapas och ändras dynamiskt.
 
@@ -405,11 +405,11 @@ Bokför det totala utestående antalet som ENDAST levererat.
 
 Statusinformationen i tabell 337 visas i följande bild.
 
-##### Reservationstransaktioner med nummer 55 och 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Reservationstransaktioner med nummer 55 och 56
 
 Orderspårningstransaktioner för de två partierna av komponenten som återspeglar efterfrågan i tabell 5407 ändras från reservationsstatusen Spårning till Överskott. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern. Äkta överskott, som i det här fallet, återspeglar överskjutande tillgång eller efterfrågan som inte har spårats. Det är en indikation på obalans i ordernätverket, som genererar ett åtgärdsmeddelande från planeringssystemet om det inte löses dynamiskt.
 
-##### Bokningsnummer 59 till 63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Bokningsnummer 59 till 63
 
 Eftersom komponentens två partier bokförs på överföringsordern som levererade men inte inlevererade, är alla relaterade positiva orderspårningstransaktioner av reservationstypen Surplus, vilket indikerar att de inte allokeras till några krav. För varje partinummer avser en transaktion tabell 5741, Överföringsrad, och en transaktion avser artikeltransaktionen på det transitlagerställe där artiklarna nu finns.
 
@@ -434,21 +434,21 @@ Stäng formuläret Artikelspårning.
 
 Statusinformationen i tabell 337 visas i följande bild.
 
-##### Reservationstransaktioner med nummer 68 och 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Reservationstransaktioner med nummer 68 och 69
 
 Eftersom komponentbehovet har ändrats till lagerstället BLÅ och tillgången är tillgänglig som artikeltransaktioner på lagerstället BLÅ, är alla orderspårningstransaktioner för de två partinumren nu helt spårade, vilket indikeras av reservationsstatusen Spårning. Partinumren fylls inte i på **partinumret.** mot efterfrågan i tabell 5406,Prod.orderrad **·**, eftersom vi inte angav partinummer för komponenten på den släppta produktionsordern.
 
-##### Reservationstransaktioner med nummer 70 och 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Reservationstransaktioner med nummer 70 och 71
 
 Transaktioner med reservationsstatus Potentiell kund genereras i tabell 337. Anledningen är att båda partinumren tilldelas komponenten i förbrukningsjournalen, men journalen har inte bokförts.
 
 Detta avslutar avsnittet om hur orderspårningstransaktioner i **tabellen Reservationstransaktion** genereras, ändras och tas bort när flera funktioner används i kombination med överföringsorder.
 
-### Planering beräknad
+### <a name="planning-calculated-1"></a>Planering beräknad
 
 När du använder planeringsfunktioner, det vill säga **inköpsförslaget** **, planeringsförslaget** eller **orderplaneringen**, kan reservationsposterna i **tabellen Reservationstransaktion** 337 ändras eller läggas till beroende på planeringsförslaget i logiken i Microsoft Dynamics NAV. Exempel 3 använder **Ändra ordning på principorder** med **Tillverkningsorder för tillverkningsprincip** för en producerad artikel. Komponenten använder **Partiformningsprincip** Fast orderkvantitet.
 
-#### Exempel 3
+#### <a name="example-3"></a>Exempel 3
 
 1. I **Produktionsinställningar**  kort **är Komponent vid lagerställe** RÖD från föregående exempel.
 2. Skapa ny överordnad artikel 70061. Ange följande fält:
@@ -497,17 +497,17 @@ Fältet **Reservationsstatus** är Reservation och en Order-till-order-bindning 
 
 Behovet på 40 enheter i fältet **Käll-ID** är försäljningsordernummer 1005 och Ursprungstyp är *Försäljningsrad* tabell 37. Reservationstransaktionen justeras med planeringsförslaget, Källreferensnr. 10000, Käll-ID är PLANERING och Källtyp är *Rekvisitionsrad* tabell 246. Så Dit är en balans mellan behovet från försäljningsordern och det utbud som föreslås av planeringsmotorn.
 
-##### Reservationsnummer 73 och 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Reservationsnummer 73 och 74
 
 Genom att köra batch-jobbet Beräkna plan genereras de följande fyra transaktionerna med reservationsstatusen Spårning på grund av inställningen för ombeställningsprincipen Fast beställningskvantitet för komponenten. Den försörjning som krävs för komponentartikel 70062 fylls på med de planeringsförslag som ges, Källref.nr. 20000 och 30000, med Käll-ID satt till PLANERING och Källtyp från *tabell 246 Rekvisitionsrad* . Komponentbehovet skapas för att uppfylla behovet mot den överordnade artikeln 70061 för totalt antal (bas) 40. Som ett resultat av denna efterfrågan är fältet **Källa prod.orderrad** 10000, med Källtyp tabellen *Komponentbehov* 99000829.
 
 Reservationsstatusen är inte Överskott, eftersom det finns orderspårning mellan behovet av den överordnade artikeln 70061 och tillgången av komponentartikel 70062.
 
-##### Reservationsnummer 75 och 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Reservationsnummer 75 och 76
 
 De två sista transaktionerna har reservationsstatusen Överskott, eftersom dessa är Ospårade kvantiteter som genereras i planeringsförslaget och som är relaterade till beställningsparametrarna Beställningspunkt och Beställningskvantitet.
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Designdetaljer: Design för artikelspårning](design-details-item-tracking-design.md)  
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)   

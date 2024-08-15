@@ -28,7 +28,7 @@ I följande avsnitt finns beskrivningar om att:
 3. Ange det sista datumet för lagerperioden som definieras i fältet **Slutdatum**. När perioden har stängts går det inte längre att bokföra lagerändringar före det här datumet.  
 4. Ange ett beskrivande namn i fältet **Namn**. Välj **OK**.  
 
-## <a name="closing-inventory-periods"></a>Stänga lagerperioder
+## <a name="to-close-inventory-periods"></a>Stänga lagerperioder
 
 I fältet **Stängd** anges om lagerperioden är stängd för lagervärdeändringar. Fältet kan inte redigeras.  
 

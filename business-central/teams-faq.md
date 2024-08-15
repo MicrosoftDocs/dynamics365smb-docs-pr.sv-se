@@ -441,7 +441,7 @@ I det här läget är dela till Teams tillgänglig på skrivbord webbklienten, i
 **Dela till Teams åtgärd** finns i **Dela** på alla sidor, till exempel kort- och dokumentsidor, list- eller kalkylbladssidor, inklusive anpassade sidor. Åtgärden är inte tillgänglig i dialogrutor eller sidor som visas som dialogrutor, till exempel uppslagssidor eller guider.
 
 ---
-## <a name="see-also"></a>Se även
+## <a name="related-information"></a>Se även
 
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

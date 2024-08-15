@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
+# <a name="set-up-cost-accounting"></a>Ställa in kostnadsredovisning
 
 Innan du börjar arbeta med kostnadsredovisning, måste du utföra inställningsuppgifter.
 
@@ -24,7 +24,7 @@ Genom att göra det, kan du skapa följande ekvation:
 
 När du skriver ut rapporter med kostnadstyper, kostnadsställen och kostnadsbärare kan du analysera det här förhållandet.
 
-## <a name="setting-up-cost-types"></a>Lägga upp kostnadstyper
+## <a name="set-up-cost-types"></a>Lägga upp kostnadstyper
 
 Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera planen för kostnadstyper på följande sätt:  
 

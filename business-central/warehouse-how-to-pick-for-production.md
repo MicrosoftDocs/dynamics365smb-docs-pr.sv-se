@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Plocka för produktion, montering eller jobb i grundläggande distributionslagerkonfigurationer
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Plocka för produktion, montering eller jobb i grundläggande distributionslagerkonfigurationer
 
 Hur du för in plockningskomponenter för produktions, jobb eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 

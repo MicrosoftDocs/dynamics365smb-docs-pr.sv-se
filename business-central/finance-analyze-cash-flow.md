@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
+# <a name="analyze-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
 Diagrammen i rollcentret Revisor ger en inblick som hjälper dig att ta beslut om vad du ska göra med dina kontanter.  
 
 | För att svara på frågor som de här | Använd det här diagrammet |

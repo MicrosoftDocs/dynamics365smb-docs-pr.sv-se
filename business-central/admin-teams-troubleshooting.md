@@ -174,7 +174,7 @@ Problemet beror på att du inte har installerat BC-appen för Teams. Endast de m
 Problemet beror förmodligen på att du har delat en listvy som är en personlig vy. I det här fallet måste du arbeta med administratören för att skapa rollbaserade listvyer som täcker de olika rollerna i kanalen/chatten, eller skapa vyn för hela organisationen så att alla kan få en enhetlig vy.
 
 
-## <a name="see-also"></a>Se även
+## <a name="related-information"></a>Se även
 
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Plocka för produktion, montering eller projekt i avancerade distributionslagerkonfigurationer
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Plocka för produktion, montering eller projekt i avancerade distributionslagerkonfigurationer
 
 Hur du för in plockningskomponenter för produktions, projekt eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
 
 8. Välj **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Så här plockar du artiklar för en produktionorder, monteringsorder, projekt
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Så här plockar du artiklar för en produktionorder, monteringsorder, projekt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 

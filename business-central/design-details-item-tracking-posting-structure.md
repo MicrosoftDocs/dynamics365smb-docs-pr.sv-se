@@ -25,13 +25,13 @@ Tabellen **Artikeltrans. relation** som används för att koppla en bokförd dok
   
 Funktionen för det befintliga fältet **Löpnr**, som gäller en artikeltransaktion till en bokförd dokumentrad, hanterar den typiska ett-till- ett-relationen när inget artikelspårningsnummer finns på den bokförda dokumentraden. Om artikelspårningsnummer finns är fältet **Löpnr** tom och en-till-flera-relationen hanteras av tabellen **Artikeltrans. relation**. Om den bokförda dokumentraden har artikelspårningsnummer men endast är knuten till en enda artikeltransaktion, hanterar fältet **Löpnr** relationen och ingen transaktion skapas i tabellen **Artikeltrans. relation**.  
   
-## <a name="codeunits-80-and-90"></a>Kodenhet 80 och 90
+## <a name="codeunits-80-sales-post--and-90-purch-post"></a>Kodenhet 80 och 90
 Om du vill dela artikeltransaktionerna vid bokföring omringas koden i kodenhet 80 och kodenhet 90 med loopar som körs via globala, tillfälliga postvariabler. Koden anropar kodenhet 22 med en artikeljournalrad. Dessa variabler aktiveras när artikelspårningsnummer finns för dokumentraden. För att hålla koden enkel används alltid den här loopstrukturen. Om inga artikelspårningsnummer finns för dokumentraden infogas en enda post, och loopen körs bara en gång.  
   
 ## <a name="posting-the-item-journal"></a>Bokför artikeljournalen
 Artikelspårningsnummer överförs via de Reservationstransaktioner som är relaterade till den aktuella artikeltransaktionen och upprepa format i artikelspårningsnummer automatiskt i kodmodul 22. Detta fungerar på samma sätt när en artikeljournalrad indirekt för att bokföra en försäljning eller inköp som när du använder en artikeljournalrad direkt. När artikeljournalen används direkt pekar fältet **Källrad-ID** på själva artikeljournalraden.  
   
-## <a name="code-unit-22"></a>Kodenhet 22
+## <a name="code-unit-22--item-jnl-post-line"></a>Kodenhet 22
 Kodenhet 80 och 90 tar anropet i kodenhet 22 i en loop under fakturabokföringen av artikelspårningsnummer och vid faktureringen av befintliga leveranser eller kvitton.  
   
 Under antalsbokföring av artikelspårningsnummer hämtar kodenhet 22 artikelspårningsnummer från transaktionerna i T337 som avser bokföringen. Dessa transaktioner placeras direkt på artikeljournalraden.  

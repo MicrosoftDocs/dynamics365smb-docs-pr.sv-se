@@ -28,7 +28,7 @@ För varje fördelningsmål definierar du en fördelningsbas. Fördelningsbasen 
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Ställa in fördelningskälla och mål
+## <a name="set-up-allocation-source-and-targets"></a>Ställa in fördelningskälla och mål
 
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Fördelningskällan bestämmer vilka kostnader som ska fördelas. Fördelningsmålen bestämmer vart kostnaderna ska fördelas.  
 
@@ -50,11 +50,11 @@ Varje fördelning består av en fördelningskälla och en eller flera fördelnin
 > [!NOTE]  
 > Markera kryssrutan **Spärrad** om du vill inaktivera fördelningskonfigurationen.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Skapa filter för dynamiska fördelningsbaser
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Skapa filter för dynamiska fördelningsbaser
 
 Den dynamiska fördelningsmetoden bygger på värden som kan ändras. Till exempel antalet anställda i ett kostnadsställe eller artiklar som säljs på en kostnadsbärare för en viss tidsperiod. Det finns nio fördefinierade fördelningsbaser och tolv dynamiska datumintervall. Du kan ange olika filter baserade på fördelningsbasen.  
 
-### <a name="setting-filters"></a>Ställa in filter
+### <a name="set-filters"></a>Ställa in filter
 
 Följande tabell visar vilka filter är möjliga för olika fördelningsbaser och vilka värden som gäller i fälten **Nummerfilter** och **Gruppfilter**. Välj <kbd>F1</kbd> i fälten **Kod för datumfilter** om du vill läsa detaljerad beskrivningar.  
 

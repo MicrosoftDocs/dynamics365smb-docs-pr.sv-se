@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Förstå redovisningen och kontoplanen
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Förstå redovisningen och kontoplanen
 
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som du bokför redovisningstransaktioner på. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 

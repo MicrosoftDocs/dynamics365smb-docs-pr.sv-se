@@ -76,7 +76,7 @@ Mer information finns i [Lägg till fliken Business Central i Teams](across-team
 3. Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen in Team. Se [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md).
 4. När du har installerat appen är du klar att sätta igång. Se [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) och [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Se även
+## <a name="related-information"></a>Se även
 
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
