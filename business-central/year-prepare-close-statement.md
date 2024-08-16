@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Förbereda bokslutsposter
+# Förbereda bokslutsposter
 
 [!INCLUDE [prod_short](includes/prod_short.md)] erbjuder standardrapporter som kan hjälpa dig att samla in den information du behöver för att förbereda ditt företags bokslutsrapporter. I följande tabell beskrivs rapporterna.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 
 Om du vill söka efter en rapport väljer du ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

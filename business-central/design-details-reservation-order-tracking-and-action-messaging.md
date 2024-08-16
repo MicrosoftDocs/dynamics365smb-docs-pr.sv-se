@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation orderspårning och åtgärdsmeddelanden
+# Designdetaljer: Reservation orderspårning och åtgärdsmeddelanden
 
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  
 
@@ -29,13 +29,13 @@ Reservationsystemet kommunicerar med planeringssystemet genom att skapa åtgärd
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 -->
 
-## <a name="reservation"></a>Reservation
+## Reservation  
 
  En reservation är en fast koppling som ansluter en viss efterfrågan och tillgång till varandra. Den här länken påverkar direkt den efterföljande lagertransaktionen och säkerställer rätt koppling av artikeltransaktioner för kostnadsskäl. En reservation åsidosätter standardvärderingsprincipen för en artikel. Mer information finns i [Designdetaljer: Artikelspårning](design-details-item-tracking.md).  
 
  Sidan **Reservation** kan nås från alla orderrader av både tillgångs- och efterfråganstyp. På den här sidan kan du ange vilka efterfråganstransaktioner eller tillgångstransaktioner att skapa en reservationslänk till. Reservationen består av ett par poster som har samma löpnummer. En post har ett negativt tecken och pekar på efterfrågan. Den andra posten har ett plustecken och pekar mot tillgången. Dessa poster lagras i tabellen Reservationstransaktion *med* statusvärdet *Reservation*. Användaren kan visa alla reservationer på sidan **Reservationstransaktioner**.  
 
-### <a name="offsetting-in-reservations"></a>Motkontering i reservationer
+### Motkontering i reservationer  
 
  Reservationer görs mot tillgängligt antal artiklar. Artikeldispositionen beräknas i grundläggande villkor enligt följande:  
 
@@ -58,7 +58,7 @@ Reservationsystemet kommunicerar med planeringssystemet genom att skapa åtgärd
 
  Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).  
 
-### <a name="manual-reservation"></a>Manuell reservation
+### Manuell reservation  
 
 När en användare med vilje skapar en reservation får användaren fullständig äganderätt och ansvar för dessa artiklar. Det betyder att användaren också måste ändra numret manuellt eller annullera en reservation. Sådana manuella ändringar kan orsaka automatisk ändring av de berörda reservationerna.  
 
@@ -74,7 +74,7 @@ I följande tabell visas när och vilka ändringar som kan göras:
 > [!NOTE]  
 > Funktionen Sen bindning kan också ändra reservationer utan att informera användaren, genom att ombilda icke-specifika reservationer av serie- eller partinummer. Mer information finns i  [Designdetaljer: artikelspårning och reservationer](design-details-item-tracking-and-reservations.md).  
 
-### <a name="automatic-reservations"></a>Automatiska reservationer
+### Automatiska reservationer  
 
  Artikelkortet kan ställas in att alltid vara reserverat automatiskt från efterfrågan, till exempel försäljningsorder. I så fall skapas en reservation mot lager, inköpsorder, monteringsorder och produktionsorder. En varning skickas ut om tillgången inte räcker.  
 
@@ -96,7 +96,7 @@ Automatiska reservationer som upprättas under planeringskörningen hanteras på
 
 - De inkluderas och kan ändras i efterföljande planeringskörningar, i motsats till manuellt reserverade artiklar.  
 
-## <a name="order-tracking"></a>Orderspårning
+## Orderspårning  
 
 Orderspårning hjälper planeraren att upprätthålla en giltigt leveransplan genom att visa en översikt över motkontering mellan efterfrågan och tillgång i ordernätverket. Orderspårningposterna fungerar som grund för att skapa dynamiska åtgärdsmeddelanden och planeringsradförslag vid planeringskörningar.  
 
@@ -106,7 +106,7 @@ Orderspårning hjälper planeraren att upprätthålla en giltigt leveransplan ge
 > [!NOTE]  
 > Orderspårningsprincipen och funktionen Hämta åtgärdsmeddelanden är inte integrerade med Projekt. Det betyder att efterfrågan som hör till ett projekt inte spåras automatiskt. Eftersom den inte spåras kan det orsaka att användningen av en befintlig återanskaffning med projektinformation spåras för en annan efterfrågan, till exempel en försäljningsorder. Du kan därför hamna i en situation där din information om disponibelt lager inte är synkroniserad.  
 
-### <a name="the-order-network"></a>Ordernätverket
+### Ordernätverket  
 
 Orderspårningsystemet baseras på principen att ordernätverket alltid måste vara i ett balanserat tillstånd där varje efterfrågan som kommer in i systemet räknas av mot en motsvarande tillgång och vice versa. Systemet gör det genom att identifiera logiska länkar mellan alla efterfrågans- och tillgångstransaktioner i ordernätverket.  
 
@@ -114,7 +114,7 @@ Principen betyder att en ändring i efterfrågan leder till motsvarande obalans 
 
 Om du vill öka översikten över beräkningar i planeringssystemet visar sidan **Ej spårade planeringselement** antal som inte spårats, och som representerar skillnaden i antal mellan det kända behovet och den föreslagna tillförseln. Varje rad på sidan refererar till orsaken för överskottsantalet, till exempel **Avropsorder**, **Säkerhetslagernivå**, **Fast orderkvantitet**, **Min. partistorlek**, **Avrundning**eller **Dämpare**.  
 
-### <a name="offsetting-in-order-tracking"></a>Motkontering i orderspårning
+### Motkontering i orderspårning  
 
 I motsats till reservationer, som kan bara utföras mot tillgängliga artikelantal, är orderspårning möjlig mot alla ordernätverksenheter som ingår i beräkningen av nettobehov i planeringssystemet. Nettobehoven beräknas enligt följande:  
 
@@ -123,7 +123,7 @@ I motsats till reservationer, som kan bara utföras mot tillgängliga artikelant
 > [!NOTE]  
 > Efterfrågan som är kopplad till prognoser eller planeringsparametrar inte är orderspårad.  
 
-### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Exempel: Orderspårning i försäljningar, produktion och överföringar
+### Exempel: Orderspårning i försäljningar, produktion och överföringar  
 
 I följande scenario visas vilka orderspårningstransaktioner som skapas i tabellen Reservationstransaktion *till* följd av olika ändringar i ordernätverket.  
 
@@ -155,14 +155,14 @@ Följande orderspårningstransaktioner finns i tabellen Reservationstransaktion 
 |10|Ja|PRODUCERAD ARTIKEL|VÄSTRA|100|Reservation|Producerad artikel|-|5406|101004|Order-till-Order|
 
 
-#### <a name="entry-numbers-8-and-9"></a>Löpnummer 8 och 9
+#### Löpnummer 8 och 9  
 
 För komponentbehovet för LOTA respektive LOTB skapas orderspårningslänkar från efterfrågan i tabell 5407, *Prod.orderkomponent*, till leveransen i tabell 32, *Artikeltransaktion*. Fältet **Reservationsstatus** innehåller *spårning* för att ange att dessa transaktioner är dynamiska orderspårningslänkar mellan tillgång och efterfrågan.  
 
 > [!NOTE]  
 > Fältet **Partinr** är tomt på behovsraderna, eftersom partinumren inte har specificerats på komponentraderna för den släppta produktionsordern.  
 
-#### <a name="entry-number-10"></a>Löpnummer 10
+#### Löpnummer 10  
 
 Från försäljningsbehovet i tabell 37, *Försäljningsrader*, skapas en orderspårningslänk till tillgången i tabell 5406, *Prod.orderrad*. Fältet **Reservationsstatus** innehåller *Reservation* och fältet **Bindning** innehåller *Order-till-order*. Detta beror på att den släppta produktionsordern genererades specifikt för försäljningsordern och måste förbli länkad till skillnad från orderspårningslänkar med reservationsstatusen Spårning, som skapas och ändras dynamiskt. Mer information finns i avsnittet Automatiska bokningar [i den](#automatic-reservations) här artikeln.  
 
@@ -186,13 +186,13 @@ Från försäljningsbehovet i tabell 37, *Försäljningsrader*, skapas en orders
 |15|Ja|KOMPONENT|UT. LOGG.|70|Överskott|Komponent|LOTB|32|-|-| 
 |16|Ja|KOMPONENT|UT. LOGG.|30|Överskott|Komponent|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-8-and-9-1"></a>Löpnummer 8 och 9
+#### Löpnummer 8 och 9  
 
 Orderspårningstransaktioner för de två partierna av komponenten som återspeglar efterfrågan i tabell 5407 ändras från reservationsstatusen *Spårning* till *Överskott*. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern.  
 
 Äkta överskott, som i det här fallet, återspeglar överskjutande tillgång eller efterfrågan som inte har spårats. Det är en indikation på obalans i ordernätverket, som genererar ett åtgärdsmeddelande från planeringssystemet om det inte löses dynamiskt.  
 
-#### <a name="entry-numbers-12-to-16"></a>Löpnummer 12 till 16
+#### Löpnummer 12 till 16  
 
 Eftersom komponentens två partier bokförs på överföringsordern som levererade men inte inlevererade, är alla relaterade positiva orderspårningstransaktioner av reservationstypen *Surplus*, vilket indikerar att de inte allokeras till några krav. För varje partinummer avser en transaktion tabell 5741, *Överföringsrad*, och en transaktion avser artikeltransaktionen på den transitplats där artiklarna nu finns.  
 
@@ -230,13 +230,13 @@ Nu finns följande orderspårningstransaktioner i tabellen *Reservationstransakt
 |22|-|KOMPONENT|VÄSTRA|-30|Spårning|Komponent|LOTA|5407|1001004|-| 
 |22|Ja|KOMPONENT|VÄSTRA|30|Spårning|Komponent|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-21-and-22"></a>Löpnummer 21 och 22
+#### Löpnummer 21 och 22  
 
 Eftersom komponentbehovet har ändrats till *lagerstället VÄST* och tillgången är tillgänglig som artikeltransaktioner på *lagerstället VÄST*, spåras nu alla orderspårningstransaktioner för de två partinumren fullständigt, vilket indikeras av reservationsstatusen *Spårning*.  
 
 Fältet **Partinr** fylls nu på i orderspårningstransaktionen för tabell 5407, eftersom partinummer har tilldelats produktionsorderkomponentraderna.  
 
-## <a name="action-messaging"></a>Åtgärdsmeddelanden
+## Åtgärdsmeddelanden  
 
 När orderspårningsystemet identifierar en obalans i ordernätverket skapar det automatiskt ett åtgärdsmeddelande för att meddela användaren. Åtgärdsmeddelanden är systemgenererade uppmaningar till användaren som anger detaljerna för obalansen och förslag på hur du återställer balansen i ordernätverket. De visas som planeringsrader på sidan **Planeringsförslag** när du väljer **åtgärden Hämta åtgärdsmeddelanden** . Dessutom visas åtgärdsmeddelanden på planeringsrader som skapas genom planeringskörningen för att återspegla planeringssystemets förslag på hur du återställer balansen i ordernätverket. I båda fallen körs förslagen i ordernätverket när du väljer **åtgärden Verkställ åtgärdsmeddelande** .  
 
@@ -264,11 +264,11 @@ En öppen efterfrågan går genom listan och påverkar den tillgängliga tillgå
 
 Om en minskning av efterfrågan inträffar försöker orderspårningsystemet att lösa obalansen genom att utföra föregående kontroller i omvänd ordning. Detta innebär att befintliga åtgärdsmeddelanden kan ändras eller tas bort, om det behövs. Orderspårningsystemet visar alltid nettoresultatet från beräkningar för användaren.  
 
-## <a name="order-tracking-and-planning"></a>Orderspårning och planering
+## Orderspårning och planering  
 
 När planeringssystemet körs tar det bort alla befintliga orderspårningposter och åtgärdsmeddelandeposter och återskapar dem som planeringsradförslag enligt par med tillgång/efterfrågan och prioriteringar. När planläggningskörningen har avslutats har ordernätverket balanserats.  
 
-### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Planeringssystemet kontra orderspårning och åtgärdsmeddelanden
+### Planeringssystemet kontra orderspårning och åtgärdsmeddelanden  
 
  Följande jämförelse visar skillnaderna mellan metoder som används i planeringssystemet för att skapa planeringsradförslag och metoderna som används av orderspårningsystemet för att skapa orderspårningsposter och åtgärdsmeddelanden.  
 
@@ -282,7 +282,7 @@ När planeringssystemet körs tar det bort alla befintliga orderspårningposter 
 
 - Planeringssystemet skapar kopplingar i ett användaraktiverat batchläge när det balanserar tillgång och efterfrågan, medan orderspårning skapar länkarna automatiskt och dynamiskt när användaren anger order.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
