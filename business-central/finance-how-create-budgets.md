@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Skapa redovisningsbudgetar
+# <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
 
@@ -21,7 +21,7 @@ Budgetar spelar en viktig roll i Business Intelligence. Exempelvis i bokslut som
 
 I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. Läs mer i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).  
 
-## Så här skapar du en ny redovisningsbudget
+## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. Läs m
 > [!NOTE]  
 > På snabbfliken **Filter** kan du filtrera budgetinformationen efter de budgetdimensioner du har definierat under budgetnamnet.
 
-## Exportera och importera redovisningsbudgetar med Excel
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportera och importera redovisningsbudgetar med Excel
 
 För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten till Microsoft Excel för vidare bearbetning och analys. Läs mer i [Exportera dina affärsdata till Excel](about-export-data.md).
 
@@ -45,7 +45,7 @@ För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten
 
 När du importerar en redovisningsbudget tas alla värden på Rubrikrader bort. De tas bort för att undvika felaktiga summor när du importerar data som har skapats eller redigerats i Excel.
 
-### Scenario
+### <a name="scenario"></a>Scenario
 
 Du vet att nya budgeterade lönkostnader ska vara lokal valuta (BVA) 1,200,000. Du vill aktivera budget för löneavdelningen för tre specifika rader (av kontotypen Bokföring) för heltidsanställda, deltidsanställda och timanställda. De tre raderna grupperas under rubrikraden Löner.
 
@@ -53,7 +53,7 @@ Du anger 1 200 000 på rubrikraden, exporterar budgeten till Excel och skickar s
 
 Löneavdelningen fördelar beloppet på tre bokföringskonton. När du importerar tillbaka till redovisningsbudget fylls de tre kontona i med den nya Excel-informationen och summerar till BVA 1 200 000 och rubrikraden är tom.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Exportera affärsdata till Excel](about-export-data.md)  
 [Ekonomi](finance.md)  

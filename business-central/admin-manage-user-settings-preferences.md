@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Hantera användarinställningar och inställningar
+# <a name="manage-user-settings-and-preferences"></a>Hantera användarinställningar och inställningar
 
 Som administratör kan du konfigurera användarinställningar i [!INCLUDE[prod_short](includes/prod_short.md)] på samma sätt som enskilda användare kan hantera egna inställningar på sidan **Mina inställningar**.  
 
@@ -22,7 +22,7 @@ Få en översikt över alla användare i listan **Användare** och ändra enskil
 
 Sidan **Kort för användarinställningar** liknar sidan **Mina inställningar** som varje användare har åtkomst till, och det är ett kraftfullt verktyg för dig som administratör för att ställa in standardinställningar och rensa anpassade sidor, till exempel.  
 
-## Typer av användarinställningar
+## <a name="types-of-user-settings"></a>Typer av användarinställningar
 
 *Användarinställningar* är inte samma sak som *Användarinställningar*, som är om användaren som en enhet och användarens behörighet i systemet. Dessutom har användarinställningarna ingenting med användarens anpassning att göra, t. ex. lätta ändringar i användargränssnittet. Användarinställningar bestämmer de fördefinierade inställningarna för varje användare i olika delar av hur programmet visar sig för användaren. I följande stycke visas de fem olika typerna av användarinställningar och inställningar som kan anges av administratören:
 
@@ -58,21 +58,21 @@ Sidan **Kort för användarinställningar** liknar sidan **Mina inställningar**
 > [!NOTE]
 > Om en Microsoft 365-användarsynkronisering görs medan användarna är inloggade på [!INCLUDE[prod_short](includes/prod_short.md)], måste dessa användare uppdatera webbläsaren eller logga ut och sedan in igen på [!INCLUDE[prod_short](includes/prod_short.md)] för att kunna se ett annat språk som anges av synkroniseringsåtgärden.
 
-## Översikt över alla användarspecifika ändringar
+## <a name="overview-of-all-user-specific-changes"></a>Översikt över alla användarspecifika ändringar
 
 Som administratör kan du få en översikt över enskilda ändringar till [!INCLUDE [prod_short](includes/prod_short.md)] varje användare kan ha gjort på olika sidor i [!INCLUDE [prod_short](includes/prod_short.md)]. När användare gör ändringar i sin upplevelse i [!INCLUDE [prod_short](includes/prod_short.md)] dessa förändringar kommer att återspeglas i listan **Användaranpassningar**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## Så här granskar eller tar du bort användaranpassningar
+## <a name="review-or-delete-user-personalizations"></a>Så här granskar eller tar du bort användaranpassningar
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Personanpassade sidor** och väljer sedan relaterad länk.
 2. Visar en lista över användare och deras anpassade sidor. Om du vill ta bort en användares anpassning klickar du på relevant rad eller väljer **Hantera** och väljer sedan **Ta bort**.
 
 Detta tar bort anpassningen och användarens upplevelse av den relevanta sidan återgår till standardtillståndet.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Tillgänglighet för land/region och språk som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
