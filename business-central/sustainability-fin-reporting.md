@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Analysera hållbarhetstransaktioner med finansiella rapporter 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Analysera hållbarhetstransaktioner med finansiella rapporter
 
 Funktionen *Ekonomiska rapporter* ger dig insikter i de ekonomiska data som visas i din kontoplan (COA). Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. Men du kan också analysera statistiska data och hållbarhetsdata med samma funktion och till och med kombinera alla tre typerna av data.  
 
-## Förutsättningar för ekonomisk rapportering  
+## <a name="prerequisites-for-financial-reporting"></a>Förutsättningar för ekonomisk rapportering
 
 Att skapa ekonomiska rapporter kräver förståelse för strukturen på de data som du vill analysera. Dit är några viktiga begrepp som du förmodligen måste vara uppmärksam på innan du utformar dina finansiella rapporter: 
 
@@ -36,7 +36,7 @@ Att skapa ekonomiska rapporter kräver förståelse för strukturen på de data 
 > [!NOTE]
 > Fler detaljer om hur du använder ekonomiska rapporter med ekonomiska data och kontoplan finns Hit [Skapa ekonomiska rapporter med hjälp av ekonomiska data och kontokategorier](bi-how-work-account-schedule.md).   
 
-## Skapa en ny ekonomisk rapport  
+## <a name="create-a-new-financial-report"></a>Skapa en ny ekonomisk rapport
 
 Du kan snabbt skapa dina egna finansiella rapporter, starta genom att kopiera en befintlig, som beskrivs i steg 3 nedan. 
 
@@ -65,7 +65,7 @@ Så här skapar eller redigerar du en raddefinition:
 > [!NOTE]
 > Raddefinitioner versionshanteras inte. När du ändrar en raddefinition ersätts den gamla versionen och ändringarna sparas i databasen. 
 
-### Analysera hållbarhetsdata  
+### <a name="analyzing-sustainability-data"></a>Analysera hållbarhetsdata
 
 1.  **Ange radnumret.** För att identifiera din råa och lägga till **Beskrivning** som en text som kommer att visas på den ekonomiska rapportraden. 
 2. I kolumnen Summeringstyp väljer du Sust **. Alternativet Konton** .   
@@ -75,14 +75,14 @@ Så här skapar eller redigerar du en raddefinition:
    2. **Koldioxidavgift** om du vill rapportera ekonomisk ekvivalent (koldioxidavgift) från **fältet Koldioxidavgift** i **hållbarhetstransaktionerna**. 
 5. Om du väljer Formel som summeringstyp **kan du använda matematiska formler i** kolumnen Summeringsintervall **.**  **·**   
 
-### Analysera statistiska data
+### <a name="analyzing-statistical-data"></a>Analysera statistiska data
 
 1.  **Ange radnumret.** För att identifiera raden och lägga till **Beskrivning** som en text som visas på den ekonomiska rapportraden. 
 2. Välj alternativet Statistikkonton i kolumnen **Summeringstyp**  **.**    
 3. Välj ett eller flera hållbarhetskonton med hjälp av **alla tillämpliga filter i fältet Summeringsintervall** . 
 4. Om du väljer **Formel** som **summeringstyp** kan du använda matematiska formler i kolumnen **Summeringsintervall** .  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över hållbarhetshantering](finance-manage-sustainability.md)    
 [Hållbarhetsrapport och analys i Business Central](sustainability-reports.md)   

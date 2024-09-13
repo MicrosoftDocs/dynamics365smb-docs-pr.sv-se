@@ -29,7 +29,7 @@ På samma sätt kan orderhandläggare i [!INCLUDE[prod_short](includes/prod_shor
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] integreras endast med [!INCLUDE[crm_md](includes/crm_md.md)]. Andra Dynamics 365-program som ändrar den standardinställda arbetsflödes- eller datamodellen i [!INCLUDE[crm_md](includes/crm_md.md)], till exempel Project Service Automation, kan avbryta integreringen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="coupling-records"></a>Kopplingsposter
+## <a name="couple-records"></a>Kopplingsposter
 Guiden för assisterad konfiguration låter dig välja de data som ska överföras. Senare kan du också ange inställningar för synkronisering av vissa poster. Det kallas för *koppling*. Du kan till exempel koppla ett visst konto i [!INCLUDE[crm_md](includes/crm_md.md)] med en viss kund i [!INCLUDE[prod_short](includes/prod_short.md)]. Det här avsnittet beskriver vad du ska ta hänsyn till när du kopplar poster.
 
 Om du till exempel vill visa konton i [!INCLUDE[crm_md](includes/crm_md.md)] som kunder i [!INCLUDE[prod_short](includes/prod_short.md)] måste du koppla dessa båda posttyper. Gör detta listsidan **kunder** i [!INCLUDE[prod_short](includes/prod_short.md)], använd åtgärden **konfigurera koppling**. Därefter anger du vilka [!INCLUDE[prod_short](includes/prod_short.md)]-kunder som matchar vilka konton i [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -51,14 +51,14 @@ I vissa fall måste du koppla vissa uppsättningar data innan andra uppsättning
 
 Försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] beror på information som till exempel kunder, måttenheter, valutor, kundprisgrupper, artiklar och/eller resurser. För att integrera med försäljningsorder måste du koppla kunder, enheter, valutor, kundprisgrupper, artiklar och/eller resurser först.
 
-## <a name="fully-synchronizing-records"></a>Synkronisera poster helt
+## <a name="fully-synchronize-records"></a>Synkronisera poster helt
 I slutet av den assisterade konfigurationsguiden kan du välja åtgärden **Kör fullständig synkronisering** för att börja synkronisera alla [!INCLUDE[prod_short](includes/prod_short.md)]-transaktioner med alla relaterade transaktioner i [!INCLUDE[crm_md](includes/crm_md.md)]. På sidan **Dynamics 365 Sales fullständig synk.granskning** kan du välja åtgärden **Starta**. En full synkronisering kan ta en stund, men du kan fortsätta arbeta i [!INCLUDE[prod_short](includes/prod_short.md)] medan synkroniseringen körs i bakgrunden.
 
 Så här kontrollerar du status på enskilda projekt i en fullständig synkronisering på sidan **Dynamics 365 Sales fullständig synk.granskning** väljer du en post om du vill visa information. Uppdatera sidan om du vill uppdatera status under synkroniseringen.
 
 Från sidan Konfigurera anslutning till **Microsoft Dynamics 365** kan du få information om fullständig synkronisering när som helst. Här kan du också öppna sidan **Registermappningar för integrering** för att visa detaljerad information om tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och i Sales som måste synkroniseras.
 
-## <a name="handling-sales-order-data"></a>Hantering av försäljningsorderdata
+## <a name="handle-sales-order-data"></a>Hantering av försäljningsorderdata
 Försäljningsorder som människor skickar i [!INCLUDE[crm_md](includes/crm_md.md)] överförs automatiskt till [!INCLUDE[prod_short](includes/prod_short.md)] om du väljer kryssrutan **Automatiskt skapa försäljningsorder** på sidan **Microsoft Dynamics 365 konfigurera anslutning**.
 Alternativt kan du manuellt konvertera skickade försäljningsorder från [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av åtgärden **skapa i [!INCLUDE[prod_short](includes/prod_short.md)]** på sidan **försäljningsorder – Dynamics 365 for Sales**.
 På sådana försäljningsorder överförs fältet **Namn** på den ursprungliga ordern och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -77,7 +77,7 @@ Uppdateringar av fält i försäljningsorderhuvud, till exempel fälten Senaste 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## <a name="handling-sales-quotes-data"></a>Hantering av försäljningsoffertdata
+## <a name="handle-sales-quotes-data"></a>Hantering av försäljningsoffertdata
 Försäljningsofferter som aktiveras i [!INCLUDE[crm_md](includes/crm_md.md)] överförs till [!INCLUDE[prod_short](includes/prod_short.md)] om du väljer kryssrutan **Automatiskt bearbeta offerter** på sidan **Microsoft Dynamics 365 konfigurera anslutning**.
 Alternativt kan du manuellt konvertera aktivera försäljningsofferter från [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av åtgärden **Bearbeta i [!INCLUDE[prod_short](includes/prod_short.md)]** på sidan **försäljningsofferter – Dynamics 365 Sales**.
 På sådana försäljningsofferter överförs fältet **Namn** på den ursprungliga offerten och mappas till fältet **Externa verifikationsnummer** på försäljningsordern i [!INCLUDE[prod_short](includes/prod_short.md)]. Även fältet **gäller till** på offerten har överförts och mappats till fältet **offertens giltighetsdatum** på försäljningsoffert i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -86,12 +86,12 @@ Försäljningsofferter gå igenom ändringar medan de är färdigställs. Både 
 
 När du väljer **Process** i [!INCLUDE[prod_short](includes/prod_short.md)] för en offert som har tillståndet **Vunnen**, skapas en försäljningsorder i [!INCLUDE[prod_short](includes/prod_short.md)] endast om en motsvarande försäljningsorder skickas in i [!INCLUDE[crm_md](includes/crm_md.md)]. Annars släpps offerten endast i [!INCLUDE[prod_short](includes/prod_short.md)]. Om en motsvarande försäljningsorder skickas in i [!INCLUDE[crm_md](includes/crm_md.md)] senare och en försäljningsorder skapas från den, uppdateras **Offertnr** på försäljningsordern och offerten arkiveras.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Hantera bokförda försäljningsfakturor, kundbetalningar och statistik
+## <a name="handle-posted-sales-invoices-customer-payments-and-statistics"></a>Hantera bokförda försäljningsfakturor, kundbetalningar och statistik
 När försäljningsordern har uppfyllts skapas fakturor för den. När du fakturerar försäljningsorder kan du överföra bokförda försäljningsfakturor till [!INCLUDE[crm_md](includes/crm_md.md)] om du väljer kryssrutan **Skapa faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på sidan **bokförd försäljningsfaktura**. Bokförda fakturor överförs till [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **fakturerade**.
 
 När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)], kommer status för försäljningsfakturor ändras till **Betald** ed fältet **Statusorsak** inställt på **Delvis**, om den är delvis eller **fullständig** om den är helt betald, när du kör åtgärden **Uppdatera kontostatistik** på kundsidan i [!INCLUDE[prod_short](includes/prod_short.md)]. Funktionen **Uppdatera kontostatistiken** uppdaterar också värden som saldo och total försäljning i fälten **Saldo** och **Total försäljning** på faktaboxen **[!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan också låta schemalagda projekt (kundstatistik och POSTEDSALESINV-INV) köra båda dessa processer automatiskt i bakgrunden. 
 
-## <a name="handling-sales-prices"></a>Hantera försäljningspriser
+## <a name="handle-sales-prices"></a>Hantera försäljningspriser
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 

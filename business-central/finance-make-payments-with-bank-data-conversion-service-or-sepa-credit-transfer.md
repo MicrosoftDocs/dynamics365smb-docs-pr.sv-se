@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Gör betalningar med AMC banking 365 fundamentals extension eller SEPA kreditöverföring
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Gör betalningar med AMC banking 365 fundamentals extension eller SEPA kreditöverföring
 
 På sidan **Utbetalningsjournaler** kan du behandla betalningar till dina leverantörer genom att exportera en fil tillsammans med betalningsinformationen från journalraderna. Du kan sedan överföra filen till den elektroniska banken där relaterade pengaöverföringar bearbetas. [!INCLUDE[prod_short](includes/prod_short.md)] har stöd för formatet SEPA-kreditöverföring, men i ditt land/din region kan andra format för elektroniska betalningar vara tillgängliga.
 
@@ -22,7 +22,7 @@ På sidan **Utbetalningsjournaler** kan du behandla betalningar till dina levera
 
 När du har kontrollerat att banken har behandlat betalningarna kan du bokföra utbetalningsjournalraderna.  
 
-## Ställa in AMC Banking 365 Fundamentals tillägget
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Ställa in AMC Banking 365 Fundamentals tillägget
 
 Aktivera tillägget för AMC Banking 365 Fundamentals att:
 
@@ -31,7 +31,7 @@ Aktivera tillägget för AMC Banking 365 Fundamentals att:
 
 Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
-## Ställa in SEPA-kreditöverföring
+## <a name="setting-up-sepa-credit-transfer"></a>Ställa in SEPA-kreditöverföring
 
 Från sidan **Utbetalningsjournaler** kan du exportera betalningar till en fil för överföring till din elektroniska bank för behandling av relaterade penningöverföringar. [!INCLUDE[prod_short](includes/prod_short.md)] har stöd för formatet SEPA-kreditöverföring, men i ditt land/din region kan andra format för elektroniska betalningar vara tillgängliga.  
 
@@ -50,7 +50,7 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 > [!TIP]
 > Den här artikeln gäller för den allmänna versionen av [!INCLUDE [prod_short](includes/prod_short.md)]. I ditt land eller din region kan ytterligare obligatoriska fält läggas till på de olika sidorna. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Så här lägger du upp ett bankkonto för SEPA-kreditöverföring
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Så här lägger du upp ett bankkonto för SEPA-kreditöverföring
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.  
 2. Välj det bankkonto som du exporterar betalningsfiler från i formatet SEPA-kreditöverföring.
@@ -68,7 +68,7 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 6.  **Välj det SEPA-format som du vill använda i** fältet Format för betalningsexport **på snabbfliken Överföring** .  
 7. I fältet **IBAN** anger du kontots internationella bankkontonummer.  
 
-### Så här lägger du upp ett leverantörskort för SEPA-kreditöverföring
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Så här lägger du upp ett leverantörskort för SEPA-kreditöverföring
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
 2. Öppna kort för leverantören som du betalar elektroniskt med hjälp av exportbetalningsfiler i formatet SEPA-kreditöverföring.  
@@ -77,24 +77,24 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 
     Om du inte har en bank kontogrupp upp för den här leverantören kan du göra det nu. Mer information finns i [Så här skapar du leverantörs bankkonton för export av bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Värdet i fältet **Föredraget bankkonto** kopieras till fältet **mottagarens bankkonto** på sidan **betalningsjournal**.  
 
-### Så här anger du utbetalningsjournalen för att exportera betalningsfiler
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Så här anger du utbetalningsjournalen för att exportera betalningsfiler
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. I fältet **Journalnamn** väljer du listrute\-knappen.  
 3. Välj åtgärden **Redigera lista** på sidan **Redovisningsjournaler**.  
 4. På raden för betalningsjournalen som du använder för att exportera betalningar Välj **kryssrutan Tillåt betalningsexport** .  
 
-### Så här kan du ansluta datautbytesdefinitionen för en eller flera betalningstyper till lämpliga betalningsmetoder
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Så här kan du ansluta datautbytesdefinitionen för en eller flera betalningstyper till lämpliga betalningsmetoder
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsmetoder** och väljer sedan relaterad länk.  
 2. På sidan **Betalningsmetoder** väljer du det betalningssätt som används att exportera betalningar från och väljer sedan fältet **Definition för bet.exportrad**.  
 3. På sidan **Definition för bet.exportrad** väljer du den kod som du har angett i fältet **Kod** på snabbfliken **Definitioner för rad** i steg 4 i avsnittet ”Beskriva layouten för rader och kolumner i filen” i förfarandet [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Förbereda utbetalningsjournalen
+## <a name="preparing-the-payment-journal"></a>Förbereda utbetalningsjournalen
 
 Fyll i betalningsjournalen med rader för förfallna betalningar till leverantörer, med alternativet att infoga bokföringsdatum som baseras på förfallodatumet för de relaterade inköpsdokumenten. Mer information finns i [Hantera leverantörsskulder](payables-manage-payables.md).
 
-## Exportera betalningar till en bankfil
+## <a name="exporting-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 
 När du är redo att göra utbetalningar till leverantörer, eller ersättningar till anställda, kan du exportera en fil med betalningsinformationen på raderna på sidan **Utbetalningsjournaler** . Du kan sedan överföra filen till banken för att bearbeta relaterade pengaöverföringar.
 
@@ -105,7 +105,7 @@ I den allmänna versionen av [!INCLUDE[prod_short](includes/prod_short.md)] är 
 
  **Använd sidan Kreditöverföringsregister** om du vill visa betalningsfilerna som har exporterats från utbetalningsjournalen. Från den här sidan kan du också återexportera betalningsfiler om Dit var tekniska fel eller filändringar. Observera dock att exporterade EFT-filer inte visas på den här sidan och inte kan exporteras igen.  
 
-### Exportera betalningar till en bankfil
+### <a name="to-export-payments-to-a-bank-file"></a>Exportera betalningar till en bankfil
 
 Följande steg beskriver hur du betalar en leverantör med check. Stegen liknar återbetalning till en kund med check.
 
@@ -137,7 +137,7 @@ Följande steg beskriver hur du betalar en leverantör med check. Stegen liknar 
 
 Bankbetalningsfilen exporteras till den plats du angett. Du kan ladda upp den till ditt elektroniska bankkonto och göra de faktiska betalningarna. Du kan sedan bokföra de exporterade betalningsjournalraderna.
 
-### Så här planerar du när du vill bokföra exporterad betalning
+### <a name="to-plan-when-to-post-exported-payments"></a>Så här planerar du när du vill bokföra exporterad betalning
 
 Om du inte vill bokföra en utbetalningsjournalrad för en exporterad betalning kan du ta bort journalraden. Till exempel för att du väntar på bekräftelse på att banken har behandlat transaktionen. När du senare skapar en utbetalningsjournalrad för att betala det återstående beloppet visar fältet **Totalt exporterat belopp** hur mycket av betalningsbeloppet som redan exporterats. Du kan också söka efter detaljerad information om det exporterade totalbeloppet genom att välja knappen **Transaktioner i kreditöverföringsregister** för att visa detaljer om exporterade betalningsfiler.
 
@@ -148,7 +148,7 @@ Om du inte vill bokföra betalningar förrän banken har bekräftat att de har b
 
 Om du vill visa information om exporterade betalningar väljer du åtgärden **Betalningsexporthistorik**.
 
-### Så här återexporterar du betalningar till en bankfil
+### <a name="to-re-export-payments-to-a-bank-file"></a>Så här återexporterar du betalningar till en bankfil
 
 Du kan återexportera betalningsfiler till en bankfil från sidan **Kreditöverföringsregister**. Innan du tar bort eller bokför utbetalningsjournalrader kan du också exportera betalningsfilen på nytt från sidan **Utbetalningsjournaler** genom att exportera den igen. Om du tar bort eller bokför utbetalningsjournalraderna efter exporten kan du exportera samma betalningsfil på nytt från sidan **Kreditöverföringsregister** . Markera raden för batchen med kreditöverföringar du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.
 
@@ -158,11 +158,11 @@ Du kan återexportera betalningsfiler till en bankfil från sidan **Kreditöverf
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Kreditöverföringsregister** och välj sedan relaterad länk.
 2. Välj en betalningsexport som du vill återexportera och välj sedan åtgärden **Återexportera betalningar till fil**.
 
-## Bokföra betalningarna
+## <a name="posting-the-payments"></a>Bokföra betalningarna
 
 När din bank har behandlat den elektroniska betalningen bokför du betalningarna. Mer information finns i [Utföra betalningar](payables-make-payments.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

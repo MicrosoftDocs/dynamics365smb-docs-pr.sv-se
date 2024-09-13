@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Inställning av hållbarhetsmodul 
+# <a name="sustainability-module-setup"></a>Inställning av hållbarhetsmodul
 
 Innan hållbarhetsmodulen kan fungera korrekt måste du först ställa in några grundläggande kontroller och instruktioner relaterade till hela funktionen.
 
 Följ följande steg för att konfigurera en hållbarhetsmodul:
 
-## Rollcenter  
+## <a name="role-center"></a>Rollcenter
 
 För personer vars primära ansvarsområden omfattar hållbarhetsprocesser rekommenderar vi att du använder *rollcentret Hållbarhetschef* . Så här konfigurerar du det här rollcentret:  
 
@@ -29,7 +29,7 @@ För personer vars primära ansvarsområden omfattar hållbarhetsprocesser rekom
 
 Rollcentret *Hållbarhetschef* underlättar effektiv hantering av alla viktiga områden relaterade till hållbarhet. Det omfattar centrala hållbarhetsfunktioner samt finans- och upphandlingsprocesser. Dessutom ger det insyn i de mest kritiska hållbarhetsrelaterade KPI: erna.
 
-## Hållbarhetskonfiguration  
+## <a name="sustainability-setup"></a>Hållbarhetskonfiguration
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Hållbarhetskonfiguration** och väljer sedan relaterad länk.
 2. På snabbfliken **Allmänt** konfigurerar du de obligatoriska fälten som är relaterade till hållbarhetsmodulen.
@@ -72,7 +72,7 @@ Rollcentret *Hållbarhetschef* underlättar effektiv hantering av alla viktiga o
     | **Avrundningsnoggrannhet för utsläpp** | Ange storleken på det intervall som ska användas när utsläppsmängder avrundas när du rapporterar till myndigheter. |
     | **Avrundningstyp för utsläpp** | Ange hur programmet avrundar utsläppsmängder när du rapporterar till myndigheter. Följande alternativ är tillgängliga: **Närmsta**, **Upp** och **Ned**. |
 
-## Utsläppsavgifter   
+## <a name="emission-fees"></a>Utsläppsavgifter
 
 Om du vill spåra interna koldioxidavgifter eller beräkna dina utsläpp med koldioxidekvivalenter (CO2) måste du konfigurera **sidan Utsläppsavgifter** . Så här ställer du in den här informationen:  
 
@@ -89,7 +89,7 @@ Om du vill spåra interna koldioxidavgifter eller beräkna dina utsläpp med kol
 
 Om du inte konfigurerade utsläppsavgifterna innan du bokförde dina hållbarhetsposter, och du vill beräkna dina koldioxidavgifter och CO2e retroaktivt, måste du köra **åtgärden Beräkna utsläppsavgifter** för att uppdatera värdena i **hållbarhetstransaktionerna** . **·**  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)    
 [Översikt över hållbarhetshantering](finance-manage-sustainability.md)    

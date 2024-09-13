@@ -12,7 +12,7 @@ ms.date: 08/29/2024
 ms.custom: bap-template
 ---
 
-# Skapa bankinsättningar
+# <a name="create-bank-deposits"></a>Skapa bankinsättningar
 
 > [!NOTE]
 > Möjligheten att skapa bankinlåning är ny 2022 [!INCLUDE [prod_short](includes/prod_short.md)] utgivningscykel 1 för många lands-/regionversioner. Om du använde [!INCLUDE [prod_short](includes/prod_short.md)] i USA, Kanada eller Mexiko före den versionen kanske du använder de tidigare funktionerna. Du kan fortsätta, men de nya funktionerna ersätter de gamla i framtida versioner. Om du vill börja använda de nya funktionerna som beskrivs i den här artikeln kan du be din administratör gå till sidan **Funktionshantering** och aktivera **Funktionsuppdatering: Standardiserad bankavstämning och insättningar**.  
@@ -31,17 +31,17 @@ När du har fyllt i informationen och raderna för insättning måste du bokför
 
 I rapporten **bankinsättning** visas kund- och leverantörsinsättningar med det ursprungliga insättningsbeloppet, det insättningsbelopp som är fortsatt öppet samt det belopp som används. Rapporten visar även det totala bokförda insättningsbelopp som ska stämmas av.
 
-## Innan du börjar
+## <a name="before-you-start"></a>Innan du börjar
 
 Det finns några saker du bör ställa in innan du kan använda bankinsättningar. Du måste ha en nummerserie och en journalmall för redovisning klar. Du bör också ange om du vill bokföra bankinsättningsbelopp som en klumpsumma. Det vill säga totalsumman av alla belopp på insättningsraderna. I annat fall bokförs varje rad som en enskild transaktion. När du bokför en insättning som en enskild banktransaktion kan det vara enklare att utföra bankavstämning.
 
-### Insättningar av nummerserie och klumpsumma
+### <a name="number-series-and-lump-sum-deposits"></a>Insättningar av nummerserie och klumpsumma
 
 Du måste lägga upp en nummerserie för bankinsättningar och sedan ange serien i fältet **Bankinsättningsnr.** på sidan **Inställningar för försäljning och kundfordringar**. Mer information om nummerserier finns i [Skapa nummerserier](ui-create-number-series.md).
 
 På sidan **Inställningar för försäljning och kundreskontra**, om du vill bokföra insättningar som klumpsummor istället för på enskilda rader, aktiverar du reglaget **Bokför bankinsättningar som klumpsummor**. När du bokför en insättning som en klumpsumma skapas en banktransaktion för hela insättningsbeloppet, vilket gör det enklare att utföra bankavstämning.
 
-### Journalmallar för bankinsättningar
+### <a name="general-journal-templates-for-bank-deposits"></a>Journalmallar för bankinsättningar
 
 Du måste också skapa en redovisningsjournalmall för insättningar. Du använder redovisningsjournaler för att bokföra transaktioner till konton för bank, kund, leverantör, anläggningstillgång samt redovisning. Journalmallarna utformar redovisningsjournalen i syfte att matcha syftet med arbetet. Det innebär att fälten i journalmallen är exakt de som du behöver.
 
@@ -49,14 +49,14 @@ Depositionerna är inbetalningar, så du kanske vill återanvända nummerserien 
 
 Du måste också skapa ett batch-jobb för mallen. Om du vill skapa ett batchjobb väljer du sidan **Redovisningsmallar** och sedan **Batchar**. Mer information om journaler finns i [Använda journalmallar och journaler](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Dimensioner på bankinsättningsrader
+## <a name="dimensions-on-bank-deposit-lines"></a>Dimensioner på bankinsättningsrader
 
 Raderna på bankdepositionen använder de standarddimensioner som du har angett i fälten Avdelningskod **och** **Kundgruppkod** . När du väljer **Kund** eller **Leverantör i fältet** Kontotyp **ersätter** dimensionerna för kunden eller leverantören standardinställningarna. Du ändra radernas dimensioner vid behov.
 
 > [!TIP]
 > Dimension på rader anges enligt standarddimensionsprioritet. Raddimensionerna gäller framför sidhuvuddimensionerna. För att undvika konflikter kan du skapa regler som prioriterar när en dimension ska användas beroende på källa. Om du vill ändra hur dimensionerna prioriteras kan du ändra deras rangordning på sidan **Standardprioritering för dimensioner**. Mer information finns i [Konfigurera prioriteringar för standarddimensioner](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## Skapa ny bankinsättning
+## <a name="create-a-bank-deposit"></a>Skapa ny bankinsättning
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankinsättningar** och väljer sedan relaterad länk.
 2. Välj **Nytt** för att öppna sidan **Bankinsättning**.
@@ -100,13 +100,13 @@ Raderna på bankdepositionen använder de standarddimensioner som du har angett 
     > [!TIP]
     > Innan du bokför insättningen kan du använda **åtgärden Testrapport** för att granska dina uppgifter. Rapporten visar om Dit finns några problem, till exempel saknade data, som kan förhindra bokföring.  
 
-## Hitta bokförda bankinsättningar
+## <a name="find-posted-bank-deposits"></a>Hitta bokförda bankinsättningar
 
 Sidan **Bokförda bankinsättningar** listar ditt företags tidigare insättningar. I listan kan du granska de kommentarer och dimensioner som har angetts för insättningarna. Du kan öppna bankinsättningen om du vill visa fler detaljer, och därifrån kan du sedan undersöka ytterligare uppgifter. Du kan till exempel välja åtgärden **Sök poster** om du vill visa de bokförda bankkontotransaktionerna. Från bankkontotransaktionen kan du hitta dess tillhörande bokförda redovisningstransaktion.
 
 Om du vill slå upp alla redovisningstransaktioner för de bokförda insättningsraderna går du till sidan **Bokförd redovisningsjournal** och använder åtgärden **Redovisning**. Åtgärden visar alla redovisningstransaktioner, inklusive transaktionerna för kunder och leverantörer.
 
-## Återföra en bokförd bankinsättning
+## <a name="reverse-a-posted-bank-deposit"></a>Återföra en bokförd bankinsättning
 
 Det finns ett par sätt att återföra en bokförd bankinsättning:
 
@@ -116,7 +116,7 @@ Det finns ett par sätt att återföra en bokförd bankinsättning:
 > [!NOTE]
 > Du kan bara återföra ett register som innehåller en enda typ av transaktion. Det vill säga, journalen får bara innehålla kundtransaktioner eller leverantörstransaktioner, men inte båda två. Om ett register innehåller båda två måste du återföra insättningen manuellt.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Konfigurera Finance](finance.md)  

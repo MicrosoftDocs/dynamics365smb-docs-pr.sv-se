@@ -24,7 +24,7 @@ Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specif
 > [!TIP]
 > Välj åtgärden **Nytt projekt** på Rollcentret **Projektchef** för att starta en assisterad inställningsguide som tar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Fakturera en eller flera kunder för projektuppgifter
+## <a name="to-create-a-project-card"></a>Fakturera en eller flera kunder för projektuppgifter
 
 Ibland är den part som tar emot en service inte densamma som den part som betalar räkningen. Ibland kan du också behöva fakturera flera kunder för aktiviteter i projektet. På sidan **Projektkort** använder du fältet **Faktureringsmetod för aktivitet** för att ange om du fakturerar en kund eller flera kunder.
 
@@ -36,7 +36,7 @@ Om du fakturerar flera kunder kan du ange vilken kund som ska få tjänsten och 
 * Lägga till information om externa referenser för att förenkla kommunikationen med projektet.
 * Skriv över projektets standard ekonomiska villkor.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Fakturera en kund för flera projektaktiviteter
+## <a name="to-create-tasks-for-a-project"></a>Fakturera en kund för flera projektaktiviteter
 
 Du kan förenkla faktureringsprocessen genom att skicka en faktura till en kund för flera projekt. Lägg till projektplaneringsrader från flera projekt till en försäljningsfaktura på en gång. Den här processen påminner om att skapa en försäljningsfaktura från en projektplaneringsrad och ange ett värde i fältet **Lägg till i förs.faktura nr.**.
 
@@ -54,7 +54,7 @@ Upprepa dessa steg om du vill lägga till ytterligare en uppsättning projektpla
 > * Åtgärden **Hämta projektplaneringsrader** är inte tillgänglig på försäljningsorder eller försäljningsofferter.
 > * Du kan inte filtrera på **leveranskoden** eller **kontaktnr.** .
 
-## <a name="to-create-a-project-card"></a>Skapa ett projektkort
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Skapa ett projektkort
 
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
@@ -73,7 +73,7 @@ Om du vill kan du markera åtgärder i projekt som spärrade med fältet **spär
 |Bokföra    |Du kan arbeta med planeringsrader, men projektet är spärrat för bokföring. Om du väljer det här alternativet innebär det att du inte kan bokföra någon förbrukning eller försäljning för projektet.|
 |Alla  |Alla åtgärder är spärrade.|
 
-## <a name="to-create-tasks-for-a-project"></a>Skapa aktiviteter för ett projekt
+## <a name="specify-a-default-location-for-project-items"></a>Skapa aktiviteter för ett projekt
 
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du anger uppgifter genom att skapa en rad per uppgift på snabbfliken **Uppgifter** på sidan **Projektkort**. Varje projekt måste ha minst en aktivitet.
 

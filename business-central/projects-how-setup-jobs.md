@@ -30,7 +30,7 @@ Ange olika uppgifter för varje projekt:
 > [!NOTE]
 > Växlingsknappen **Tillämpa användningslänk som standard** på sidan **Projektinställningar** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Aktivera växlingsknappen så att den här inställningen tillämpas på alla nya projekt. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att aktivera eller inaktivera växlingsknappen **Använd förbrukningslänk** på sidan **Projektkort**.
 
-### <a name="specify-a-default-location-for-project-items"></a>Ange en standardplats för projektartiklar
+### <a name="to-set-up-project-usage-tracking"></a>Ange en standardplats för projektartiklar
 
 Du kan spara tid vid datainmatning genom att ange en standardplats och standardlagerplats för projekt på sidan **Projektkort**. När du skapar projektaktiviteter, projektplaneringsrader och projektjournalrader för projektet tilldelas standardplats och lagerplats automatiskt. Du kan emellertid ändra lagerställekod och lagerplats för aktiviteter och rader om det behövs.
 
@@ -48,7 +48,7 @@ Det finns några saker du bör känna till om hur du använder standardlagerstä
 
 När projekt involverar flera kunder kan det vara svårt att fakturera rätt kunder för rätt uppgifter. [!INCLUDE [prod_short](includes/prod_short.md)] gör faktureringen mindre komplicerad genom att du kan ange faktureringskunder och försäljningskunder på varje projektaktivitetsrad, så att du automatiskt kan generera fakturor för rätt kunder. Mer information om hur du fakturerar flera kunder finns i [Fakturera en eller flera kunder för projektaktiviteter](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Så här anger du projektförbrukningsspårning
+### <a name="synchronize-the-cost-of-used-items"></a>Så här anger du projektförbrukningsspårning
 
 När du arbetar på ett projekt kan det hända att du vill veta hur förbrukningen spåras mot din plan. För att utforska användning kan du skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Med länken kan du hålla reda på kostnaderna och förstå hur mycket arbete som återstår. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
 

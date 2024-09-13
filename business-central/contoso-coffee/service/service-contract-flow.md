@@ -21,7 +21,7 @@ Den här genomgången visar flera kärnprocesser:
 - Slutför tidsregistreringen för serviceordern
 - Bokför och fakturera kontraktserviceordern
 
-## <a name="creation-of-service-items"></a>Skapa serviceartiklar
+## <a name="create-service-items"></a>Skapa serviceartiklar
 
 ### <a name="scenario"></a>Scenario
 
@@ -45,7 +45,7 @@ Orderhandläggaren Susan bokför en försäljningsorder som säljer en artikel s
 
 - En serviceartikel skapas för kund 10000
 
-## <a name="invoicing-a-service-contract"></a>Fakturera ett servicekontrakt
+## <a name="invoice-a-service-contract"></a>Fakturera ett servicekontrakt
 
 ### <a name="scenario-1"></a>Scenario
 

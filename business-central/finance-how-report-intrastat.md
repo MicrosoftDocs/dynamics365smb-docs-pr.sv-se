@@ -62,7 +62,7 @@ När du har fyllt i **Intrastat-rapporten** kan du köra åtgärden **Checkliste
 
 Kör rapporten **Checklista för Intrastat-rapport** för att kontrollera Intrastat-rader innan de exporteras till det format som krävs. Checken körs inuti **Intrastat-rapporten**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Omberäkning av vikt eller extra måttenhet
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Omberäkning av vikt eller extra måttenhet
 
 Om du får felmeddelandet *Raden 'Total vikt' i Intrastat-rapporten får inte vara tom* beror det troligtvis på att du inte har ställt in fältet **Nettovikt** för den använda källan, artikeln eller anläggningstillgången. I det här fallet söker du efter artikel- eller anläggningstillgångskortet och lägger till det nödvändiga värdet. Sedan behöver du bara öppna **Intrastat-rapporten** på nytt och göra så här:
 

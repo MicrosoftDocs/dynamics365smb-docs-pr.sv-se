@@ -11,14 +11,14 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Flera momsregistreringsnummer 
+# <a name="multiple-vat-registration-numbers"></a>Flera momsregistreringsnummer
 
 För företag med lager i flera EU-länder kan det vara svårt att hantera moms (Value Added Tax), eftersom varje lagerställe kräver olika momsregistreringsnummer för att följa de specifika reglerna i varje land. Den här artikeln innehåller information om det här kravet och förklarar funktionerna för flera momsregistreringsnummer. Med den här funktionen kan användare ställa in momsregistreringsnummer för kunder i olika länder/regioner.  
 
 > [!NOTE]
 > Funktionen *Flera momsregistreringsnummer för kunder* är endast tillgänglig från Business Central 2024 utgivningscykel 2 (version 25).
 
-## Så här ställer du in alternativa momsregistreringsnummer  
+## <a name="how-to-set-up-the-alternative-vat-registration-numbers"></a>Så här ställer du in alternativa momsregistreringsnummer
 
 Så här ställer du in alternativa momsregistreringsnummer för olika länder/regioner: 
 
@@ -40,11 +40,11 @@ Så här skapar du en alternativ adress till kunden:
 8. Ett meddelande visas som en varning om att du bör lägga till ett nytt momsregistreringsnummer. Om du vill göra det måste du välja **åtgärden Lägg till** i meddelandet så **öppnas sidan Momsregistrering** för alternativ kund. 
 9. På den här sidan fylls ditt **kundnummer i.** Och momskoden **för** land/region. Så du behöver bara lägga till inställningar som du vill använda. 
 
-## Arbeta med försäljningsdokumenten   
+## <a name="work-with-the-sales-documents"></a>Arbeta med försäljningsdokumenten
 
 Du kan skapa en ny försäljningsfaktura eller [försäljningsorder](sales-how-invoice-sales.md) . [...](sales-how-sell-products.md)  [!INCLUDE[prod_short](includes/prod_short.md)] Om du behöver använda en leveransadress som skiljer sig från kundens adress och som finns i ett annat land följer du stegen:  
 
-### Alternativ leveransadress  
+### <a name="alternate-shipping-address"></a>Alternativ leveransadress
 
 1. Expandera **snabbfliken Leverans och fakturering** .   
 2. I fältet Leveransadress väljer du alternativet **Alternativ leveransadress** . 
@@ -59,7 +59,7 @@ Du kan skapa en ny försäljningsfaktura eller [försäljningsorder](sales-how-i
 7. När du har bekräftat skrivs värdena över med värdena från inställningarna för momsregistrering **för** alternativ kund. Du kan kontrollera alla momsrelaterade fält som finns på snabbfliken **Fakturadetaljer** .  
 8. Bokför dokumentet.  
 
-### Anpassad adress  
+### <a name="custom-address"></a>Anpassad adress
 
 Om du inte har konfigurerat leveransadressen men ändå vill använda en annan adress för leverans kan du använda det här alternativet.  
 
@@ -69,7 +69,7 @@ Om du inte har konfigurerat leveransadressen men ändå vill använda en annan a
 4. När du har ändrat lands-/regionkoden så att den **matchar momskoden** för **den alternativa kundens momsregistrering** **visas dialogrutan Bekräfta momsregistrering** för alternativ kund med en lista över fält som har ändrats. 
 5. [!INCLUDE[prod_short](includes/prod_short.md)] kommer också att ändra alla momsrelaterade fält som finns under snabbfliken **Fakturadetaljer** .  
 
-### Arbeta utan leverans 
+### <a name="work-with-no-shipment"></a>Arbeta utan leverans
 
 Om Dit inte är någon leverans som en process kan du fortfarande utnyttja inställningarna för momsregistrering **för** alternativa kunder.
 
@@ -77,11 +77,11 @@ På försäljningsordern eller fakturan **hittar du momskoden** för land/region
 
 I det här fallet kan du bokföra en försäljningsfaktura med rätt **momsregistreringsnr.** för kunden, även om du inte levererar artiklar med det här dokumentet. 
 
-### Arbeta med försäljningskreditnotan  
+### <a name="work-with-the-sales-credit-memo"></a>Arbeta med försäljningskreditnotan
 
 När du bokför fakturan med en leveransadress eller momskod **för land/region som har andra bokföringsdata,**  **hämtas värdena från det** bokförda försäljningsfakturahuvudet **där dessa värden hämtas från momsregistreringen**  för **alternativ kund, så inga andra åtgärder krävs.**  **·** 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över momshantering](finance-manage-vat.md)    
 [Ställa in moms](finance-setup-vat.md)    

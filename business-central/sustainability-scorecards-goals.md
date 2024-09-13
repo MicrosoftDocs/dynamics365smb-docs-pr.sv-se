@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Översikt över styrkort och mål för hållbarhet
+# <a name="sustainability-scorecards-and-goals-overview"></a>Översikt över styrkort och mål för hållbarhet
 
 Den här artikeln innehåller vägledning om hur du skapar styrkort och mål och hur du uppdaterar statusen för mål. Styrkort och mål gör det möjligt för organisationer att kurera hållbarhetsmått och spåra dem mot viktiga affärsmål. Mål kan skapas baserat på nuvarande och målvärden, så att användarna kan hålla reda på utvecklingen av nuvarande utsläpp jämfört med tidigare perioder.  
 
-## Skapa ett styrkort  
+## <a name="create-a-scorecard"></a>Skapa ett styrkort
 
 Följ stegen för att skapa ett *nytt styrkort* för hållbarhet:
 
@@ -26,7 +26,7 @@ Följ stegen för att skapa ett *nytt styrkort* för hållbarhet:
 
 > [NOTERA!]  **I fältet Ägare** kan du bara välja användare som har valt fältet **Hållbarhetsansvarig** i **tabellen Användarinställningar** . 
 
-## Skapa mål  
+## <a name="create-goals"></a>Skapa mål
 
 För att skapa ett *nytt hållbarhetsmål*, följ stegen:
 
@@ -49,7 +49,7 @@ Om du har många mål på sidan kan du använda **åtgärden Visa mina mål** f�
 > [!NOTE]
 > Användare kan ställa in olika kombinationer av mål för hela företaget, specifika länder eller regioner och en ansvarsenhet för ett styrkort för *hållbarhet*. Användare kan också använda olika perioder för samma spårningsmodell. 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hållbarhetskonfiguration](finance-sustainability-setup.md)    
 [Kontoplan för hållbarhetskonton och huvudbok](finance-sustainability-accounts-ledger.md)    

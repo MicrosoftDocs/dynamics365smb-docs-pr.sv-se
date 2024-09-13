@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Arbeta med koldioxidkrediter  
+# <a name="work-with-carbon-credit"></a>Arbeta med koldioxidkrediter
 
 När företag inte kan minska sina utsläpp av olika skäl kan de köpa koldioxidkrediter för att kompensera sina utsläpp. Genom att köpa koldioxidkrediter kan ett företag fortfarande släppa ut motsvarande mängd gaser samtidigt som det förblir koldioxidneutralt. Dessa krediter köps från specialiserade leverantörer, vilket stimulerar utsläppsminskningar.  
 
 I allmänhet är kolkrediter tillstånd som gör det möjligt för ägaren att släppa ut en viss mängd koldioxid (CO₂) eller andra växthusgaser (GHG). En kolkredit representerar vanligtvis rätten att släppa ut ett ton CO₂ eller motsvarande mängd av en annan växthusgas, så det är viktigt att aktivera detta alternativ för vissa organisationer.  
 
-## Ställ in koldioxidkrediten  
+## <a name="set-up-the-carbon-credit"></a>Ställ in koldioxidkrediten
 
 Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] kan ställas in som **Artikel**. Så här ställer **du in artikeln** som en koldioxidkredit:
   
@@ -32,9 +32,9 @@ Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] kan ställas in 
 > [!NOTE]
 > Du kan ställa in alla typer av artiklar, oavsett om det är lager, service eller icke-lager, som en kolkredit.  
 
-## Så här köper du koldioxidkrediter 
+## <a name="to-purchase-carbon-credit"></a>Så här köper du koldioxidkrediter
 
-### Inköpsdokument 
+### <a name="purchase-documents"></a>Inköpsdokument
 
 Om du vill arbeta med inköpsrelaterade dokument följer du stegen:
 
@@ -49,7 +49,7 @@ Om du vill arbeta med inköpsrelaterade dokument följer du stegen:
 > [!NOTE]
 > Även om kolkrediter kommer att minska värdet på poster, ser du en positiv mängd värde i utsläpp **CO2**. Men när du har bokfört dokumentet ser du ett värde med en negativ logg i hållbarhetstransaktionen med växthusgaskrediten **som** dokumenttyp **.**  **·**  
 
-### Hållbarhetsjournaler 
+### <a name="sustainability-journals"></a>Hållbarhetsjournaler
 
 För att arbeta med **Sustainability Journal** följ stegen:  
 
@@ -60,7 +60,7 @@ För att arbeta med **Sustainability Journal** följ stegen:
 5. Välj **Manuell inmatning** och ange det värde du vill bokföra som en koldioxidkredit i **fältet Utsläpp CO2** .  
 6. Bokför journalen.   
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)    
 [Registrera hållbarhetstransaktioner](finance-sustainability-journal.md)    
