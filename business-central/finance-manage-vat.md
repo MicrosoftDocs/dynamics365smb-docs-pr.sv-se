@@ -6,13 +6,14 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
-ms.date: 01/31/2023
+ms.date: 08/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="vat-management-overview"></a>Översikt över momshantering
-Moms är en indirekt skatt på förbrukningen av varor och tjänster. Moms tas ut vid varje etapp i leveranskedjan där värdet läggs till från den första produktionen till försäljningsstället. När du vill börja med momshantering, se följande avsnitt.  
+
+# Översikt över momshantering
+Moms är en indirekt skatt på förbrukningen av varor och tjänster. Moms tas ut vid varje etapp i leveranskedjan där värdet läggs till från den första produktionen till försäljningsstället. Information om hur du kommer igång med momshantering finns i följande artiklar.  
 
 |  Artikel  |  Description  |  
 |--------|--------------|  
@@ -27,11 +28,12 @@ Moms är en indirekt skatt på förbrukningen av varor och tjänster. Moms tas u
 | [Konfigurera en momsrapport](finance-how-setup-vat-statement.md) | Den här artikeln innehåller information som säkerställer att du vet hur du ställer in en momsdeklarationsmall och namn för att uppfylla ändrade krav från skattemyndigheten.|
 | [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md) | Den här artikeln förklarar hur du kan använda ändringsverktyget för momssats för Dynamics 365 Business Central för att ändra momssatser enligt lokal lagstiftning.|
 | [Validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md) | Den här artikeln förklarar hur du använder Business Central-validering för momsregistreringsnummer för dina kontakter, kunder och leverantörer baserat på EU VIES-valideringstjänst för momsnummer.|
+| [Flera momsregistreringsnummer](finance-how-use-multiple-vat-registrations.md) | Upptäck hur du ställer in flera momsregistreringsnummer (som en alternativ momssats) för dina kunder som är verksamma i olika länder. |
 
 
-## <a name="see-also"></a>Se även
-[Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se även 
+[Ekonomi](finance.md)    
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
